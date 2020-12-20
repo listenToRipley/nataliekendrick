@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
+import {Link} from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -25,10 +26,22 @@ const Panel = () =>  {
     <div className={classes.root}>
       <AppBar position="static">
         <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-          <Tab label="Home"  />
-          <Tab label="About" />
-          <Tab label="Resume"  />
-          <Tab label="Projects" />
+          <Tab label="Home" 
+                component={Link}
+                to='/' 
+          />
+          <Tab label="About"
+                component={Link}
+                to='/about'  
+          />
+          <Tab label="Resume"  
+            component={Link}
+            to='/resume' 
+          />
+          <Tab label="Projects" 
+              component={Link}
+              to='/projects' 
+          />
         </Tabs>
       </AppBar>
     </div>
