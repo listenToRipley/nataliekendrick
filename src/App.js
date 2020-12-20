@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
     <Panel/>
-     Natalie Kendrick
     </div>
   );
 }
