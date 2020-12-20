@@ -1,7 +1,8 @@
 import React from 'react'
 
 const About = () => {
-  <div>
+  return (
+    <div>
     <h1>
       Natalie Kendrick
     </h1> 
@@ -10,6 +11,7 @@ const About = () => {
     </h2>
     <p> Natalie is passionate about coding, animals, cooking and movies.</p>
   </div>
+  )
 }
 
 export default About 
