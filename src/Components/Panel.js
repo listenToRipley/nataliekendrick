@@ -28,7 +28,7 @@ const Panel = () =>  {
         <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
           <Tab label="Home" 
                 component={Link}
-                to='/' 
+                to='/home' 
           />
           <Tab label="About"
                 component={Link}
