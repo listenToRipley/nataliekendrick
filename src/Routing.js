@@ -10,9 +10,9 @@ const Router = () => {
   return (
   <Switch>
     <Route path='/' component={Home}/>
-    <Route path='/About' component={About} />
-    <Route path='/Resume' component={Resume} />
-    <Route path='/Projects' component={Projects} /> 
+    <Route path='/about' component={About} />
+    <Route path='/resume' component={Resume} />
+    <Route path='/projects' component={Projects} /> 
     {/* <Route path='/Projects/All' />
     <Route path='/Projects/FrontEnd' />
     <Route path='/Projects/BackEnd' /> */}
