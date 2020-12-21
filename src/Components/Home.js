@@ -10,8 +10,10 @@ const Homepage = () => {
   return (
     <div className="Homepage">
       <h1>Natalie Kendrick</h1>
-   
-        <FaLinkedin className={'homeIcons'} />
+        <a href='https://www.linkedin.com/in/nataliemichellekendrick/'>
+          <FaLinkedin className={'homeIcons'} />
+        </a>
+      
         <FaGoogle className={'homeIcons'}/>
         <FaTwitterSquare className={'homeIcons'}/>
         <FaGithubAlt className={'homeIcons'}/> 
