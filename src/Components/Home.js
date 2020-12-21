@@ -17,8 +17,14 @@ const Homepage = () => {
         <a href='mailto: natalie.m.kendrick@gmail.com'>
           <FaGoogle className={'homeIcons'}/>
         </a>
-        <FaTwitterSquare className={'homeIcons'}/>
-        <FaGithubAlt className={'homeIcons'}/> 
+        
+        <a href='https://twitter.com/NKendrick12'>
+          <FaTwitterSquare className={'homeIcons'}/>
+        </a>
+        
+        <a href='https://github.com/listenToRipley'>
+          <FaGithubAlt className={'homeIcons'}/> 
+        </a>
     
     </div>
   )
