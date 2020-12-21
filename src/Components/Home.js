@@ -14,7 +14,9 @@ const Homepage = () => {
           <FaLinkedin className={'homeIcons'} />
         </a>
       
-        <FaGoogle className={'homeIcons'}/>
+        <a href='mailto: natalie.m.kendrick@gmail.com'>
+          <FaGoogle className={'homeIcons'}/>
+        </a>
         <FaTwitterSquare className={'homeIcons'}/>
         <FaGithubAlt className={'homeIcons'}/> 
     
