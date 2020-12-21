@@ -4,6 +4,8 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import { FaGoogle } from "@react-icons/all-files/fa/FaGoogle";
+import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt";
+import { FaMapMarkerAlt } from "@react-icons/all-files/fa/FaMapMarkerAlt";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -51,7 +53,29 @@ const Resume = () => {
 
           <Grid
           item xs={3}> 
-            <FaGoogle/> 
+            <ul>
+              <li>
+              <FaGoogle/> natalie.m.kendrick@gmail.com
+              </li>
+
+              <li>
+              <FaPhoneAlt/> 
+                (520)-404-3721
+              </li>
+
+              <li>
+              <FaMapMarkerAlt/> 
+                Austin, TX
+              </li>
+
+            </ul>
+          </Grid>
+
+          <Grid
+          item xs={8}>
+            <Typography>Experience</Typography>
+            <Paper className={classes.line}>.</Paper>
+            Procurement Card Administrator
           </Grid>
 
         </Grid>
