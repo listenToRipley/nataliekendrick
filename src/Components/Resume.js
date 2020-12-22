@@ -157,7 +157,38 @@ const Resume = () => {
               </ListItem>
             </List>
 
+            <Typography>DMS Specialist + Warehouse Assistant </Typography>
+            <p><em>Iron Mountain, Austin, TX</em></p>
+            <p><em>Feb 2011 - Jun 2012</em></p>
+            <List>
+              <ListItem>
+                <ListItemAvatar>~</ListItemAvatar>
+                <ListItemText>
+                Documentation Preparation 
+                </ListItemText>
+              </ListItem>
 
+              <ListItem>
+                <ListItemAvatar>~</ListItemAvatar>
+                <ListItemText>
+                Digital Imaging of Sensitive Documents 
+                </ListItemText>
+              </ListItem>
+
+              <ListItem>
+                <ListItemAvatar>~</ListItemAvatar>
+                <ListItemText>
+                Quality Control 
+                </ListItemText>
+              </ListItem>
+
+              <ListItem>
+                <ListItemAvatar>~</ListItemAvatar>
+                <ListItemText>
+                Data Entry    
+                </ListItemText>
+              </ListItem>
+            </List>
 
           </Grid>
 
