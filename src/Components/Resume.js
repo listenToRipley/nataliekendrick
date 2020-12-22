@@ -43,20 +43,10 @@ const Resume = () => {
         alignItems="center"
         spacing={2}>
           <Grid
-          item xs={3}> 
+          item xs={4}> 
             <Typography>Natalie Kendrick</Typography>
             <p>Full Stack Developer</p>
-          </Grid>
 
-          <Grid
-          item xs={8}> 
-            <Typography>About</Typography>
-            <Paper className={classes.line}>.</Paper>
-            <p>Hard-working professional with over 10 years of work experience in a variety of fields and a working knowledge of application development, database design and the importance of leveraging those skills in creative and innovative approaches to problems while synthesizing the business and client needs.</p>
-          </Grid>
-
-          <Grid
-          item xs={3}> 
             <List>
               <ListItem>
                <ListItemAvatar>
@@ -85,10 +75,15 @@ const Resume = () => {
                </ListItemText>
               </ListItem>
             </List>
+
           </Grid>
 
           <Grid
-          item xs={8}>
+          item xs={8}> 
+            <Typography>About</Typography>
+            <Paper className={classes.line}>.</Paper>
+            <p>Hard-working professional with over 10 years of work experience in a variety of fields and a working knowledge of application development, database design and the importance of leveraging those skills in creative and innovative approaches to problems while synthesizing the business and client needs.</p>
+  
             <Typography>Experience</Typography>
             <Paper className={classes.line}>.</Paper>
             <Typography>Procurement Card Administrator</Typography>
