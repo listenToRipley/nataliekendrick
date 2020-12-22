@@ -46,7 +46,7 @@ const Resume = () => {
           item xs={4}> 
             <Typography>Natalie Kendrick</Typography>
             <p>Full Stack Developer</p>
-
+            <p>___________________</p>
             <List>
               <ListItem>
                <ListItemAvatar>
@@ -74,6 +74,25 @@ const Resume = () => {
                Austin, TX
                </ListItemText>
               </ListItem>
+            </List>
+            <p>___________________</p>
+            <List>
+            <ListItem>JavaScript </ListItem>
+            <ListItem>Node.js </ListItem>
+            <ListItem>React</ListItem>
+            <ListItem>Redux</ListItem>
+            <ListItem>MySQL</ListItem>
+            <ListItem>Express.js </ListItem>
+            <ListItem>HTML5</ListItem>
+            <ListItem>CSS </ListItem>
+            <ListItem>Debugging</ListItem>
+            <ListItem>Heroku</ListItem>
+            <ListItem>RESTful API</ListItem>
+            <ListItem>Git/GitHub </ListItem>
+            <ListItem>Strategic Planning </ListItem>
+            <ListItem>Project Management</ListItem>
+            <ListItem>Time Management</ListItem>
+            <ListItem>Customer Service</ListItem>
             </List>
 
           </Grid>
