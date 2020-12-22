@@ -92,8 +92,8 @@ const Resume = () => {
             <Typography>Experience</Typography>
             <Paper className={classes.line}>.</Paper>
             <Typography>Procurement Card Administrator</Typography>
-            <p><em>University of Texas at Austin + Purchasing Office , Austin, TX 
-May 2015 - Present</em></p>
+            <p><em>University of Texas at Austin + Purchasing Office , Austin, TX </em></p>
+            <p><em>May 2015 - Present</em></p>
             <List>
               <ListItem>
                 <ListItemAvatar>~</ListItemAvatar>
@@ -124,7 +124,41 @@ May 2015 - Present</em></p>
               </ListItem>
             </List>
 
-            
+            <Typography>Facilities Coordinator + Chief Problem Solver </Typography>
+            <p><em>Pirkey Barber PLLC, Austin, TX</em></p>
+            <p><em>Jun 2012 - May 2015</em></p>
+            <List>
+              <ListItem>
+                <ListItemAvatar>~</ListItemAvatar>
+                <ListItemText>
+                Maintain a Professional Office of over 30 employees 
+                </ListItemText>
+              </ListItem>
+
+              <ListItem>
+                <ListItemAvatar>~</ListItemAvatar>
+                <ListItemText>
+                Digital & physical documentations at multiple locations 
+                </ListItemText>
+              </ListItem>
+
+              <ListItem>
+                <ListItemAvatar>~</ListItemAvatar>
+                <ListItemText>
+                 General office duties 
+                </ListItemText>
+              </ListItem>
+
+              <ListItem>
+                <ListItemAvatar>~</ListItemAvatar>
+                <ListItemText>
+                Supervisor of 3 employees  
+                </ListItemText>
+              </ListItem>
+            </List>
+
+
+
           </Grid>
 
         </Grid>
