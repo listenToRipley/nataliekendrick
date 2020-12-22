@@ -10,6 +10,10 @@ import ListItemText from '@material-ui/core/ListItemText';
 import { FaGoogle } from "@react-icons/all-files/fa/FaGoogle";
 import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt";
 import { FaMapMarkerAlt } from "@react-icons/all-files/fa/FaMapMarkerAlt";
+import { FaGithubAlt } from "@react-icons/all-files/fa/FaGithubAlt";
+import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
+import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
+import { FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -26,6 +30,10 @@ const useStyles = makeStyles((theme) => ({
     color: 'grey',
     backgroundColor: 'grey'
   },
+  contactInfo: {
+    padding: theme.spacing(2),
+    textAlign: 'center',
+  }, 
 }));
 
 
@@ -203,6 +211,62 @@ const Resume = () => {
                 </ListItemText>
               </ListItem>
             </List>
+
+            <Typography>Additional contact information</Typography>
+            <Paper className={classes.line}>.</Paper>
+
+            <Grid
+              container
+              direction="row"
+              jusitify="center"
+              alignItems="center"
+              spacing={4}
+              className={classes.contactInfo}>
+            <Grid
+              item={3}>
+              <ListItem>
+                <FaLinkedin/>
+              </ListItem>
+              <ListItem>
+                @nataliemichellekendrick
+              </ListItem>
+              </Grid>
+
+              <Grid
+              item={3}> 
+              <ListItem>
+                <FaTwitterSquare/>
+              </ListItem>
+              <ListItem>
+              @NKendrick12
+              </ListItem>
+              </Grid>
+
+              <Grid
+              item={3}>
+              <ListItem>
+                <FaGithubAlt/>
+              </ListItem>
+              <ListItem>
+                @listenToRipley 
+              </ListItem>
+              </Grid>
+
+              <Grid
+              item={3}>
+              <ListItem>
+                <FaInstagram/>
+              </ListItem>
+              <ListItem>
+                @garbosmile
+              </ListItem>
+              </Grid>
+
+            </Grid>
+
+            <Typography>References</Typography>
+            <Paper className={classes.line}>.</Paper>
+            <p>References available upon request as well as complete work history</p>
 
           </Grid>
 
