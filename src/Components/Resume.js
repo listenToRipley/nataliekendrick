@@ -91,7 +91,40 @@ const Resume = () => {
           item xs={8}>
             <Typography>Experience</Typography>
             <Paper className={classes.line}>.</Paper>
-            Procurement Card Administrator
+            <Typography>Procurement Card Administrator</Typography>
+            <p><em>University of Texas at Austin + Purchasing Office , Austin, TX 
+May 2015 - Present</em></p>
+            <List>
+              <ListItem>
+                <ListItemAvatar>~</ListItemAvatar>
+                <ListItemText>
+                 Manage card usage and policy for approx. 1400  cards & more users
+                </ListItemText>
+              </ListItem>
+
+              <ListItem>
+                <ListItemAvatar>~</ListItemAvatar>
+                <ListItemText>
+                Facilitate and resolve issues been user, the bank and internal systems 
+                </ListItemText>
+              </ListItem>
+
+              <ListItem>
+                <ListItemAvatar>~</ListItemAvatar>
+                <ListItemText>
+                 Create processes to maintenance practices 
+                </ListItemText>
+              </ListItem>
+
+              <ListItem>
+                <ListItemAvatar>~</ListItemAvatar>
+                <ListItemText>
+                Create reports to manage & calibrate usage and purchasing needs 
+                </ListItemText>
+              </ListItem>
+            </List>
+
+            
           </Grid>
 
         </Grid>
