@@ -3,6 +3,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemAvatar from '@material-ui/core/ListItemAvatar';
+import ListItemText from '@material-ui/core/ListItemText';
 import { FaGoogle } from "@react-icons/all-files/fa/FaGoogle";
 import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt";
 import { FaMapMarkerAlt } from "@react-icons/all-files/fa/FaMapMarkerAlt";
@@ -53,22 +57,34 @@ const Resume = () => {
 
           <Grid
           item xs={3}> 
-            <ul>
-              <li>
-              <FaGoogle/> natalie.m.kendrick@gmail.com
-              </li>
+            <List>
+              <ListItem>
+               <ListItemAvatar>
+                <FaGoogle/> 
+               </ListItemAvatar>
+               <ListItemText>
+                  natalie.m.kendrick@gmail.com
+               </ListItemText>
+              </ListItem>
 
-              <li>
-              <FaPhoneAlt/> 
-                (520)-404-3721
-              </li>
+              <ListItem>
+               <ListItemAvatar>
+                <FaPhoneAlt/> 
+               </ListItemAvatar>
+               <ListItemText>
+                 (520)-404-3721
+               </ListItemText>
+              </ListItem>
 
-              <li>
-              <FaMapMarkerAlt/> 
-                Austin, TX
-              </li>
-
-            </ul>
+              <ListItem>
+               <ListItemAvatar>
+                <FaMapMarkerAlt/> 
+               </ListItemAvatar>
+               <ListItemText>
+               Austin, TX
+               </ListItemText>
+              </ListItem>
+            </List>
           </Grid>
 
           <Grid
