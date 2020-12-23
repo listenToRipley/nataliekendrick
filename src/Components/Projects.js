@@ -1,21 +1,21 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import clsx from 'clsx';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
-import Collapse from '@material-ui/core/Collapse';
 import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
+import Buttom from '@material-ui/core/Button'
 import { red } from '@material-ui/core/colors';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import ShareIcon from '@material-ui/icons/Share';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import clicknspin from './projectImgs/clicknspin.png'
+import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5"
+import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
+import { FaBootstrap } from "@react-icons/all-files/fa/FaBootstrap"
+import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -43,25 +43,10 @@ const useStyles = makeStyles((theme) => ({
 
 const Projects = () => {
   const classes = useStyles();
-  const [expanded, setExpanded] = React.useState(false);
-
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
 
   return (
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="recipe" className={classes.avatar}>
-            C & S
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Click and Spin"
         subheader="January 2020"
       />
@@ -71,45 +56,31 @@ const Projects = () => {
         title="click and spin project"
       />
       <CardContent>
+      <Typography paragraph>
+          Spin counter
+      </Typography>
+      <Typography paragraph>
+            Tools Used: 
+          </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
-          Click and spinning. 
+          <FaHtml5/>
+          <FaCss3Alt/>
+          <FaBootstrap/>
         </Typography>
-      </CardContent>
+          <Typography paragraph>
+             HTML5, CSS, Bootstrap
+          </Typography>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
-        <IconButton aria-label="medias">
-          <ShareIcon />
-        </IconButton>
-        <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton>
-      </CardActions>
-      <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
-          <Typography paragraph>Stuff</Typography>
-          <Typography paragraph>
-            =
-          </Typography>
-          <Typography paragraph>
-          ?
-          </Typography>
-          <Typography paragraph>
-            1
-          </Typography>
-          <Typography>
-          1
-          </Typography>
-        </CardContent>
-      </Collapse>
+        <Button>
+        View Site
+        </Button>
+ 
+        <Button>
+        View Code
+        </Button>
+  
+        </CardActions>
+      </CardContent>
     </Card>
   );
 }
