@@ -60,18 +60,17 @@ const Projects = () => {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        title="Click and Spin"
+        subheader="January 2020"
       />
       <CardMedia
         className={classes.media}
-        image="/static/images/cards/paella.jpg"
-        title="Paella dish"
+        image={require{'./projectImgs/clicknspin.png'}}
+        title="click and spin project"
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          This impressive paella is a perfect party dish and a fun meal to cook together with your
-          guests. Add 1 cup of frozen peas along with the mussels, if you like.
+          Click and spinning. 
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
