@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(2),
     margin: 'auto',
-    maxWidth: 700,
+    maxWidth: 800,
   },
   line: {
     display: 'block',
@@ -223,7 +223,7 @@ const Resume = () => {
               spacing={4}
               className={classes.contactInfo}>
             <Grid
-              item={3}>
+              item={4}>
               <ListItem>
                 <FaLinkedin/>
               </ListItem>
@@ -233,7 +233,7 @@ const Resume = () => {
               </Grid>
 
               <Grid
-              item={3}> 
+              item={4}> 
               <ListItem>
                 <FaTwitterSquare/>
               </ListItem>
@@ -243,7 +243,7 @@ const Resume = () => {
               </Grid>
 
               <Grid
-              item={3}>
+              item={4}>
               <ListItem>
                 <FaGithubAlt/>
               </ListItem>
@@ -253,7 +253,7 @@ const Resume = () => {
               </Grid>
 
               <Grid
-              item={3}>
+              item={4}>
               <ListItem>
                 <FaInstagram/>
               </ListItem>
