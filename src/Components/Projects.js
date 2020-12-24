@@ -94,11 +94,11 @@ const Projects = () => {
              HTML5, CSS
           </Typography>
       <CardActions>
-        <Button>
+        <Button onClick={() => window.open('https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/flexbox/nasa.html')}>
         View Site
         </Button>
  
-        <Button>
+        <Button onClick={()=> window.open('https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/flexbox')}>
         View Code
         </Button>
   
