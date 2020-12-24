@@ -175,6 +175,40 @@ const Projects = () => {
     </CardActions>
   </CardContent>
 </Card>
+
+<Card className={classes.root}>
+  <CardHeader
+    title="Mustacchio"
+    subheader="January 2020"
+  />
+  <CardMedia
+    className={classes.media}
+    image={mustacchio}
+    title="Barbershop Main Page"
+  />
+  <CardContent>
+  <Typography paragraph>
+  A mock barbershop home page
+  </Typography>
+    <Typography variant="body2" color="textSecondary" component="p">
+      <FaHtml5/>
+      <FaCss3Alt/>
+    </Typography>
+      <Typography paragraph>
+         HTML5, CSS
+      </Typography>
+  <CardActions>
+    <Button onClick={() => window.open('https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/hairsalon/hairsalon.html')}>
+    View Site
+    </Button>
+
+    <Button onClick={()=> window.open('https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/hairsalon')}>
+    View Code
+    </Button>
+
+    </CardActions>
+  </CardContent>
+</Card>
    </div>
   );
 }
