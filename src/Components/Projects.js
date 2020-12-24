@@ -5,12 +5,7 @@ import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
-import Avatar from '@material-ui/core/Avatar';
-import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import Buttom from '@material-ui/core/Button'
-import { red } from '@material-ui/core/colors';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
 import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5"
 import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
 import { FaBootstrap } from "@react-icons/all-files/fa/FaBootstrap"
@@ -23,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: 345,
   },
   media: {
-    height: 0,
+    height: '50%',
     paddingTop: '56.25%', // 16:9
     marginTop:'30',
   },
@@ -45,7 +40,7 @@ const Projects = () => {
 <Card className={classes.root}>
       <CardHeader
         title="Click and Spin"
-        subheader="January 2020"
+        subheader="February 2020"
       />
       <CardMedia
         className={classes.media}
@@ -64,7 +59,7 @@ const Projects = () => {
           <Typography paragraph>
              HTML5, CSS, Bootstrap
           </Typography>
-      <CardActions disableSpacing>
+      <CardActions>
         <Button>
         View Site
         </Button>
@@ -98,7 +93,7 @@ const Projects = () => {
           <Typography paragraph>
              HTML5, CSS
           </Typography>
-      <CardActions disableSpacing>
+      <CardActions>
         <Button>
         View Site
         </Button>
