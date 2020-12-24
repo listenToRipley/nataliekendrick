@@ -9,7 +9,7 @@ import Projects from './Components/Projects';
 const Router = () => {
   return (
   <Switch>
-    <Route path='/home' component={Home}/>
+    <Route exact path='/' component={Home}/>
     <Route path='/about' component={About} />
     <Route path='/resume' component={Resume} />
     <Route path='/projects' component={Projects} /> 
