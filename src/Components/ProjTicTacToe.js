@@ -10,7 +10,7 @@ import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5";
 import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt";
 import { FaJs} from "@react-icons/all-files/fa/FaJs";
 import Button from '@material-ui/core/Button';
-import firstToDo from './projectImgs/firstToDo.png';
+import ticTacToe from './projectImgs/TicTacToe.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -37,17 +37,17 @@ const FirstToDo = () => {
 
 <Card className={classes.root}>
       <CardHeader
-        title="To Do"
-        subheader="January 2020"
+        title="Tic Tac Toe"
+        subheader="February 2020"
       />
       <CardMedia
         className={classes.media}
-        image={firstToDo}
-        title="First To Do"
+        image={ticTacToe}
+        title="First Tic Tac Toe"
       />
       <CardContent>
       <Typography paragraph>
-          First attempt at a very basic to do application
+          First attempt at tic tac toe
       </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
           <FaHtml5/>
@@ -58,11 +58,11 @@ const FirstToDo = () => {
              HTML5, CSS, Javascript
           </Typography>
       <CardActions>
-        <Button onClick={() => window.open('https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/todo+tower/todo/todo.html')}>
+        <Button onClick={() => window.open('https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/tictactoe/ttt.html')}>
         View Site
         </Button>
  
-        <Button onClick={() => window.open('https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/blob/master/src/todo%2Btower/todo/todo.js')}>
+        <Button onClick={() => window.open('https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/tictactoe')}>
         View Code
         </Button>
   
