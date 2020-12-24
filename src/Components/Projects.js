@@ -13,6 +13,7 @@ import Button from '@material-ui/core/Button';
 import clicknspin from './projectImgs/clicknspin.png'
 import nasa from './projectImgs/NASA.png'
 import mustacchio from './projectImgs/mustacchio.png'
+import silverSea from './projectImgs/SilverSea.png'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -66,6 +67,40 @@ const Projects = () => {
         </Button>
  
         <Button onClick={() => window.open('https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/checkpoint3')}>
+        View Code
+        </Button>
+  
+        </CardActions>
+      </CardContent>
+    </Card>
+
+    <Card className={classes.root}>
+      <CardHeader
+        title="Silver Sea Website"
+        subheader="January 2020"
+      />
+      <CardMedia
+        className={classes.media}
+        image={silverSea}
+        title="Silver Sea's website"
+      />
+      <CardContent>
+      <Typography paragraph>
+      Full website for Silver Sea Jewelry 
+      </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">
+          <FaHtml5/>
+          <FaCss3Alt/>
+        </Typography>
+          <Typography paragraph>
+             HTML5, CSS
+          </Typography>
+      <CardActions>
+        <Button onClick={() => window.open('https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/checkpoint2/checkpoint2.html')}>
+        View Site
+        </Button>
+ 
+        <Button onClick={()=> window.open('https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/checkpoint2')}>
         View Code
         </Button>
   
