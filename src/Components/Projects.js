@@ -11,11 +11,12 @@ import Typography from '@material-ui/core/Typography';
 import Buttom from '@material-ui/core/Button'
 import { red } from '@material-ui/core/colors';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
-import clicknspin from './projectImgs/clicknspin.png'
 import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5"
 import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
 import { FaBootstrap } from "@react-icons/all-files/fa/FaBootstrap"
 import Button from '@material-ui/core/Button';
+import clicknspin from './projectImgs/clicknspin.png'
+import nasa from './projectImgs/NASA.png'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -33,19 +34,15 @@ const useStyles = makeStyles((theme) => ({
       duration: theme.transitions.duration.shortest,
     }),
   },
-  expandOpen: {
-    transform: 'rotate(180deg)',
-  },
-  avatar: {
-    backgroundColor: red[500],
-  },
 }));
 
 const Projects = () => {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+   <div>
+
+<Card className={classes.root}>
       <CardHeader
         title="Click and Spin"
         subheader="January 2020"
@@ -59,9 +56,6 @@ const Projects = () => {
       <Typography paragraph>
           Spin counter
       </Typography>
-      <Typography paragraph>
-            Tools Used: 
-          </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
           <FaHtml5/>
           <FaCss3Alt/>
@@ -82,6 +76,41 @@ const Projects = () => {
         </CardActions>
       </CardContent>
     </Card>
+
+    <Card className={classes.root}>
+      <CardHeader
+        title="NASA Contact Page"
+        subheader="January 2020"
+      />
+      <CardMedia
+        className={classes.media}
+        image={nasa}
+        title="NASA Contact Page"
+      />
+      <CardContent>
+      <Typography paragraph>
+      Basic information contact page
+      </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">
+          <FaHtml5/>
+          <FaCss3Alt/>
+        </Typography>
+          <Typography paragraph>
+             HTML5, CSS
+          </Typography>
+      <CardActions disableSpacing>
+        <Button>
+        View Site
+        </Button>
+ 
+        <Button>
+        View Code
+        </Button>
+  
+        </CardActions>
+      </CardContent>
+    </Card>
+   </div>
   );
 }
 
