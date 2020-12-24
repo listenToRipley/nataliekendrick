@@ -8,8 +8,9 @@ import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
 import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5";
 import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt";
+import { FaJs} from "@react-icons/all-files/fa/FaJs";
 import Button from '@material-ui/core/Button';
-import nasa from './projectImgs/NASA.png';
+import firstToDo from './projectImgs/firstToDo.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -29,49 +30,47 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const NASACard = () => {
+const FirstToDo = () => {
   const classes = useStyles();
 
   return (
 
-    <Card className={classes.root}>
+<Card className={classes.root}>
       <CardHeader
-        title="NASA Contact Page"
+        title="To Do"
         subheader="January 2020"
       />
       <CardMedia
         className={classes.media}
-        image={nasa}
-        title="NASA Contact Page"
+        image={firstToDo}
+        title="First To Do"
       />
       <CardContent>
       <Typography paragraph>
-      Basic information contact page for NASA
+          A very basic to do application
       </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
           <FaHtml5/>
           <FaCss3Alt/>
+          <FaJs/>
         </Typography>
           <Typography paragraph>
-             HTML5, CSS
+             HTML5, CSS, Javascript
           </Typography>
       <CardActions>
-        <Button onClick={() => window.open('https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/flexbox/nasa.html')}>
+        <Button onClick={() => window.open('https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/todo+tower/todo/todo.html')}>
         View Site
         </Button>
  
-        <Button onClick={()=> window.open('https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/flexbox')}>
+        <Button onClick={() => window.open('https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/blob/master/src/todo%2Btower/todo/todo.js')}>
         View Code
         </Button>
   
         </CardActions>
       </CardContent>
     </Card>
-
-
-
-
+   
   );
 }
 
-export default NASACard
+export default FirstToDo

@@ -46,7 +46,7 @@ const Animate = () => {
   />
   <CardContent>
   <Typography paragraph>
-    Working with animation with CSS
+    Working with animation with CSS, hover each square to see the transitions
   </Typography>
     <Typography variant="body2" color="textSecondary" component="p">
       <FaHtml5/>

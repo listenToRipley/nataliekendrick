@@ -6,11 +6,11 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
-import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5"
-import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
-import { FaBootstrap } from "@react-icons/all-files/fa/FaBootstrap"
+import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5";
+import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt";
+import { FaBootstrap } from "@react-icons/all-files/fa/FaBootstrap";
 import Button from '@material-ui/core/Button';
-import clicknspin from './projectImgs/clicknspin.png'
+import clicknspin from './projectImgs/clicknspin.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {

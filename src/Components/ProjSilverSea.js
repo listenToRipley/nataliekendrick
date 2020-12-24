@@ -6,10 +6,10 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
-import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5"
-import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
+import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5";
+import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt";
 import Button from '@material-ui/core/Button';
-import silverSea from './projectImgs/SilverSea.png'
+import silverSea from './projectImgs/SilverSea.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {
