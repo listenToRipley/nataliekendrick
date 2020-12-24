@@ -1,7 +1,7 @@
 import React from 'react';
-import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
+import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn";
 import { FaGoogle } from "@react-icons/all-files/fa/FaGoogle";
-import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
+import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 import { FaGithubAlt } from "@react-icons/all-files/fa/FaGithubAlt";
 import {FaMediumM} from "@react-icons/all-files/fa/FaMediumM"
 import './Components.css'
@@ -12,7 +12,7 @@ const Homepage = () => {
     <div className="Homepage">
       <h1>Natalie Kendrick</h1>
         <a href='https://www.linkedin.com/in/nataliemichellekendrick/'>
-          <FaLinkedin className={'homeIcons'} />
+          <FaLinkedinIn className={'homeIcons'} />
         </a>
       
         <a href='mailto: natalie.m.kendrick@gmail.com'>
@@ -20,7 +20,7 @@ const Homepage = () => {
         </a>
         
         <a href='https://twitter.com/NKendrick12'>
-          <FaTwitterSquare className={'homeIcons'}/>
+          <FaTwitter className={'homeIcons'}/>
         </a>
         
         <a href='https://github.com/listenToRipley'>
