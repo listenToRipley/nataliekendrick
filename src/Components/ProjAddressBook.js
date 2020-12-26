@@ -8,6 +8,7 @@ import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
 import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5"
 import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
+import { FaJs} from "@react-icons/all-files/fa/FaJs";
 import Button from '@material-ui/core/Button';
 import addressBook from './projectImgs/addressBook.png'
 
@@ -51,6 +52,7 @@ const AddressBook = () => {
     <Typography variant="body2" color="textSecondary" component="p">
       <FaHtml5/>
       <FaCss3Alt/>
+      <FaJs/>
     </Typography>
       <Typography paragraph>
          HTML5, CSS
