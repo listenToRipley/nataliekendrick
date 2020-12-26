@@ -8,6 +8,7 @@ import FirstToDo from './ProjFirstToDo'
 import TicTacToe from './ProjTicTacToe'
 import AddressBook from './ProjAddressBook'
 import DodgeBall from './ProjDodgeBall';
+import PigLatin from './ProjPigLatin'
 
 const Projects = () => {
 
@@ -15,6 +16,7 @@ const Projects = () => {
    <div>
     <AddressBook/>
     <DodgeBall/>
+    <PigLatin/>
     <SilverSea/>
     <ClicknSpin/>
     <TicTacToe/>
