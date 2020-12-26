@@ -47,7 +47,7 @@ const DodgeBall = () => {
   />
   <CardContent>
   <Typography paragraph>
-    Using <a href="https://randomuser.me/">random user generate</a> API to create a sample address book
+    Drafting dodge ball members
   </Typography>
     <Typography variant="body2" color="textSecondary" component="p">
       <FaHtml5/>
