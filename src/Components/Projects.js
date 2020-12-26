@@ -7,12 +7,14 @@ import Animate from './ProjAnimate'
 import FirstToDo from './ProjFirstToDo'
 import TicTacToe from './ProjTicTacToe'
 import AddressBook from './ProjAddressBook'
+import DodgeBall from './ProjDodgeBall';
 
 const Projects = () => {
 
   return (
    <div>
     <AddressBook/>
+    <DodgeBall/>
     <SilverSea/>
     <ClicknSpin/>
     <TicTacToe/>
