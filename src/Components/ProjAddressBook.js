@@ -55,7 +55,7 @@ const AddressBook = () => {
       <FaJs/>
     </Typography>
       <Typography paragraph>
-         HTML5, CSS
+         HTML5, CSS, Javascript
       </Typography>
   <CardActions>
     <Button onClick={() => window.open('https://listentoripley.github.io/javascript-workbook/07week/addressBook.html')}>
