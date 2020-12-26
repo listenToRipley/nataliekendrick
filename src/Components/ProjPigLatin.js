@@ -43,7 +43,7 @@ const PigLatin = () => {
   <CardMedia
     className={classes.media}
     image={pigLatin}
-    title="dodge ball drafting"
+    title="pig latin translator"
   />
   <CardContent>
   <Typography paragraph>
