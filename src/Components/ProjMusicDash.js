@@ -1,5 +1,4 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -12,36 +11,17 @@ import { FaJs} from "@react-icons/all-files/fa/FaJs";
 import Button from '@material-ui/core/Button';
 import musicDashboard from './projectImgs/musicDashboard.png'
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    maxWidth: 345,
-  },
-  media: {
-    height: '50%',
-    paddingTop: '56.25%', // 16:9
-    marginTop:'30',
-  },
-  expand: {
-    transform: 'rotate(0deg)',
-    marginLeft: 'auto',
-    transition: theme.transitions.create('transform', {
-      duration: theme.transitions.duration.shortest,
-    }),
-  },
-}));
-
 const MusicDashboard = () => {
-  const classes = useStyles();
 
-  return (
+return (
 
-<Card className={classes.root}>
+<Card className='cardBody'>
   <CardHeader
     title="Music Dashboard"
     subheader="March 2020"
   />
   <CardMedia
-    className={classes.media}
+    className='cardMedia'
     image={musicDashboard}
     title="music dashboard"
   />
