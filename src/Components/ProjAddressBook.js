@@ -11,37 +11,19 @@ import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
 import { FaJs} from "@react-icons/all-files/fa/FaJs";
 import Button from '@material-ui/core/Button';
 import addressBook from './projectImgs/addressBook.png'
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    maxWidth: 345,
-  },
-  media: {
-    height: '50%',
-    paddingTop: '56.25%', // 16:9
-    marginTop:'30',
-  },
-  expand: {
-    transform: 'rotate(0deg)',
-    marginLeft: 'auto',
-    transition: theme.transitions.create('transform', {
-      duration: theme.transitions.duration.shortest,
-    }),
-  },
-}));
+import './Components.css'
 
 const AddressBook = () => {
-  const classes = useStyles();
 
   return (
 
-<Card className={classes.root}>
+<Card className='cardBody'>
   <CardHeader
     title="Sample Address Book"
     subheader="March 2020"
   />
   <CardMedia
-    className={classes.media}
+    className='cardMedia'
     image={addressBook}
     title="example address book"
   />

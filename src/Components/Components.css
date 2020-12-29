@@ -2,3 +2,13 @@
   color: red; 
   font-size: 5em;
 }
+
+.cardBody {
+  max-width: 345px;
+}
+
+.cardMedia {
+  height: 50%;
+  padding-top: 56.25%;
+  margin-top:30;
+}
