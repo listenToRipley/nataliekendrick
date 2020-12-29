@@ -10,6 +10,7 @@ import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
 import { FaJs} from "@react-icons/all-files/fa/FaJs";
 import Button from '@material-ui/core/Button';
 import dodgeball from './projectImgs/dodgeball.png'
+import './Components.css'
 
 const DodgeBall = () => {
 
