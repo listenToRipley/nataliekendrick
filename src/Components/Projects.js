@@ -22,6 +22,8 @@ const Projects = () => {
     <NASACard/>
     <Mustacchio/>
     <Animate/>
+    <p> Please feel free to review other backend projects here</p>
+    <p> Or generate problems worked on through <a href="https://repl.it/@listenToRipley">repl.it</a> or with <a href="https://www.codewars.com/users/minonOfLight">code wars</a> </p>
    </div>
   );
 }
