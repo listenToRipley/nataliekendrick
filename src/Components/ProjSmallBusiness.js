@@ -18,7 +18,7 @@ return (
 
 <Card className='cardBody'>
   <CardHeader
-    title="Music Dashboard"
+    title="Small Business"
     subheader="October 2020"
   />
   <CardMedia
