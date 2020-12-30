@@ -28,8 +28,11 @@ const Projects = () => {
       <Mustacchio/>
       <Animate/>
     </div>
+    <div className="projectAdds">
     <p> Please feel free to review other backend projects here</p>
-    <p> Or generate problems worked on through <a href="https://repl.it/@listenToRipley">repl.it</a> or with <a href="https://www.codewars.com/users/minonOfLight">code wars</a> </p>
+    <p> Or general samples of work <a href="https://repl.it/@listenToRipley">repl.it</a> or with <a href="https://www.codewars.com/users/minonOfLight">code wars</a> </p>
+    <p>As well as my <a href="https://github.com/listenToRipley">github page</a></p>
+    </div>
    </div>
   );
 }

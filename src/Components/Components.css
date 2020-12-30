@@ -18,7 +18,14 @@
 }
 
 .cardMedia {
-  height: 40%;
+  width: 95%;
+  height: 45%;
   padding-top: 56.25%;
-  margin-top:30;
+  margin-top:40px;
+  margin-left: 10px;
+}
+
+.projectAdds {
+  margin: 5%;
+  justify-content: center;
 }
