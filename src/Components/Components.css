@@ -3,12 +3,22 @@
   font-size: 5em;
 }
 
+.projectBody {
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  flex-wrap: wrap; 
+  padding: 2%
+}
+
 .cardBody {
   max-width: 345px;
+  min-width: 345px;
+  margin: 2%;
 }
 
 .cardMedia {
-  height: 50%;
+  height: 40%;
   padding-top: 56.25%;
   margin-top:30;
 }
