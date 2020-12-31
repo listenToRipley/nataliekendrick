@@ -11,7 +11,7 @@ const CodeSamples = () => {
   return (
     <div>
     <Typography align='right' variant='h6'>Mastermind Logic</Typography>
-    <Typography align='right'>Play a game of mastermind using Javascript</Typography>
+    <Typography className="general" align='right'>Play a game of mastermind using Javascript</Typography>
     <CodeMirror
     value='
 
@@ -118,7 +118,7 @@ let letters = [`a`, `b`, `c`, `d`, `e`, `f`, `g`, `h`]; &
       lineSeparator: '&'
     }}
 />
-  View with on <a href='https://github.com/listenToRipley/javascript-workbook/blob/gh-pages/04week/mastermind.js'>Github</a>
+ <Typography className="general"> View with on <a href='https://github.com/listenToRipley/javascript-workbook/blob/gh-pages/04week/mastermind.js'>Github</a></Typography>
     </div>
   )
 }

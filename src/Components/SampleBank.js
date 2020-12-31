@@ -11,7 +11,7 @@ const SampleBank = () => {
   return (
     <div>
     <Typography align='right' variant='h6'>Sample bank account</Typography>
-    <Typography align='right'>Create a basic bank account using Javascript</Typography>
+    <Typography className="general" align='right'>Create a basic bank account using Javascript</Typography>
     <CodeMirror
     value='
     class BankAccount { &
@@ -83,7 +83,7 @@ let myAccount = new BankAccount(123244, `Natalie Kendrick`)  &
       lineSeparator: '&'
     }}
 />
-  View with on <a href='https://github.com/listenToRipley/javascript-workbook/blob/gh-pages/05week/bankAccount.js'>Github</a>
+  <Typography className="general">View with on <a href='https://github.com/listenToRipley/javascript-workbook/blob/gh-pages/05week/bankAccount.js'>Github</a></Typography>
     </div>
   )
 }

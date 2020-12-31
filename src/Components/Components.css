@@ -1,3 +1,11 @@
+h4, h5, h6{
+  color: white;
+}
+
+.general {
+  color: white
+}
+
 .homeIcons {
   color: red; 
   font-size: 5em;
@@ -6,7 +14,7 @@
 .projectTitle {
   display: inline-block;
   width:100%;
-  padding: 2%
+  padding: 2%;
 }
 
 .projectBody {
@@ -110,7 +118,7 @@
   margin-bottom: 15px;
 }
 
-
 .sampleProfiles {
   margin-top: 20px;
+  color: white;
 }
