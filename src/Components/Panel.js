@@ -33,7 +33,7 @@ const Panel = () =>  {
         <Tabs value={value} onChange={handleChange} aria-label="menu items" centered={true}>
           <Tab label="Home" 
                 component={Link}
-                to='/home' 
+                to='/' 
                 aria-label='home'
           />
           <Tab label="About"
