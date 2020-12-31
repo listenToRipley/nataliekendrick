@@ -31,12 +31,12 @@ return (
   <Typography paragraph>
     A sample of small business registry
   </Typography>
-    <Typography>
-    <div className="smallBusinessView">
+    <Typography className="smallBusinessBadges">
+
       <FaCss3Alt className="badges"/>
       <FaJs className="badges"/>
       <FaReact className="badges"/>    
-    </div>  
+ 
     </Typography>
       <Typography className="skills">
          CSS, Javascript, React

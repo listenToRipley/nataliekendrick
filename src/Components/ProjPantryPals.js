@@ -31,12 +31,12 @@ return (
   <Typography>
     An full stack application keeping track of shopping and pantry items.
   </Typography>
-    <Typography>
-      <div className="pantryViews">
+    <Typography className="pantryBadges">
+
       <FaCss3Alt className="badges"/>
       <FaJs className="badges"/>
       <FaReact className="badges"/>      
-      </div>
+
     </Typography>
       <Typography className="skills">
          CSS, Javascript, SQL, React

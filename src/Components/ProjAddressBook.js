@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5"
 import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
 import { FaJs} from "@react-icons/all-files/fa/FaJs";
+import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
 import addressBook from './projectImgs/addressBook.png'
 import './Components.css'
@@ -19,7 +20,7 @@ const AddressBook = () => {
 <Card className='cardBody'>
   <CardHeader
     title="Sample Address Book"
-    subheader="March 2020"
+    subheader="May 2020"
   />
   <CardMedia
     className='cardMedia'
@@ -30,7 +31,7 @@ const AddressBook = () => {
   <Typography paragraph>
     Using <a href="https://randomuser.me/">random user generate</a> API to create a sample address book
   </Typography>
-    <Typography variant="body2" color="textSecondary" component="p">
+    <Typography className="addressBadges">
       <FaHtml5/>
       <FaCss3Alt/>
       <FaJs/>
