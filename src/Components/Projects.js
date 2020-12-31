@@ -10,6 +10,7 @@ import DodgeBall from './ProjDodgeBall';
 import PigLatin from './ProjPigLatin'
 import SmallBusiness from './ProjSmallBusiness';
 import PantryPals from './ProjPantryPals'
+import CodeSample from './ProjCodeSamples'
 
 const Projects = () => {
 
@@ -30,6 +31,7 @@ const Projects = () => {
     </div>
     <div className="projectAdds">
     <p> Please feel free to review other backend projects here</p>
+    <CodeSample/>
     <p> Or general samples of work <a href="https://repl.it/@listenToRipley">repl.it</a> or with <a href="https://www.codewars.com/users/minonOfLight">code wars</a> </p>
     <p>As well as my <a href="https://github.com/listenToRipley">github page</a></p>
     </div>
