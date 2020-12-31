@@ -64,6 +64,11 @@
   color: #719996;
 }
 
+.clickBadges {
+  margin-top: 1px;
+  color: #6496ec;
+}
+
 .skills {
   font-size: 10px;
   color: grey;
