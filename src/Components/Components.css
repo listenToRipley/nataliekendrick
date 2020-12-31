@@ -69,6 +69,16 @@
   color: #6496ec;
 }
 
+.ticTacToeBadges {
+  margin-top: 1px;
+  color: #818181;
+}
+
+.nasaBadges {
+  margin-top: 1px;
+  color: #6f184b;
+}
+
 .skills {
   font-size: 10px;
   color: grey;
