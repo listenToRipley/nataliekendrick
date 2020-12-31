@@ -23,14 +23,14 @@ import SampleBank from './SampleBank'
 
 const CodeSamples = () => {
 
- let ref='https://raw.githubusercontent.com/listenToRipley/javascript-workbook/gh-pages/05week/bankAccount.js'
-
   return (
     <div>
       <Typography variant='h4'>Below you will find sample code</Typography>
       <SampleBank/>
-      <Typography paragraph> Or general samples of work <a href="https://repl.it/@listenToRipley">repl.it</a> or with <a href="https://www.codewars.com/users/minonOfLight">code wars</a> </Typography>
-      <Typography paragraph>As well as my <a href="https://github.com/listenToRipley">github page</a></Typography>
+     <div className='sampleProfiles'>
+     <Typography paragraph> If you would like to review additional project,  please feel free to go to <a href="https://repl.it/@listenToRipley">repl.  it</a> or my <a href="https://www.codewars.com/users/minonOfLight">code   wars</a> profiles</Typography>
+       <Typography paragraph>As well as my <a href="https://github.com/  listenToRipley">github page</a></Typography>
+     </div>
     </div>
   )
 }

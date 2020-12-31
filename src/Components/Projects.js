@@ -1,4 +1,5 @@
 import React from 'react';
+import Typography from '@material-ui/core/Typography'
 import ClicknSpin from './ProjClicknSpin'
 import SilverSea from './ProjSilverSea'
 import NASACard from './ProjNasaCard'
@@ -16,6 +17,7 @@ const Projects = () => {
 
   return (
    <div>
+   <Typography className='projectTitle' variant='h4'>Portfolio</Typography>
     <div className="projectBody">
       <PantryPals/>
       <SmallBusiness/>
