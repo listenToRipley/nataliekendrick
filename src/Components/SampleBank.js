@@ -6,12 +6,12 @@ import 'codemirror/mode/javascript/javascript.js';
 import 'codemirror/theme/material.css';
 import Typography from '@material-ui/core/Typography';
 
-const CodeSamples = () => {
+const SampleBank = () => {
 
   return (
     <div>
     <Typography align='right' variant='h6'>Sample bank account</Typography>
-    <Typography align='right'>Javascript classes</Typography>
+    <Typography align='right'>Create a basic bank account using Javascript</Typography>
     <CodeMirror
     value='
     class BankAccount { &
@@ -88,4 +88,4 @@ let myAccount = new BankAccount(123244, `Natalie Kendrick`)  &
   )
 }
 
-export default CodeSamples 
+export default SampleBank

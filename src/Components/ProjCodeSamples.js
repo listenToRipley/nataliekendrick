@@ -1,8 +1,6 @@
 //js
 
-//https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/05week
-
-//https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/04week
+//
 
 //https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/03week
 
@@ -19,14 +17,16 @@
 //https://github.com/AustinCodingAcademy/311_wk6_day2_authentication/blob/master/index.js
 import React from 'react'
 import Typography from '@material-ui/core/Typography';
-import SampleBank from './SampleBank'
+import SampleBank from './SampleBank';
+import SampleMastermind from './SampleMastermind'
 
 const CodeSamples = () => {
 
   return (
     <div>
-      <Typography variant='h4'>Below you will find sample code</Typography>
+      <Typography variant='h5'>Sample code : </Typography>
       <SampleBank/>
+      <SampleMastermind/>
      <div className='sampleProfiles'>
      <Typography paragraph> If you would like to review additional project,  please feel free to go to <a href="https://repl.it/@listenToRipley">repl.  it</a> or my <a href="https://www.codewars.com/users/minonOfLight">code   wars</a> profiles</Typography>
        <Typography paragraph>As well as my <a href="https://github.com/  listenToRipley">github page</a></Typography>
