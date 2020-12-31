@@ -3,14 +3,29 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography'
+import { createMuiTheme } from '@material-ui/core/styles';
+import blueGrey from '@material-ui/core/colors/blueGrey'
 import {Link} from 'react-router-dom';
+
+const theme = createMuiTheme({
+  overrides: {
+    MuiPaper: {
+      palette: {
+        primary: {
+          light: '#338899',
+          main: '#006b80',
+          dark: '#004a59',
+          contrastText: '#fff',
+        }
+        
+      },
+    }
+  }
+});
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    backgroundColor: theme.palette.background.paper,
-
   }, 
   name: {
     justifyItem: 'center'
@@ -29,7 +44,6 @@ const Panel = () =>  {
   return (
     <div className={classes.root}>
       <AppBar position="static">
-        {/* <Typography className={classes.name}>Welcome</Typography> */}
         <Tabs value={value} onChange={handleChange} aria-label="menu items" centered={true}>
           <Tab label="Home" 
                 component={Link}
