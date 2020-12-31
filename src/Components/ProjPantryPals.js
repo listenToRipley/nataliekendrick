@@ -27,31 +27,33 @@ return (
     title="pantry pals"
   />
   <CardContent>
-  <Typography paragraph>
-    An full stack application meant to help with keeping track of items that you need to shopping and what you already have at home.
+  <Typography>
+    An full stack application keeping track of shopping and pantry items.
   </Typography>
     <Typography variant="body2" color="textSecondary" component="p">
-      <FaCss3Alt/>
-      <FaJs/>
-      <p>SQL</p>
-      <FaReact/>      
+      <div className="pantryViews">
+      <FaCss3Alt className="badges"/>
+      <FaJs className="badges"/>
+      <FaReact className="badges"/>      
+      </div>
     </Typography>
-      <Typography paragraph>
-         CSS, Javascript, SQL ,React
+      <Typography className="skills">
+         CSS, Javascript, SQL, React
       </Typography>
   <CardActions>
-    <Button onClick={() => window.open('https://pantrypals.herokuapp.com/')}>
+    <div className="buttons">
+    <Button className="viewButton" onClick={() => window.open('https://pantrypals.herokuapp.com/')}>
     View Site
     </Button>
 
-    <Button onClick={()=> 'link to PantryPalPlanning component'}>
+    <Button className="viewButton" onClick={()=> 'link to PantryPalPlanning component'}>
     View Planning
     </Button>
 
-    <Button onClick={()=> window.open('https://github.com/listenToRipley/capstone')}>
+    <Button className="viewButton" onClick={()=> window.open('https://github.com/listenToRipley/capstone')}>
     View Code
     </Button>
-
+    </div>
     </CardActions>
   </CardContent>
 </Card>

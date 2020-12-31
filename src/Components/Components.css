@@ -21,11 +21,38 @@
   width: 95%;
   height: 45%;
   padding-top: 56.25%;
-  margin-top:40px;
   margin-left: 10px;
 }
 
 .projectAdds {
   margin: 5%;
   justify-content: center;
+}
+
+.pantryViews {
+  margin-top: 1px;
+  color: #3e4fb7;
+}
+
+.badges {
+  font-size: 2.5em;
+  padding-left: 15px;
+}
+
+.pantryView {
+
+}
+
+.skills {
+  font-size: 10px;
+  color: grey;
+}
+
+.buttons {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.viewButton {
+  font-size: 10px;
 }
