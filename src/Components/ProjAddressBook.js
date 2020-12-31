@@ -32,21 +32,27 @@ const AddressBook = () => {
     Using <a href="https://randomuser.me/">random user generate</a> API to create a sample address book
   </Typography>
     <Typography className="addressBadges">
-      <FaHtml5/>
-      <FaCss3Alt/>
-      <FaJs/>
+
+      <FaHtml5 className="badges"/>
+      <FaCss3Alt className="badges"/>
+      <FaJs className="badges"/>
+
     </Typography>
-      <Typography paragraph>
+      <Typography className="skills">
          HTML5, CSS, Javascript
       </Typography>
   <CardActions>
-    <Button onClick={() => window.open('https://listentoripley.github.io/javascript-workbook/07week/addressBook.html')}>
-    View Site
-    </Button>
 
-    <Button onClick={()=> window.open('https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/07week')}>
-    View Code
-    </Button>
+    <ButtonGroup fullWidth={true} variant="text" size="large" component="div">
+      <Button className="viewButton" onClick={() => window.open('https://listentoripley.github.io/javascript-workbook/07week/addressBook.html')}>
+      View Site
+      </Button>
+
+      <Button className="viewButton" onClick={()=> window.open('https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/07week')}>
+      View Code
+      </Button>
+
+    </ButtonGroup>
 
     </CardActions>
   </CardContent>

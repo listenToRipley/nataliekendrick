@@ -44,6 +44,11 @@
   color: #3bb371;
 }
 
+.addressBadges {
+  margin-top: 1px;
+  color: #dba71a;
+}
+
 .skills {
   font-size: 10px;
   color: grey;
@@ -52,6 +57,7 @@
 .buttons {
   display: flex;
   margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .pantryButtons {
