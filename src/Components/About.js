@@ -1,8 +1,9 @@
 import React from 'react'
+import './Components.css'
 
 const About = () => {
   return (
-    <div>
+    <div className="general">
     <h1>
       Natalie Kendrick
     </h1> 
