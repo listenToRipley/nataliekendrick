@@ -21,8 +21,8 @@ const Projects = () => {
       <AddressBook/>
       <DodgeBall/>
       <PigLatin/>
-      <SilverSea/>
       <ClicknSpin/>
+      <SilverSea/>
       <TicTacToe/>
       <NASACard/>
       <Mustacchio/>
