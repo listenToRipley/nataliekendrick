@@ -51,12 +51,9 @@
 
 .buttons {
   display: flex;
-  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
-.viewButton {
-  font-size: 10px;
-  margin-left: 2%;
-  align-self: flex-end;
-  justify-self: space-between;
+.pantryButtons {
+  margin-bottom: 15px;
 }

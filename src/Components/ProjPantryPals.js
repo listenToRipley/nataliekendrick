@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import { FaReact } from "@react-icons/all-files/fa/FaReact"
 import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
 import { FaJs} from "@react-icons/all-files/fa/FaJs";
+import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
 import pantryPals from './projectImgs/pantryPals.png'
 import './Components.css'
@@ -42,7 +43,7 @@ return (
       </Typography>
   <CardActions>
 
-    <div className="buttons">
+    <ButtonGroup fullWidth={true} variant="text" size="large" component="div" className="pantryButtons">
     <Button className="viewButton" onClick={() => window.open('https://pantrypals.herokuapp.com/')}>
     View Site
     </Button>
@@ -54,7 +55,7 @@ return (
     <Button className="viewButton" onClick={()=> window.open('https://github.com/listenToRipley/capstone')}>
     View Code
     </Button>
-    </div>
+    </ButtonGroup>
     </CardActions>
   </CardContent>
 </Card>

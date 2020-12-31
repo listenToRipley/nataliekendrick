@@ -43,7 +43,7 @@ return (
       </Typography>
   <CardActions>
     
-    <ButtonGroup fullWidth={true} variant="text" className="buttons">
+    <ButtonGroup fullWidth={true} variant="text" size="large" className="buttons">
       <Button className="viewButton" onClick={() => window.open('https://listentoripley.github.io/small-business/#/')}>
       View Site
       </Button>
