@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5"
 import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
 import { FaJs} from "@react-icons/all-files/fa/FaJs";
+import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
 import pigLatin from './projectImgs/pigLatin.png'
 import './Components.css'
@@ -19,7 +20,7 @@ return (
 <Card className='cardBody'>
   <CardHeader
     title="Pig Latin Translator"
-    subheader="March 2020"
+    subheader="April 2020"
   />
   <CardMedia
     className='cardMedia'
@@ -30,22 +31,26 @@ return (
   <Typography paragraph>
     Pig Latin translator page
   </Typography>
-    <Typography variant="body2" color="textSecondary" component="p">
-      <FaHtml5/>
-      <FaCss3Alt/>
-      <FaJs/>
+    <Typography className="pigLatinBadges">
+
+      <FaHtml5 className="badges"/>
+      <FaCss3Alt className="badges"/>
+      <FaJs className="badges"/>
+
     </Typography>
-      <Typography paragraph>
+      <Typography className="skills">
          HTML5, CSS, Javascript
       </Typography>
   <CardActions>
-    <Button onClick={() => window.open('https://listentoripley.github.io/javascript-workbook/02week/pigLatin.html')}>
-    View Site
-    </Button>
+    <ButtonGroup fullWidth={true} variant="text" size="large" component="div">
+      <Button className="viewButton" onClick={() => window.open('https://listentoripley.github.io/javascript-workbook/02week/pigLatin.html')}>
+      View Site
+      </Button>
 
-    <Button onClick={()=> window.open('https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/02week')}>
-    View Code
-    </Button>
+      <Button className="viewButton" onClick={()=> window.open('https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/02week')}>
+      View Code
+      </Button>
+      </ButtonGroup>
 
     </CardActions>
   </CardContent>

@@ -45,13 +45,17 @@
 }
 
 .addressBadges {
-  margin-top: 1px;
   color: #dba71a;
 }
 
 .dodgeBallBadges {
   margin-top: 1px;
   color: black;
+}
+
+.pigLatinBadges {
+  margin-top: 1px;
+  color: #6d6966;
 }
 
 .skills {
