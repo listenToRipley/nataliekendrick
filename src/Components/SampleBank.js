@@ -10,8 +10,8 @@ const CodeSamples = () => {
 
   return (
     <div>
-    <h2>Sample bank account</h2>
-    <p><em>Javascript classes</em></p>
+    <Typography align='right' variant='h6'>Sample bank account</Typography>
+    <Typography align='right'>Javascript classes</Typography>
     <CodeMirror
     value='
     class BankAccount { &
