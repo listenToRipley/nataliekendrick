@@ -49,6 +49,11 @@
   color: #dba71a;
 }
 
+.dodgeBallBadges {
+  margin-top: 1px;
+  color: black;
+}
+
 .skills {
   font-size: 10px;
   color: grey;

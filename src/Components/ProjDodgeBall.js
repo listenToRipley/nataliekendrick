@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5"
 import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
 import { FaJs} from "@react-icons/all-files/fa/FaJs";
+import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
 import dodgeball from './projectImgs/dodgeball.png'
 import './Components.css'
@@ -19,7 +20,7 @@ return (
 <Card className='cardBody'>
   <CardHeader
     title="Dodge Ball game"
-    subheader="March 2020"
+    subheader="May 2020"
   />
   <CardMedia
     className='cardMedia'
@@ -30,22 +31,26 @@ return (
   <Typography paragraph>
     Drafting dodge ball members
   </Typography>
-    <Typography variant="body2" color="textSecondary" component="p">
-      <FaHtml5/>
-      <FaCss3Alt/>
-      <FaJs/>
+    <Typography className="dodgeBallBadges">
+
+      <FaHtml5 className="badges"/>
+      <FaCss3Alt className="badges"/>
+      <FaJs className="badges"/>
+
     </Typography>
-      <Typography paragraph>
+      <Typography className="skills">
          HTML5, CSS, Javascript
       </Typography>
   <CardActions>
-    <Button onClick={() => window.open('https://listentoripley.github.io/javascript-workbook/06week/dodgeBall.html')}>
-    View Site
-    </Button>
+    <ButtonGroup fullWidth={true} variant="text" size="large" component="div">
+      <Button className="viewButton" onClick={() => window.open('https://listentoripley.github.io/javascript-workbook/06week/dodgeBall.html')}>
+        View Site
+        </Button>
 
-    <Button onClick={()=> window.open('https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/06week')}>
-    View Code
-    </Button>
+        <Button className="viewButton" onClick={()=> window.open('https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/06week')}>
+        View Code
+        </Button>
+    </ButtonGroup>
 
     </CardActions>
   </CardContent>
