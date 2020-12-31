@@ -79,6 +79,16 @@
   color: #6f184b;
 }
 
+.mustacchioBadges {
+  margin-top: 1px;
+  color:  #6b6b6b;
+}
+
+.animateBadges {
+  margin-top: 1px;
+  color: #d48c2a;
+}
+
 .skills {
   font-size: 10px;
   color: grey;
