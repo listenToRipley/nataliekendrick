@@ -28,7 +28,7 @@ const AddressBook = () => {
     title="example address book"
   />
   <CardContent>
-  <Typography paragraph>
+  <Typography>
     Using <a href="https://randomuser.me/">random user generate</a> API to create a sample address book
   </Typography>
     <Typography className="addressBadges">
