@@ -30,7 +30,7 @@ return (
   <Typography>
     An full stack application keeping track of shopping and pantry items.
   </Typography>
-    <Typography variant="body2" color="textSecondary" component="p">
+    <Typography>
       <div className="pantryViews">
       <FaCss3Alt className="badges"/>
       <FaJs className="badges"/>
@@ -41,6 +41,7 @@ return (
          CSS, Javascript, SQL, React
       </Typography>
   <CardActions>
+
     <div className="buttons">
     <Button className="viewButton" onClick={() => window.open('https://pantrypals.herokuapp.com/')}>
     View Site

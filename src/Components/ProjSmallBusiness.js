@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import { FaReact } from "@react-icons/all-files/fa/FaReact"
 import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
 import { FaJs} from "@react-icons/all-files/fa/FaJs";
+import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
 import smallBusiness from './projectImgs/smallBusiness.png'
 import './Components.css'
@@ -30,22 +31,27 @@ return (
   <Typography paragraph>
     A sample of small business registry
   </Typography>
-    <Typography variant="body2" color="textSecondary" component="p">
-      <FaCss3Alt/>
-      <FaJs/>
-      <FaReact/>      
+    <Typography>
+    <div className="smallBusinessView">
+      <FaCss3Alt className="badges"/>
+      <FaJs className="badges"/>
+      <FaReact className="badges"/>    
+    </div>  
     </Typography>
-      <Typography paragraph>
+      <Typography className="skills">
          CSS, Javascript, React
       </Typography>
   <CardActions>
-    <Button onClick={() => window.open('https://listentoripley.github.io/small-business/#/')}>
-    View Site
-    </Button>
+    
+    <ButtonGroup fullWidth={true} variant="text" className="buttons">
+      <Button className="viewButton" onClick={() => window.open('https://listentoripley.github.io/small-business/#/')}>
+      View Site
+      </Button>
 
-    <Button onClick={()=> window.open('https://github.com/listenToRipley/small-business')}>
-    View Code
-    </Button>
+      <Button className="viewButton" onClick={()=> window.open('https://github.com/listenToRipley/small-business')}>
+      View Code
+      </Button>
+    </ButtonGroup>
 
     </CardActions>
   </CardContent>
