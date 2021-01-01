@@ -9,9 +9,10 @@ import './Components.css'
 const Homepage = () => {
 
   return (
-    <div className="Homepage">
-      <h1>Natalie Kendrick</h1>
-        <a href='https://www.linkedin.com/in/nataliemichellekendrick/'>
+    <div className="homepage">
+      <h1 className='name'>Natalie Kendrick</h1>
+      <div className='iconDiv'>
+      <a href='https://www.linkedin.com/in/nataliemichellekendrick/'>
           <FaLinkedinIn className={'homeIcons'} />
         </a>
       
@@ -30,6 +31,7 @@ const Homepage = () => {
         <a href='https://listentoripley.medium.com/'>
           <FaMediumM className={'homeIcons'}/>
         </a>
+      </div>
     
     </div>
   )

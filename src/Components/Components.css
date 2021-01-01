@@ -6,10 +6,51 @@ h1, h4, h5, h6{
   color: white
 }
 
-.homeIcons {
-  color: red; 
-  font-size: 5em;
+.homepage {
+  margin-top: 8%;
 }
+
+.name {
+  margin-left: 43%;
+  margin-bottom: 8%;
+}
+
+.iconDiv {
+  margin-left: 30%;
+}
+
+.homeIcons {
+  width:5em;
+  height:5em;
+  color:#ddd;
+  align-content: center;
+  justify-content: center;
+  margin-left: 5%;
+  /* position:relative;
+  overflow:hidden; */
+}
+/* .homeIcons:before {
+  content:"";
+  position:absolute;
+  width:400px;
+  height:400px;
+  background:#00acee;
+  left:50%;
+  transform:translateX(-50%);
+  border-radius:40%;
+  animation:fill 7s ease-in-out infinite;
+  z-index:-1;
+} */
+/* @keyframes fill {
+  from {
+    top:250px;
+    transform:translateX(-50%) rotate(0deg);
+  }
+  to {
+    top:-50px;
+    transform:translateX(-50%) rotate(360deg);
+  }
+} */
 
 .projectTitle {
   display: inline-block;
