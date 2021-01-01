@@ -9,19 +9,19 @@ import {Link} from 'react-router-dom';
 
 const theme = createMuiTheme({
   overrides: {
-    MuiPaper: {
+
       palette: {
         primary: {
-          light: '#338899',
-          main: '#006b80',
+          light: '#212121',
+          main: '#263238',
           dark: '#004a59',
           contrastText: '#fff',
         }
-        
       },
-    }
+    
   }
 });
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -43,7 +43,7 @@ const Panel = () =>  {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar color="primary.main" position="static">
         <Tabs value={value} onChange={handleChange} aria-label="menu items" centered={true}>
           <Tab label="Home" 
                 component={Link}
