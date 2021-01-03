@@ -21,19 +21,22 @@ const useStyles = makeStyles((theme) => ({
     margin: '2%',
     flexWrap: 'wrap',
     direction: 'row',
+    minWidth: '200px',
   },
   paper: {
     padding: theme.spacing(2),
     margin: 'auto',
-    maxWidth: 800,
+    maxWidth: 900,
   },
   separates: {
     display: 'block',
     color: 'grey',
     backgroundColor: 'grey'
   },
-  right: {
-
+  left: {
+    justify: 'flex-start',
+    minWidth: '200px',
+    // marginTop:'-45em', issue with top
   },
   contactInfo: {
     padding: theme.spacing(2),
@@ -50,10 +53,10 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
     fontSize: '98%',
   },
-  left: {
-    marginTop:'-40em',
-    justify: 'flex-start'
-  }
+  right: {
+    width: '100%'
+  },
+
 }));
 
 
