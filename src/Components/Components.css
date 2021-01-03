@@ -8,15 +8,11 @@ h1, h4, h5, h6{
 
 .homepage {
   margin-top: 8%;
+  text-align: center;
 }
 
 .name {
-  margin-left: 43%;
   margin-bottom: 8%;
-}
-
-.iconDiv {
-  margin-left: 30%;
 }
 
 /* update for media queries  */
@@ -24,9 +20,10 @@ h1, h4, h5, h6{
   width:5em;
   height:5em;
   color:#ddd;
-  align-content: center;
-  justify-content: center;
-  margin-left: 5%;
+  /* align-content: center;
+  justify-content: center; */
+  /* margin-left: 5%; */
+
   /* position:relative;
   overflow:hidden; */
 }
