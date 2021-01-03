@@ -41,15 +41,17 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
   }, 
   contactIcons: {
-    marginLeft: '-20%',
-    marginRight: '-2em'
+    marginLeft: '-2.5em',
+    marginRight: '-2em',
+    overflow: 'auto',
+    maxHeight: 300,
   },
   contactText: {
     flexWrap: 'wrap',
-    fontSize: '10px',
+    fontSize: '98%',
   },
   left: {
-    marginTop:'-80%',
+    marginTop:'-40em',
     justify: 'flex-start'
   }
 }));
@@ -80,7 +82,7 @@ const Resume = () => {
                <ListItemAvatar className={classes.contactIcons}>
                 <FaGoogle/> 
                </ListItemAvatar>
-               <ListItemText className={classes.contactText}>
+               <ListItemText disableTypography='true' className={classes.contactText}>
                   natalie.m.kendrick@gmail.com
                </ListItemText>
               </ListItem>
@@ -89,13 +91,13 @@ const Resume = () => {
                <ListItemAvatar className={classes.contactIcons}>
                 <FaPhoneAlt/> 
                </ListItemAvatar>
-               <ListItemText className={classes.contactText}>
+               <ListItemText disableTypography='true' className={classes.contactText}>
                  (520)-404-3721
                </ListItemText>
               </ListItem>
 
               <ListItem>
-               <ListItemAvatar className={classes.contactIcons}>
+               <ListItemAvatar disableTypography='true' className={classes.contactIcons}>
                 <FaMapMarkerAlt/> 
                </ListItemAvatar>
                <ListItemText className={classes.contactText}>
