@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     margin: '2%',
     flexWrap: 'wrap',
+    direction: 'row',
   },
   paper: {
     padding: theme.spacing(2),
@@ -39,7 +40,8 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
   }, 
   left: {
-    marginTop: 0
+    marginTop:'-80%',
+    justify: 'flex-start'
   }
 }));
 
@@ -56,9 +58,10 @@ const Resume = () => {
         direction="row"
         jusitify="center"
         alignItems="center"
-        spacing={2}>
+        spacing={'auto'}>
           <Grid
-          item xs={4}
+          item 
+          xs={4}
           className={classes.left}> 
             <Typography>Natalie Kendrick</Typography>
             <p>Full Stack Developer</p>
