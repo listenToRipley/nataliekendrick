@@ -16,19 +16,31 @@ import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
 import { FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
+  resume: {
     flexGrow: 1,
-    margin: '2%'
+    margin: '2%',
+    flexWrap: 'wrap',
   },
   paper: {
     padding: theme.spacing(2),
     margin: 'auto',
     maxWidth: 800,
   },
+  separates: {
+    display: 'block',
+    color: 'grey',
+    backgroundColor: 'grey'
+  },
+  right: {
+
+  },
   contactInfo: {
     padding: theme.spacing(2),
     textAlign: 'center',
   }, 
+  left: {
+    marginTop: 0
+  }
 }));
 
 
@@ -37,7 +49,7 @@ const Resume = () => {
   const classes = useStyles();
 
   return (
-    <div className="resume">
+    <div className={classes.resume}>
       <Paper className={classes.paper}>
         <Grid
         container
@@ -47,7 +59,7 @@ const Resume = () => {
         spacing={2}>
           <Grid
           item xs={4}
-          className='resumeLeft'> 
+          className={classes.left}> 
             <Typography>Natalie Kendrick</Typography>
             <p>Full Stack Developer</p>
             <p>___________________</p>
@@ -103,13 +115,13 @@ const Resume = () => {
 
           <Grid
           item xs={8}
-          className='resumeRight'> 
+          className={classes.right}> 
             <Typography>About</Typography>
-            <Paper className='separates'>___________________</Paper>
+            <Paper className={classes.separates}>___________________</Paper>
             <p>Hard-working professional with over 10 years of work experience in a variety of fields and a working knowledge of application development, database design and the importance of leveraging those skills in creative and innovative approaches to problems while synthesizing the business and client needs.</p>
   
             <Typography>Experience</Typography>
-            <Paper className='separates'>___________________</Paper>
+            <Paper className={classes.separates}>___________________</Paper>
             <Typography>Procurement Card Administrator</Typography>
             <p><em>University of Texas at Austin + Purchasing Office , Austin, TX </em></p>
             <p><em>May 2015 - Present</em></p>
@@ -210,7 +222,7 @@ const Resume = () => {
             </List>
 
             <Typography>Additional contact information</Typography>
-            <Paper className='separates'>___________________</Paper>
+            <Paper className={classes.separates}>___________________</Paper>
 
             <Grid
               container
@@ -262,7 +274,7 @@ const Resume = () => {
             </Grid>
 
             <Typography>References</Typography>
-            <Paper className='separates'>___________________</Paper>
+            <Paper className={classes.separates}>___________________</Paper>
             <p>References available upon request as well as complete work history</p>
 
           </Grid>
