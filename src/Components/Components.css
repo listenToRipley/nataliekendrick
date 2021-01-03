@@ -161,3 +161,23 @@ h1, h4, h5, h6{
 }
 
 /* need to change link colors */
+
+.resume {
+  flex-grow: 1;
+  margin: 2%;
+  flex-wrap: wrap;
+}
+
+.separates {
+  display: block;
+  color: grey;
+  background-color: grey;
+}
+
+.resumeRight{ 
+
+}
+
+.resumeLeft{
+  margin-top: 0px;
+}

@@ -25,11 +25,6 @@ const useStyles = makeStyles((theme) => ({
     margin: 'auto',
     maxWidth: 800,
   },
-  line: {
-    display: 'block',
-    color: 'grey',
-    backgroundColor: 'grey'
-  },
   contactInfo: {
     padding: theme.spacing(2),
     textAlign: 'center',
@@ -42,7 +37,7 @@ const Resume = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className="resume">
       <Paper className={classes.paper}>
         <Grid
         container
@@ -51,7 +46,8 @@ const Resume = () => {
         alignItems="center"
         spacing={2}>
           <Grid
-          item xs={4}> 
+          item xs={4}
+          className='resumeLeft'> 
             <Typography>Natalie Kendrick</Typography>
             <p>Full Stack Developer</p>
             <p>___________________</p>
@@ -106,13 +102,14 @@ const Resume = () => {
           </Grid>
 
           <Grid
-          item xs={8}> 
+          item xs={8}
+          className='resumeRight'> 
             <Typography>About</Typography>
-            <Paper className={classes.line}>.</Paper>
+            <Paper className='separates'>___________________</Paper>
             <p>Hard-working professional with over 10 years of work experience in a variety of fields and a working knowledge of application development, database design and the importance of leveraging those skills in creative and innovative approaches to problems while synthesizing the business and client needs.</p>
   
             <Typography>Experience</Typography>
-            <Paper className={classes.line}>.</Paper>
+            <Paper className='separates'>___________________</Paper>
             <Typography>Procurement Card Administrator</Typography>
             <p><em>University of Texas at Austin + Purchasing Office , Austin, TX </em></p>
             <p><em>May 2015 - Present</em></p>
@@ -213,7 +210,7 @@ const Resume = () => {
             </List>
 
             <Typography>Additional contact information</Typography>
-            <Paper className={classes.line}>.</Paper>
+            <Paper className='separates'>___________________</Paper>
 
             <Grid
               container
@@ -265,7 +262,7 @@ const Resume = () => {
             </Grid>
 
             <Typography>References</Typography>
-            <Paper className={classes.line}>.</Paper>
+            <Paper className='separates'>___________________</Paper>
             <p>References available upon request as well as complete work history</p>
 
           </Grid>
