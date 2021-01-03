@@ -38,7 +38,16 @@ const useStyles = makeStyles((theme) => ({
   contactInfo: {
     padding: theme.spacing(2),
     textAlign: 'center',
+    flexWrap: 'wrap',
   }, 
+  contactIcons: {
+    marginLeft: '-20%',
+    marginRight: '-2em'
+  },
+  contactText: {
+    flexWrap: 'wrap',
+    fontSize: '10px',
+  },
   left: {
     marginTop:'-80%',
     justify: 'flex-start'
@@ -66,30 +75,30 @@ const Resume = () => {
             <Typography>Natalie Kendrick</Typography>
             <p>Full Stack Developer</p>
             <p>___________________</p>
-            <List>
+            <List className={classes.contactInfo}>
               <ListItem>
-               <ListItemAvatar>
+               <ListItemAvatar className={classes.contactIcons}>
                 <FaGoogle/> 
                </ListItemAvatar>
-               <ListItemText>
+               <ListItemText className={classes.contactText}>
                   natalie.m.kendrick@gmail.com
                </ListItemText>
               </ListItem>
 
               <ListItem>
-               <ListItemAvatar>
+               <ListItemAvatar className={classes.contactIcons}>
                 <FaPhoneAlt/> 
                </ListItemAvatar>
-               <ListItemText>
+               <ListItemText className={classes.contactText}>
                  (520)-404-3721
                </ListItemText>
               </ListItem>
 
               <ListItem>
-               <ListItemAvatar>
+               <ListItemAvatar className={classes.contactIcons}>
                 <FaMapMarkerAlt/> 
                </ListItemAvatar>
-               <ListItemText>
+               <ListItemText className={classes.contactText}>
                Austin, TX
                </ListItemText>
               </ListItem>
