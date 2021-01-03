@@ -20,12 +20,9 @@ h1, h4, h5, h6{
   width:5em;
   height:5em;
   color:#ddd;
-  /* align-content: center;
-  justify-content: center; */
-  /* margin-left: 5%; */
-
-  /* position:relative;
-  overflow:hidden; */
+  margin-left: 5%; 
+ 
+  /* need to change the left margin to exclude the first item */
 }
 /* would like the icons to look like waves
 .homeIcons:before {
