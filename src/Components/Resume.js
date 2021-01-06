@@ -101,7 +101,7 @@ const Resume = () => {
                 <FaGoogle/> 
                </ListItemAvatar>
                <ListItemText disableTypography='true' className={classes.contactText}>
-                  natalie.m.kendrick@gmail.com
+                  <a href='mailto: natalie.m.kendrick@gmail.com'>natalie.m.kendrick@gmail.com</a>
                </ListItemText>
               </ListItem>
 
@@ -155,8 +155,9 @@ const Resume = () => {
             <Typography>Experience</Typography>
             <Paper className={classes.separates}>___________________</Paper>
             <Typography>Procurement Card Administrator</Typography>
-            <p><em>University of Texas at Austin + Purchasing Office , Austin, TX </em></p>
-            <p><em>May 2015 - Present</em></p>
+            <em><a href="https://procard.financials.utexas.edu/">University of Texas at Austin + Purchasing Office , Austin, TX</a></em>
+            <br/>
+            <em>May 2015 - Present</em>
             <List>
               <ListItem>
                 <ListItemAvatar>~</ListItemAvatar>
@@ -188,8 +189,9 @@ const Resume = () => {
             </List>
 
             <Typography>Facilities Coordinator + Chief Problem Solver </Typography>
-            <p><em>Pirkey Barber PLLC, Austin, TX</em></p>
-            <p><em>Jun 2012 - May 2015</em></p>
+            <em><a href="https://www.pirkeybarber.com/">Pirkey Barber PLLC, Austin, TX</a></em>
+            <br/>
+            <em>Jun 2012 - May 2015</em>
             <List>
               <ListItem>
                 <ListItemAvatar>~</ListItemAvatar>
@@ -221,8 +223,9 @@ const Resume = () => {
             </List>
 
             <Typography>DMS Specialist + Warehouse Assistant </Typography>
-            <p><em>Iron Mountain, Austin, TX</em></p>
-            <p><em>Feb 2011 - Jun 2012</em></p>
+            <em><a href="https://www.ironmountain.com/">Iron Mountain, Austin, TX</a></em>
+            <br/>
+            <em>Feb 2011 - Jun 2012</em>
             <List>
               <ListItem>
                 <ListItemAvatar>~</ListItemAvatar>
