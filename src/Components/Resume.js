@@ -34,9 +34,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: 'grey'
   },
   left: {
-    justify: 'flex-start',
-    minWidth: '200px',
-    // marginTop:'-45em', issue with top
+    minWidth: '220px',
+    alignSelf: 'flex-start'
   },
   contactInfo: {
     padding: theme.spacing(2),
@@ -76,6 +75,7 @@ const Resume = () => {
           <Grid
           item 
           xs={4}
+          gutterBottom
           className={classes.left}> 
             <Typography>Natalie Kendrick</Typography>
             <p>Full Stack Developer</p>
