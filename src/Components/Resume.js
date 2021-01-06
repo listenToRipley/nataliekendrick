@@ -265,6 +265,7 @@ const Resume = () => {
                   variant="contained"
                   aria-label="linked in"
                   startIcon={<FaLinkedin color={'blue'}/>}
+                  onClick={() => window.open('https://www.linkedin.com/in/nataliemichellekendrick/')}
                   >
                     @nataliemichellekendrick
                  </Button>
@@ -277,6 +278,7 @@ const Resume = () => {
       
                  aria-label="twitter contact"
                  startIcon={<FaTwitterSquare color={'skyBlue'} />}
+                 onClick={() => window.open('https://twitter.com/NKendrick12')}
                  >
                    @NKendrick12
                  </Button>
@@ -289,6 +291,7 @@ const Resume = () => {
         
                aria-label="github contact"
                startIcon={<FaGithubAlt color={'maroon'} />}
+               onClick={() => window.open('https://github.com/listenToRipley')}
                >
                  @listenToRipley 
                </Button>
@@ -300,6 +303,7 @@ const Resume = () => {
               variant="contained"
               aria-label="instagram contact"
               startIcon={<FaInstagram color={'red'}/>}
+              onClick={() => window.open('https://www.instagram.com/garbosmile/?hl=en')}
               >
                 @garbosmile
               </Button>
