@@ -264,7 +264,7 @@ const Resume = () => {
                <Button className={classes.contactButton} 
                   variant="contained"
                   aria-label="linked in"
-                  startIcon={<FaLinkedin  />}
+                  startIcon={<FaLinkedin color={'blue'}/>}
                   >
                     @nataliemichellekendrick
                  </Button>
@@ -276,7 +276,7 @@ const Resume = () => {
                  variant="contained"
       
                  aria-label="twitter contact"
-                 startIcon={<FaTwitterSquare  />}
+                 startIcon={<FaTwitterSquare color={'skyBlue'} />}
                  >
                    @NKendrick12
                  </Button>
@@ -288,7 +288,7 @@ const Resume = () => {
                variant="contained"
         
                aria-label="github contact"
-               startIcon={<FaGithubAlt />}
+               startIcon={<FaGithubAlt color={'maroon'} />}
                >
                  @listenToRipley 
                </Button>
@@ -299,7 +299,7 @@ const Resume = () => {
               <Button className={classes.contactButton} 
               variant="contained"
               aria-label="instagram contact"
-              startIcon={<FaInstagram/>}
+              startIcon={<FaInstagram color={'red'}/>}
               >
                 @garbosmile
               </Button>
