@@ -4,7 +4,8 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
-import Button from '@material-ui/core/Button'
+import Link from '@material-ui/core/Link';
+import Button from '@material-ui/core/Button';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -56,6 +57,11 @@ const useStyles = makeStyles((theme) => ({
   right: {
     width: '100%'
   },
+  company: {
+    fontStyle: 'italic',
+    color: 'secondary',
+    underline: 'hover'
+  },
   additionalContact: {
     padding: '10px',
     display: 'flex',
@@ -101,7 +107,7 @@ const Resume = () => {
                 <FaGoogle/> 
                </ListItemAvatar>
                <ListItemText disableTypography='true' className={classes.contactText}>
-                  <a href='mailto: natalie.m.kendrick@gmail.com'>natalie.m.kendrick@gmail.com</a>
+                  <Link href='mailto: natalie.m.kendrick@gmail.com'>natalie.m.kendrick@gmail.com</Link>
                </ListItemText>
               </ListItem>
 
@@ -155,7 +161,7 @@ const Resume = () => {
             <Typography>Experience</Typography>
             <Paper className={classes.separates}>___________________</Paper>
             <Typography>Procurement Card Administrator</Typography>
-            <em><a href="https://procard.financials.utexas.edu/">University of Texas at Austin + Purchasing Office , Austin, TX</a></em>
+            <Link href="https://procard.financials.utexas.edu/" className={classes.company}>University of Texas at Austin + Purchasing Office , Austin, TX</Link>
             <br/>
             <em>May 2015 - Present</em>
             <List>
@@ -189,7 +195,7 @@ const Resume = () => {
             </List>
 
             <Typography>Facilities Coordinator + Chief Problem Solver </Typography>
-            <em><a href="https://www.pirkeybarber.com/">Pirkey Barber PLLC, Austin, TX</a></em>
+            <Link href="https://www.pirkeybarber.com/" className={classes.company}>Pirkey Barber PLLC, Austin, TX</Link>
             <br/>
             <em>Jun 2012 - May 2015</em>
             <List>
@@ -223,7 +229,7 @@ const Resume = () => {
             </List>
 
             <Typography>DMS Specialist + Warehouse Assistant </Typography>
-            <em><a href="https://www.ironmountain.com/">Iron Mountain, Austin, TX</a></em>
+            <Link href="https://www.ironmountain.com/" className={classes.company}>Iron Mountain, Austin, TX</Link>
             <br/>
             <em>Feb 2011 - Jun 2012</em>
             <List>
