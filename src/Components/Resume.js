@@ -55,6 +55,16 @@ const useStyles = makeStyles((theme) => ({
   right: {
     width: '100%'
   },
+  additionalContact: {
+    alignItems: 'center'
+  },
+  addContactItem: {
+    jusitify: 'center'
+  },
+  addContactIcon: {
+    fontSize: '35px',
+    marginLeft: '40%'
+  }
 
 }));
 
@@ -244,14 +254,13 @@ const Resume = () => {
             <Grid
               container
               direction="row"
-              jusitify="center"
-              alignItems="center"
-              spacing={4}
-              className={classes.contactInfo}>
+              spacing={12}
+              className={classes.additionalContact}>
             <Grid
-              item={4}>
-              <ListItem>
-                <FaLinkedin/>
+              item={6}
+              >
+              <ListItem className={classes.addContactItem}>
+                <FaLinkedin className={classes.addContactIcon}/>
               </ListItem>
               <ListItem>
                 @nataliemichellekendrick
@@ -259,9 +268,9 @@ const Resume = () => {
               </Grid>
 
               <Grid
-              item={4}> 
-              <ListItem>
-                <FaTwitterSquare/>
+              item={6}> 
+              <ListItem className={classes.addContactItem}>
+                <FaTwitterSquare className={classes.addContactIcon}/>
               </ListItem>
               <ListItem>
               @NKendrick12
@@ -269,9 +278,9 @@ const Resume = () => {
               </Grid>
 
               <Grid
-              item={4}>
-              <ListItem>
-                <FaGithubAlt/>
+              item={6}>
+              <ListItem className={classes.addContactItem}>
+                <FaGithubAlt className={classes.addContactIcon}/>
               </ListItem>
               <ListItem>
                 @listenToRipley 
@@ -279,9 +288,9 @@ const Resume = () => {
               </Grid>
 
               <Grid
-              item={4}>
-              <ListItem>
-                <FaInstagram/>
+              item={6}>
+              <ListItem className={classes.addContactItem}>
+                <FaInstagram className={classes.addContactIcon}/>
               </ListItem>
               <ListItem>
                 @garbosmile
