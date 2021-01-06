@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
+import Button from '@material-ui/core/Button'
 import ListItem from '@material-ui/core/ListItem';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -56,15 +57,19 @@ const useStyles = makeStyles((theme) => ({
     width: '100%'
   },
   additionalContact: {
-    alignItems: 'center'
+    padding: '10px',
+    display: 'flex',
+    flex: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between'
   },
-  addContactItem: {
-    jusitify: 'center'
+  contactGrid: {
+    padding: '2%'
   },
-  addContactIcon: {
-    fontSize: '35px',
-    marginLeft: '40%'
-  }
+  contactButton: {
+    justify: 'center',
+    backgroundColor: 'transparent'
+  },
 
 }));
 
@@ -251,53 +256,56 @@ const Resume = () => {
             <Typography>Additional contact information</Typography>
             <Paper className={classes.separates}>___________________</Paper>
 
-            <Grid
-              container
-              direction="row"
-              spacing={12}
+            <div
               className={classes.additionalContact}>
-            <Grid
-              item={6}
+            <div
+              className={classes.contactGrid}
               >
-              <ListItem className={classes.addContactItem}>
-                <FaLinkedin className={classes.addContactIcon}/>
-              </ListItem>
-              <ListItem>
-                @nataliemichellekendrick
-              </ListItem>
-              </Grid>
+               <Button className={classes.contactButton} 
+                  variant="contained"
+                  aria-label="linked in"
+                  startIcon={<FaLinkedin  />}
+                  >
+                    @nataliemichellekendrick
+                 </Button>
+              </div>
 
-              <Grid
-              item={6}> 
-              <ListItem className={classes.addContactItem}>
-                <FaTwitterSquare className={classes.addContactIcon}/>
-              </ListItem>
-              <ListItem>
-              @NKendrick12
-              </ListItem>
-              </Grid>
+              <div
+              className={classes.contactGrid}> 
+                <Button className={classes.contactButton} 
+                 variant="contained"
+      
+                 aria-label="twitter contact"
+                 startIcon={<FaTwitterSquare  />}
+                 >
+                   @NKendrick12
+                 </Button>
+              </div>
 
-              <Grid
-              item={6}>
-              <ListItem className={classes.addContactItem}>
-                <FaGithubAlt className={classes.addContactIcon}/>
-              </ListItem>
-              <ListItem>
-                @listenToRipley 
-              </ListItem>
-              </Grid>
+              <div
+              className={classes.contactGrid}>
+              <Button className={classes.contactButton} 
+               variant="contained"
+        
+               aria-label="github contact"
+               startIcon={<FaGithubAlt />}
+               >
+                 @listenToRipley 
+               </Button>
+              </div>
 
-              <Grid
-              item={6}>
-              <ListItem className={classes.addContactItem}>
-                <FaInstagram className={classes.addContactIcon}/>
-              </ListItem>
-              <ListItem>
+              <div
+              className={classes.contactGrid}>
+              <Button className={classes.contactButton} 
+              variant="contained"
+              aria-label="instagram contact"
+              startIcon={<FaInstagram/>}
+              >
                 @garbosmile
-              </ListItem>
-              </Grid>
+              </Button>
+              </div>
 
-            </Grid>
+            </div>
 
             <Typography>References</Typography>
             <Paper className={classes.separates}>___________________</Paper>
