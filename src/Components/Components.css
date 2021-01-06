@@ -16,6 +16,10 @@ h1, h4, h5, h6{
   margin-left: 7%;
   margin-bottom: 8%;
   font-size: 65px;
+  font-family: 'Open Sans', sans-serif, 'Bold';
+  background: -webkit-linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* update for media queries  */
@@ -24,7 +28,6 @@ h1, h4, h5, h6{
   height:5em;
   color:#ddd;
   margin-left: 5%; 
- 
   /* need to change the left margin to exclude the first item */
 }
 /* would like the icons to look like waves
