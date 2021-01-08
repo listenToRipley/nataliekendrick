@@ -6,13 +6,13 @@ import './Components.css';
 const About = () => {
   return (
     <Paper className="aboutPage">
-    <Typography>
+    <Typography align={'center'} variant="h2" component="h3" gutterBottom>
       Natalie Kendrick
     </Typography> 
-    <Typography>
+    <Typography paragraph>
       Native desert rat of Tucson Arizona, current transplant to Austin Texas. 
     </Typography>
-    <Typography> Natalie is passionate about coding, animals, cooking and movies.</Typography>
+    <Typography paragraph> Natalie is passionate about coding, animals, cooking and movies.</Typography>
   </Paper>
   )
 }
