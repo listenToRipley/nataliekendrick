@@ -11,6 +11,18 @@ h1, h4, h5, h6{
   padding: 2%;
 }
 
+.aboutName {
+  color: black;
+}
+
+.aboutTile {
+  color: black;
+}
+
+.aboutBody {
+  margin: 2%;
+}
+
 .homepage {
   margin-top: 8%;
   text-align: center;
