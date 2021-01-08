@@ -1,17 +1,19 @@
-import React from 'react'
-import './Components.css'
+import React from 'react';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography'
+import './Components.css';
 
 const About = () => {
   return (
-    <div className="general">
-    <h1>
+    <Paper className="aboutPage">
+    <Typography>
       Natalie Kendrick
-    </h1> 
-    <h2>
+    </Typography> 
+    <Typography>
       Native desert rat of Tucson Arizona, current transplant to Austin Texas. 
-    </h2>
-    <p> Natalie is passionate about coding, animals, cooking and movies.</p>
-  </div>
+    </Typography>
+    <Typography> Natalie is passionate about coding, animals, cooking and movies.</Typography>
+  </Paper>
   )
 }
 

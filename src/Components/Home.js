@@ -4,7 +4,7 @@ import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn";
 import { FaGoogle } from "@react-icons/all-files/fa/FaGoogle";
 import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 import { FaGithubAlt } from "@react-icons/all-files/fa/FaGithubAlt";
-import {FaMediumM} from "@react-icons/all-files/fa/FaMediumM"
+import {FaMediumM} from "@react-icons/all-files/fa/FaMediumM";
 import './Components.css'
 
 const Homepage = () => {
