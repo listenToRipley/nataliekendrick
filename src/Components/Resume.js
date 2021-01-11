@@ -19,7 +19,7 @@ import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
 import { FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 import aca from './projectImgs/acaBadge.png';
 import pima from './projectImgs/pima.png';
-import backdrop from './projectImgs/backdrop.jpeg'
+import backdrop from './projectImgs/backdrop.jpeg';
 
 const useStyles = makeStyles((theme) => ({
   resume: {
