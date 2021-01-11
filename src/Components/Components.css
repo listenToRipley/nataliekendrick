@@ -13,23 +13,28 @@ h1, h4, h5, h6{
 
 .aboutName {
   color: black;
-  margin-top: -4em;
-  justify-content: center;
+  margin-top: -3em;
+  margin-left: 3.45em;
+  justify-self: center;
+  font-size: 75px;
 }
 
-.aboutTile {
-  color: black;
+.aboutQuote {
+  display: block;
+  margin-top: -3.2em;
+  margin-left: 20em;
 }
 
 .profilePic {
   width: 250px;
   height: 250px;
   border-radius: 150px;
-  margin-left: -3em;
+  
 }
 
 .aboutBody {
-  margin: 2%;
+  margin-top: 6em;
+  padding: 2%;
 }
 
 .homepage {
