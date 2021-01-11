@@ -42,8 +42,16 @@ const useStyles = makeStyles((theme) => ({
     minWidth: '220px',
     alignSelf: 'flex-start'
   },
+  name: {
+    fontSize: 32
+  },
+  title: {
+    fontSize: 20
+  },
   contactInfo: {
     padding: theme.spacing(2),
+    marginTop: '-1.5em',
+    marginBottom: '-2.2em',
     textAlign: 'center',
     flexWrap: 'wrap',
   }, 
@@ -67,10 +75,11 @@ const useStyles = makeStyles((theme) => ({
     underline: 'hover'
   },
   eduLocation: {
-    textAlign: 'end'
+   alignItems: 'end',
   },
   degree: {
-
+    fontSize: 'small',
+    fontStyle: 'italic',
   },
   right: {
     width: '100%'
@@ -116,8 +125,8 @@ const Resume = () => {
           xs={4}
           gutterBottom
           className={classes.left}> 
-            <Typography>Natalie Kendrick</Typography>
-            <p>Full Stack Developer</p>
+            <Typography className={classes.name}>Natalie Kendrick</Typography>
+            <p className={classes.title}>Full Stack Developer</p>
             <p>___________________</p>
             <List className={classes.contactInfo}>
               <ListItem>
