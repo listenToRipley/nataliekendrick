@@ -1,5 +1,5 @@
 import React from 'react';
-import Avatar from '@material-ui/core/Avatar'
+import CardMedia from '@material-ui/core/CardMedia';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import profile from './projectImgs/profile.jpeg';
@@ -8,17 +8,16 @@ import './Components.css';
 const About = () => {
   return (
     <Paper className="aboutPage">
-    <Avatar
+     <Typography className="aboutName"   align='center' variant="h3"   component="h4" gutterBottom>
+     <img
       className="profilePic"
       alter='Natalie Kendrick' 
-      sizes={50}
       src={profile}
       >
-     </Avatar>
-     <Typography className="aboutName"   align='center' variant="h3"   component="h4" gutterBottom>
+     </img> 
        Natalie Kendrick
      </Typography> 
-    <Typography className="aboutTitle" variant="caption"  align='center' display="block">Time traveler</Typography>
+    <Typography className="aboutTitle" variant="caption"  align='center' display="block">“The most dangerous phrase in the language is we've always done” ~ Grace Hopper</Typography>
     <div className="aboutBody">
     <Typography paragraph>
        Native desert rat of Tucson Arizona, current transplant to  Austin Texas. 

@@ -14,16 +14,19 @@ h1, h4, h5, h6{
 .aboutName {
   color: black;
   margin-top: -4em;
+  justify-content: center;
 }
 
 .aboutTile {
   color: black;
 }
 
-/* .profile {
-  width: 50px;
-  height: 50px;
-} */
+.profilePic {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  margin-left: -3em;
+}
 
 .aboutBody {
   margin: 2%;
