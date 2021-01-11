@@ -51,30 +51,6 @@ h1, h4, h5, h6{
   /* need to change the left margin to exclude the first item */
 }
 
-/* would like the icons to look like waves
-.homeIcons:before {
-  content:"";
-  position:absolute;
-  width:400px;
-  height:400px;
-  background:#00acee;
-  left:50%;
-  transform:translateX(-50%);
-  border-radius:40%;
-  animation:fill 7s ease-in-out infinite;
-  z-index:-1;
-} */
-/* @keyframes fill {
-  from {
-    top:250px;
-    transform:translateX(-50%) rotate(0deg);
-  }
-  to {
-    top:-50px;
-    transform:translateX(-50%) rotate(360deg);
-  }
-} */
-
 .projectTitle {
   display: inline-block;
   width:100%;
