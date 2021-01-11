@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
     direction: 'row',
     minWidth: '200px',
+    fontFamily: 'Droid Sans'
   },
   paper: {
     padding: theme.spacing(2),
@@ -52,7 +53,8 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '-1em'
   },
   name: {
-    fontSize: 32
+    fontSize: 32,
+    fontFamily: 'Droid Sans'
   },
   title: {
     fontSize: 20,
