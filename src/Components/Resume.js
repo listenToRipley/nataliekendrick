@@ -42,11 +42,17 @@ const useStyles = makeStyles((theme) => ({
     minWidth: '220px',
     alignSelf: 'flex-start'
   },
+  sectionTitle: {
+    fontSize: 20,
+    marginLeft: '-1em',
+    marginTop: '-1em'
+  },
   name: {
     fontSize: 32
   },
   title: {
-    fontSize: 20
+    fontSize: 20,
+    marginTop: '.5em',
   },
   contactInfo: {
     padding: theme.spacing(2),
@@ -158,7 +164,7 @@ const Resume = () => {
             </List>
             <p>___________________</p>
             <List>
-              <ListItem>Education</ListItem>
+              <ListItem className={classes.sectionTitle}>Education</ListItem>
               <ListItem className={classes.eduIcons}>
               <ListItemAvatar>
                 <Avatar 
@@ -190,8 +196,8 @@ const Resume = () => {
 (Dec 2010)</ListItemText>
             </List>
             <p>___________________</p>
-            <List>
-            <ListItem>Skills</ListItem>
+            <List className={classes.skillsList}>
+            <ListItem className={classes.sectionTitle} >Skills</ListItem>
             <ListItem>JavaScript </ListItem>
             <ListItem>Node.js </ListItem>
             <ListItem>React</ListItem>
