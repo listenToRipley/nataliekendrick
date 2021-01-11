@@ -81,11 +81,17 @@ const useStyles = makeStyles((theme) => ({
     underline: 'hover'
   },
   eduLocation: {
-   alignItems: 'end',
+   display: 'block',
+   textAlign: 'end',
+   marginTop: '-1em',
   },
   degree: {
-    fontSize: 'small',
+    display: 'block',
+    marginLeft:'1em',
+    marginRight: '1em',
+    fontSize: '1em',
     fontStyle: 'italic',
+    fontWeight:' fontWeightLight',
   },
   right: {
     width: '100%'
@@ -177,7 +183,7 @@ const Resume = () => {
                href='https://austincodingacademy.com/'>AUSTIN CODING ACADEMY</Link>
               </ListItem>
               <ListItem className={classes.eduLocation}>Austin, TX</ListItem>
-              <ListItemText className={classes.degree}>Full Stack Developer  (Dec 2020)</ListItemText>
+              <Typography className={classes.degree}>Full Stack Developer  (Dec 2020)</Typography>
               <ListItem
               className={classes.eduIcons}>
               <ListItemAvatar>
@@ -192,8 +198,8 @@ const Resume = () => {
               href='https://www.pima.edu/'> PIMA COMMUNITY COLLEGE </Link>
               </ListItem>
               <ListItem className={classes.eduLocation}>Tucson, AZ</ListItem>
-              <ListItemText className={classes.degree}>General Studies Associate's Degree Liberal Arts 
-(Dec 2010)</ListItemText>
+              <Typography className={classes.degree}>General Studies Associate's Degree Liberal Arts 
+(Dec 2010)</Typography>
             </List>
             <p>___________________</p>
             <List className={classes.skillsList}>
