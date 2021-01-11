@@ -8,6 +8,7 @@ import Link from '@material-ui/core/Link';
 import Button from '@material-ui/core/Button';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
+import Avatar from '@material-ui/core/Avatar'
 import ListItemText from '@material-ui/core/ListItemText';
 import { FaGoogle } from "@react-icons/all-files/fa/FaGoogle";
 import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt";
@@ -132,12 +133,18 @@ const Resume = () => {
             <p>___________________</p>
             <List>
               <ListItem>Education</ListItem>
-              <ListItemAvatar></ListItemAvatar>
-              <ListItem>AUSTIN CODING ACADEMY</ListItem>
+              <ListItem>
+              <ListItemAvatar>
+                <Avatar alter='AustinCodingAcademy Badge' src='./projectImgs/acaBadge.png'/>
+              </ListItemAvatar>
+              AUSTIN CODING ACADEMY</ListItem>
               <ListItem>Austin, TX</ListItem>
               <ListItemText>Full Stack Developer  (Dec 2020)</ListItemText>
-              <ListItemAvatar></ListItemAvatar>
-              <ListItem>PIMA COMMUNITY COLLEGE</ListItem>
+              <ListItem>
+              <ListItemAvatar>
+                <Avatar alter='Pima Community College Logo' src='./projectImgs/pima.png'/>
+              </ListItemAvatar>
+              PIMA COMMUNITY COLLEGE</ListItem>
               <ListItem>Tucson, AZ</ListItem>
               <ListItemText>General Studies Associate's Degree Liberal Arts 
 (Dec 2010)</ListItemText>
