@@ -17,8 +17,9 @@ import { FaGithubAlt } from "@react-icons/all-files/fa/FaGithubAlt";
 import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
 import { FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
-import aca from './projectImgs/acaBadge.png'
-import pima from './projectImgs/pima.png'
+import aca from './projectImgs/acaBadge.png';
+import pima from './projectImgs/pima.png';
+import backdrop from './projectImgs/backdrop.jpeg'
 
 const useStyles = makeStyles((theme) => ({
   resume: {
@@ -35,8 +36,11 @@ const useStyles = makeStyles((theme) => ({
   },
   separates: {
     display: 'block',
-    color: 'grey',
-    backgroundColor: 'grey'
+    color: 'none',
+    backgroundImage: `url(${backdrop})`,
+    backgroundAttachment: 'fixed',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat'
   },
   left: {
     minWidth: '220px',
