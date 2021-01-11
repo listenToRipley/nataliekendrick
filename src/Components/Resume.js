@@ -131,6 +131,20 @@ const Resume = () => {
             </List>
             <p>___________________</p>
             <List>
+              <ListItem>Education</ListItem>
+              <ListItemAvatar></ListItemAvatar>
+              <ListItem>AUSTIN CODING ACADEMY</ListItem>
+              <ListItem>Austin, TX</ListItem>
+              <ListItemText>Full Stack Developer  (Dec 2020)</ListItemText>
+              <ListItemAvatar></ListItemAvatar>
+              <ListItem>PIMA COMMUNITY COLLEGE</ListItem>
+              <ListItem>Tucson, AZ</ListItem>
+              <ListItemText>General Studies Associate's Degree Liberal Arts 
+(Dec 2010)</ListItemText>
+            </List>
+            <p>___________________</p>
+            <List>
+            <ListItem>Skills</ListItem>
             <ListItem>JavaScript </ListItem>
             <ListItem>Node.js </ListItem>
             <ListItem>React</ListItem>
