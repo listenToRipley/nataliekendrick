@@ -17,6 +17,8 @@ import { FaGithubAlt } from "@react-icons/all-files/fa/FaGithubAlt";
 import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
 import { FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
+import aca from './projectImgs/acaBadge.png'
+import pima from './projectImgs/pima.png'
 
 const useStyles = makeStyles((theme) => ({
   resume: {
@@ -30,10 +32,6 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     margin: 'auto',
     maxWidth: 900,
-  },
-  avatar: {
-    width: theme.spacing(3),
-    height: theme.spacing(3),
   },
   separates: {
     display: 'block',
@@ -58,6 +56,21 @@ const useStyles = makeStyles((theme) => ({
   contactText: {
     flexWrap: 'wrap',
     fontSize: '98%',
+  },
+  eduIcons: {
+    marginLeft: '-1.5em',
+    marginRight: '-3em',
+    overflow: 'auto',
+    maxHeight: 300,
+  },
+  eduContact: {
+    underline: 'hover'
+  },
+  eduLocation: {
+    textAlign: 'end'
+  },
+  degree: {
+
   },
   right: {
     width: '100%'
@@ -137,27 +150,34 @@ const Resume = () => {
             <p>___________________</p>
             <List>
               <ListItem>Education</ListItem>
-              <ListItem>
+              <ListItem className={classes.eduIcons}>
               <ListItemAvatar>
                 <Avatar 
                 className={classes.avatar}
                 alter='AustinCodingAcademy Badge' 
-                src='./projectImgs/acaBadge.png'
+                src={aca}
                 />
               </ListItemAvatar>
-              AUSTIN CODING ACADEMY</ListItem>
-              <ListItem>Austin, TX</ListItem>
-              <ListItemText>Full Stack Developer  (Dec 2020)</ListItemText>
-              <ListItem>
+              <Link className={classes.eduContact}
+               href='https://austincodingacademy.com/'>AUSTIN CODING ACADEMY</Link>
+              </ListItem>
+              <ListItem className={classes.eduLocation}>Austin, TX</ListItem>
+              <ListItemText className={classes.degree}>Full Stack Developer  (Dec 2020)</ListItemText>
+              <ListItem
+              className={classes.eduIcons}>
               <ListItemAvatar>
                 <Avatar 
                 className={classes.avatar}
                 alter='Pima Community College Logo' 
-                src='./projectImgs/pima.png'/>
+                src={pima}
+                />
               </ListItemAvatar>
-              PIMA COMMUNITY COLLEGE</ListItem>
-              <ListItem>Tucson, AZ</ListItem>
-              <ListItemText>General Studies Associate's Degree Liberal Arts 
+              <Link
+              className={classes.eduContact}
+              href='https://www.pima.edu/'> PIMA COMMUNITY COLLEGE </Link>
+              </ListItem>
+              <ListItem className={classes.eduLocation}>Tucson, AZ</ListItem>
+              <ListItemText className={classes.degree}>General Studies Associate's Degree Liberal Arts 
 (Dec 2010)</ListItemText>
             </List>
             <p>___________________</p>
