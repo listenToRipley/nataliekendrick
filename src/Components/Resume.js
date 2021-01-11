@@ -31,6 +31,10 @@ const useStyles = makeStyles((theme) => ({
     margin: 'auto',
     maxWidth: 900,
   },
+  avatar: {
+    width: theme.spacing(3),
+    height: theme.spacing(3),
+  },
   separates: {
     display: 'block',
     color: 'grey',
@@ -135,14 +139,21 @@ const Resume = () => {
               <ListItem>Education</ListItem>
               <ListItem>
               <ListItemAvatar>
-                <Avatar alter='AustinCodingAcademy Badge' src='./projectImgs/acaBadge.png'/>
+                <Avatar 
+                className={classes.avatar}
+                alter='AustinCodingAcademy Badge' 
+                src='./projectImgs/acaBadge.png'
+                />
               </ListItemAvatar>
               AUSTIN CODING ACADEMY</ListItem>
               <ListItem>Austin, TX</ListItem>
               <ListItemText>Full Stack Developer  (Dec 2020)</ListItemText>
               <ListItem>
               <ListItemAvatar>
-                <Avatar alter='Pima Community College Logo' src='./projectImgs/pima.png'/>
+                <Avatar 
+                className={classes.avatar}
+                alter='Pima Community College Logo' 
+                src='./projectImgs/pima.png'/>
               </ListItemAvatar>
               PIMA COMMUNITY COLLEGE</ListItem>
               <ListItem>Tucson, AZ</ListItem>
