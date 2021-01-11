@@ -12,11 +12,18 @@ h1, h4, h5, h6{
 }
 
 .aboutName {
-  color: black;
   margin-top: -3em;
   margin-left: 3.45em;
   justify-self: center;
   font-size: 75px;
+  display: block;
+  color: none;
+  background-image: url('./projectImgs/backdrop.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .aboutQuote {
