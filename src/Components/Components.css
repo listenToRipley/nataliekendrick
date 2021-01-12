@@ -19,7 +19,6 @@ h1, h4, h5, h6{
   font-size: 75px;
   font-weight: 600;
   display: block;
-  color: none;
   background-image: url('./projectImgs/backdrop.jpeg');
   background-attachment: fixed;
   background-position: center;
@@ -52,36 +51,60 @@ h1, h4, h5, h6{
 }
 
 .homepage {
-  margin-top: 8%;
+  margin-top: 4%;
   text-align: center;
 }
 
 .name {
+  display: inline-block;
   letter-spacing: 5px;
   margin-left: 7%;
   margin-bottom: 8%;
   font-size: 75px;
   font-family: 'Open Sans', sans-serif, 'Bold';
-  display: block;
-  color: none;
-  background-image: url('https://images.unsplash.com/photo-1483512574207-bcacbd054175?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80');
+  background-image: url('./projectImgs/golden.jpeg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* https://images.unsplash.com/photo-1454873447885-cf1b26ac02e7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=716&q=80 */
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.199);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
+.iconDiv {
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  margin-top: -2% ;
+  margin-left: 1%;
 }
 
 /* update for media queries  */
 .homeIcons {
-  width:5em;
-  height:5em;
-  color: whitesmoke;
-  background: -webkit-linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
+  font-size: 72px;
+  margin-left: 1em;
+  margin-top: .5em;
+  padding: 10px;
+  background-image: url('./projectImgs/golden.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-left: 5%; 
+  color: white;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.199);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text; */
   /* need to change the left margin to exclude the first item */
 }
 
