@@ -4,6 +4,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Resume from './Components/Resume';
 import Projects from './Components/Projects';
+import PantryPalsPlanning from './Components/PantryPalsPlanning'
 
 
 const Router = () => {
@@ -13,9 +14,7 @@ const Router = () => {
     <Route path='/about' component={About} />
     <Route path='/resume' component={Resume} />
     <Route path='/projects' component={Projects} /> 
-    {/* <Route path='/Projects/All' />
-    <Route path='/Projects/FrontEnd' />
-    <Route path='/Projects/BackEnd' /> */}
+    <Route exact path='/projects/pantryPalsPlanning' component={PantryPalsPlanning}/>
   </Switch>
   )
 }

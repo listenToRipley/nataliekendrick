@@ -10,7 +10,8 @@ import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
 import { FaJs} from "@react-icons/all-files/fa/FaJs";
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
-import pantryPals from './projectImgs/pantryPals.png'
+import Link from '@material-ui/core/Link';
+import pantryPals from './projectImgs/pantryPals.png';
 import './Components.css'
 
 const PantryPals = () => {
@@ -48,11 +49,11 @@ return (
     View Site
     </Button>
 
-    <Button className="viewButton" onClick={()=> 'link to PantryPalPlanning component'}>
+    <Button className="viewButton" onClick={()=> 'here'}>
     View Planning
     </Button>
 
-    <Button className="viewButton" onClick={()=> window.open('https://github.com/listenToRipley/capstone')}>
+    <Button className="viewButton" component={Link} to='/projects/pantryPalsPlanning'>
     View Code
     </Button>
     </ButtonGroup>

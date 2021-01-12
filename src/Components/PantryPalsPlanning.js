@@ -35,3 +35,5 @@ const PantryPalPlanning = () => {
     </div>
   )
 }
+
+export default PantryPalPlanning
