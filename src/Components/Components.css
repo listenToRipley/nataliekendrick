@@ -234,12 +234,19 @@ h1, h4, h5, h6{
 .planningTitle {
   font-size: 15px;
   margin-left: 2em;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .carousel {
-  width: 100%;
+  width: 90%;
   height: 100%;
+}
+
+.planImg {
+  width: 500px;
+  height: 500px;
+  margin-left: 30%;
+  margin-top: 2%;
 }
 
 /* need to change link colors */
