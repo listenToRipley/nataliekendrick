@@ -1,16 +1,21 @@
 import React from 'react';
 import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+//pictures
+import eer1 from './projectImgs/pantryPalPlanning/eer1.png'
+
 import './Components.css';
+
 
 const PantryPalPlanning = () => {
 
   return (
     <div className='planning'>
       <Paper className='planningPaper'>
-      Pantry Pals Planning
-       <Carousel>
+      <Typography className='planningTitle'>Pantry Pals Planning</Typography>
+       <Carousel className='carousel' showArrows={true} >
           <div>
             <img src="./projectImgs/pantryPalPlanning/eer1.png" />
             <p className="legend">Original EER</p>
