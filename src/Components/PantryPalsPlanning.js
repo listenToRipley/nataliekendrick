@@ -1,6 +1,7 @@
 import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import Card from '@material-ui/core/Card';
 import Carousel from 'react-material-ui-carousel';
 //pictures
 import actionRel1 from './projectImgs/pantryPalPlanning/actionRel1.jpg';
@@ -266,11 +267,13 @@ const PantryPalPlanning = () => {
       <div className='planningTitle'>
       <Typography >Pantry Pals Planning</Typography>
       </div>
-       <Carousel className='carousel' showArrows={true} >
+        <Card>
+        <Carousel className='carousel' showArrows={true} >
        {
                 img.map( (item, i) => <img className='planImg' key={i} des={item.description} src={item.image} /> )
             }
         </Carousel>
+        </Card>
         <a href="https://docs.google.com/presentation/d/19xS8029_NRw05XWOCFp0lhlehDhmF07N_eE1Eif6Lfg/edit?usp=sharing">Original Concept</a>
       </Paper>
     </div>
