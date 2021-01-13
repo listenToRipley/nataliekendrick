@@ -267,8 +267,8 @@ const PantryPalPlanning = () => {
       <div className='planningTitle'>
       <Typography >Pantry Pals Planning</Typography>
       </div>
-        <Card>
-        <Carousel className='carousel' showArrows={true} >
+        <Card className='carousel' variant='outlined' raised='true'>
+        <Carousel showArrows={true} >
        {
                 img.map( (item, i) => <img className='planImg' key={i} des={item.description} src={item.image} /> )
             }
