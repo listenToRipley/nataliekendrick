@@ -2,12 +2,13 @@ import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import './Components.css';
 
 const PantryPalPlanning = () => {
 
   return (
-    <div>
-      <Paper>
+    <div className='planning'>
+      <Paper className='planningPaper'>
       Pantry Pals Planning
        <Carousel>
           <div>
