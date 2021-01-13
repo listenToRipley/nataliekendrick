@@ -113,6 +113,46 @@ const PantryPalPlanning = () => {
 
   let img = [ 
     {
+      name: 'page lay out 1',
+      description: 'page lay out',
+      image: pageLayout1
+    },
+    {
+      name: 'page lay out 2',
+      description: 'page lay out',
+      image: pageLayout2
+    },
+    {
+      name: 'page lay out 3',
+      description: 'page lay out',
+      image: pageLayout3
+    },
+    {
+      name: 'page lay out 4',
+      description: 'page lay out',
+      image: pageLayout4
+    },
+    {
+      name: 'page lay out 5',
+      description: 'page lay out',
+      image: pageLayout5
+    },
+    {
+      name: 'page lay out 6',
+      description: 'page lay out',
+      image: pageLayout6
+    },
+    {
+      name: 'page lay out 7',
+      description: 'page lay out',
+      image: pageLayout7
+    },
+    {
+      name: 'page lay out 8',
+      description: 'page lay out',
+      image: pageLayout8
+    },
+    {
       name: 'use case 1',
       description: 'use cases',
       image: useCase1
@@ -211,9 +251,15 @@ const PantryPalPlanning = () => {
       name: 'EER 2',
       description: 'second sql relationship diagram',
       image: eer2
+    },
+    {
+      name: 'final eer',
+      description: 'final sql relationship diagram',
+      image: eerFinal
     }
   ]
 
+  //look into how to update timing. 
   return (
     <div className='planning'>
       <Paper className='planningPaper'>
