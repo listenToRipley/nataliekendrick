@@ -10,7 +10,7 @@ import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
 import { FaJs} from "@react-icons/all-files/fa/FaJs";
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
-import Link from '@material-ui/core/Link';
+import { Link } from 'react-router-dom';
 import pantryPals from './projectImgs/pantryPals.png';
 import './Components.css'
 
@@ -49,11 +49,11 @@ return (
     View Site
     </Button>
 
-    <Button className="viewButton" onClick={()=> 'here'}>
+    <Button className="viewButton" align='center' component={Link} to={'/pantryPalsPlanning'} >
     View Planning
     </Button>
 
-    <Button className="viewButton" component={Link} to='/projects/pantryPalsPlanning'>
+    <Button className="viewButton" onClick={()=> window.open('https://github.com/listenToRipley/capstone')}>
     View Code
     </Button>
     </ButtonGroup>
