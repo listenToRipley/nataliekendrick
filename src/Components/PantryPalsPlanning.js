@@ -86,8 +86,8 @@ import sqlRoute5 from './projectImgs/pantryPalPlanning/sqlRoute5.jpg';
 import sqlRoute6 from './projectImgs/pantryPalPlanning/sqlRoute6.jpg';
 import sqlRouteTesting1 from './projectImgs/pantryPalPlanning/sqlRouteTesting1.jpg';
 import sqlRouteTesting2 from './projectImgs/pantryPalPlanning/sqlRouteTesting2.jpg';
-import sqlTableRel from './projectImgs/pantryPalPlanning/sqlTables.jpg';
-import sqlTablePlan from './projectImgs/pantryPalPlanning/sqlTablePlan.jpg';
+import sqlTableRel from './projectImgs/pantryPalPlanning/sqlTableRels.jpg';
+import sqlTablePlan from './projectImgs/pantryPalPlanning/sqlTablesPlan.jpg';
 import useCase1 from './projectImgs/pantryPalPlanning/useCase1.jpg';
 import useCase2 from './projectImgs/pantryPalPlanning/useCase2.jpg';
 import useCase3 from './projectImgs/pantryPalPlanning/useCase3.jpg';
@@ -105,7 +105,6 @@ import useCase14 from './projectImgs/pantryPalPlanning/useCase14.jpg';
 import useCase15 from './projectImgs/pantryPalPlanning/useCase15.jpg';
 import useCase16 from './projectImgs/pantryPalPlanning/useCase16.jpg';
 import useCase17 from './projectImgs/pantryPalPlanning/useCase17.jpg';
-import useCase18 from './projectImgs/pantryPalPlanning/useCase18.jpg';
 
 import './Components.css';
 
@@ -113,6 +112,11 @@ import './Components.css';
 const PantryPalPlanning = () => {
 
   let img = [ 
+    {
+      name: 'use case 1',
+      description: 'use cases',
+      image: useCase1
+    },
     {
       name: 'EER 1',
       description: 'first sql relationship diagram',
