@@ -9,6 +9,9 @@ import actionRel3 from './projectImgs/pantryPalPlanning/actionRel3.jpg';
 import actionRel4 from './projectImgs/pantryPalPlanning/actionRel4.jpg';
 import actionRel5 from './projectImgs/pantryPalPlanning/actionRel5.jpg';
 import actionVerbs from './projectImgs/pantryPalPlanning/actionVerbs.jpg';
+import actors from './projectImgs/pantryPalPlanning/actorsAndActions.jpg';
+import appMap from './projectImgs/pantryPalPlanning/appMap.png';
+
 import eer1 from './projectImgs/pantryPalPlanning/eer1.png';
 import eer2 from './projectImgs/pantryPalPlanning/eer2.png';
 
