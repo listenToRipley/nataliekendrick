@@ -77,7 +77,35 @@ import sqlQuery8 from './projectImgs/pantryPalPlanning/sqlQuery8.jpg';
 import sqlQuery9 from './projectImgs/pantryPalPlanning/sqlQuery9.jpg';
 import sqlQuery10 from './projectImgs/pantryPalPlanning/sqlQuery10.jpg';
 import sqlQuery11 from './projectImgs/pantryPalPlanning/sqlQuery11.jpg';
-
+import sqlRel from './projectImgs/pantryPalPlanning/sqlRels.jpg';
+import sqlRoute1 from './projectImgs/pantryPalPlanning/sqlRoute1.jpg';
+import sqlRoute2 from './projectImgs/pantryPalPlanning/sqlRoute2.jpg';
+import sqlRoute3 from './projectImgs/pantryPalPlanning/sqlRoute3.jpg';
+import sqlRoute4 from './projectImgs/pantryPalPlanning/sqlRoute4.jpg';
+import sqlRoute5 from './projectImgs/pantryPalPlanning/sqlRoute5.jpg';
+import sqlRoute6 from './projectImgs/pantryPalPlanning/sqlRoute6.jpg';
+import sqlRouteTesting1 from './projectImgs/pantryPalPlanning/sqlRouteTesting1.jpg';
+import sqlRouteTesting2 from './projectImgs/pantryPalPlanning/sqlRouteTesting2.jpg';
+import sqlTableRel from './projectImgs/pantryPalPlanning/sqlTables.jpg';
+import sqlTablePlan from './projectImgs/pantryPalPlanning/sqlTablePlan.jpg';
+import useCase1 from './projectImgs/pantryPalPlanning/useCase1.jpg';
+import useCase2 from './projectImgs/pantryPalPlanning/useCase2.jpg';
+import useCase3 from './projectImgs/pantryPalPlanning/useCase3.jpg';
+import useCase4 from './projectImgs/pantryPalPlanning/useCase4.jpg';
+import useCase5 from './projectImgs/pantryPalPlanning/useCase5.jpg';
+import useCase6 from './projectImgs/pantryPalPlanning/useCase6.jpg';
+import useCase7 from './projectImgs/pantryPalPlanning/useCase7.jpg';
+import useCase8 from './projectImgs/pantryPalPlanning/useCase8.jpg';
+import useCase9 from './projectImgs/pantryPalPlanning/useCase9.jpg';
+import useCase10 from './projectImgs/pantryPalPlanning/useCase10.jpg';
+import useCase11 from './projectImgs/pantryPalPlanning/useCase11.jpg';
+import useCase12 from './projectImgs/pantryPalPlanning/useCase12.jpg';
+import useCase13 from './projectImgs/pantryPalPlanning/useCase13.jpg';
+import useCase14 from './projectImgs/pantryPalPlanning/useCase14.jpg';
+import useCase15 from './projectImgs/pantryPalPlanning/useCase15.jpg';
+import useCase16 from './projectImgs/pantryPalPlanning/useCase16.jpg';
+import useCase17 from './projectImgs/pantryPalPlanning/useCase17.jpg';
+import useCase18 from './projectImgs/pantryPalPlanning/useCase18.jpg';
 
 import './Components.css';
 
