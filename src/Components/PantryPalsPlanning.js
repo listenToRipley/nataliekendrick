@@ -118,6 +118,91 @@ const PantryPalPlanning = () => {
       image: useCase1
     },
     {
+      name: 'use case 2',
+      description: 'use cases',
+      image: useCase2
+    },
+    {
+      name: 'use case 3',
+      description: 'use cases',
+      image: useCase1
+    },
+    {
+      name: 'use case 3',
+      description: 'use cases',
+      image: useCase3
+    },
+    {
+      name: 'use case 4',
+      description: 'use cases',
+      image: useCase4
+    },
+    {
+      name: 'use case 5',
+      description: 'use cases',
+      image: useCase5
+    },
+    {
+      name: 'use case 6',
+      description: 'use cases',
+      image: useCase6
+    },
+    {
+      name: 'use case 7',
+      description: 'use cases',
+      image: useCase7
+    },
+    {
+      name: 'use case 8',
+      description: 'use cases',
+      image: useCase8
+    },
+    {
+      name: 'use case 9',
+      description: 'use cases',
+      image: useCase9
+    },
+    {
+      name: 'use case 10',
+      description: 'use cases',
+      image: useCase10
+    },
+    {
+      name: 'use case 11',
+      description: 'use cases',
+      image: useCase11
+    },
+    {
+      name: 'use case 12',
+      description: 'use cases',
+      image: useCase12
+    },
+    {
+      name: 'use case 13',
+      description: 'use cases',
+      image: useCase13
+    },
+    {
+      name: 'use case 14',
+      description: 'use cases',
+      image: useCase14
+    },
+    {
+      name: 'use case 15',
+      description: 'use cases',
+      image: useCase15
+    },
+    {
+      name: 'use case 16',
+      description: 'use cases',
+      image: useCase16
+    },
+    {
+      name: 'use case 17',
+      description: 'use cases',
+      image: useCase17
+    },
+    {
       name: 'EER 1',
       description: 'first sql relationship diagram',
       image: eer1
