@@ -265,8 +265,9 @@ const PantryPalPlanning = () => {
     <div className='planning'>
       <Paper className='planningPaper'>
       <div className='planningTitle'>
-      <Typography >Pantry Pals Planning</Typography>
+      <Typography variant='h3' component='h3'>Pantry Pals Planning</Typography>
       </div>
+
         <Card className='carousel' variant='outlined' raised='true'>
         <Carousel showArrows={true} >
        {
@@ -274,7 +275,11 @@ const PantryPalPlanning = () => {
             }
         </Carousel>
         </Card>
+        
+        <div className='planBody'>
+        <p>Talk about what the project was able</p>
         <a href="https://docs.google.com/presentation/d/19xS8029_NRw05XWOCFp0lhlehDhmF07N_eE1Eif6Lfg/edit?usp=sharing">Original Concept</a>
+        </div>
       </Paper>
     </div>
   )
