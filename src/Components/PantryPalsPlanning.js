@@ -11,7 +11,10 @@ import actionRel5 from './projectImgs/pantryPalPlanning/actionRel5.jpg';
 import actionVerbs from './projectImgs/pantryPalPlanning/actionVerbs.jpg';
 import actors from './projectImgs/pantryPalPlanning/actorsAndActions.jpg';
 import appMap from './projectImgs/pantryPalPlanning/appMap.png';
-
+import appUse1 from './projectImgs/pantryPalPlanning/appUse1.jpg';
+import appUse2 from './projectImgs/pantryPalPlanning/appUse2.jpg';
+import backEndQ1 from './projectImgs/pantryPalPlanning/backendQ1.jpg';
+import backEndQ2 from './projectImgs/pantryPalPlanning/backendQ2.jpg';
 import eer1 from './projectImgs/pantryPalPlanning/eer1.png';
 import eer2 from './projectImgs/pantryPalPlanning/eer2.png';
 
