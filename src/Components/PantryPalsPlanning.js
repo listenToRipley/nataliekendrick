@@ -348,6 +348,46 @@ const PantryPalPlanning = () => {
       image: crc10
     },
     {
+      name: 'page details ',
+      description: 'page item details',
+      image: pageReqs1
+    },
+    {
+      name: 'page details ',
+      description: 'page item details',
+      image: pageReqs2
+    },
+    {
+      name: 'page details ',
+      description: 'page item details',
+      image: pageReqs3
+    },
+    {
+      name: 'page details ',
+      description: 'page item details',
+      image: pageReqs4
+    },
+    {
+      name: 'page details ',
+      description: 'page item details',
+      image: pageReqs5
+    },
+    {
+      name: 'page details ',
+      description: 'page item details',
+      image: pageReqs6
+    },
+    {
+      name: 'page details ',
+      description: 'page item details',
+      image: pageReqs7
+    },
+    {
+      name: 'page details ',
+      description: 'page item details',
+      image: pageReqs8
+    },
+    {
       name: 'concept modules',
       description: 'concept module objects',
       image: conceptModules
@@ -376,6 +416,11 @@ const PantryPalPlanning = () => {
       name: 'EER 3',
       description: 'second sql relationship diagram',
       image: eer3
+    },
+    {
+      name: 'path maps',
+      description: 'app path map',
+      image: pathMap
     },
     {
       name: 'app map',
