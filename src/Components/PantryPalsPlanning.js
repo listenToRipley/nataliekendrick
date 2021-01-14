@@ -54,7 +54,6 @@ import pageReqs8 from './projectImgs/pantryPalPlanning/pageReqs8.jpg';
 import pathMap from './projectImgs/pantryPalPlanning/pathMap.jpg';
 import relDep from './projectImgs/pantryPalPlanning/relationDependency.jpg';
 import relMap from './projectImgs/pantryPalPlanning/relationshipMap.jpg';
-import routing from './projectImgs/pantryPalPlanning/routing1.jpg';
 import sqlNameCon from './projectImgs/pantryPalPlanning/sqlNamingCon.jpg';
 import sqlPlan1 from './projectImgs/pantryPalPlanning/sqlPlanning1.jpg';
 import sqlPlan2 from './projectImgs/pantryPalPlanning/sqlPlanning2.jpg';
@@ -408,14 +407,94 @@ const PantryPalPlanning = () => {
       image: eer2
     },
     {
+      name: 'relationship dependencies',
+      description: 'relationship dependencies',
+      image: relDep
+    },
+    {
       name: 'notes about usernames ',
       description: 'username restrictions',
       image: note
     },
     {
+      name: ' sql planning ',
+      description: 'sql planning',
+      image: sqlPlan1
+    },
+    {
+      name: ' sql planning ',
+      description: 'sql planning',
+      image: sqlPlan2
+    },
+    {
+      name: ' sql planning ',
+      description: 'sql planning',
+      image: sqlPlan3
+    },
+    {
+      name: ' sql planning ',
+      description: 'sql planning',
+      image: sqlPlan4
+    },
+    {
+      name: ' sql planning ',
+      description: 'sql planning',
+      image: sqlPlan5
+    },
+    {
+      name: ' sql planning ',
+      description: 'sql planning',
+      image: sqlPlan6
+    },
+    {
+      name: ' sql planning ',
+      description: 'sql planning',
+      image: sqlPlan7
+    },
+    {
+      name: ' sql planning ',
+      description: 'sql planning',
+      image: sqlPlan6
+    },
+    {
+      name: ' sql planning ',
+      description: 'sql planning',
+      image: sqlPlan7
+    },
+    {
+      name: ' sql planning ',
+      description: 'sql planning',
+      image: sqlPlan8
+    },
+    {
+      name: ' sql planning ',
+      description: 'sql planning',
+      image: sqlPlan9
+    },
+    {
+      name: ' sql planning ',
+      description: 'sql planning',
+      image: sqlPlan10
+    },
+    {
+      name: ' sql routes ',
+      description: 'sql router',
+      image: sqlRoute1
+    },
+    {
+      name: ' sql routes ',
+      description: 'sql router',
+      image: sqlRoute2
+    },
+    {
       name: 'EER 3',
       description: 'second sql relationship diagram',
       image: eer3
+    },
+    {
+      name: 'relationship map',
+      description: 'relationship map',
+      image: relMap
     },
     {
       name: 'path maps',
@@ -431,6 +510,61 @@ const PantryPalPlanning = () => {
       name: 'debugging ',
       description: 'debugging the code',
       image: debug
+    },
+    {
+      name: ' sql queries ',
+      description: 'sql queries',
+      image: sqlQuery1
+    },
+    {
+      name: ' sql queries ',
+      description: 'sql queries',
+      image: sqlQuery2
+    },
+    {
+      name: ' sql queries ',
+      description: 'sql queries',
+      image: sqlQuery3
+    },
+    {
+      name: ' sql queries ',
+      description: 'sql queries',
+      image: sqlQuery4
+    },
+    {
+      name: ' sql queries ',
+      description: 'sql queries',
+      image: sqlQuery5
+    },
+    {
+      name: ' sql queries ',
+      description: 'sql queries',
+      image: sqlQuery6
+    },
+    {
+      name: ' sql queries ',
+      description: 'sql queries',
+      image: sqlQuery7
+    },
+    {
+      name: ' sql queries ',
+      description: 'sql queries',
+      image: sqlQuery8
+    },
+    {
+      name: ' sql queries ',
+      description: 'sql queries',
+      image: sqlQuery9
+    },
+    {
+      name: ' sql queries ',
+      description: 'sql queries',
+      image: sqlQuery10
+    },
+    {
+      name: ' sql queries ',
+      description: 'sql queries',
+      image: sqlQuery11
     },
     {
       name: 'final eer',
