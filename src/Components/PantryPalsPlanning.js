@@ -644,6 +644,8 @@ const PantryPalPlanning = () => {
         <p>
         <a href="https://docs.google.com/presentation/d/19xS8029_NRw05XWOCFp0lhlehDhmF07N_eE1Eif6Lfg/edit?usp=sharing">Original Concept</a> of the application was more of a meal planning, but I tried to slim it down. 
         </p>
+        <p>Now the application is more of a system of storing lists to determine what you currently have in your house and what needs to be purchased from the store.</p>
+        <p>Below is images of the planning processes.</p>
         </div>
       
       </div>
@@ -651,7 +653,7 @@ const PantryPalPlanning = () => {
         <Card className='carousel' variant='outlined' raised='true'>
         <Carousel showArrows={true} >
        {
-                img.map( (item, i) => <img className='planImg' key={i} des={item.description} src={item.image} /> )
+                img.map( (item, i) => <img className='planImg' key={i} description={item.description} src={item.image} /> )
             }
         </Carousel>
         </Card>
