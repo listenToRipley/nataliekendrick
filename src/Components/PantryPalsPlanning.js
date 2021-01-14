@@ -114,6 +114,16 @@ const PantryPalPlanning = () => {
 
   let img = [ 
     {
+      name: 'concept',
+      description: 'app concept',
+      image: concept1
+    },
+    {
+      name: 'concept',
+      description: 'app concept',
+      image: concept2
+    },
+    {
       name: 'page lay out 1',
       description: 'page lay out',
       image: pageLayout1
@@ -162,11 +172,6 @@ const PantryPalPlanning = () => {
       name: 'use case 2',
       description: 'use cases',
       image: useCase2
-    },
-    {
-      name: 'use case 3',
-      description: 'use cases',
-      image: useCase1
     },
     {
       name: 'use case 3',
