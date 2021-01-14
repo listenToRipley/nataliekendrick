@@ -16,7 +16,6 @@ import appUse1 from './projectImgs/pantryPalPlanning/appUse1.jpg';
 import appUse2 from './projectImgs/pantryPalPlanning/appUse2.jpg';
 import backEndQ1 from './projectImgs/pantryPalPlanning/backendQ1.jpg';
 import backEndQ2 from './projectImgs/pantryPalPlanning/backendQ2.jpg';
-import behavior from './projectImgs/pantryPalPlanning/behavior.jpg';
 import concept1 from './projectImgs/pantryPalPlanning/concept1.jpg';
 import concept2 from './projectImgs/pantryPalPlanning/concept2.jpg';
 import conceptModules from './projectImgs/pantryPalPlanning/conceptModules.jpg';
@@ -349,6 +348,11 @@ const PantryPalPlanning = () => {
       image: crc10
     },
     {
+      name: 'concept modules',
+      description: 'concept module objects',
+      image: conceptModules
+    },
+    {
       name: 'backend ',
       description: 'back end questions',
       image: backEndQ1
@@ -364,6 +368,11 @@ const PantryPalPlanning = () => {
       image: eer2
     },
     {
+      name: 'notes about usernames ',
+      description: 'username restrictions',
+      image: note
+    },
+    {
       name: 'EER 3',
       description: 'second sql relationship diagram',
       image: eer3
@@ -372,6 +381,11 @@ const PantryPalPlanning = () => {
       name: 'app map',
       description: 'app map ',
       image: appMap
+    },
+    {
+      name: 'debugging ',
+      description: 'debugging the code',
+      image: debug
     },
     {
       name: 'final eer',
