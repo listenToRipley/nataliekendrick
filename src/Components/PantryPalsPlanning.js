@@ -124,6 +124,16 @@ const PantryPalPlanning = () => {
       image: concept2
     },
     {
+      name: 'app use outline',
+      description: 'general concept use',
+      image: appUse1
+    },
+    {
+      name: 'app use outline',
+      description: 'general concept use',
+      image: appUse2
+    },
+    {
       name: 'page lay out 1',
       description: 'page lay out',
       image: pageLayout1
@@ -249,14 +259,119 @@ const PantryPalPlanning = () => {
       image: useCase17
     },
     {
+      name: 'actions and actors',
+      description: 'actions and actors ',
+      image: actors
+    },
+    {
+      name: 'action relationships',
+      description: 'action relationships ',
+      image: actionRel1
+    },
+    {
+      name: 'action relationships',
+      description: 'action relationships ',
+      image: actionRel2
+    },
+    {
+      name: 'action relationships',
+      description: 'action relationships ',
+      image: actionRel3
+    },
+    {
+      name: 'action relationships',
+      description: 'action relationships ',
+      image: actionRel4
+    },
+    {
+      name: 'action relationships',
+      description: 'action relationships ',
+      image: actionRel5
+    },
+    {
+      name: 'action verbs',
+      description: 'action verbs ',
+      image: actionVerbs
+    },
+    {
       name: 'EER 1',
       description: 'first sql relationship diagram',
       image: eer1
     },
     {
+      name: 'class responsibility collaborators 1',
+      description: 'responsibility collaborators',
+      image: crc1
+    },
+    {
+      name: 'class responsibility collaborators 1',
+      description: 'responsibility collaborators',
+      image: crc2
+    },
+    {
+      name: 'class responsibility collaborators 1',
+      description: 'responsibility collaborators',
+      image: crc3
+    },
+    {
+      name: 'class responsibility collaborators 1',
+      description: 'responsibility collaborators',
+      image: crc4
+    },
+    {
+      name: 'class responsibility collaborators 1',
+      description: 'responsibility collaborators',
+      image: crc5
+    },
+    {
+      name: 'class responsibility collaborators 1',
+      description: 'responsibility collaborators',
+      image: crc6
+    },
+    {
+      name: 'class responsibility collaborators 1',
+      description: 'responsibility collaborators',
+      image: crc7
+    },
+    {
+      name: 'class responsibility collaborators 1',
+      description: 'responsibility collaborators',
+      image: crc8
+    },
+    {
+      name: 'class responsibility collaborators 1',
+      description: 'responsibility collaborators',
+      image: crc9
+    },
+    {
+      name: 'class responsibility collaborators 1',
+      description: 'responsibility collaborators',
+      image: crc10
+    },
+    {
+      name: 'backend ',
+      description: 'back end questions',
+      image: backEndQ1
+    },
+    {
+      name: 'backend ',
+      description: 'back end questions',
+      image: backEndQ2
+    },
+    {
       name: 'EER 2',
       description: 'second sql relationship diagram',
       image: eer2
+    },
+    {
+      name: 'EER 3',
+      description: 'second sql relationship diagram',
+      image: eer3
+    },
+    {
+      name: 'app map',
+      description: 'app map ',
+      image: appMap
     },
     {
       name: 'final eer',
