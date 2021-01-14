@@ -639,6 +639,13 @@ const PantryPalPlanning = () => {
       <Paper className='planningPaper'>
       <div className='planningTitle'>
       <Typography variant='h3' component='h3'>Pantry Pals Planning</Typography>
+      
+      <div className='planBody'>
+        <p>
+        <a href="https://docs.google.com/presentation/d/19xS8029_NRw05XWOCFp0lhlehDhmF07N_eE1Eif6Lfg/edit?usp=sharing">Original Concept</a> of the application was more of a meal planning, but I tried to slim it down. 
+        </p>
+        </div>
+      
       </div>
 
         <Card className='carousel' variant='outlined' raised='true'>
@@ -649,10 +656,6 @@ const PantryPalPlanning = () => {
         </Carousel>
         </Card>
         
-        <div className='planBody'>
-        <p>Talk about what the project was able</p>
-        <a href="https://docs.google.com/presentation/d/19xS8029_NRw05XWOCFp0lhlehDhmF07N_eE1Eif6Lfg/edit?usp=sharing">Original Concept</a>
-        </div>
       </Paper>
     </div>
   )
