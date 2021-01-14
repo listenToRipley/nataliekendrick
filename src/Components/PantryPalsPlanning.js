@@ -417,6 +417,21 @@ const PantryPalPlanning = () => {
       image: note
     },
     {
+      name: ' sql name conversions ',
+      description: 'sql name conversions ',
+      image: sqlNameCon
+    },
+    {
+      name: ' sql table relationships plan',
+      description: 'sql table relationships plan ',
+      image: sqlTablePlan
+    },
+    {
+      name: ' sql table relationships ',
+      description: 'sql table relationships ',
+      image: sqlTableRel
+    },
+    {
       name: ' sql planning ',
       description: 'sql planning',
       image: sqlPlan1
@@ -475,6 +490,11 @@ const PantryPalPlanning = () => {
       name: ' sql planning ',
       description: 'sql planning',
       image: sqlPlan10
+    },
+    {
+      name: ' sql relationships ',
+      description: 'sql relationships',
+      image: sqlRel
     },
     {
       name: ' sql routes ',
@@ -567,10 +587,50 @@ const PantryPalPlanning = () => {
       image: sqlQuery11
     },
     {
+      name: ' sql routes ',
+      description: 'sql routes',
+      image: sqlRoute1
+    },
+    {
+      name: ' sql routes ',
+      description: 'sql routes',
+      image: sqlRoute2
+    },
+    {
+      name: ' sql routes ',
+      description: 'sql routes',
+      image: sqlRoute3
+    },
+    {
+      name: ' sql routes ',
+      description: 'sql routes',
+      image: sqlRoute4
+    },
+    {
+      name: ' sql routes ',
+      description: 'sql routes',
+      image: sqlRoute5
+    },
+    {
+      name: ' sql routes ',
+      description: 'sql routes',
+      image: sqlRoute6
+    },
+    {
       name: 'final eer',
       description: 'final sql relationship diagram',
       image: eerFinal
-    }
+    },
+    {
+      name: ' sql routes testing',
+      description: 'sql routes testing',
+      image: sqlRouteTesting1
+    },
+    {
+      name: ' sql routes testing',
+      description: 'sql routes testing',
+      image: sqlRouteTesting2
+    },
   ]
 
   //look into how to update timing. 
