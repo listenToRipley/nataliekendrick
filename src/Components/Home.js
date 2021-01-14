@@ -10,8 +10,9 @@ import './Components.css'
 const Homepage = () => {
 
   return (
-    <div className="homepage">
+    <div className='homepage'>
       <h1 className='name'>Natalie Kendrick</h1>
+      <p className='title'>Full Stack Developer</p>
       <div className='iconDiv'>
       <Link href='https://www.linkedin.com/in/nataliemichellekendrick/'>
           <FaLinkedinIn className={'homeIcons'} />
