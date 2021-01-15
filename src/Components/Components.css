@@ -53,13 +53,6 @@ h1, h4, h5, h6{
 .homepage {
   margin-top: 4%;
   text-align: center;
-}
-
-.name {
-  display: inline-block;
-  letter-spacing: 5px;
-  margin-bottom: 8%;
-  font-size: 75px;
   font-family: 'Open Sans', sans-serif, 'Bold';
   background-image: url('./projectImgs/golden.jpeg');
   background-attachment: fixed;
@@ -76,11 +69,20 @@ h1, h4, h5, h6{
           background-clip: text;
 }
 
+.name {
+  display: inline-block;
+  letter-spacing: 5px;
+  margin-bottom: 8%;
+  font-size: 75px;
+}
+
 .title {
   color: white;
   font-size: 50px;
   margin-top: -1em;
   margin-bottom: 1.5em;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 500;
 }
 
 
@@ -91,30 +93,35 @@ h1, h4, h5, h6{
   margin-top: -2% ;
 }
 
-/* update for media queries  */
-
 .homeIcons {
   font-size: 72px;
   margin-top: .5em;
-  margin-left: 1.3em;
+  margin-left: 1em;
+  color: white;
+}
+
+.firstIcon:first-child {
+  margin-left: -5.6em; 
+}
+
+.homeIcons:link {
   background-image: url('./projectImgs/golden.jpeg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: white;
-  /* -webkit-background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.199);
   -webkit-background-clip: text;
      -moz-background-clip: text;
-          background-clip: text; */
-  /* need to change the left margin to exclude the first item */
+          background-clip: text;
 }
 
-.firstIcon:first-child {
-  margin-left: -3em; 
+.homeIcons:hover {
+  text-shadow: 2px 2px 3px rgba(243, 207, 44, 0.445);
 }
 
 .projectTitle {

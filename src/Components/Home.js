@@ -12,7 +12,7 @@ const Homepage = () => {
   return (
     <div className='homepage'>
       <h1 align='center' className='name'>Natalie Kendrick</h1>
-      <p align='center'  className='title'>Full Stack Developer</p>
+      <p align='center'  className='title'><em>Full Stack Developer</em></p>
       <div align='center' className='iconDiv'>
 
       <Link className='firstIcon' href='https://www.linkedin.com/in/nataliemichellekendrick/'>
