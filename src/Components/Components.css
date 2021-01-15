@@ -104,24 +104,12 @@ h1, h4, h5, h6{
   margin-left: -5.6em; 
 }
 
-.homeIcons:link {
-  background-image: url('./projectImgs/golden.jpeg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.199);
-  -webkit-background-clip: text;
-     -moz-background-clip: text;
-          background-clip: text;
+.homeIcons:hover {
+  color: goldenrod
 }
 
-.homeIcons:hover {
-  text-shadow: 2px 2px 3px rgba(243, 207, 44, 0.445);
+.homeIcons:visited {
+  color: #027085
 }
 
 .projectTitle {
