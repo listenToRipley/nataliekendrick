@@ -11,10 +11,11 @@ const Homepage = () => {
 
   return (
     <div className='homepage'>
-      <h1 className='name'>Natalie Kendrick</h1>
-      <p className='title'>Full Stack Developer</p>
-      <div className='iconDiv'>
-      <Link href='https://www.linkedin.com/in/nataliemichellekendrick/'>
+      <h1 align='center' className='name'>Natalie Kendrick</h1>
+      <p align='center'  className='title'>Full Stack Developer</p>
+      <div align='center' className='iconDiv'>
+
+      <Link className='firstIcon' href='https://www.linkedin.com/in/nataliemichellekendrick/'>
           <FaLinkedinIn className={'homeIcons'} />
         </Link>
       
