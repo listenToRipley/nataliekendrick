@@ -16,7 +16,7 @@ const Homepage = () => {
       <div align='center' className='iconDiv'>
 
       <Link className='firstIcon' href='https://www.linkedin.com/in/nataliemichellekendrick/'>
-          <FaLinkedinIn className={'homeIcons'} />
+          <FaLinkedinIn  className={'homeIcons'} />
         </Link>
       
         <Link href='mailto: natalie.m.kendrick@gmail.com'>

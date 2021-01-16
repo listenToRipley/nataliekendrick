@@ -97,7 +97,10 @@ h1, h4, h5, h6{
   font-size: 72px;
   margin-top: .5em;
   margin-left: 1em;
-  color: white;
+  background-image: url('./projectImgs/golden.jpeg');
+  position:center;
+    color: white;
+
 }
 
 .firstIcon:first-child {
