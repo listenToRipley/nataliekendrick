@@ -1,22 +1,12 @@
 import React, {useState} from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import {Link} from 'react-router-dom';
+import './Components.css';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-    color: 'white',
-  }, 
-  name: {
-    justifyItem: 'center'
-  }
-}));
 
 const Panel = () =>  {
-  const classes = useStyles();
   const [value, setValue] = useState(0);
 
   const handleChange = (event, newValue) => {
@@ -25,7 +15,7 @@ const Panel = () =>  {
   };
 
   return (
-    <div className={classes.root}>
+    <div className='panel'>
       <AppBar color="transparent" position="static">
         <Tabs value={value} onChange={handleChange} aria-label="menu items" centered={true}>
           <Tab label="Home" 
