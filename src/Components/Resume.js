@@ -20,6 +20,7 @@ import { FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 import aca from './projectImgs/acaBadge.png';
 import pima from './projectImgs/pima.png';
 import backdrop from './projectImgs/backdrop.jpeg';
+import { faBorderNone } from '@fortawesome/free-solid-svg-icons';
 
 const useStyles = makeStyles((theme) => ({
   resume: {
@@ -37,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
   separates: {
     display: 'block',
-    color: 'none',
+    color: 'transparent',
     backgroundImage: `url(${backdrop})`,
     backgroundAttachment: 'fixed',
     backgroundPosition: 'center',
@@ -76,6 +77,9 @@ const useStyles = makeStyles((theme) => ({
   contactText: {
     flexWrap: 'wrap',
     fontSize: '98%',
+  },
+  email: {
+    color: '#4fb5dd',
   },
   eduIcons: {
     marginLeft: '-1.5em',
@@ -152,7 +156,7 @@ const Resume = () => {
                 <FaGoogle/> 
                </ListItemAvatar>
                <ListItemText disableTypography='true' className={classes.contactText}>
-                  <Link href='mailto: natalie.m.kendrick@gmail.com'>natalie.m.kendrick@gmail.com</Link>
+                  <Link className={classes.email} href='mailto: natalie.m.kendrick@gmail.com'>natalie.m.kendrick@gmail.com</Link>
                </ListItemText>
               </ListItem>
 

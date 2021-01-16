@@ -6,10 +6,6 @@ h1, h4, h5, h6{
   color: white
 }
 
-.panel {
-  flex-grow: 1;
-  color: white
-}
 
 a {
   color:#f5f5f5a1;
@@ -120,6 +116,7 @@ a:hover {
   -webkit-background-clip: text;
      -moz-background-clip: text;
           background-clip: text;
+          color: 
 }
 
 .aboutQuote {
@@ -290,4 +287,8 @@ a:hover {
   margin-left: 2em;
   margin-bottom: 2em;
 }
-/* need to change link colors */
+
+.panel {
+  flex-grow: 1;
+  color: white
+}
