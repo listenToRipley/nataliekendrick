@@ -1,6 +1,5 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography'
-import SmallBusiness from './ProjSmallBusiness';
 import PantryPals from './ProjPantryPals'
 import CodeSample from './ProjCodeSamples';
 import AllProjects from './AllProjects';
@@ -12,7 +11,6 @@ const Projects = () => {
    <Typography className='projectTitle' variant='h4'>Portfolio</Typography>
     <div className="projectBody">
       <PantryPals/>
-      <SmallBusiness/>
       <AllProjects/>
     </div>
     <div className="projectAdds">
