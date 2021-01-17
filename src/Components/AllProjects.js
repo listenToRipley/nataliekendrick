@@ -19,13 +19,27 @@ import nasa from './projectImgs/NASA.png';
 import ticTacToe from './projectImgs/TicTacToe.png';
 import silverSea from './projectImgs/SilverSea.png';
 import clicknspin from './projectImgs/clicknspin.png';
-import pigLatin from './projectImgs/pigLatin.png'
+import pigLatin from './projectImgs/pigLatin.png';
+import dodgeball from './projectImgs/dodgeball.png';
 
 import './Components.css';
 
 const AllProjects = () => {
 
   let projects = [
+    {
+      num: 8,  
+      header: 'Dodge Ball game',
+      completed: 'May 2020',
+      image: dodgeball,
+      imageTitle: 'dodge ball drafting',
+      description: 'Drafting dodge ball members',
+      badges: [<FaHtml5/>, <FaCss3Alt/>, <FaJs/>],
+      color: '#6d6966',
+      skills: 'HTML5, CSS, Javascript',
+      site: 'https://listentoripley.github.io/javascript-workbook/06week/dodgeBall.html',
+      code: 'https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/06week'
+    },
     {
       num: 7,  
       header: 'Pig Latin Translator',
