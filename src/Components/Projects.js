@@ -1,7 +1,6 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography'
 import ClicknSpin from './ProjClicknSpin'
-import SilverSea from './ProjSilverSea'
 import AddressBook from './ProjAddressBook'
 import DodgeBall from './ProjDodgeBall';
 import PigLatin from './ProjPigLatin'
@@ -22,7 +21,6 @@ const Projects = () => {
       <DodgeBall/>
       <PigLatin/>
       <ClicknSpin/>
-      <SilverSea/>
       <AllProjects/>
     </div>
     <div className="projectAdds">
