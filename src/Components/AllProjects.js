@@ -19,12 +19,26 @@ import nasa from './projectImgs/NASA.png';
 import ticTacToe from './projectImgs/TicTacToe.png';
 import silverSea from './projectImgs/SilverSea.png';
 import clicknspin from './projectImgs/clicknspin.png';
+import pigLatin from './projectImgs/pigLatin.png'
 
 import './Components.css';
 
 const AllProjects = () => {
 
   let projects = [
+    {
+      num: 7,  
+      header: 'Pig Latin Translator',
+      completed: 'April 2020',
+      image: pigLatin,
+      imageTitle: 'pig latin translator',
+      description: 'Pig Latin translator page',
+      badges: [<FaHtml5/>, <FaCss3Alt/>, <FaJs/>],
+      color: '#6d6966',
+      skills: 'HTML5, CSS, Javascript',
+      site: 'https://listentoripley.github.io/javascript-workbook/02week/pigLatin.html',
+      code: 'https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/02week'
+    },
     {
       num: 6,  
       header: 'Click and Spin',
