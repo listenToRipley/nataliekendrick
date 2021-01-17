@@ -21,12 +21,28 @@ import silverSea from './projectImgs/SilverSea.png';
 import clicknspin from './projectImgs/clicknspin.png';
 import pigLatin from './projectImgs/pigLatin.png';
 import dodgeball from './projectImgs/dodgeball.png';
+import addressBook from './projectImgs/addressBook.png';
+
 
 import './Components.css';
 
 const AllProjects = () => {
 
   let projects = [
+    {
+      num: 9,  
+      header: 'Sample Address Book',
+      completed: 'May 2020',
+      image: addressBook,
+      imageTitle: 'example address book',
+      //this is going to need work 
+      description: `Using <a href="https://randomuser.me/">random user generate</a> API to create a sample address book`,
+      badges: [<FaHtml5/>, <FaCss3Alt/>, <FaJs/>],
+      color: 'black',
+      skills: 'HTML5, CSS, Javascript',
+      site: 'https://listentoripley.github.io/javascript-workbook/07week/addressBook.html',
+      code: 'https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/07week'
+    },
     {
       num: 8,  
       header: 'Dodge Ball game',
