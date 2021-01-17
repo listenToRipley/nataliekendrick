@@ -3,7 +3,6 @@ import Typography from '@material-ui/core/Typography'
 import ClicknSpin from './ProjClicknSpin'
 import SilverSea from './ProjSilverSea'
 import NASACard from './ProjNasaCard'
-import Mustacchio from './ProjMustacchio'
 import TicTacToe from './ProjTicTacToe'
 import AddressBook from './ProjAddressBook'
 import DodgeBall from './ProjDodgeBall';
@@ -28,7 +27,6 @@ const Projects = () => {
       <SilverSea/>
       <TicTacToe/>
       <NASACard/>
-      <Mustacchio/>
       <AllProjects/>
     </div>
     <div className="projectAdds">
