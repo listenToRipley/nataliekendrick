@@ -1,6 +1,5 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography'
-import AddressBook from './ProjAddressBook'
 import SmallBusiness from './ProjSmallBusiness';
 import PantryPals from './ProjPantryPals'
 import CodeSample from './ProjCodeSamples';
@@ -14,7 +13,6 @@ const Projects = () => {
     <div className="projectBody">
       <PantryPals/>
       <SmallBusiness/>
-      <AddressBook/>
       <AllProjects/>
     </div>
     <div className="projectAdds">
