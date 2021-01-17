@@ -22,13 +22,14 @@ const AllProjects = () => {
       image: animate,
       imageTitle: 'animated boxes',
       description: 'Working with animation with CSS, hover each square to see the transitions',
-      badges: [FaHtml5, FaCss3Alt],
-      badgeColor: '#d48c2a',
+      badges: [<FaHtml5/>, <FaCss3Alt/>],
+      color: '#d48c2a',
       skills: 'HTML5, CSS',
       site: 'https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/animate/animate.html',
       code: 'https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/animate'
     }
   ]
+
 
   const each = projects.map((proj, index) => 
 
@@ -46,15 +47,20 @@ const AllProjects = () => {
     <Typography>
       {proj.description}
     </Typography>
-      <Typography className='badges' color={proj.badgeColor}>
-        {proj.badges.map((badge, index) => {
 
-          < badge key='${index}' className='badges'/>
+      <Typography  className='badges' color={proj.color}>
+      {
+          proj.badges.map((badge, index) => 
 
-        })}
+    <Typography key={index}  className='eachBadge'>
+        {badge}
+    </Typography>
+          )
+        }
+      </Typography>
 
   
-      </Typography>
+      
         <Typography className="skills">
            {proj.skills}
         </Typography>
