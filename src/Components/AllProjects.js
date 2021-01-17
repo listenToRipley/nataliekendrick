@@ -11,18 +11,33 @@ import Button from '@material-ui/core/Button';
 import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5";
 import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt";
 import { FaJs} from "@react-icons/all-files/fa/FaJs";
+import { FaBootstrap } from "@react-icons/all-files/fa/FaBootstrap";
 //images
 import animate from './projectImgs/animate.png';
 import mustacchio from './projectImgs/mustacchio.png';
 import nasa from './projectImgs/NASA.png';
 import ticTacToe from './projectImgs/TicTacToe.png';
 import silverSea from './projectImgs/SilverSea.png';
+import clicknspin from './projectImgs/clicknspin.png';
 
 import './Components.css';
 
 const AllProjects = () => {
 
   let projects = [
+    {
+      num: 6,  
+      header: 'Click and Spin',
+      completed: 'March 2020',
+      image: clicknspin,
+      imageTitle: 'click and spin project',
+      description: 'Spin counter ',
+      badges: [<FaHtml5/>, <FaCss3Alt/>, <FaBootstrap/>],
+      color: '#6496ec',
+      skills: 'HTML5, CSS, Bootstrap',
+      site: 'https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/checkpoint3/click/click.html',
+      code: 'https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/checkpoint3'
+    },
     {
       num: 5,  
       header: 'Silver Sea Website',
