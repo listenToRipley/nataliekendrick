@@ -12,6 +12,7 @@ import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5";
 import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt";
 import { FaJs} from "@react-icons/all-files/fa/FaJs";
 import { FaBootstrap } from "@react-icons/all-files/fa/FaBootstrap";
+import { FaReact } from "@react-icons/all-files/fa/FaReact";
 //images
 import animate from './projectImgs/animate.png';
 import mustacchio from './projectImgs/mustacchio.png';
@@ -22,6 +23,7 @@ import clicknspin from './projectImgs/clicknspin.png';
 import pigLatin from './projectImgs/pigLatin.png';
 import dodgeball from './projectImgs/dodgeball.png';
 import addressBook from './projectImgs/addressBook.png';
+import smallBusiness from './projectImgs/smallBusiness.png';
 
 
 import './Components.css';
@@ -29,6 +31,19 @@ import './Components.css';
 const AllProjects = () => {
 
   let projects = [
+    {
+      num: 10,  
+      header: 'Small Business',
+      completed: 'October 2020',
+      image: smallBusiness,
+      imageTitle: 'small business',
+      description: 'A sample of small business registry',
+      badges: [ <FaCss3Alt/>, <FaJs/>, <FaReact/> ],
+      color: '#3bb371',
+      skills: 'CSS, Javascript, React',
+      site: 'https://listentoripley.github.io/small-business/#/',
+      code: 'https://github.com/listenToRipley/small-business'
+    },
     {
       num: 9,  
       header: 'Sample Address Book',
@@ -38,7 +53,7 @@ const AllProjects = () => {
       //this is going to need work 
       description: `Using <a href="https://randomuser.me/">random user generate</a> API to create a sample address book`,
       badges: [<FaHtml5/>, <FaCss3Alt/>, <FaJs/>],
-      color: 'black',
+      color: '#dba71a',
       skills: 'HTML5, CSS, Javascript',
       site: 'https://listentoripley.github.io/javascript-workbook/07week/addressBook.html',
       code: 'https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/07week'
