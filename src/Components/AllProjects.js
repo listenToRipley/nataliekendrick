@@ -16,6 +16,7 @@ import animate from './projectImgs/animate.png';
 import mustacchio from './projectImgs/mustacchio.png';
 import nasa from './projectImgs/NASA.png';
 import ticTacToe from './projectImgs/TicTacToe.png';
+import silverSea from './projectImgs/SilverSea.png';
 
 import './Components.css';
 
@@ -24,16 +25,16 @@ const AllProjects = () => {
   let projects = [
     {
       num: 5,  
-      header: 'Tic Tac Toe',
+      header: 'Silver Sea Website',
       completed: 'February 2020',
-      image: ticTacToe,
-      imageTitle: 'First Tic Tac Toe',
-      description: 'First attempt at tic tac toe',
-      badges: [<FaHtml5/>, <FaCss3Alt/>, <FaJs/>],
-      color: '#818181;',
+      image: silverSea,
+      imageTitle: `Silver Sea's website`,
+      description: 'Full website for Silver Sea Jewelry ',
+      badges: [<FaHtml5/>, <FaCss3Alt/>],
+      color: '#719996',
       skills: 'HTML5, CSS, Javascript',
-      site: 'https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/tictactoe/ttt.html',
-      code: 'https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/tictactoe'
+      site: 'https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/checkpoint2/checkpoint2.html',
+      code: 'https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/checkpoint2'
     },
     {
       num: 4,  
@@ -43,8 +44,8 @@ const AllProjects = () => {
       imageTitle: 'First Tic Tac Toe',
       description: 'First attempt at tic tac toe',
       badges: [<FaHtml5/>, <FaCss3Alt/>, <FaJs/>],
-      color: '#818181;',
-      skills: 'HTML5, CSS, Javascript',
+      color: '#818181',
+      skills: 'HTML5, CSS',
       site: 'https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/tictactoe/ttt.html',
       code: 'https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/tictactoe'
     },
@@ -56,7 +57,7 @@ const AllProjects = () => {
       imageTitle: 'NASA Contact Page',
       description: 'Basic information contact page for NASA',
       badges: [<FaHtml5/>, <FaCss3Alt/>],
-      color: '#6b6b6b',
+      color: '#6f184b',
       skills: 'HTML5, CSS',
       site: 'https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/flexbox/nasa.html',
       code: 'https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/flexbox'
