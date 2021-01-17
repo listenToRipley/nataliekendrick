@@ -152,6 +152,7 @@ a:hover {
 
 .projectCards {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .cardBody {
@@ -222,11 +223,6 @@ a:hover {
 .clickBadges {
   margin-top: 1px;
   color: #6496ec;
-}
-
-.ticTacToeBadges {
-  margin-top: 1px;
-  color: #818181;
 }
 
 .nasaBadges {
