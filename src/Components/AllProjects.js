@@ -36,7 +36,7 @@ const AllProjects = () => {
     <Card className='cardBody' key={proj.num}>
     <CardHeader
       title={proj.header}
-      subheader={projects.completed}
+      subheader={proj.completed}
     />
     <CardMedia
       className='cardMedia'
