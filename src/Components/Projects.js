@@ -11,7 +11,8 @@ import DodgeBall from './ProjDodgeBall';
 import PigLatin from './ProjPigLatin'
 import SmallBusiness from './ProjSmallBusiness';
 import PantryPals from './ProjPantryPals'
-import CodeSample from './ProjCodeSamples'
+import CodeSample from './ProjCodeSamples';
+import AllProjects from './AllProjects';
 
 const Projects = () => {
 
@@ -29,7 +30,7 @@ const Projects = () => {
       <TicTacToe/>
       <NASACard/>
       <Mustacchio/>
-      <Animate/>
+      <AllProjects/>
     </div>
     <div className="projectAdds">
     <CodeSample/>

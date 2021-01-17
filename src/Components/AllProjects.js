@@ -30,52 +30,55 @@ const AllProjects = () => {
     }
   ]
 
-  return (
-    projects.map((proj, index) => {
+  const each = projects.map((proj, index) => 
 
-      <Card className='cardBody' key={proj.num}>
-      <CardHeader
-        title={proj.header}
-        subheader={projects.completed}
-      />
-      <CardMedia
-        className='cardMedia'
-        image={proj.image}
-        title={projects.subheader}
-      />
-      <CardContent>
-      <Typography>
-        {proj.description}
+    <Card className='cardBody' key={proj.num}>
+    <CardHeader
+      title={proj.header}
+      subheader={projects.completed}
+    />
+    <CardMedia
+      className='cardMedia'
+      image={proj.image}
+      title={projects.subheader}
+    />
+    <CardContent>
+    <Typography>
+      {proj.description}
+    </Typography>
+      <Typography className='badges' color={proj.badgeColor}>
+        {proj.badges.map((badge, index) => {
+
+          < badge key='${index}' className='badges'/>
+
+        })}
+
+  
       </Typography>
-        <Typography className='badges' color={proj.badgeColor}>
-          {proj.badges.map((badge, index) => {
-
-            < badge key='${index}' className='badges'/>
-
-          })}
-
-    
+        <Typography className="skills">
+           {proj.skills}
         </Typography>
-          <Typography className="skills">
-             {proj.skills}
-          </Typography>
-      <CardActions>
+    <CardActions>
+  
+      <ButtonGroup fullWidth={true} variant="text" size="large" component="div">
+        <Button className="viewButton" onClick={() => window.open(proj.site)}>
+        View Site
+        </Button>
     
-        <ButtonGroup fullWidth={true} variant="text" size="large" component="div">
-          <Button className="viewButton" onClick={() => window.open(proj.site)}>
-          View Site
-          </Button>
-      
-          <Button className="viewButton" onClick={()=> window.open(proj.code)}>
-          View Code
-          </Button>
-        </ButtonGroup>
-    
-        </CardActions>
-      </CardContent>
-    </Card>
-      
-    })
+        <Button className="viewButton" onClick={()=> window.open(proj.code)}>
+        View Code
+        </Button>
+      </ButtonGroup>
+  
+      </CardActions>
+    </CardContent>
+  </Card>
+  )
+
+  return (
+    <div>
+      {each}
+    </div>
   );
 }
 
