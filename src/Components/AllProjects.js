@@ -23,6 +23,19 @@ const AllProjects = () => {
 
   let projects = [
     {
+      num: 5,  
+      header: 'Tic Tac Toe',
+      completed: 'February 2020',
+      image: ticTacToe,
+      imageTitle: 'First Tic Tac Toe',
+      description: 'First attempt at tic tac toe',
+      badges: [<FaHtml5/>, <FaCss3Alt/>, <FaJs/>],
+      color: '#818181;',
+      skills: 'HTML5, CSS, Javascript',
+      site: 'https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/tictactoe/ttt.html',
+      code: 'https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/tictactoe'
+    },
+    {
       num: 4,  
       header: 'Tic Tac Toe',
       completed: 'February 2020',
