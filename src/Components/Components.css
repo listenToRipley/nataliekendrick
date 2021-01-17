@@ -175,7 +175,14 @@ a:hover {
 }
 
 .eachBadge {
-  margin-top: 1px;
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: grey;
+}
+
+.eachBadge:nth-child(2) {
+  margin-left: 15px;
 }
 
 .pantryBadges {

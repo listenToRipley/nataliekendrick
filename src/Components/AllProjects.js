@@ -48,13 +48,13 @@ const AllProjects = () => {
       {proj.description}
     </Typography>
 
-      <Typography  className='badges' color={proj.color}>
+      <Typography className='badges' color={proj.color}>
       {
           proj.badges.map((badge, index) => 
 
-    <Typography key={index}  className='eachBadge'>
+    <p key={index} className='eachBadge'>
         {badge}
-    </Typography>
+    </p>
           )
         }
       </Typography>

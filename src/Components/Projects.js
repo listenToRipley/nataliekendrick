@@ -4,7 +4,6 @@ import ClicknSpin from './ProjClicknSpin'
 import SilverSea from './ProjSilverSea'
 import NASACard from './ProjNasaCard'
 import Mustacchio from './ProjMustacchio'
-import Animate from './ProjAnimate'
 import TicTacToe from './ProjTicTacToe'
 import AddressBook from './ProjAddressBook'
 import DodgeBall from './ProjDodgeBall';
