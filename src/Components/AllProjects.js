@@ -35,7 +35,7 @@ const AllProjects = () => {
       imageTitle: 'dodge ball drafting',
       description: 'Drafting dodge ball members',
       badges: [<FaHtml5/>, <FaCss3Alt/>, <FaJs/>],
-      color: '#6d6966',
+      color: 'black',
       skills: 'HTML5, CSS, Javascript',
       site: 'https://listentoripley.github.io/javascript-workbook/06week/dodgeBall.html',
       code: 'https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/06week'
