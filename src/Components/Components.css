@@ -98,14 +98,21 @@ a:hover {
   min-width: 354px;
 }
 
+.aboutHeader {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .aboutName {
-  margin-top: -3em;
+  display: inline-flex;
+  margin-top: -25%;
   margin-left: 30%;
+  margin-right: 2%;
   justify-self: center;
   font-family: 'Open Sans', sans-serif, 'Bold';
   font-size: 75px;
   font-weight: 600;
-  display: block;
+
   background-image: url('./projectImgs/backdrop.jpeg');
   background-attachment: fixed;
   background-position: center;
@@ -125,20 +132,15 @@ a:hover {
   margin-left: 30%;
 }
 
-.aboutHeader {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .profilePic {
-  width: 250px;
-  height: 250px;
+  width: 25%;
+  height: 25%;
   border-radius: 150px;
   
 }
 
 .aboutBody {
-  margin-top: 6em;
+  margin-top: 1em;
   padding: 2%;
 }
 

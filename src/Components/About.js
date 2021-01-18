@@ -18,10 +18,13 @@ const About = () => {
        Natalie Kendrick
      </p> 
     </div>
-    <p className="aboutQuote">   “The most dangerous phrase in the language is we've always done” ~ Grace Hopper</p>
+    <p className="aboutQuote">   
+    <em>
+    “The most dangerous phrase in the language is we've always done”
+    </em> ~ Grace Hopper</p>
     <div className="aboutBody">
     <Typography paragraph>
-    A motivated professional with extensive experiences ranging from web development to customer service. I believe in continuous learner, big picture thinking and keeping in mind business needs. I am flexible, organized and determined. I do well under stressful situations.  
+    A motivated professional with extensive experiences ranging from web development to customer service. I believe in continuous learner, big picture thinking and keeping in mind business needs. I am flexible, organized and determined.
     </Typography>
     <Typography paragraph>
     I love hiking, gaming, cooking and hanging out with my husband and dog.
