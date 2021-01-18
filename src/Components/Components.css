@@ -147,7 +147,7 @@ a:hover {
   flex-direction: row;
   width:100%;
   flex-wrap: wrap; 
-  padding-left: 9%
+  margin-left: 7%;
 }
 
 .projectCards {
@@ -182,12 +182,14 @@ a:hover {
 .eachBadge {
   font-size: 35px;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-left: 15px;
   color: grey;
 }
 
-.eachBadge:nth-child(2) {
-  margin-left: 15px;
+.button {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
 .pantryBadges {
@@ -213,6 +215,10 @@ a:hover {
 .sampleProfiles {
   margin-top: 20px;
   color: white;
+}
+
+.codeSamples {
+  width: 75%;
 }
 
 .planning {

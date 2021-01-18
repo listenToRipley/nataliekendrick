@@ -53,7 +53,7 @@ const Projects = () => {
       image: addressBook,
       imageTitle: 'example address book',
       //this is going to need work 
-      description: `Using <a href="https://randomuser.me/">random user generate</a> API to create a sample address book`,
+      description: 'Using random user generateAPI to create a sample address book',
       badges: [<FaHtml5/>, <FaCss3Alt/>, <FaJs/>],
       color: '#dba71a',
       skills: 'HTML5, CSS, Javascript',
@@ -200,7 +200,7 @@ const Projects = () => {
         <Typography className="skills">
            {proj.skills}
         </Typography>
-    <CardActions>
+    <CardActions classes='buttons'>
   
       <ButtonGroup fullWidth={true} variant="text" size="large" component="div">
         <Button className="viewButton" onClick={() => window.open(proj.site)}>

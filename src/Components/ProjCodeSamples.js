@@ -23,7 +23,7 @@ import SampleMastermind from './SampleMastermind'
 const CodeSamples = () => {
 
   return (
-    <div>
+    <div className='codeSamples'>
       <Typography variant='h5'>Sample code : </Typography>
       <SampleBank/>
       <SampleMastermind/>

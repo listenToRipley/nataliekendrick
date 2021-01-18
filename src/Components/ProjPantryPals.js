@@ -44,7 +44,7 @@ return (
       </Typography>
   <CardActions>
 
-    <ButtonGroup fullWidth={true} variant="text" size="large" component="div" className="pantryButtons">
+    <ButtonGroup fullWidth={true} variant="text" size="large" component="div" className="eachBadge">
     <Button className="viewButton" onClick={() => window.open('https://pantrypals.herokuapp.com/')}>
     View Site
     </Button>
