@@ -168,6 +168,10 @@ a:hover {
   margin-left: 10px;
 }
 
+.description {
+  height: 22px;
+}
+
 .projectAdds {
   margin: 5%;
   justify-content: center;

@@ -166,7 +166,6 @@ const Projects = () => {
     }
   ]
 
-
   const card = projects.map((proj, index) => 
 
     <Card className='cardBody' key={proj.num}>
@@ -180,28 +179,20 @@ const Projects = () => {
       title={projects.subheader}
     />
     <CardContent>
-    <Typography>
+    <Typography className='description'>
       {proj.description}
     </Typography>
 
       <Typography className='badges' color={proj.color}>
-      {
-          proj.badges.map((badge, index) => 
-
+      { proj.badges.map((badge, index) => 
     <p key={index} className='eachBadge'>
         {badge}
-    </p>
-          )
-        }
+    </p> )}
       </Typography>
-
-  
-      
         <Typography className="skills">
            {proj.skills}
         </Typography>
-    <CardActions classes='buttons'>
-  
+    <CardActions>
       <ButtonGroup fullWidth={true} variant="text" size="large" component="div">
         <Button className="viewButton" onClick={() => window.open(proj.site)}>
         View Site
