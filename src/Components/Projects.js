@@ -209,7 +209,7 @@ const Projects = () => {
   )
 
   return (
-   <div>
+   <div className='project'>
    <Typography className='projectTitle' variant='h4'>Portfolio</Typography>
     <div className="projectBody">
       <PantryPals/>

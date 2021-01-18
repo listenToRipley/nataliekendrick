@@ -136,6 +136,11 @@ a:hover {
   padding: 2%;
 }
 
+.project {
+  width: 100vw;
+  height: 100vh;
+}
+
 .projectTitle {
   display: inline-block;
   width:100%;
@@ -145,14 +150,9 @@ a:hover {
 .projectBody {
   display: flex;
   flex-direction: row;
-  width:100%;
+  margin: 2%;
   flex-wrap: wrap; 
   margin-left: 7%;
-}
-
-.projectCards {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .cardBody {
@@ -217,13 +217,9 @@ a:hover {
   margin-bottom: 15px;
 }
 
-.sampleProfiles {
-  margin-top: 20px;
-  color: white;
-}
-
 .codeSamples {
   width: 75%;
+  margin-left: 12%;
 }
 
 .planning {
@@ -265,7 +261,13 @@ a:hover {
   margin-bottom: 2em;
 }
 
+.sampleProfiles {
+  margin-top: 2em;
+  color: white;
+}
+
 .panel {
   flex-grow: 1;
   color: white;
+  width: 100vw;
 }
