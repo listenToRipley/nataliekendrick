@@ -95,6 +95,7 @@ a:hover {
 .aboutPage {
   margin: 5%;
   padding: 2%;
+  min-width: 354px;
 }
 
 .aboutName {
@@ -122,6 +123,11 @@ a:hover {
   display: block;
   margin-top: -3.2em;
   margin-left: 30%;
+}
+
+.aboutHeader {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .profilePic {
