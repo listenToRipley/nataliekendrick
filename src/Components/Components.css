@@ -280,3 +280,26 @@ a:hover {
   color: white;
   width: 100vw;
 }
+
+@media only screen and (max-width: 410px) {
+  .aboutName {
+    display: inline-flex;
+    margin-right: 2%;
+    justify-self: center;
+    font-family: 'Open Sans', sans-serif, 'Bold';
+    font-weight: 400;
+    color: black;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.199);
+    overflow-x: auto
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .aboutName {
+    display: inline-flex;
+    justify-self: center;
+    font-family: 'Open Sans', sans-serif, 'Bold';
+    font-weight: 600;
+    color: black;
+  }
+}
