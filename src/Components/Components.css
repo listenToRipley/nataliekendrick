@@ -281,7 +281,7 @@ a:hover {
   width: 100vw;
 }
 
-@media all and (min-width:410px) {
+@media all and (max-width:411px) {
   .aboutName {
     display: inline-flex;
     margin-right: 2%;
@@ -294,7 +294,7 @@ a:hover {
   }
 }
 
-@media all and (min-width: 941px), (max-width: 412px) {
+@media all and (max-width: 941px) {
   .aboutPage {
     margin-top: 0;
   }
@@ -315,7 +315,7 @@ a:hover {
   }
 }
 
-@media all and (min-width: 1094px), (max-width: 1126px) {
+@media all and (max-width: 1126px) {
   .aboutPage {
     margin-top: 0;
   }
