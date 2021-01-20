@@ -137,7 +137,7 @@ a:hover {
   width: 25%;
   height: 25%;
   border-radius: 150px;
-  
+  display: inline;
 }
 
 .aboutBody {
@@ -281,25 +281,37 @@ a:hover {
   width: 100vw;
 }
 
-@media only screen and (max-width: 410px) {
+@media all and (min-width:410px) {
   .aboutName {
     display: inline-flex;
     margin-right: 2%;
     justify-self: center;
     font-family: 'Open Sans', sans-serif, 'Bold';
     font-weight: 400;
-    color: black;
+    color: #026f8593;
     text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.199);
     overflow-x: auto
   }
 }
 
-@media only screen and (max-width: 1366px) {
+@media all and (min-width: 900px), (max-width: 1126px) {
+  .aboutPage {
+    margin-top: 0;
+  }
+  .aboutHeader {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .profilePic {
+    margin-top: 0;
+  }
   .aboutName {
-    display: inline-flex;
     justify-self: center;
     font-family: 'Open Sans', sans-serif, 'Bold';
     font-weight: 600;
-    color: black;
+    margin-top: -3em;
+    margin-bottom: 1em;
+    color: #026f8593;
   }
 }
