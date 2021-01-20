@@ -17,7 +17,7 @@ const Panel = () =>  {
   return (
     <div className='panel'>
       <AppBar color="transparent" position="static">
-        <Tabs indicatorColor='primary' value={value} onChange={handleChange} aria-label="menu items" centered={true}>
+        <Tabs className='tabs' indicatorColor='primary' value={value} onChange={handleChange} aria-label="menu items" centered={true}>
           <Tab label="Home" 
                 component={Link}
                 to='/' 

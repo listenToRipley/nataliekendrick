@@ -294,6 +294,28 @@ a:hover {
   }
 }
 
+@media all and (max-width: 585px) {
+  .aboutHeader {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .profilePic {
+    display: block;
+    flex-direction: column;
+  }
+  .aboutName {
+    display: block;
+    flex-direction: column;
+  }
+
+  .aboutQuote {
+    display: block;
+    flex-direction: column;
+  }
+}
+
 @media all and (max-width: 941px) {
   .aboutPage {
     margin-top: 0;
@@ -339,3 +361,22 @@ a:hover {
   }
 }
 
+@media all and (min-width: 1550px) {
+  .tabs {
+    font-size: 25px;
+  }
+  .aboutName {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 90px;
+  }
+
+  .aboutQuote {
+    font-size: 25px;
+  }
+
+  .aboutBody {
+    margin-top: 5%;
+    font-size: 40px;
+  }
+}
