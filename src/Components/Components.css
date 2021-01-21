@@ -68,7 +68,6 @@ a:hover {
   justify-content: center;
 }
 
-
 .homeIcons {
   display: block;
   word-wrap: none;
@@ -94,25 +93,15 @@ a:hover {
 
 .aboutPage {
   margin: 5%;
-  padding: 2%;
-  min-width: 354px;
-}
-
-.aboutHeader {
-  display: flex;
-  flex-wrap: wrap;
+  padding: 5%;
 }
 
 .aboutName {
-  display: inline-flex;
-  margin-top: -25%;
-  margin-left: 30%;
-  margin-right: 2%;
+  width: 100%;
   justify-self: center;
   font-family: 'Open Sans', sans-serif, 'Bold';
   font-size: 75px;
   font-weight: 600;
-
   background-image: url('./projectImgs/backdrop.jpeg');
   background-attachment: fixed;
   background-position: center;
@@ -136,6 +125,7 @@ a:hover {
   width: 25%;
   height: 90%;
   border-radius: 150px;
+  margin: 0;
   display: inline;
 }
 
@@ -294,20 +284,23 @@ a:hover {
   }
 }
 
-@media all and (max-width: 585px) {
+@media all and (min-width: 585px) {
   .aboutHeader {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    max-width: 100%;
   }
 
   .profilePic {
-    display: block;
-    flex-direction: column;
+    display: inline;
+    margin: 0 auto;
   }
+
   .aboutName {
     display: block;
     flex-direction: column;
+    margin-top: 15%;
   }
 
   .aboutQuote {
@@ -315,6 +308,8 @@ a:hover {
     flex-direction: column;
   }
 }
+
+/* 
 
 @media all and (min-width: 752px) {
   .panel {
@@ -336,9 +331,6 @@ a:hover {
     flex-wrap: wrap;
   }
 
-  .profilePic {
-    margin-top: 0;
-  }
   .aboutName {
     font-size: 45px;
     margin-top: -2em;
@@ -358,9 +350,6 @@ a:hover {
     margin-top: 25px;
   }
 
-  .profilePic {
-    margin-top: 0;
-  }
   .aboutName {
     display: inline-block;
     font-family: 'Open Sans', sans-serif, 'Bold';
@@ -390,4 +379,4 @@ a:hover {
     margin-top: 5%;
     font-size: 40px;
   }
-}
+} */

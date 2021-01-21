@@ -3,13 +3,13 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import profile from './projectImgs/profile.jpeg';
-// import './Components.css';
+import './Components.css';
 
 const About = () => {
   return (
     <Paper className="aboutPage">
     <Grid container spacing={2} className='aboutHeader' alignContent='space-evenly'>
-    <Grid item s={12} md={6} lg={4} alignItem='center'>
+    <Grid item xs={12} s={12} md={10} lg={4} spacing={0} alignItem='center'>
     <img
       className="profilePic"
       alter='Natalie Kendrick' 
@@ -17,16 +17,16 @@ const About = () => {
       >
      </img> 
     </Grid>
-     <Grid item s={12} md={6} lg={8} gutterBottom>
-       <p className="aboutName" >Natalie Kendrick</p>
-       <p className="aboutQuote">   
+     <Grid item xs={12} s={12} md={10} lg={8} gutterBottom>
+       <Grid item className="aboutName" >Natalie Kendrick</Grid>
+       <Grid item className="aboutQuote">   
     <em>
     “The most dangerous phrase in the language is we've always done”
-    </em> ~ Grace Hopper</p>
+    </em> ~ Grace Hopper</Grid>
      </Grid> 
-    </Grid>
 
-    <div className="aboutBody">
+
+    <Grid item className="aboutBody" spacing={2}>
     <Typography paragraph>
     I am a motivated professional with extensive experiences ranging from web development to fine arts to customer service. I bring a unique protective to the table. I believe in continuous learner and big picture thinking. I am flexible, organized and determined.
     </Typography>
@@ -37,8 +37,10 @@ const About = () => {
     <Typography>
       I look forward to hearing from you and have a fantastic adventure today. 
     </Typography>
-    </div>
+    </Grid>
+    </Grid>
   </Paper>
+
   )
 }
 
