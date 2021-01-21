@@ -2,13 +2,14 @@ import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import List from '@material-ui/core/List';
 import profile from './projectImgs/profile.jpeg';
 import './Components.css';
 
 const About = () => {
   return (
     <Paper className="aboutPage">
-    <Grid container spacing={2} className='aboutHeader' alignContent='space-evenly'>
+    <Grid container spacing={2} className='aboutHeader' alignContent='space-evenly' direction='row'>
     <Grid item xs={12} s={12} md={10} lg={4} spacing={0} alignItem='center'>
     <img
       className="profilePic"
@@ -17,9 +18,9 @@ const About = () => {
       >
      </img> 
     </Grid>
-     <Grid item xs={12} s={12} md={10} lg={8} gutterBottom>
-       <Grid item className="aboutName" >Natalie Kendrick</Grid>
-       <Grid item className="aboutQuote">   
+     <Grid item xs={12} s={12} md={10} lg={8} spacing={6}>
+       <Grid item spacing={2}  className="aboutName" >Natalie Kendrick</Grid>
+       <Grid item spacing={4} className="aboutQuote">   
     <em>
     “The most dangerous phrase in the language is we've always done”
     </em> ~ Grace Hopper</Grid>
