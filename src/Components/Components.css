@@ -94,6 +94,8 @@ a:hover {
 .aboutPage {
   margin: 5%;
   padding: 5%;
+  display: flex;
+  flex-grow: 1;
 }
 
 .aboutName {
@@ -269,41 +271,24 @@ a:hover {
   width: 100vw;
 }
 
-@media all and (max-width:411px) {
-  .aboutName {
-    display: inline-flex;
-    margin-right: 2%;
-    justify-self: center;
-    font-family: 'Open Sans', sans-serif, 'Bold';
-    font-weight: 400;
-    color: #026f8593;
-    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.199);
-    overflow-x: auto
-  }
-}
-
 @media all and (min-width: 585px) {
-  .aboutHeader {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 100%;
-  }
 
   .profilePic {
-    display: inline;
     margin: 0 auto;
   }
 
   .aboutName {
     display: block;
-    flex-direction: column;
-    margin-top: 15%;
+    flex-direction: row;
   }
 
   .aboutQuote {
     display: block;
     flex-direction: column;
+  }
+  
+  .project {
+    min-width: 375px;
   }
 }
 
