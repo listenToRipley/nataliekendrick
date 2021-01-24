@@ -20,7 +20,9 @@ const About = () => {
     </Grid>
       <Grid div item xs={12} s={6} md={6} lg={9} spacing={6} >
 
-     <p className='aboutName'>Natalie Kendrick</p>
+     <p 
+    className='aboutName'
+    >Natalie Kendrick</p>
       
      <div className='aboutQuote'> 
       <em>
