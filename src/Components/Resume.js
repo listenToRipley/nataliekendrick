@@ -99,7 +99,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'block',
     marginLeft:'1em',
     marginRight: '1em',
-    fontSize: '1em',
+    fontSize: '.75em',
     fontStyle: 'italic',
     fontWeight:' fontWeightLight',
   },
@@ -149,7 +149,7 @@ const Resume = () => {
           className={classes.left}> 
             <Typography className={classes.name}>Natalie Kendrick</Typography>
             <p className={classes.title}>Full Stack Developer</p>
-            <p>___________________</p>
+            <p>________________</p>
             <List className={classes.contactInfo}>
               <ListItem>
                <ListItemAvatar className={classes.contactIcons}>
@@ -178,7 +178,7 @@ const Resume = () => {
                </ListItemText>
               </ListItem>
             </List>
-            <p>___________________</p>
+            <p>________________</p>
             <List>
               <ListItem className={classes.sectionTitle}>Education</ListItem>
               <ListItem className={classes.eduIcons}>
@@ -211,7 +211,7 @@ const Resume = () => {
               <Typography className={classes.degree}>General Studies Associate's Degree Liberal Arts 
 (Dec 2010)</Typography>
             </List>
-            <p>___________________</p>
+            <p>________________</p>
             <List className={classes.skillsList}>
             <ListItem className={classes.sectionTitle} >Skills</ListItem>
             <ListItem>JavaScript </ListItem>

@@ -279,7 +279,7 @@ a:hover {
   width: 100vw;
 }
 
-@media all and (min-width: 752px) {
+@media all and (max-width: 752px) {
 
   .profilePic {
     margin: 0 auto;
@@ -306,7 +306,15 @@ a:hover {
   }
 }
 
-@media all and (min-width: 375px) {
+@media all and (max-width: 375px) and (min-width: 200px) {
+  .panel {
+    -webkit-text-size-adjust: 2px;
+  }
+
+  .homepage {
+    -webkit-text-fill-color:goldenrod;
+  }
+
   .aboutName {
     margin-top: -2%;
     color: black;
