@@ -101,9 +101,10 @@ a:hover {
 .aboutName {
   width: 100%;
   justify-self: center;
-  align-items: center;
+
   font-family: 'Open Sans', sans-serif, 'Bold';
   margin-top: -5%;
+  margin-left: 4%;
   margin-bottom: .3em;
   font-size: 75px;
   font-weight: 600;
@@ -122,6 +123,7 @@ a:hover {
 
 .aboutQuote {
   width: 100%;
+  margin-left: 7%;
   margin-bottom: 2%;
 }
 
