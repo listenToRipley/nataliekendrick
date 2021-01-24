@@ -32,11 +32,12 @@ const About = () => {
       </Grid>
 
     <Typography paragraph>
-    I am a motivated professional with extensive experiences ranging from web development to fine arts to customer service. I bring a unique protective to the table. I believe in continuous learner and big picture thinking. I am flexible, organized and determined.
+    I am a motivated professional with extensive experience ranging from web development and fine arts to customer service. I bring a unique perspective to the table. I believe in continuous learning and big picture thinking. I am flexible, organized, goal-oriented, and creatively driven. 
     </Typography>
-    <Typography> I am also goal-orientated and creatively drive. I am passionate about making sure everyone get what they need from the project. I keep an eye on my team to make sure they have what they need to succeed as well. I believe that my team success is my own. All of this makes me a proactive, self-starter who thrives in when it comes to problem solving.</Typography>
+    <Typography> I am passionate about making sure everyone gets what they need from the project. Being team oriented means to me that I keep an eye on my team to make sure they have what they need to succeed to the best of their ability. I believe that my success benefits the team above all else. When it comes to problem solving I am proactive, a self-starter, and enjoy problem solving.
+</Typography>
     <Typography paragraph>
-    In my spare time I love to read, hike with my dog, do yoga, and play board games. I love, love, love food and cooking. I am also a massive movie buff and my international television. 
+    In my spare time I love to read, hike with my dog, do yoga, and play board games. I love, love, love food and cooking. I am also a massive movie buff and enjoy international television. I look forward to hearing from you and I hope you have a fantastic adventure today. 
     </Typography>
     <Typography>
       I look forward to hearing from you and have a fantastic adventure today. 

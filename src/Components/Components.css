@@ -306,7 +306,7 @@ a:hover {
   }
 }
 
-@media all and (max-width: 375px) and (min-width: 200px) {
+@media all and (min-width: 200px) and (max-width: 405px)  {
   .panel {
     -webkit-text-size-adjust: 2px;
   }
@@ -319,6 +319,8 @@ a:hover {
     margin-top: -2%;
     color: black;
     -webkit-text-fill-color: black;
+    background-position: center;
+    font-size: 20px;
   }
 
   .aboutQuote {
