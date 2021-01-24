@@ -26,7 +26,6 @@ a:hover {
   text-align: center;
   font-family: 'Open Sans', sans-serif, 'Bold';
   background-image: url('./projectImgs/golden.jpeg');
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-clip: text;
@@ -111,7 +110,6 @@ a:hover {
   background-image: url('./projectImgs/backdrop.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -312,7 +310,7 @@ a:hover {
   }
 }
 
- @media all and (min-width: 200px) and (max-width: 410px)  {
+ @media all and (min-width: 0px) and (max-width: 410px)  {
   .panel {
     -webkit-text-size-adjust: 2px;
   }
