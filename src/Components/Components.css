@@ -291,13 +291,11 @@ a:hover {
   .aboutName {
     font-size: 50px;
     margin-top: 15%;
-    margin-left: -2em;
   }
 
   .aboutQuote {
     display: block;
     flex-direction: column;
-    margin-left: -7em;
     margin-bottom: 5%;
   }
   
@@ -306,7 +304,15 @@ a:hover {
   }
 }
 
-@media all and (min-width: 200px) and (max-width: 405px)  {
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+  .MuiGrid-container  {
+    margin-top: 10%;
+  }
+}
+/* @media all and (min-width: 200px) and (max-width: 410px)  {
   .panel {
     -webkit-text-size-adjust: 2px;
   }
@@ -315,12 +321,16 @@ a:hover {
     -webkit-text-fill-color:goldenrod;
   }
 
+  .aboutPage {
+    display: flex;
+    flex-direction: column;
+  }
+
   .aboutName {
     margin-top: -2%;
     color: black;
     -webkit-text-fill-color: black;
     background-position: center;
-    font-size: 20px;
   }
 
   .aboutQuote {
@@ -328,4 +338,4 @@ a:hover {
     margin-left: .2px;
   }
 
-}
+} */
