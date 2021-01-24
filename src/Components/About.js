@@ -11,14 +11,14 @@ const About = () => {
     <Paper className="aboutPage">
     <Grid root spacing={2} className='aboutHeader' alignContent='space-evenly' noWrap='true'>
     <Grid container>
-    <Grid item xs={12} s={12} md={10} lg={4} spacing={0} alignItem='center'>
+    <Grid item xs={12} s={6} md={6} lg={3} spacing={2} alignItem='center'>
     <img
       className="profilePic"
       alter='Natalie Kendrick' 
       src={profile}
      />
     </Grid>
-      <Grid div item xs={12} s={12} md={10} lg={4} spacing={0} alignItem='center'>
+      <Grid div item xs={12} s={6} md={6} lg={9} spacing={6} alignItem='center'>
 
      <p className='aboutName'>Natalie Kendrick</p>
       
@@ -28,9 +28,7 @@ const About = () => {
     </em> ~ Grace Hopper
     </div>
       </Grid>
-     </Grid> 
 
-    <Grid container>
     <Typography paragraph>
     I am a motivated professional with extensive experiences ranging from web development to fine arts to customer service. I bring a unique protective to the table. I believe in continuous learner and big picture thinking. I am flexible, organized and determined.
     </Typography>
