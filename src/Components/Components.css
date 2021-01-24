@@ -277,20 +277,26 @@ a:hover {
   width: 100vw;
 }
 
-@media all and (min-width: 585px) {
+@media all and (min-width: 752px) {
 
   .profilePic {
     margin: 0 auto;
+    width: 50%;
+    height: 75%;
+    margin-right: 0;
   }
 
   .aboutName {
-    display: block;
-    flex-direction: row;
+    font-size: 50px;
+    margin-top: 15%;
+    margin-left: -2em;
   }
 
   .aboutQuote {
     display: block;
     flex-direction: column;
+    margin-left: -7em;
+    margin-bottom: 5%;
   }
   
   .project {
