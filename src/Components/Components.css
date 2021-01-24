@@ -95,13 +95,16 @@ a:hover {
   margin: 5%;
   padding: 5%;
   display: flex;
-  flex-grow: 1;
+  flex-grow: 2;
 }
 
 .aboutName {
   width: 100%;
   justify-self: center;
+  align-items: center;
   font-family: 'Open Sans', sans-serif, 'Bold';
+  margin-top: -5%;
+  margin-bottom: .3em;
   font-size: 75px;
   font-weight: 600;
   background-image: url('./projectImgs/backdrop.jpeg');
