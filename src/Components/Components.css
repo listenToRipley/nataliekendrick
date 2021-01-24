@@ -22,7 +22,7 @@ a:hover {
 }
 
 .homepage {
-  margin-top: 4%;
+  z-index: -1;
   text-align: center;
   font-family: 'Open Sans', sans-serif, 'Bold';
   background-image: url('./projectImgs/golden.jpeg');
@@ -35,9 +35,9 @@ a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.199);
-  -webkit-background-clip: text;
-     -moz-background-clip: text;
-          background-clip: text;
+  -webkit-background-size: 2650px 1440px;   
+  -moz-background-clip: text;
+  background-clip: text;
 }
 
 .name {
@@ -109,7 +109,6 @@ a:hover {
   font-weight: 600;
   z-index: -1;
   background-image: url('./projectImgs/backdrop.jpeg');
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -120,7 +119,7 @@ a:hover {
   -webkit-background-clip: text;
   -webkit-background-size: 2650px 1440px;   
   -moz-background-clip: text;
-          background-clip: text;
+  background-clip: text;
 }
 
 .aboutQuote {
@@ -304,20 +303,21 @@ a:hover {
   }
 }
 
-@media screen 
+@media all 
   and (device-width: 360px) 
   and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) {
-  .MuiGrid-container  {
+  and (-webkit-device-pixel-ratio: 3) {
+  .aboutName  {
     margin-top: 10%;
   }
 }
-/* @media all and (min-width: 200px) and (max-width: 410px)  {
+
+ @media all and (min-width: 200px) and (max-width: 410px)  {
   .panel {
     -webkit-text-size-adjust: 2px;
   }
 
-  .homepage {
+  .name {
     -webkit-text-fill-color:goldenrod;
   }
 
@@ -338,4 +338,4 @@ a:hover {
     margin-left: .2px;
   }
 
-} */
+} 
