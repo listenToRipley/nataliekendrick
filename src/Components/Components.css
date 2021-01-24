@@ -319,8 +319,16 @@ a:hover {
   }
   
    .projectBody {
-    flex-grow: 2;
+     margin-left: 0;
+    justify-content: space-evenly;
   } 
+
+  .cardBody {
+    max-width: 82%;
+    min-width: 82%;
+    min-height: 7%;
+    margin: 2%;
+  }
 }
 
  @media all and (min-width: 0px) and (max-width: 410px)  {
