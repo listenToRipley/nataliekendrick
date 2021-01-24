@@ -306,11 +306,16 @@ a:hover {
   }
 }
 
-@media all and (min-width: 673px) {
-  .aboutPage {
-    display: flex;
-    flex-wrap: wrap;
+@media all and (min-width: 375px) {
+  .aboutName {
+    margin-top: -2%;
+    color: black;
+    -webkit-text-fill-color: black;
   }
 
+  .aboutQuote {
+    font-size: 25px;
+    margin-left: .2px;
+  }
 
 }
