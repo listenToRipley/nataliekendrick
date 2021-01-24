@@ -142,6 +142,8 @@ a:hover {
 .project {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .projectTitle {
@@ -152,7 +154,6 @@ a:hover {
 
 .projectBody {
   display: flex;
-  flex-direction: row;
   margin: 2%;
   flex-wrap: wrap; 
   margin-left: 7%;
@@ -221,6 +222,8 @@ a:hover {
 }
 
 .codeSamples {
+  display: flex;
+  flex-direction: column;
   width: 75%;
   margin-left: 12%;
 }
@@ -299,15 +302,25 @@ a:hover {
   .project {
     min-width: 375px;
   }
+
 }
 
 @media all 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
+  and (min-width: 360px) 
+  and (min-height: 640px) 
+{
   .aboutName  {
     margin-top: 10%;
+  }  
+
+  .project {
+    margin: 0;
+    width: 100%;
   }
+  
+   .projectBody {
+    flex-grow: 2;
+  } 
 }
 
  @media all and (min-width: 0px) and (max-width: 410px)  {

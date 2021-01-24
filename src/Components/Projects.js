@@ -216,8 +216,8 @@ const Projects = () => {
       {card}
     </div>
     <div className="projectAdds">
-    <CodeSample/>
     </div>
+    <CodeSample/>
    </div>
   );
 }
