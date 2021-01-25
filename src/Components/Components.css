@@ -174,7 +174,8 @@ a:hover {
 
 .description {
   height: 2.5em;
-  margin-bottom: 0;
+  margin-top: -5px;
+  margin-bottom: 5px;
 }
 
 .projectAdds {
