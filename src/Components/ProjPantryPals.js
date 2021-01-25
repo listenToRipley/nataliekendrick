@@ -36,9 +36,9 @@ return (
     <Typography className="badges">
 
     <p className='eachBadge'>
-    <FaCss3Alt/>
-      <FaJs />
-      <FaReact />  
+      <FaCss3Alt className='pantryBadge'/>
+      <FaJs className='pantryBadge'/>
+      <FaReact className='pantryBadge'/>  
     </p>    
 
     </Typography>

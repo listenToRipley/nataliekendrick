@@ -195,16 +195,18 @@ a:hover {
   color: grey;
 }
 
+.pantryBadge {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
 .button {
   display: flex;
   margin-top: 5px;
   margin-bottom: 15px;
 }
 
-.pantryBadges {
-  margin-top: 1px;
-  color: #3e4fb7;
-}
+
 
 .skills {
   font-size: 10px;
