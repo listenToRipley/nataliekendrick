@@ -5,6 +5,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
+import Tooltip from '@material-ui/core/Tooltip';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
 import PantryPals from './ProjPantryPals'
@@ -179,9 +180,9 @@ const Projects = () => {
       title={projects.subheader}
     />
     <CardContent>
-    <Typography className='description'>
+    <p className='description'>
       {proj.description}
-    </Typography>
+    </p>
 
       <Typography className='badges' color={proj.color}>
       { proj.badges.map((badge, index) => 
@@ -189,9 +190,9 @@ const Projects = () => {
         {badge}
     </p> )}
       </Typography>
-        <Typography className="skills">
+        <p paragraph className="skills">
            {proj.skills}
-        </Typography>
+        </p>
     <CardActions>
       <ButtonGroup fullWidth={true} variant="text" size="large" component="div">
         <Button className="viewButton" onClick={() => window.open(proj.site)}>

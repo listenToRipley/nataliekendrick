@@ -329,6 +329,24 @@ a:hover {
     min-height: 7%;
     margin: 2%;
   }
+
+  .description {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  .eachBadge {
+    font-size: 50px;
+  }
+
+  .skills {
+    font-size: 25px;
+    padding-left: 10px;
+  }
+
+  .viewButton {
+    font-size: 45px;
+  }
 }
 
  @media all and (min-width: 0px) and (max-width: 410px)  {

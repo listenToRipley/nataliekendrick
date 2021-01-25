@@ -10,6 +10,7 @@ import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
 import { FaJs} from "@react-icons/all-files/fa/FaJs";
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
+import Tooltip from '@material-ui/core/Tooltip';
 import { Link } from 'react-router-dom';
 import pantryPals from './projectImgs/pantryPals.png';
 import './Components.css'
@@ -29,19 +30,21 @@ return (
     title="pantry pals"
   />
   <CardContent>
-  <Typography>
+  <p className='description'>
     An full stack application keeping track of shopping and pantry items.
-  </Typography>
-    <Typography className="pantryBadges">
+  </p>
+    <Typography className="badges">
 
-      <FaCss3Alt className="badges"/>
-      <FaJs className="badges"/>
-      <FaReact className="badges"/>      
+    <p className='eachBadge'>
+    <FaCss3Alt/>
+      <FaJs />
+      <FaReact />  
+    </p>    
 
     </Typography>
-      <Typography className="skills">
+      <p className="skills">
          CSS, Javascript, SQL, React
-      </Typography>
+      </p>
   <CardActions>
 
     <ButtonGroup fullWidth={true} variant="text" size="large" component="div" className="pantryButtons">
