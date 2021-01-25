@@ -7,6 +7,7 @@ import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
+import ToolTip from '@material-ui/core/Tooltip';
 import PantryPals from './ProjPantryPals'
 import CodeSample from './ProjCodeSamples';
 //badges
@@ -193,14 +194,18 @@ const Projects = () => {
            {proj.skills}
         </p>
     <CardActions>
-      <ButtonGroup fullWidth={true} variant="text" size="large" component="div">
+      <ButtonGroup fullWidth={true} variant="text" size="large">
+      <ToolTip title='see site'>
         <Button className="viewButton" onClick={() => window.open(proj.site)}>
         View Site
         </Button>
-    
+        </ToolTip>
+
+        <ToolTip title='see code'>
         <Button className="viewButton" onClick={()=> window.open(proj.code)}>
         View Code
         </Button>
+        </ToolTip>
       </ButtonGroup>
   
       </CardActions>

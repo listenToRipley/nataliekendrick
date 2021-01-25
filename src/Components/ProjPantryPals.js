@@ -10,6 +10,7 @@ import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
 import { FaJs} from "@react-icons/all-files/fa/FaJs";
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
+import ToolTip from '@material-ui/core/Tooltip';
 import { Link } from 'react-router-dom';
 import pantryPals from './projectImgs/pantryPals.png';
 import './Components.css'
@@ -47,17 +48,23 @@ return (
   <CardActions>
 
     <ButtonGroup fullWidth={true} variant="text" size="large" component="div" className="pantryButtons">
+    <ToolTip title='see-site'>
     <Button className="viewButton" onClick={() => window.open('https://pantrypals.herokuapp.com/')}>
     View Site
     </Button>
+    </ToolTip>
 
+    <ToolTip title='see-planning'>
     <Button className="viewButton" align='center' component={Link} to={'/pantryPalsPlanning'} >
     View Planning
     </Button>
+    </ToolTip>
 
+    <ToolTip title='see-code'>
     <Button className="viewButton" onClick={()=> window.open('https://github.com/listenToRipley/capstone')}>
     View Code
     </Button>
+    </ToolTip>
     </ButtonGroup>
     </CardActions>
   </CardContent>
