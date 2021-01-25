@@ -20,7 +20,6 @@ import { FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 import aca from './projectImgs/acaBadge.png';
 import pima from './projectImgs/pima.png';
 import backdrop from './projectImgs/backdrop.jpeg';
-import { faBorderNone } from '@fortawesome/free-solid-svg-icons';
 
 const useStyles = makeStyles((theme) => ({
   resume: {

@@ -10,7 +10,6 @@ import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt"
 import { FaJs} from "@react-icons/all-files/fa/FaJs";
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
-import Tooltip from '@material-ui/core/Tooltip';
 import { Link } from 'react-router-dom';
 import pantryPals from './projectImgs/pantryPals.png';
 import './Components.css'

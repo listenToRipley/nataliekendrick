@@ -200,14 +200,6 @@ a:hover {
   margin-left: 15px;
 }
 
-.button {
-  display: flex;
-  margin-top: 5px;
-  margin-bottom: 15px;
-}
-
-
-
 .skills {
   font-size: 10px;
   color: grey;
@@ -217,6 +209,10 @@ a:hover {
   display: flex;
   margin-top: 5px;
   margin-bottom: 15px;
+}
+
+.viewButton {
+  font-size: 25px;
 }
 
 .pantryButtons {

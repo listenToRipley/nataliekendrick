@@ -653,7 +653,7 @@ const PantryPalPlanning = () => {
         <Card className='carousel' variant='outlined' raised='true'>
         <Carousel showArrows={true} >
        {
-                img.map( (item, i) => <img className='planImg' key={i} description={item.description} src={item.image} /> )
+                img.map( (item, i) => <img className='planImg' key={i} alt={item.description} src={item.image} /> )
             }
         </Carousel>
         </Card>

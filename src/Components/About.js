@@ -2,7 +2,6 @@ import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-import List from '@material-ui/core/List';
 import profile from './projectImgs/profile.jpeg';
 import './Components.css';
 
@@ -14,7 +13,7 @@ const About = () => {
     <Grid item xs={12} s={6} md={6} lg={3} spacing={2} alignItem='center'>
     <img
       className="profilePic"
-      alter='Natalie Kendrick' 
+      alt='Natalie Kendrick' 
       src={profile}
      />
     </Grid>
