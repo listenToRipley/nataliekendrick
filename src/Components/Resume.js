@@ -39,8 +39,6 @@ const useStyles = makeStyles((theme) => ({
     display: 'block',
     color: 'transparent',
     backgroundImage: `url(${backdrop})`,
-    backgroundAttachment: 'fixed',
-    backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat'
   },
   left: {
