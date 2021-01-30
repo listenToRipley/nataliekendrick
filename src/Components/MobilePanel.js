@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import clsx from 'clsx';
 import Drawer from '@material-ui/core/Drawer';
 import Button from '@material-ui/core/Button';
@@ -28,6 +29,11 @@ const Panel = () =>  {
   const [value, setValue] = useState(0);
   const [bottom, setBottom] = React.useState(false);
 
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+    //will need to include routing on click, use links. 
+  };
+
   const toggleDrawer = (anchor, open) => (event) => {
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
       return;
@@ -46,29 +52,37 @@ const Panel = () =>  {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
-      </List>
-      <Divider />
-      <List>
-        {['All mail', 'Trash', 'Spam'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
+      <Tabs className='tabs' indicatorColor='primary' value={value} onChange={handleChange} aria-label="menu items" centered={true} >
+        <Tab label="Home" 
+              component={Link}
+              to='/' 
+              aria-label='home'
+        />
+        <Divider/>
+        <Tab label="About"
+              component={Link}
+              to='/about'  
+              aria-label='about'
+        />
+        <Divider/>
+        <Tab label="Resume"  
+          component={Link}
+          to='/resume' 
+          aria-label='resume'
+        />
+        <Divider/>
+        <Tab label="Projects" 
+            component={Link}
+            to='/projects' 
+            aria-label='projects'
+        />
+      </Tabs>
       </List>
     </div>
   );
 
   return (
-    <div>
-    {['left', 'right', 'top', 'bottom'].map((anchor) => (
-      <React.Fragment key={anchor}>
+    <div key={anchor}>
         <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
         <SwipeableDrawer
           anchor={anchor}
@@ -78,8 +92,6 @@ const Panel = () =>  {
         >
           {list(anchor)}
         </SwipeableDrawer>
-      </React.Fragment>
-    ))}
   </div>
   );
 }
