@@ -24,10 +24,10 @@ const useStyles = makeStyles({
   },
 });
 
-const Panel = () =>  {
+const MobilePanel = () =>  {
   const classes = useStyles();
   const [value, setValue] = useState(0);
-  const [bottom, setBottom] = React.useState(false);
+  const [bottom, setBottom] = useState(false);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -44,9 +44,6 @@ const Panel = () =>  {
 
   const list = (anchor) => (
     <div
-      className={clsx(classes.list, {
-        [classes.fullList]: anchor === 'top' || anchor === 'bottom',
-      })}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
