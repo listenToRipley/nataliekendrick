@@ -36,51 +36,52 @@ const Panel = () =>  {
     setBottom({ ...bottom, [anchor]: open });
   };
 
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-    //will need to include routing on click, use links. 
-  };
-
-  const panelTop = {
-    <div className='panel'>
-    <AppBar color="transparent" position="static">
-      <Tabs className='tabs' indicatorColor='primary' value={value} onChange={handleChange} aria-label="menu items" centered={true} >
-        <Tab label="Home" 
-              component={Link}
-              to='/' 
-              aria-label='home'
-        />
-        <Tab label="About"
-              component={Link}
-              to='/about'  
-              aria-label='about'
-        />
-        <Tab label="Resume"  
-          component={Link}
-          to='/resume' 
-          aria-label='resume'
-        />
-        <Tab label="Projects" 
-            component={Link}
-            to='/projects' 
-            aria-label='projects'
-        />
-      </Tabs>
-    </AppBar>
-  </div>
-  }
-
-  const width = window.innerWidth
-
-  const breakPoint = 620
-  
-  const mobile = (anchor) => {
-
-  }
+  const list = (anchor) => (
+    <div
+      className={clsx(classes.list, {
+        [classes.fullList]: anchor === 'top' || anchor === 'bottom',
+      })}
+      role="presentation"
+      onClick={toggleDrawer(anchor, false)}
+      onKeyDown={toggleDrawer(anchor, false)}
+    >
+      <List>
+        {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
+          <ListItem button key={text}>
+            <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
+            <ListItemText primary={text} />
+          </ListItem>
+        ))}
+      </List>
+      <Divider />
+      <List>
+        {['All mail', 'Trash', 'Spam'].map((text, index) => (
+          <ListItem button key={text}>
+            <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
+            <ListItemText primary={text} />
+          </ListItem>
+        ))}
+      </List>
+    </div>
+  );
 
   return (
-   {width < breakPoint ? }
+    <div>
+    {['left', 'right', 'top', 'bottom'].map((anchor) => (
+      <React.Fragment key={anchor}>
+        <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+        <SwipeableDrawer
+          anchor={anchor}
+          open={state[anchor]}
+          onClose={toggleDrawer(anchor, false)}
+          onOpen={toggleDrawer(anchor, true)}
+        >
+          {list(anchor)}
+        </SwipeableDrawer>
+      </React.Fragment>
+    ))}
+  </div>
   );
 }
 
-export default Panel
+export default MobilePanel
