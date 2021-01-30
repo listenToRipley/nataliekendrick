@@ -28,6 +28,7 @@ const MobilePanel = () =>  {
   const classes = useStyles();
   const [value, setValue] = useState(0);
   const [bottom, setBottom] = useState(false);
+  const [anchor, setAnchor] = useState(false)
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -38,7 +39,6 @@ const MobilePanel = () =>  {
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
       return;
     }
-
     setBottom({ ...bottom, [anchor]: open });
   };
 
@@ -79,15 +79,13 @@ const MobilePanel = () =>  {
   );
 
   return (
-    <div key={anchor}>
-        <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+    <div>
+        <Button onClick={toggleDrawer(true)}>Bottom</Button>
         <SwipeableDrawer
-          anchor={anchor}
-          open={state[anchor]}
-          onClose={toggleDrawer(anchor, false)}
-          onOpen={toggleDrawer(anchor, true)}
+          onClose={toggleDrawer(false)}
+          onOpen={toggleDrawer(true)}
         >
-          {list(anchor)}
+          {list}
         </SwipeableDrawer>
   </div>
   );
