@@ -6,11 +6,7 @@ const Panel = () =>  {
   
   const width = window.innerWidth
 
-  const breakPoint = 620
-  
-  const mobile = (anchor) => {
-
-  }
+  const breakPoint = 980
 
   return (
    width < breakPoint ? <MobilePanel/> : <WebPanel/> 
