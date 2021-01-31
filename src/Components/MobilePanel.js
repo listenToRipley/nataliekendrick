@@ -20,12 +20,18 @@ const useStyles = makeStyles({
     top: 'auto',
     bottom: 0,
     alignItems: 'center',
-    width: '100%'
+    height: '25%',
+    width: '100vw'
+  },
+  toolbar: {
+    width: '100vw',
   },
   icon: {
     fontSize: 'large',
     color: 'white',
-    width: '100%'
+    display: 'inline-block',
+    width: '100vw',
+    height: '25vh'
   },
   list: {
     width: 250,
@@ -42,8 +48,7 @@ const useStyles = makeStyles({
 const MobilePanel = () =>  {
   const classes = useStyles();
   const [value, setValue] = useState(0);
-  const [state, setState] = useState(false);
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -54,7 +59,7 @@ const MobilePanel = () =>  {
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
       return;
     }
-    setState(!state);
+    setOpen(!open);
   };
 
   const list = () => (
@@ -94,21 +99,29 @@ const MobilePanel = () =>  {
   );
 
   return (
-    <AppBar className={classes.appbar} position="fixed" color="transparent">
-      <Toolbar>
-        <Button className={classes.icon} edge="start" color="inherit" aria-label="open drawer" 
+    <AppBar className={classes.appbar} 
+    position="fixed" 
+    color="transparent"
+    fullWidth='true'>
+      <Toolbar classes={classes.toolbar}
+        fullWidth='true'>
+        <Button className={classes.icon} 
+        edge="start" 
+
+        aria-label="open drawer" 
         onClick={toggleDrawer(true)}>
-        {setState ? <ExpandMoreRoundedIcon/> : <ExpandLessRoundedIcon/>}
+        {setOpen ? <ExpandMoreRoundedIcon/> : <ExpandLessRoundedIcon/>}
           <SwipeableDrawer
             onClose={toggleDrawer(false)}
             onOpen={toggleDrawer(true)}
           >
-            {list}
+          <Drawer>
+          {list}
+          </Drawer>
           </SwipeableDrawer>
         </Button>
       </Toolbar>
     </AppBar>
-  // <div className={classes.test}>##################</div>
   );
 }
 
