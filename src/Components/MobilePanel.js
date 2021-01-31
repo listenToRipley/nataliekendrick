@@ -12,6 +12,8 @@ import Tab from '@material-ui/core/Tab';
 import IconButton from '@material-ui/core/IconButton';
 import ExpandLessRoundedIcon from '@material-ui/icons/ExpandLessRounded';
 import ExpandMoreRoundedIcon from '@material-ui/icons/ExpandMoreRounded';
+import { FaAngleDown } from "@react-icons/all-files/fa/FaAngleDown";
+import { FaAngleUp } from "@react-icons/all-files/fa/FaAngleUp";
 import {Link} from 'react-router-dom';
 // import './Components.css';
 
@@ -27,7 +29,7 @@ const useStyles = makeStyles({
     width: '100vw',
   },
   icon: {
-    fontSize: 'large',
+    fontSize: '25px',
     color: 'white',
     display: 'inline-block',
     width: '100vw',
@@ -105,12 +107,11 @@ const MobilePanel = () =>  {
     fullWidth='true'>
       <Toolbar classes={classes.toolbar}
         fullWidth='true'>
-        <Button className={classes.icon} 
+        <Button
         edge="start" 
-
         aria-label="open drawer" 
         onClick={toggleDrawer(true)}>
-        {setOpen ? <ExpandMoreRoundedIcon/> : <ExpandLessRoundedIcon/>}
+        {setOpen ?  <FaAngleUp className={classes.icon} /> : <FaAngleDown className={classes.icon} />}
           <SwipeableDrawer
             onClose={toggleDrawer(false)}
             onOpen={toggleDrawer(true)}
