@@ -42,7 +42,7 @@ const useStyles = makeStyles({
 const MobilePanel = () =>  {
   const classes = useStyles();
   const [value, setValue] = useState(0);
-  const [bottom, setBottom] = useState(false);
+  const [state, setState] = useState(false);
   const [open, setOpen] = useState(false)
 
   const handleChange = (event, newValue) => {
@@ -50,18 +50,18 @@ const MobilePanel = () =>  {
     //will need to include routing on click, use links. 
   };
 
-  const toggleDrawer = (anchor, open) => (event) => {
+  const toggleDrawer = (open) => (event) => {
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
       return;
     }
-    setBottom({ ...bottom, [anchor]: open = true });
+    setState(!state);
   };
 
-  const list = (anchor) => (
+  const list = () => (
     <Drawer
       role="presentation"
-      onClick={toggleDrawer(anchor, false)}
-      onKeyDown={toggleDrawer(anchor, false)}
+      onClick={toggleDrawer(false)}
+      onKeyDown={toggleDrawer(false)}
     >
       <List>
       <Tabs className='tabs' indicatorColor='primary' value={value} onChange={handleChange} aria-label="menu items" centered={true} >
@@ -98,7 +98,7 @@ const MobilePanel = () =>  {
       <Toolbar>
         <Button className={classes.icon} edge="start" color="inherit" aria-label="open drawer" 
         onClick={toggleDrawer(true)}>
-        <ExpandMoreRoundedIcon/>
+        {setState ? <ExpandMoreRoundedIcon/> : <ExpandLessRoundedIcon/>}
           <SwipeableDrawer
             onClose={toggleDrawer(false)}
             onOpen={toggleDrawer(true)}
