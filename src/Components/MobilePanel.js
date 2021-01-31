@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {Fragment, useState} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import Drawer from '@material-ui/core/Drawer';
@@ -6,7 +6,6 @@ import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar'
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import { FaAngleDown } from "@react-icons/all-files/fa/FaAngleDown";
@@ -21,9 +20,6 @@ const useStyles = makeStyles({
     alignItems: 'center',
     height: '25%',
     width: '100vw'
-  },
-  toolbar: {
-    width: '100vw',
   },
   icon: {
     color: 'rgba(245, 245, 245, 0.315)',
@@ -102,23 +98,20 @@ const MobilePanel = () =>  {
     position="fixed" 
     color="transparent"
     fullWidth='true'>
-      <Toolbar classes={classes.toolbar}
-        fullWidth='true'>
+
         <Button
         edge="start" 
         aria-label="open drawer" 
         onClick={toggleDrawer(true)}>
-        {setOpen ?  <FaAngleUp className={classes.icon} /> : <FaAngleDown className={classes.icon} />}
+        {setOpen ?  <FaAngleUp className={classes.icon} onClick={toggleDrawer(true)} /> : <FaAngleDown className={classes.icon} onClick={toggleDrawer(false)}/>}
           <SwipeableDrawer
             onClose={toggleDrawer(false)}
             onOpen={toggleDrawer(true)}
           >
-          <Drawer>
-          {list}
-          </Drawer>
+          {setOpen ? {list} : <Fragment/>}
           </SwipeableDrawer>
         </Button>
-      </Toolbar>
+
     </AppBar>
   );
 }
