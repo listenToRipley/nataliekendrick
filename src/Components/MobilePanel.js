@@ -5,10 +5,13 @@ import Drawer from '@material-ui/core/Drawer';
 import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar'
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
+import ExpandLessRoundedIcon from '@material-ui/icons/ExpandLessRounded';
+import ExpandMoreRoundedIcon from '@material-ui/icons/ExpandMoreRounded';
 import {Link} from 'react-router-dom';
-import { AppBar, Toolbar } from '@material-ui/core';
 // import './Components.css';
 
 const useStyles = makeStyles({
@@ -83,7 +86,7 @@ const MobilePanel = () =>  {
   );
 
   return (
-    <AppBar className={classes.appbar} position="fixed">
+    <AppBar className={classes.appbar} position="fixed" color="transparent">
       <Toolbar>
         <Drawer>
           <Button onClick={toggleDrawer(true)}>Bottom</Button>
