@@ -9,6 +9,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar'
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
+import IconButton from '@material-ui/core/IconButton';
 import ExpandLessRoundedIcon from '@material-ui/icons/ExpandLessRounded';
 import ExpandMoreRoundedIcon from '@material-ui/icons/ExpandMoreRounded';
 import {Link} from 'react-router-dom';
@@ -18,6 +19,13 @@ const useStyles = makeStyles({
   appbar:{
     top: 'auto',
     bottom: 0,
+    alignItems: 'center',
+    width: '100%'
+  },
+  icon: {
+    fontSize: 'large',
+    color: 'white',
+    width: '100%'
   },
   list: {
     width: 250,
@@ -88,15 +96,16 @@ const MobilePanel = () =>  {
   return (
     <AppBar className={classes.appbar} position="fixed" color="transparent">
       <Toolbar>
-        <Drawer>
-          <Button onClick={toggleDrawer(true)}>Bottom</Button>
+        <Button className={classes.icon} edge="start" color="inherit" aria-label="open drawer" 
+        onClick={toggleDrawer(true)}>
+        <ExpandMoreRoundedIcon/>
           <SwipeableDrawer
             onClose={toggleDrawer(false)}
             onOpen={toggleDrawer(true)}
           >
             {list}
           </SwipeableDrawer>
-        </Drawer>
+        </Button>
       </Toolbar>
     </AppBar>
   // <div className={classes.test}>##################</div>
