@@ -26,11 +26,11 @@ const useStyles = makeStyles({
     width: '100vw',
   },
   icon: {
-    fontSize: '25px',
-    color: 'white',
+    color: 'rgba(245, 245, 245, 0.315)',
     display: 'inline-block',
     width: '100vw',
-    height: '25vh'
+    height: '25vh',
+    padding: '10%'
   },
   list: {
     width: 250,
