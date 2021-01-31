@@ -8,19 +8,28 @@ import Divider from '@material-ui/core/Divider';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import {Link} from 'react-router-dom';
-import './Components.css';
+import { AppBar, Toolbar } from '@material-ui/core';
+// import './Components.css';
 
 const useStyles = makeStyles({
+  appbar:{
+    top: 'auto',
+    bottom: 0,
+  },
   list: {
     width: 250,
   },
   fullList: {
     width: 'auto',
   },
+  test: {
+    fontSize: 25,
+    color: 'white'
+  }
 });
 
 const MobilePanel = () =>  {
-  // const classes = useStyles();
+  const classes = useStyles();
   const [value, setValue] = useState(0);
   const [bottom, setBottom] = useState(false);
   const [open, setOpen] = useState(false)
@@ -74,15 +83,20 @@ const MobilePanel = () =>  {
   );
 
   return (
-    <Drawer>
-        <Button onClick={toggleDrawer(true)}>Bottom</Button>
-        <SwipeableDrawer
-          onClose={toggleDrawer(false)}
-          onOpen={toggleDrawer(true)}
-        >
-          {list}
-        </SwipeableDrawer>
-  </Drawer>
+    <AppBar className={classes.appbar} position="fixed">
+      <Toolbar>
+        <Drawer>
+          <Button onClick={toggleDrawer(true)}>Bottom</Button>
+          <SwipeableDrawer
+            onClose={toggleDrawer(false)}
+            onOpen={toggleDrawer(true)}
+          >
+            {list}
+          </SwipeableDrawer>
+        </Drawer>
+      </Toolbar>
+    </AppBar>
+  // <div className={classes.test}>##################</div>
   );
 }
 
