@@ -1,4 +1,5 @@
 import React from 'react'
+import { makeStyles } from '@material-ui/core';
 import {Controlled as CodeMirror} from 'react-codemirror2'
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/neat.css';
@@ -6,12 +7,25 @@ import 'codemirror/mode/javascript/javascript.js';
 import 'codemirror/theme/material.css';
 import Typography from '@material-ui/core/Typography';
 
+const useStyles = makeStyles({ 
+  body:{
+    color: 'white'
+  }
+})
+
 const SampleBank = () => {
 
+const classes = useStyles();
+
   return (
-    <div>
-    <Typography align='right' variant='h6'>Sample bank account</Typography>
-    <Typography className="general" align='right'>Create a basic bank account using Javascript</Typography>
+    <div className={classes.body}>
+    <Typography 
+    align='right' 
+    variant='h6'
+    >Sample bank account</Typography>
+    <Typography 
+    align='right'
+    >Create a basic bank account using Javascript</Typography>
     <CodeMirror
     value='
     class BankAccount { &
