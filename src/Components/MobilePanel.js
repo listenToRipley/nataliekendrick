@@ -17,16 +17,18 @@ const useStyles = makeStyles({
   appbar:{
     top: 'auto',
     bottom: 0,
-    alignItems: 'center',
-    height: '25%',
-    width: '100vw'
+    alignContent: 'center',
+    height: '15%',
+    width: '100vw',
+    margin: '5%'
   },
   icon: {
     color: 'rgba(245, 245, 245, 0.315)',
-    display: 'inline-block',
+    display: 'absolute',
     width: '100vw',
     height: '25vh',
-    padding: '10%'
+    padding: '10%',
+    marginLeft: '15%'
   },
   list: {
     width: 250,

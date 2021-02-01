@@ -11,7 +11,7 @@ import gold from './projectImgs/golden.jpeg'
 const useStyles = makeStyles({
   home: {
     position:'fixed',
-    height:'80vh',
+    height:'80%',
     fontFamily: `'Open Sans', sans-serif, 'Bold'`,
     textAlign: 'center',
     zIndex: '-1',
