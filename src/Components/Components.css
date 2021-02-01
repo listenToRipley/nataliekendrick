@@ -21,15 +21,13 @@ a:hover {
   color: rgba(218, 165, 32, 0.603);
 }
 
-.homepage {
+.name {
   z-index: -1;
   text-align: center;
   font-family: 'Open Sans', sans-serif, 'Bold';
   background-image: url('./projectImgs/golden.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -37,9 +35,6 @@ a:hover {
   -webkit-background-size: 2650px 1440px;   
   -moz-background-clip: text;
   background-clip: text;
-}
-
-.name {
   display: block;
   letter-spacing: 6px;
   margin-bottom: 8%;

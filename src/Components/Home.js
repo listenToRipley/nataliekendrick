@@ -1,15 +1,53 @@
 import React, {useState} from 'react';
-import Link from '@material-ui/core/Link'
+import Link from '@material-ui/core/Link';
 import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn";
 import { FaGoogle } from "@react-icons/all-files/fa/FaGoogle";
 import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 import { FaGithubAlt } from "@react-icons/all-files/fa/FaGithubAlt";
 import {FaMediumM} from "@react-icons/all-files/fa/FaMediumM";
-import './Components.css';
 import { makeStyles } from '@material-ui/core';
-import { CallToActionSharp } from '@material-ui/icons';
+import gold from './projectImgs/golden.jpeg'
 
 const useStyles = makeStyles({
+  home: {
+    position:'fixed',
+    height:'80vh',
+    fontFamily: `'Open Sans', sans-serif, 'Bold'`,
+    textAlign: 'center',
+    zIndex: '-1',
+    textAlign: 'center',
+  },
+  name: {
+    display: 'block',
+    padding: '2%',
+    fontSize: '75px',
+    letterSpacing: '6px',
+    marginBottom: '8%',
+    color: 'transparent',
+    backgroundImage: `url(${gold})`,
+    WebkitTextFillColor: 'transparent',
+    WebkitBackgroundClip: 'text',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
+    WebkitBackgroundSize: '2650px 1440px',   
+    MozBackgroundClip: 'text',
+  },
+  title: {
+    fontSize: '50px',
+    margin: '2%',
+    fontSamily: `'Josefin Slab', serif`,
+    fontWeight: 500,
+    color: 'transparent',
+    backgroundImage: `url(${gold})`,
+    WebkitTextFillColor: 'transparent',
+    WebkitBackgroundClip: 'text',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
+    WebkitBackgroundSize: '2650px 1440px',   
+    MozBackgroundClip: 'text',
+  },
   iconDiv: {
     top: 'auto',
     bottom: 0,
@@ -17,7 +55,7 @@ const useStyles = makeStyles({
     height: '80vh',
     width: '100vw',
     marginTop: '.5em',
-    fontSize: '110px',
+    fontSize: '75px',
   },
   icons: {
     color:'rgba(245, 245, 245, 0.315)'
@@ -61,9 +99,9 @@ const Homepage = () => {
   ]
 
   return (
-    <div className='homepage'>
-      <h1 align='center' className='name'>Natalie Kendrick</h1>
-      <p align='center'  className='title'><em>Full Stack Developer</em></p>
+    <div className={classes.home}>
+      <h1 align='center' className={classes.name}>Natalie Kendrick</h1>
+      <p align='center'  className={classes.title}><em>Full Stack Developer</em></p>
       <div align='center' className={classes.iconDiv}>
       {contacts.map((connect) => {
         return(
@@ -75,7 +113,6 @@ const Homepage = () => {
 
       
       </div>
-    
     </div>
   )
 }
