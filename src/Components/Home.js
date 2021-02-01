@@ -17,11 +17,19 @@ const useStyles = makeStyles({
     height: '80vh',
     width: '100vw',
     marginTop: '.5em',
-    marginLeft: '.75em',
     fontSize: '110px',
+  },
+  icons: {
+    color:'rgba(245, 245, 245, 0.315)'
   },
   firstIcon: {
     color:'rgba(245, 245, 245, 0.315)'
+  },
+  eachIcon: {
+    display: 'inline',
+    marginLeft: '.5em',
+    color:'rgba(245, 245, 245, 0.315)',
+
   }
 })
 
@@ -32,23 +40,23 @@ const Homepage = () => {
     {
       title: 'linkedIn',
       link: 'https://www.linkedin.com/in/nataliemichellekendrick/', 
-      icon: <FaLinkedinIn />},
+      icon: <FaLinkedinIn className={classes.firstIcon} />},
     {
       title: 'gmail',
       link: 'mailto: natalie.m.kendrick@gmail.com', 
-      icon:  <FaGoogle />},
+      icon:  <FaGoogle className={classes.eachIcon}/>},
     {
         title: 'twitter',
         link: 'https://twitter.com/NKendrick12', 
-        icon: <FaTwitter />},
+        icon: <FaTwitter className={classes.eachIcon} />},
     {
         title: 'github',
         link: 'https://github.com/listenToRipley', 
-        icon: <FaGithubAlt /> },
+        icon: <FaGithubAlt className={classes.eachIcon}/> },
     {
        title: 'medium',
        link: 'https://listentoripley.medium.com/', 
-       icon: <FaMediumM/>},
+       icon: <FaMediumM className={classes.eachIcon}/>},
       
   ]
 
@@ -59,7 +67,7 @@ const Homepage = () => {
       <div align='center' className={classes.iconDiv}>
       {contacts.map((connect) => {
         return(
-        <Link className={classes.homeIcons} href={connect.link}>
+        <Link className={classes.icons} href={connect.link}>
           {connect.icon}
         </Link>
         )
