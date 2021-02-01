@@ -107,8 +107,6 @@ import useCase15 from './projectImgs/pantryPalPlanning/useCase15.jpg';
 import useCase16 from './projectImgs/pantryPalPlanning/useCase16.jpg';
 import useCase17 from './projectImgs/pantryPalPlanning/useCase17.jpg';
 
-import './Components.css';
-
 const useStyles = makeStyles({ 
   planning:{
     width: '100vw',
@@ -117,7 +115,8 @@ const useStyles = makeStyles({
   paper: {
     width: '80%',
     marginLeft: '10%',
-    marginTop: '5%'
+    marginTop: '5%',
+    marginBottom: '1oopx'
   },
   title: {
     display: 'block',
@@ -138,6 +137,7 @@ const useStyles = makeStyles({
     width: '75%',
     height:'100%',
     marginLeft: '5%',
+    marginBottom: '3em'
   },
   img:{
     width: '475px',
