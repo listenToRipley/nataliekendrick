@@ -60,8 +60,6 @@ const MobilePanel = () =>  {
   const list = () => (
     <Drawer
       role="presentation"
-      onClick={toggleDrawer(false)}
-      onKeyDown={toggleDrawer(false)}
     >
       <List>
       <Tabs className='tabs' indicatorColor='primary' value={value} onChange={handleChange} aria-label="menu items" centered={true} >
