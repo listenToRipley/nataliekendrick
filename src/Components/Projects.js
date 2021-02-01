@@ -28,9 +28,6 @@ import pigLatin from './projectImgs/pigLatin.png';
 import dodgeball from './projectImgs/dodgeball.png';
 import addressBook from './projectImgs/addressBook.png';
 import smallBusiness from './projectImgs/smallBusiness.png';
-import background from './projectImgs/backdrop.jpeg';
-
-import './Components.css';
 
 const useStyles = makeStyles({ 
   project:{
@@ -97,6 +94,9 @@ const useStyles = makeStyles({
   button: {
     marginTop: '15px',
     justifyContent: 'center'
+  },
+  viewButtons: {
+    fontSize: '17px'
   },
   additions: {
     margin: '5%',
@@ -276,14 +276,16 @@ const Projects = () => {
       className={classes.button}>
       <ToolTip title='see site'>
         <Button 
-        className="viewButton" 
+        className={classes.viewButtons}
         onClick={() => window.open(proj.site)}>
         View Site
         </Button>
         </ToolTip>
 
         <ToolTip title='see code'>
-        <Button className="viewButton" onClick={()=> window.open(proj.code)}>
+        <Button 
+        className={classes.viewButtons}
+        onClick={()=> window.open(proj.code)}>
         View Code
         </Button>
         </ToolTip>

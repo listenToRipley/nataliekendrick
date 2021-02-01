@@ -14,8 +14,6 @@ import Button from '@material-ui/core/Button';
 import ToolTip from '@material-ui/core/Tooltip';
 import { Link } from 'react-router-dom';
 import pantryPals from './projectImgs/pantryPals.png';
-import background from './projectImgs/backdrop.jpeg';
-import './Components.css'
 
 const useStyles = makeStyles({ 
   body:{
@@ -59,6 +57,9 @@ const useStyles = makeStyles({
     color: 'grey',
     marginTop: '-.5em',
     marginBottom: ' -.5em'
+  },
+  viewButtons: {
+    fontSize: '14px'
   },
   button: {
     marginBottom: '15px'
@@ -107,19 +108,26 @@ return (
     component="div" 
     className={classes.button}>
     <ToolTip title='see-site'>
-    <Button className="viewButton" onClick={() => window.open('https://pantrypals.herokuapp.com/')}>
+    <Button 
+    className={classes.viewButtons}
+    onClick={() => window.open('https://pantrypals.herokuapp.com/')}>
     View Site
     </Button>
     </ToolTip>
 
     <ToolTip title='see-planning'>
-    <Button className="viewButton" align='center' component={Link} to={'/pantryPalsPlanning'} >
+    <Button 
+    className={classes.viewButtons}
+    align='center' component={Link} 
+    to={'/pantryPalsPlanning'} >
     View Planning
     </Button>
     </ToolTip>
 
     <ToolTip title='see-code'>
-    <Button className="viewButton" onClick={()=> window.open('https://github.com/listenToRipley/capstone')}>
+    <Button 
+    className={classes.viewButtons}
+    onClick={()=> window.open('https://github.com/listenToRipley/capstone')}>
     View Code
     </Button>
     </ToolTip>
