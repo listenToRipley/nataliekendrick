@@ -8,6 +8,19 @@ import background from './projectImgs/backdrop.jpeg'
 import './Components.css';
 
 const useStyles = makeStyles({ 
+  about: {
+    display: 'flex',
+    width: '90vw',
+    margin: '5%',
+    padding: '5%'
+  },
+  pic: {
+    display: 'inline',
+    width: '100%',
+    borderRadius: '165px',
+    margin: '1%',
+    padding: '1%'
+  },
   name: {
     zIndex: '-1',
     width: '100%',
@@ -27,6 +40,20 @@ const useStyles = makeStyles({
     WebkitBackgroundSize: '2650px 1440px',   
     MozBackgroundClip: 'text',
     textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
+  },
+  pronouns : {
+    color: 'grey',
+    justifySelf: 'center',
+    alignSelf: 'center',
+    marginLeft: '35%',
+    marginTop: '-1em',
+    marginBottom: '1em'
+  },
+  quote: {
+
+  },
+  body: {
+    
   }
 })
 
@@ -34,12 +61,12 @@ const About = () => {
   const classes = useStyles();
 
   return (
-    <Paper className="aboutPage">
+    <Paper className={classes.about}>
     <Grid root spacing={3} className='aboutHeader' alignContent='space-evenly' noWrap='true'>
     <Grid container alignContent='center'>
     <Grid item xs={12} s={6} md={5} lg={3} alignItems='center'>
     <img
-      className="profilePic"
+      className={classes.pic}
       alt='Natalie Kendrick' 
       src={profile}
      />
@@ -49,7 +76,7 @@ const About = () => {
      <p 
     className={classes.name}
     >Natalie Kendrick</p>
-    <div className='pronouns'>
+    <div className={classes.pronouns}>
       <em>pronouns: she/her/hers</em>
     </div>
       
