@@ -5,7 +5,6 @@ import Grid from '@material-ui/core/Grid';
 import profile from './projectImgs/profile.jpeg';
 import { makeStyles } from '@material-ui/core';
 import background from './projectImgs/backdrop.jpeg'
-import './Components.css';
 
 const useStyles = makeStyles({ 
   about: {
@@ -50,10 +49,13 @@ const useStyles = makeStyles({
     marginBottom: '1em'
   },
   quote: {
-
+    width: '100%',
+    marginLeft: '7%',
+    marginBottom: '2em'
   },
   body: {
-    
+    marginTop: '.5em',
+    padding: '1%'
   }
 })
 
@@ -80,13 +82,13 @@ const About = () => {
       <em>pronouns: she/her/hers</em>
     </div>
       
-     <div className='aboutQuote'> 
+     <div className={classes.quote}> 
       <em>
       “The most dangerous phrase in the language is we've always done”
     </em> ~ Grace Hopper
     </div>
       </Grid>
-
+    <div className={classes.body}>
     <Typography paragraph>
     Creatively driven, flexible, organized, goal oriented and bringing a unique perspective to the table. Natalie is a motivated professional with extensive experience ranging from web development and fine arts to customer service.
     </Typography>
@@ -98,6 +100,7 @@ const About = () => {
     <Typography>
     She looks forward to hearing from you and hopes you have a fantastic adventure today 
     </Typography>
+    </div>
     </Grid>
     </Grid>
   </Paper>
