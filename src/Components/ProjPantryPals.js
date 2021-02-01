@@ -48,15 +48,6 @@ const useStyles = makeStyles({
     marginTop: '2px',
     marginBottom:'1px',
     color: 'grey'
-    // color: 'transparent',
-    // backgroundImage: `url(${background})`,
-    // backgroundPosition: 'center',
-    // WebkitTextFillColor: 'transparent',
-    // WebkitBackgroundClip: 'text',
-    // backgroundRepeat: 'no-repeat',
-    // WebkitBackgroundSize: '2650px 1440px',   
-    // MozBackgroundClip: 'text',
-    // textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
   },
   description:{
     height: '2.5em',

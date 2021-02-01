@@ -80,15 +80,6 @@ const useStyles = makeStyles({
     marginLeft: '15px',
     marginTop: '2px',
     color: 'grey'
-    // color: 'transparent',
-    // backgroundImage: `url(${background})`,
-    // backgroundPosition: 'center',
-    // WebkitTextFillColor: 'transparent',
-    // WebkitBackgroundClip: 'text',
-    // backgroundRepeat: 'no-repeat',
-    // WebkitBackgroundSize: '2650px 1440px',   
-    // MozBackgroundClip: 'text',
-    // textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
   },
   description:{
     height: '2.5em',
@@ -98,9 +89,10 @@ const useStyles = makeStyles({
   skills: {
     fontSize: '15px',
     color: 'grey',
-    height: '2.5em',
-    marginTop: '-.5em',
-    marginBottom: ' -.75em'
+    height: '2.2em',
+    paddingTop: '-.1em',
+    marginTop: '-.1em',
+    marginBottom: ' -1.5em'
   },
   button: {
     marginTop: '15px',
