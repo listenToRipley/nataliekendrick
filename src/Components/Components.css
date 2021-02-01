@@ -21,50 +21,6 @@ a:hover {
   color: rgba(218, 165, 32, 0.603);
 }
 
-.project {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.projectTitle {
-  display: inline-block;
-  width:100%;
-  padding: 2%;
-}
-
-.projectBody {
-  display: flex;
-  margin: 2%;
-  flex-wrap: wrap; 
-  margin-left: 7%;
-}
-
-.cardBody {
-  max-width: 345px;
-  min-width: 345px;
-  margin: 2%;
-}
-
-.cardMedia {
-  width: 90%;
-  height: 45%;
-  padding-top: 56.25%;
-  margin-left: 5%;
-}
-
-.description {
-  height: 2.5em;
-  margin-top: -5px;
-  margin-bottom: 5px;
-}
-
-.projectAdds {
-  margin: 5%;
-  justify-content: center;
-}
-
 .badges {
   font-size: 40px;
   padding-left: 15px;

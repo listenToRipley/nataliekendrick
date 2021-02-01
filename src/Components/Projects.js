@@ -47,9 +47,41 @@ const useStyles = makeStyles({
     display: 'flex',
     margin: '2%',
     flexWrap: 'wrap',
-    marginLeft:'7%',
-    alignItem: 'space-evenly',
+  },
+  cards: {
+    display: 'flex',
+    margin: '2%',
+    flexWrap: 'wrap',
+    marginLeft: '8em',
+  },
+  cardBody:{
+    maxWidth: '345px',
+    minWidth: '345px',
+    margin: '2%',
+    alignItem: 'space-around',
     justifySelf: 'center'
+
+  },
+  cardMedia: {
+    width: '90%',
+    height: '45%',
+    paddingTop: '56.25%',
+    marginLeft: '5%'
+  },
+  badges: {
+
+  },
+  eachBadge: {
+    
+  },
+  description:{
+    height: '2.5em',
+    marginTop: '-5px',
+    marginBottom: '5px'
+  },
+  additions: {
+    margin: '5%',
+    justifyContent:'center'
   },
 })
 
@@ -193,18 +225,18 @@ const Projects = () => {
 
   const card = projects.map((proj, index) => 
 
-    <Card className='cardBody' key={proj.num}>
+    <Card className={classes.cardBody} key={proj.num}>
     <CardHeader
       title={proj.header}
       subheader={proj.completed}
     />
     <CardMedia
-      className='cardMedia'
+      className={classes.cardMedia}
       image={proj.image}
       title={projects.subheader}
     />
     <CardContent>
-    <p className='description'>
+    <p className={classes.description}>
       {proj.description}
     </p>
 
@@ -243,11 +275,11 @@ const Projects = () => {
    className={classes.title} 
    variant='h4'
    >Portfolio</Typography>
-    <div className={classes.body}>
+    <div className={classes.cards}>
       <PantryPals/>
       {card}
     </div>
-    <div className="projectAdds">
+    <div className={classes.additions}>
     </div>
     <CodeSample/>
    </div>

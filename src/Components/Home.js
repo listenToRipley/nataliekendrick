@@ -15,7 +15,6 @@ const useStyles = makeStyles({
     fontFamily: `'Open Sans', sans-serif, 'Bold'`,
     textAlign: 'center',
     zIndex: '-1',
-    textAlign: 'center',
   },
   name: {
     display: 'block',
