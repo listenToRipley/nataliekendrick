@@ -20,7 +20,8 @@ const useStyles = makeStyles({
     alignContent: 'center',
     height: '15%',
     width: '100vw',
-    margin: '5%'
+    marginTop: '5%',
+    marginBottom: 0,
   },
   icon: {
     color: 'rgba(245, 245, 245, 0.315)',
@@ -94,10 +95,11 @@ const MobilePanel = () =>  {
   );
 
   return (
-    <AppBar className={classes.appbar} 
+    <footer>
+          <AppBar className={classes.appbar} 
     position="fixed" 
-    color="transparent"
-    fullWidth='true'>
+    fullWidth='true'
+    color='transparent'>
 
         <Button
         edge="start" 
@@ -113,6 +115,7 @@ const MobilePanel = () =>  {
         </Button>
 
     </AppBar>
+    </footer>
   );
 }
 

@@ -21,64 +21,6 @@ a:hover {
   color: rgba(218, 165, 32, 0.603);
 }
 
-
-.aboutPage {
-  display: flex;
-  width: 90vw;
-  margin: 5%;
-  padding: 5%;
-}
-
-.aboutName {
-  width: 100%;
-  justify-self: center;
-  font-family: 'Open Sans', sans-serif, 'Bold';
-  margin-top: -5%;
-  margin-left: 1.8em;
-  margin-bottom: .3em;
-  font-size: 75px;
-  font-weight: 600;
-  z-index: -1;
-  background-image: url('./projectImgs/backdrop.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.199);
-  -webkit-background-clip: text;
-  -webkit-background-size: 2650px 1440px;   
-  -moz-background-clip: text;
-  background-clip: text;
-}
-
-.pronouns {
-  color: grey;
-  justify-self: center;
-  align-self: center;
-  margin-left:35%;
-  margin-top: -1em;
-  margin-bottom: 1em; 
-}
-
-.aboutQuote {
-  width: 100%;
-  margin-left: 7%;
-  margin-bottom: 2em;
-}
-
-.profilePic {
-  width: 100%;
-  border-radius: 150px;
-  margin: 0;
-  display: inline;
-}
-
-.aboutBody {
-  margin-top: 4.5em;
-  padding: 4%;
-}
-
 .project {
   width: 100vw;
   height: 100vh;
