@@ -10,6 +10,7 @@ import Button from '@material-ui/core/Button';
 import ToolTip from '@material-ui/core/Tooltip';
 import PantryPals from './ProjPantryPals'
 import CodeSample from './ProjCodeSamples';
+import { makeStyles } from '@material-ui/core';
 //badges
 import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5";
 import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt";
@@ -30,8 +31,31 @@ import smallBusiness from './projectImgs/smallBusiness.png';
 
 import './Components.css';
 
+const useStyles = makeStyles({ 
+  project:{
+    display: 'flex',
+    width: '100vw',
+    height: '100vh',
+    flexDirection: 'column'
+  },
+  title: {
+    display: 'inline-block',
+    width: '100%',
+    padding: '2%'
+  },
+  body: {
+    display: 'flex',
+    margin: '2%',
+    flexWrap: 'wrap',
+    marginLeft:'7%',
+    alignItem: 'space-evenly',
+    justifySelf: 'center'
+  },
+})
+
 
 const Projects = () => {
+  const classes = useStyles();
 
   let projects = [
     {
@@ -214,9 +238,12 @@ const Projects = () => {
   )
 
   return (
-   <div className='project'>
-   <Typography className='projectTitle' variant='h4'>Portfolio</Typography>
-    <div className="projectBody">
+   <div className={classes.project}>
+   <Typography 
+   className={classes.title} 
+   variant='h4'
+   >Portfolio</Typography>
+    <div className={classes.body}>
       <PantryPals/>
       {card}
     </div>
