@@ -110,70 +110,40 @@ import useCase17 from './projectImgs/pantryPalPlanning/useCase17.jpg';
 import './Components.css';
 
 const useStyles = makeStyles({ 
-  project:{
-    display: 'flex',
+  planning:{
     width: '100vw',
     height: '100vh',
-    flexDirection: 'column'
+  },
+  paper: {
+    width: '80%',
+    marginLeft: '10%',
+    marginTop: '5%'
   },
   title: {
-    display: 'inline-block',
-    width: '100%',
-    padding: '2%'
+    display: 'block',
+    marginTop:'4em',
+    marginLeft: '4em',
+    marginBottom:'4em',
+    paddingTop: '1em',
   },
-  body: {
-    display: 'flex',
-    margin: '2%',
-    flexWrap: 'wrap',
+  body:{
+    height: '100%',
+    width: '80%',
+    marginTop: '2em',
+    marginLeft: '2em',
+    marginBottom: '2em'
   },
-  cards: {
-    display: 'flex',
-    margin: '2%',
-    flexWrap: 'wrap',
-    marginLeft: '8em',
+  carousel:{
+    minWidth: '500px',
+    width: '75%',
+    height:'100%',
+    marginLeft: '5%',
   },
-  cardBody:{
-    maxWidth: '345px',
-    minWidth: '345px',
-    margin: '2%',
-    alignItem: 'space-around',
-    justifySelf: 'center'
-
-  },
-  cardMedia: {
-    width: '90%',
-    height: '45%',
-    paddingTop: '56.25%',
-    marginLeft: '5%'
-  },
-  badges: {
-    display: 'inline-flex',
-    fontSize: '40px',
-    paddingLeft: '15px',
-    height: '1.2em',
-  },
-  eachBadge: {
-    fontSize: '30px',
-    marginLeft: '15px',
-    marginTop: '2px',
-    color: 'transparent',
-    backgroundImage: `url(${background})`,
-    backgroundPosition: 'center',
-    WebkitTextFillColor: 'transparent',
-    WebkitBackgroundClip: 'text',
-    backgroundRepeat: 'no-repeat',
-    WebkitBackgroundSize: '2650px 1440px',   
-    MozBackgroundClip: 'text',
-    textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
-  },
-  description:{
-    height: '2.5em',
-    marginTop: '-5px',
-    marginBottom: '5px'
-  },
-  additions: {
-    margin: '5%',
-    justifyContent:'center'
+  img:{
+    width: '475px',
+    height: '500px',
+    marginLeft: '2%',
+    marginTop: '2%',
   },
 })
 
@@ -707,12 +677,14 @@ const PantryPalPlanning = () => {
 
   //look into how to update timing. 
   return (
-    <div className='planning'>
-      <Paper className='planningPaper'>
-      <div className='planningTitle'>
-      <Typography variant='h3' component='h3'>Pantry Pals Planning</Typography>
+    <div className={classes.planning}>
+      <Paper className={classes.paper}>
+      <div className={classes.title}>
+      <Typography 
+      variant='h3' 
+      component='h3'>Pantry Pals Planning</Typography>
       
-      <div className='planBody'>
+      <div className={classes.body}>
         <p>
         <a href="https://docs.google.com/presentation/d/19xS8029_NRw05XWOCFp0lhlehDhmF07N_eE1Eif6Lfg/edit?usp=sharing">Original Concept</a> of the application was more of a meal planning, but I tried to slim it down. 
         </p>
@@ -722,10 +694,18 @@ const PantryPalPlanning = () => {
       
       </div>
 
-        <Card className='carousel' variant='outlined' raised='true'>
+        <Card 
+        className=
+        {classes.carousel} 
+        variant='outlined' 
+        raised='true'>
         <Carousel showArrows={true} >
        {
-                img.map( (item, i) => <img className='planImg' key={i} alt={item.description} src={item.image} /> )
+                img.map( (item, i) => <img 
+                className={classes.img} 
+                key={i} 
+                alt={item.description} 
+                src={item.image} /> )
             }
         </Carousel>
         </Card>
