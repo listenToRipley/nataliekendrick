@@ -1,9 +1,11 @@
 import React from 'react';
+import {makeStyles} from '@material-ui/core';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import Carousel from 'react-material-ui-carousel';
 //pictures
+import background from './projectImgs/backdrop.jpeg';
 import actionRel1 from './projectImgs/pantryPalPlanning/actionRel1.jpg';
 import actionRel2 from './projectImgs/pantryPalPlanning/actionRel2.jpg';
 import actionRel3 from './projectImgs/pantryPalPlanning/actionRel3.jpg';
@@ -107,8 +109,78 @@ import useCase17 from './projectImgs/pantryPalPlanning/useCase17.jpg';
 
 import './Components.css';
 
+const useStyles = makeStyles({ 
+  project:{
+    display: 'flex',
+    width: '100vw',
+    height: '100vh',
+    flexDirection: 'column'
+  },
+  title: {
+    display: 'inline-block',
+    width: '100%',
+    padding: '2%'
+  },
+  body: {
+    display: 'flex',
+    margin: '2%',
+    flexWrap: 'wrap',
+  },
+  cards: {
+    display: 'flex',
+    margin: '2%',
+    flexWrap: 'wrap',
+    marginLeft: '8em',
+  },
+  cardBody:{
+    maxWidth: '345px',
+    minWidth: '345px',
+    margin: '2%',
+    alignItem: 'space-around',
+    justifySelf: 'center'
+
+  },
+  cardMedia: {
+    width: '90%',
+    height: '45%',
+    paddingTop: '56.25%',
+    marginLeft: '5%'
+  },
+  badges: {
+    display: 'inline-flex',
+    fontSize: '40px',
+    paddingLeft: '15px',
+    height: '1.2em',
+  },
+  eachBadge: {
+    fontSize: '30px',
+    marginLeft: '15px',
+    marginTop: '2px',
+    color: 'transparent',
+    backgroundImage: `url(${background})`,
+    backgroundPosition: 'center',
+    WebkitTextFillColor: 'transparent',
+    WebkitBackgroundClip: 'text',
+    backgroundRepeat: 'no-repeat',
+    WebkitBackgroundSize: '2650px 1440px',   
+    MozBackgroundClip: 'text',
+    textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
+  },
+  description:{
+    height: '2.5em',
+    marginTop: '-5px',
+    marginBottom: '5px'
+  },
+  additions: {
+    margin: '5%',
+    justifyContent:'center'
+  },
+})
+
 
 const PantryPalPlanning = () => {
+
+  const classes = useStyles();
 
   let img = [ 
     {

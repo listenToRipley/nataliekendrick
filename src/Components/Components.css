@@ -21,6 +21,12 @@ a:hover {
   color: rgba(218, 165, 32, 0.603);
 }
 
+
+.projectAdds {
+  margin: 5%;
+  justify-content: center;
+}
+
 .badges {
   font-size: 40px;
   padding-left: 15px;

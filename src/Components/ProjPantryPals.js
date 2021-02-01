@@ -1,4 +1,5 @@
 import React from 'react';
+import {makeStyles} from '@material-ui/core';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -13,19 +14,80 @@ import Button from '@material-ui/core/Button';
 import ToolTip from '@material-ui/core/Tooltip';
 import { Link } from 'react-router-dom';
 import pantryPals from './projectImgs/pantryPals.png';
+import background from './projectImgs/backdrop.jpeg';
 import './Components.css'
+
+const useStyles = makeStyles({ 
+  body:{
+    maxWidth: '345px',
+    minWidth: '345px',
+    margin: '2%',
+    alignItem: 'space-around',
+    justifySelf: 'center'
+
+  },
+  media: {
+    width: '90%',
+    height: '45%',
+    paddingTop: '56.25%',
+    marginLeft: '5%'
+  },
+  badges: {
+    display: 'inline-flex',
+    fontSize: '40px',
+    paddingLeft: '15px',
+    height: '1.2em',
+  },
+  eachBadge: {
+    marginLeft: '15px',
+    marginTop: '-10px',
+  },
+  pBadge:{
+    fontSize: '30px',
+    marginLeft: '15px',
+    marginTop: '2px',
+    marginBottom:'1px',
+    color: 'grey'
+    // color: 'transparent',
+    // backgroundImage: `url(${background})`,
+    // backgroundPosition: 'center',
+    // WebkitTextFillColor: 'transparent',
+    // WebkitBackgroundClip: 'text',
+    // backgroundRepeat: 'no-repeat',
+    // WebkitBackgroundSize: '2650px 1440px',   
+    // MozBackgroundClip: 'text',
+    // textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
+  },
+  description:{
+    height: '2.5em',
+    marginTop: '-5px',
+    marginBottom: '5px'
+  },
+  skills: {
+    fontSize: '15px',
+    color: 'grey',
+    marginTop: '-.5em',
+    marginBottom: ' -.75em'
+  },
+  button: {
+    marginBottom: '15px'
+  }
+
+})
 
 const PantryPals = () => {
 
+  const classes = useStyles();
+
 return (
 
-<Card className='cardBody'>
+<Card className={classes.body}>
   <CardHeader
     title="Pantry Pals"
     subheader="December 2020"
   />
   <CardMedia
-    className='cardMedia'
+    className={classes.media}
     image={pantryPals}
     title="pantry pals"
   />
@@ -33,21 +95,26 @@ return (
   <p className='description'>
     An full stack application keeping track of shopping and pantry items.
   </p>
-    <Typography className="badges">
+    <Typography className={classes.badges}>
 
-    <p className='eachBadge'>
-      <FaCss3Alt className='pantryBadge'/>
-      <FaJs className='pantryBadge'/>
-      <FaReact className='pantryBadge'/>  
+    <p className={classes.eachBadge}>
+      <FaCss3Alt className={classes.pBadge}/>
+      <FaJs className={classes.pBadge}/>
+      <FaReact className={classes.pBadge}/>  
     </p>    
 
     </Typography>
-      <p className="skills">
+      <p className={classes.skills}>
          CSS, Javascript, SQL, React
       </p>
   <CardActions>
 
-    <ButtonGroup fullWidth={true} variant="text" size="large" component="div" className="pantryButtons">
+    <ButtonGroup 
+    fullWidth={true} 
+    variant="text" 
+    size="large" 
+    component="div" 
+    className={classes.button}>
     <ToolTip title='see-site'>
     <Button className="viewButton" onClick={() => window.open('https://pantrypals.herokuapp.com/')}>
     View Site

@@ -28,6 +28,7 @@ import pigLatin from './projectImgs/pigLatin.png';
 import dodgeball from './projectImgs/dodgeball.png';
 import addressBook from './projectImgs/addressBook.png';
 import smallBusiness from './projectImgs/smallBusiness.png';
+import background from './projectImgs/backdrop.jpeg';
 
 import './Components.css';
 
@@ -69,10 +70,24 @@ const useStyles = makeStyles({
     marginLeft: '5%'
   },
   badges: {
-
+    display: 'inline-flex',
+    fontSize: '40px',
+    paddingLeft: '15px',
+    height: '1.2em',
   },
   eachBadge: {
-    
+    fontSize: '30px',
+    marginLeft: '15px',
+    marginTop: '2px',
+    color: 'transparent',
+    backgroundImage: `url(${background})`,
+    backgroundPosition: 'center',
+    WebkitTextFillColor: 'transparent',
+    WebkitBackgroundClip: 'text',
+    backgroundRepeat: 'no-repeat',
+    WebkitBackgroundSize: '2650px 1440px',   
+    MozBackgroundClip: 'text',
+    textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
   },
   description:{
     height: '2.5em',
