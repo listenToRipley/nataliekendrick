@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import Drawer from '@material-ui/core/Drawer';
 import Button from '@material-ui/core/Button';
+import IconButton from '@material-ui/core/IconButton'
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import AppBar from '@material-ui/core/AppBar';
@@ -11,28 +12,26 @@ import Tab from '@material-ui/core/Tab';
 import { FaAngleDown } from "@react-icons/all-files/fa/FaAngleDown";
 import { FaAngleUp } from "@react-icons/all-files/fa/FaAngleUp";
 import {Link} from 'react-router-dom';
-// import './Components.css';
 
 const useStyles = makeStyles({
   appbar:{
     top: 'auto',
     bottom: 0,
     alignContent: 'center',
-    height: '15%',
+    height: '15vh',
     width: '100vw',
-    marginTop: '5%',
     marginBottom: 0,
   },
   icon: {
     color: 'rgba(245, 245, 245, 0.315)',
     display: 'absolute',
     width: '100vw',
-    height: '25vh',
+    height: '12vh',
     padding: '10%',
     marginLeft: '15%'
   },
   list: {
-    width: 250,
+    width: '250px',
   },
   fullList: {
     width: 'auto',
@@ -60,62 +59,64 @@ const MobilePanel = () =>  {
     setOpen(!open);
   };
 
-  const list = () => (
-    <Drawer
-      role="presentation"
-    >
-      <List>
-      <Tabs className='tabs' indicatorColor='primary' value={value} onChange={handleChange} aria-label="menu items" centered={true} >
-        <Tab label="Home" 
-              component={Link}
-              to='/' 
-              aria-label='home'
-        />
-        <Divider/>
-        <Tab label="About"
-              component={Link}
-              to='/about'  
-              aria-label='about'
-        />
-        <Divider/>
-        <Tab label="Resume"  
-          component={Link}
-          to='/resume' 
-          aria-label='resume'
-        />
-        <Divider/>
-        <Tab label="Projects" 
-            component={Link}
-            to='/projects' 
-            aria-label='projects'
-        />
-      </Tabs>
-      </List>
-    </Drawer>
-  );
-
   return (
-    <footer>
-          <AppBar className={classes.appbar} 
+ 
+    <AppBar className={classes.appbar} 
     position="fixed" 
-    fullWidth='true'
-    color='transparent'>
-
-        <Button
+    fullWidth='true'>
+        <IconButton
         edge="start" 
         aria-label="open drawer" 
         onClick={toggleDrawer(true)}>
-        {setOpen ?  <FaAngleUp className={classes.icon} onClick={toggleDrawer(true)} /> : <FaAngleDown className={classes.icon} onClick={toggleDrawer(false)}/>}
+         <FaAngleUp className={classes.icon} />
           <SwipeableDrawer
             onClose={toggleDrawer(false)}
             onOpen={toggleDrawer(true)}
           >
-          {setOpen ? {list} : <Fragment/>}
+          {setOpen ? 
+            <Drawer
+          role="presentation"
+        >
+          <Button onClick={toggleDrawer(false)}>
+          <FaAngleDown className={classes.icon} />
+          </Button>
+          <List>
+          <Tabs 
+          className='tabs' 
+          indicatorColor='primary' value={value} 
+          onChange={handleChange} 
+          aria-label="menu-items" 
+          centered={true} >
+          <Tab label="Home" 
+            component={Link}
+            to='/' 
+            aria-label='home'
+            />
+          <Divider/>
+          <Tab label="About"
+            component={Link}
+            to='/about'  
+            aria-label='about'
+            />
+            <Divider/>
+            <Tab label="Resume"  
+              component={Link}
+              to='/resume' 
+              aria-label='resume'
+            />
+            <Divider/>
+            <Tab label="Projects" 
+              component={Link}
+              to='/projects' 
+              aria-label='projects'
+            />
+          </Tabs>
+          </List>
+          </Drawer>
+          : <Fragment/>}
           </SwipeableDrawer>
-        </Button>
-
+        </IconButton>
     </AppBar>
-    </footer>
   );
 }
 
