@@ -67,7 +67,7 @@ const useStyles = makeStyles({
     fontSize: '15px',
     color: 'grey',
     marginTop: '-.5em',
-    marginBottom: ' -.75em'
+    marginBottom: ' -.5em'
   },
   button: {
     marginBottom: '15px'

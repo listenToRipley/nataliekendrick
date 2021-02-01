@@ -79,25 +79,38 @@ const useStyles = makeStyles({
     fontSize: '30px',
     marginLeft: '15px',
     marginTop: '2px',
-    color: 'transparent',
-    backgroundImage: `url(${background})`,
-    backgroundPosition: 'center',
-    WebkitTextFillColor: 'transparent',
-    WebkitBackgroundClip: 'text',
-    backgroundRepeat: 'no-repeat',
-    WebkitBackgroundSize: '2650px 1440px',   
-    MozBackgroundClip: 'text',
-    textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
+    color: 'grey'
+    // color: 'transparent',
+    // backgroundImage: `url(${background})`,
+    // backgroundPosition: 'center',
+    // WebkitTextFillColor: 'transparent',
+    // WebkitBackgroundClip: 'text',
+    // backgroundRepeat: 'no-repeat',
+    // WebkitBackgroundSize: '2650px 1440px',   
+    // MozBackgroundClip: 'text',
+    // textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
   },
   description:{
     height: '2.5em',
-    marginTop: '-5px',
+    marginTop: '5px',
     marginBottom: '5px'
+  },
+  skills: {
+    fontSize: '15px',
+    color: 'grey',
+    height: '2.5em',
+    marginTop: '-.5em',
+    marginBottom: ' -.75em'
+  },
+  button: {
+    marginTop: '15px',
+    justifyContent: 'center'
   },
   additions: {
     margin: '5%',
     justifyContent:'center'
   },
+
 })
 
 
@@ -255,19 +268,24 @@ const Projects = () => {
       {proj.description}
     </p>
 
-      <Typography className='badges' color={proj.color}>
+      <Typography className={classes.badges} color={proj.color}>
       { proj.badges.map((badge, index) => 
-    <p key={index} className='eachBadge'>
+    <p key={index} className={classes.eachBadge}>
         {badge}
     </p> )}
       </Typography>
-        <p paragraph className="skills">
+        <p paragraph className={classes.skills}>
            {proj.skills}
         </p>
     <CardActions>
-      <ButtonGroup fullWidth={true} variant="text" size="large">
+      <ButtonGroup 
+      fullWidth={true} 
+      variant="text" size="large"
+      className={classes.button}>
       <ToolTip title='see site'>
-        <Button className="viewButton" onClick={() => window.open(proj.site)}>
+        <Button 
+        className="viewButton" 
+        onClick={() => window.open(proj.site)}>
         View Site
         </Button>
         </ToolTip>
