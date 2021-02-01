@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Link from '@material-ui/core/Link';
 import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn";
 import { FaGoogle } from "@react-icons/all-files/fa/FaGoogle";
