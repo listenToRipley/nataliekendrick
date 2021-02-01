@@ -21,47 +21,6 @@ a:hover {
   color: rgba(218, 165, 32, 0.603);
 }
 
-
-.projectAdds {
-  margin: 5%;
-  justify-content: center;
-}
-
-.badges {
-  font-size: 40px;
-  padding-left: 15px;
-  display: inline-flex;
-  height: 1.2em;
-}
-
-.eachBadge {
-  font-size: 30px;
-  margin-left: 15px;
-  margin-top: 2px;
-  color: grey;
-}
-
-.pantryBadge {
-  margin-top: 2px;
-  margin-left: 15px;
-}
-
-.skills {
-  font-size: 15px;
-  color: grey;
-  margin-bottom: -1px;
-}
-
-.buttons {
-  display: flex;
-  margin-top: 1px;
-  margin-bottom: 15px;
-}
-
-.pantryButtons {
-  margin-bottom: 15px;
-}
-
 .codeSamples {
   display: flex;
   flex-direction: column;
