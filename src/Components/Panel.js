@@ -10,7 +10,7 @@ const Panel = () =>  {
   const breakPoint = 650
 
   return (
-   width >= breakPoint ? <MobilePanel/> : <WebPanel/> 
+   width < breakPoint ? <MobilePanel/> : <WebPanel/> 
   );
 }
 
