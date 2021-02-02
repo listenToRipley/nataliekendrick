@@ -11,10 +11,11 @@ import gold from './projectImgs/golden.jpeg'
 const useStyles = makeStyles({
   home: {
     position:'fixed',
-    height:'80%',
+    height:'90%',
     fontFamily: `'Open Sans', sans-serif, 'Bold'`,
     textAlign: 'center',
     zIndex: '-1',
+    marginTop: '-4em'
   },
   name: {
     display: 'block',
@@ -46,6 +47,7 @@ const useStyles = makeStyles({
     textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
     WebkitBackgroundSize: '2650px 1440px',   
     MozBackgroundClip: 'text',
+    marginTop: '-1.5em'
   },
   iconDiv: {
     top: 'auto',
