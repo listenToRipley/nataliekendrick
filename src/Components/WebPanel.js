@@ -13,10 +13,11 @@ const useStyles = makeStyles({
     color: 'transparent',
     position:'static',
     height: '20%',
-    marginBottom: '7em'
+    marginBottom: '12em'
   },
   bar:{
-    padding: '1em'
+    padding: '1em',
+    position: 'absolute'
   },
   tabs:{ 
     width: '100%',
@@ -24,7 +25,7 @@ const useStyles = makeStyles({
     justifyContent: 'space-evenly',
   },  
   link: {
-    fontSize: '3em',
+    fontSize: '2.75em',
     padding: '.2em'
   }
 });

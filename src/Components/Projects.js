@@ -31,34 +31,38 @@ import smallBusiness from './projectImgs/smallBusiness.png';
 
 const useStyles = makeStyles({ 
   project:{
-    display: 'flex',
+    display: 'block',
     width: '100vw',
     height: '100vh',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    marginLeft: '2%',
+    alignSelf: 'center'
   },
   title: {
-    display: 'inline-block',
+    display: 'block',
     width: '100%',
     padding: '2%'
   },
   body: {
-    display: 'flex',
+    display: 'block',
     margin: '2%',
     flexWrap: 'wrap',
+    minWidth: '420px',
+    width: '100vw'
   },
   cards: {
     display: 'flex',
-    margin: '2%',
-    flexWrap: 'wrap',
+    flexWrap:'wrap',
     marginLeft: '8em',
+    alignSelf: 'start',
+    minWidth: '375px',
+    justifySelf: 'center'
   },
-  cardBody:{
+  cardBody: {
     maxWidth: '345px',
     minWidth: '345px',
     margin: '2%',
-    alignItem: 'space-around',
-    justifySelf: 'center'
-
+    alignSelf: 'space-around',
   },
   cardMedia: {
     width: '90%',
@@ -247,6 +251,7 @@ const Projects = () => {
 
     <Card className={classes.cardBody} key={proj.num}>
     <CardHeader
+      classNam={classes.header}
       title={proj.header}
       subheader={proj.completed}
     />
