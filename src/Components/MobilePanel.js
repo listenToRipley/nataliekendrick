@@ -12,13 +12,15 @@ import Tab from '@material-ui/core/Tab';
 import { FaAngleDown } from "@react-icons/all-files/fa/FaAngleDown";
 import { FaAngleUp } from "@react-icons/all-files/fa/FaAngleUp";
 import {Link} from 'react-router-dom';
+import { ListItem } from '@material-ui/core';
 
 const useStyles = makeStyles({
   appbar:{
+    position:'static',
     top: 'auto',
     bottom: 0,
     alignContent: 'center',
-    height: '15vh',
+    height: '100vh+100px',
     width: '100vw',
     marginBottom: 0,
   },
@@ -44,27 +46,21 @@ const useStyles = makeStyles({
 
 const MobilePanel = () =>  {
   const classes = useStyles();
-  const [value, setValue] = useState(0);
   const [open, setOpen] = useState(false);
 
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-    //will need to include routing on click, use links. 
-  };
-
-  const toggleDrawer = (open) => (event) => {
-    if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
-      return;
+  const toggleDrawer = (open) => (e) => {
+    if (e.type === 'keydown' && (e.key === 'Tab' || e.key === 'Shift')) {
+      return setOpen(!open);
     }
-    setOpen(!open);
   };
 
   return (
- 
+    
     <AppBar className={classes.appbar} 
     position="fixed" 
     fullWidth='true'>
-        <IconButton
+            <p className={classes.test}>TESTING</p>
+        <Button
         edge="start" 
         aria-label="open drawer" 
         onClick={toggleDrawer(true)}>
@@ -81,41 +77,38 @@ const MobilePanel = () =>  {
           <FaAngleDown className={classes.icon} />
           </Button>
           <List>
-          <Tabs 
-          className='tabs' 
-          indicatorColor='primary' value={value} 
-          onChange={handleChange} 
-          aria-label="menu-items" 
-          centered={true} >
-          <Tab label="Home" 
-            component={Link}
+          <ListItem>
+          <Link label="Home" 
             to='/' 
             aria-label='home'
             />
+          </ListItem>
           <Divider/>
-          <Tab label="About"
-            component={Link}
+          <ListItem>
+          <Link label="About"
             to='/about'  
             aria-label='about'
             />
+            </ListItem>
             <Divider/>
-            <Tab label="Resume"  
-              component={Link}
+            <ListItem>
+            <Link label="Resume"  
               to='/resume' 
               aria-label='resume'
             />
+            </ListItem>
             <Divider/>
-            <Tab label="Projects" 
-              component={Link}
+            <ListItem>
+            <Link label="Projects" 
               to='/projects' 
               aria-label='projects'
             />
-          </Tabs>
+            </ListItem>
           </List>
           </Drawer>
           : <Fragment/>}
           </SwipeableDrawer>
-        </IconButton>
+        </Button>
     </AppBar>
   );
 }
