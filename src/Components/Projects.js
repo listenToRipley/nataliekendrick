@@ -42,7 +42,8 @@ const useStyles = makeStyles({
     display: 'block',
     fontSize: '3em',
     width: '100%',
-    padding: '2%'
+    padding: '2%',
+    marginTop: '-1.5em'
   },
   body: {
     display: 'block',
