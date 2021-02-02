@@ -40,6 +40,7 @@ const useStyles = makeStyles({
   },
   title: {
     display: 'block',
+    fontSize: '3em',
     width: '100%',
     padding: '2%'
   },
