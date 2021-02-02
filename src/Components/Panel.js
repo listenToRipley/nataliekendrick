@@ -25,7 +25,7 @@ const useStyles = makeStyles({
     justifyContent: 'space-evenly',
   },  
   link: {
-    fontSize: '2.75em',
+    fontSize: '1.5em',
     padding: '.2em'
   }
 });

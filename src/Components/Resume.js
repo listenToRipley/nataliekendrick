@@ -24,15 +24,18 @@ import backdrop from './projectImgs/backdrop.jpeg';
 const useStyles = makeStyles((theme) => ({
   resume: {
     flexGrow: 1,
-    margin: '2%',
     flexWrap: 'wrap',
     direction: 'row',
     minWidth: '200px',
     fontFamily: 'Droid Sans',
+    marginTop: '-3em',
+    marginBottom: '5em'
   },
   paper: {
     padding: theme.spacing(2),
-    margin: 'auto',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    marginBottom: '5em',
     maxWidth: 900,
   },
   separates: {
