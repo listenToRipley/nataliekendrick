@@ -8,16 +8,15 @@ import './Components.css';
 
 const useStyles = makeStyles({ 
   panel:{
+    display: 'flex',
+    flexWrap: 'wrap',
     color: 'transparent',
     position:'static',
-    fontSize: '50px',
     height: '20%',
-    marginBottom: '3%'
+    marginBottom: '7em'
   },
   bar:{
-    // centered: true, 
-
-
+    padding: '1em'
   },
   tabs:{ 
     width: '100%',
@@ -25,8 +24,8 @@ const useStyles = makeStyles({
     justifyContent: 'space-evenly',
   },  
   link: {
-    fontSize: '50px', 
-
+    fontSize: '3em',
+    padding: '.2em'
   }
 });
 
