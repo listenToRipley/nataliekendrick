@@ -17,12 +17,12 @@ const useStyles = makeStyles({
   bar:{
     // centered: true, 
 
-    justifyContent: 'space-evenly',
+
   },
   tabs:{ 
     width: '100%',
     color: 'white',
-
+    justifyContent: 'space-evenly',
   },  
   link: {
     fontSize: '50px', 
@@ -47,10 +47,10 @@ const WebPanel = () =>  {
     color='transparent' >
       <Tabs 
       className={classes.tabs}
+      variant="fullWidth"
       value={value} 
       onChange={handleChange} 
       aria-label="menu items" 
-      centered={true}
       indicatorColor='primary' >
         <Tab 
           label="Home"
