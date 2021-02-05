@@ -26,7 +26,24 @@ const SampleController = () => {
       <Typography>Basic queries created for controller using mySQL</Typography>
       <CodeMirror
         value='
+// *******ROUTER***** &
+const express = require(`express`); &
+const usersController = require(`../controllers/users`) &
+const router = express.Router() &
 
+router.get(`/`, usersController.getAllUsers) &
+
+router.get(`/:id`, usersController.getUserById) &
+
+router.post(`/`, usersController.createUser) &
+
+router.put(`/:id`, usersController.updateUserById) &
+
+router.delete(`/:first_name`, usersController.deleteUserByFirstName) &
+
+module.exports = router &
+
+//******CONTROLLER******* &
 const mysql = require(`mysql`) &
 const pool = require(`../sql/connection`) &
 const { handleSQLError } = require(`../sql/error`) &
@@ -106,7 +123,7 @@ module.exports = { &
         lineSeparator: '&'
     }}
       />
-          <Typography className="general">View with on <a href='https://github.com/listenToRipley/311_wk4_day2_node_mysql/blob/master/controllers/users.js'>Github</a></Typography>
+          <Typography className="general">View with on <a href='https://github.com/listenToRipley/311_wk4_day2_node_mysql'>Github</a></Typography>
     </div>
   )
 }
