@@ -81,7 +81,7 @@ const rockPaperScissors = (hand1, hand2) => { &
         lineSeparator: '&'
     }}
       />
-            <Typography className="general">View with on <a href='https://github.com/listenToRipley/javascript-workbook/blob/gh-pages/01week/rockPaperScissors.js'>Github</a></Typography>
+    <Typography className="general">View with on <a href='https://github.com/listenToRipley/javascript-workbook/blob/gh-pages/01week/rockPaperScissors.js'>Github</a></Typography>
     </div>
   )
 }
