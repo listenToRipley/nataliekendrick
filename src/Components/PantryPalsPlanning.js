@@ -105,7 +105,6 @@ import useCase14 from './projectImgs/pantryPalPlanning/useCase14.jpg';
 import useCase15 from './projectImgs/pantryPalPlanning/useCase15.jpg';
 import useCase16 from './projectImgs/pantryPalPlanning/useCase16.jpg';
 import useCase17 from './projectImgs/pantryPalPlanning/useCase17.jpg';
-import { Block } from '@material-ui/icons';
 
 const useStyles = makeStyles({ 
   planning:{
