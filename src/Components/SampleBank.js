@@ -97,7 +97,7 @@ let myAccount = new BankAccount(123244, `Natalie Kendrick`)  &
       lineSeparator: '&'
     }}
 />
-  <Typography className="general">View with on <a href='https://github.com/listenToRipley/javascript-workbook/blob/gh-pages/05week/bankAccount.js'>Github</a></Typography>
+  <Typography>View with on <a href='https://github.com/listenToRipley/javascript-workbook/blob/gh-pages/05week/bankAccount.js'>Github</a></Typography>
     </div>
   )
 }
