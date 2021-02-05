@@ -27,11 +27,17 @@ const CodeSamples = () => {
   return (
     <div className={classes.sample}>
       <Typography variant='h5'>Sample code : </Typography>
+      <br/>
       <SampleBank/>
+      <br/>
       <SampleMastermind/>
+      <br/>
       <SampleController/>
+      <br/>
       <SampleRPS/>
+      <br/>
       <SampleTower/>
+      <br/>
      <div className={classes.profiles}>
      <Typography paragraph> If you would like to review additional project,  please feel free to go to <a href="https://repl.it/@listenToRipley">repl.  it</a> or my <a href="https://www.codewars.com/users/minonOfLight">code   wars</a> profiles</Typography>
        <Typography paragraph>As well as my <a href="https://github.com/  listenToRipley">github page</a></Typography>
