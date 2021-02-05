@@ -18,7 +18,21 @@ const SampleController = () => {
 
   return (
     <div className={classes.body}>
-      
+      <Typography
+        align='right' 
+        variant='h6'>
+
+      </Typography>
+      <CodeMirror
+        value='
+        '
+        options={{
+        mode: 'javascript',
+        theme: 'material',
+        lineNumbers: true,
+        lineSeparator: '&'
+    }}
+      />
     </div>
   )
 }
