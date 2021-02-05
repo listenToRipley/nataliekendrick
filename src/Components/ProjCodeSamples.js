@@ -3,6 +3,9 @@ import {makeStyles} from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 import SampleBank from './SampleBank';
 import SampleMastermind from './SampleMastermind';
+import SampleController from './SampleController';
+import SampleRSP from './SampleRPS';
+import SampleTower from './SampleTower';
 
 const useStyles = makeStyles({ 
   sample: {
