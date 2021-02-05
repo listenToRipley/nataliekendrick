@@ -21,8 +21,9 @@ const SampleRPS = () => {
       <Typography
         align='right' 
         variant='h6'>
-
+        Rock, Paper, Scissors
       </Typography>
+      <Typography>Possible solution for rock, paper, scissors. pseudo code included.</Typography>
       <CodeMirror
         value='
         '
