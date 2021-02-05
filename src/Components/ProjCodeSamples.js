@@ -29,6 +29,9 @@ const CodeSamples = () => {
       <Typography variant='h5'>Sample code : </Typography>
       <SampleBank/>
       <SampleMastermind/>
+      <SampleController/>
+      <SampleRSP/>
+      <SampleTower/>
      <div className={classes.profiles}>
      <Typography paragraph> If you would like to review additional project,  please feel free to go to <a href="https://repl.it/@listenToRipley">repl.  it</a> or my <a href="https://www.codewars.com/users/minonOfLight">code   wars</a> profiles</Typography>
        <Typography paragraph>As well as my <a href="https://github.com/  listenToRipley">github page</a></Typography>
