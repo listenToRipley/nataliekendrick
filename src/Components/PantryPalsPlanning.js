@@ -5,7 +5,6 @@ import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import Carousel from 'react-material-ui-carousel';
 //pictures
-import background from './projectImgs/backdrop.jpeg';
 import actionRel1 from './projectImgs/pantryPalPlanning/actionRel1.jpg';
 import actionRel2 from './projectImgs/pantryPalPlanning/actionRel2.jpg';
 import actionRel3 from './projectImgs/pantryPalPlanning/actionRel3.jpg';
@@ -106,11 +105,13 @@ import useCase14 from './projectImgs/pantryPalPlanning/useCase14.jpg';
 import useCase15 from './projectImgs/pantryPalPlanning/useCase15.jpg';
 import useCase16 from './projectImgs/pantryPalPlanning/useCase16.jpg';
 import useCase17 from './projectImgs/pantryPalPlanning/useCase17.jpg';
+import { Block } from '@material-ui/icons';
 
 const useStyles = makeStyles({ 
   planning:{
     width: '100vw',
     height: '100vh',
+    minWidth: '535px'
   },
   paper: {
     width: '80%',
@@ -133,17 +134,16 @@ const useStyles = makeStyles({
     marginBottom: '2em'
   },
   carousel:{
-    minWidth: '500px',
-    width: '75%',
-    height:'100%',
-    marginLeft: '5%',
-    marginBottom: '3em'
+    display: 'block',
+    width: '70%',
+    height:'900%',
+    margin: 'auto',
   },
   img:{
-    width: '475px',
-    height: '500px',
-    marginLeft: '2%',
-    marginTop: '2%',
+    width: '56vw',
+    height: '75vh',
+    padding: '5%',
+    margin: 'auto',
   },
 })
 
