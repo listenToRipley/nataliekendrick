@@ -13,7 +13,7 @@ const useStyles = makeStyles({
   }
 })
 
-const SamplerController = () => {
+const SampleController = () => {
   const classes = useStyles();
 
   return (

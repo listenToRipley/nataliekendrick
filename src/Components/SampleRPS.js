@@ -13,7 +13,7 @@ const useStyles = makeStyles({
   }
 })
 
-const SamplerRSP = () => {
+const SampleRPS = () => {
   const classes = useStyles();
 
   return (
@@ -23,4 +23,4 @@ const SamplerRSP = () => {
   )
 }
 
-export default SampleRSP
+export default SampleRPS

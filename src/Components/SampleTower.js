@@ -13,12 +13,12 @@ const useStyles = makeStyles({
   }
 })
 
-const SamplerTower = () => {
+const SampleTower = () => {
   const classes = useStyles();
 
   return (
     <div className={classes.body}>
-      
+
     </div>
   )
 }

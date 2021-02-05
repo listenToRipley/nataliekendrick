@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import SampleBank from './SampleBank';
 import SampleMastermind from './SampleMastermind';
 import SampleController from './SampleController';
-import SampleRSP from './SampleRPS';
+import SampleRPS from './SampleRPS';
 import SampleTower from './SampleTower';
 
 const useStyles = makeStyles({ 
@@ -30,7 +30,7 @@ const CodeSamples = () => {
       <SampleBank/>
       <SampleMastermind/>
       <SampleController/>
-      <SampleRSP/>
+      <SampleRPS/>
       <SampleTower/>
      <div className={classes.profiles}>
      <Typography paragraph> If you would like to review additional project,  please feel free to go to <a href="https://repl.it/@listenToRipley">repl.  it</a> or my <a href="https://www.codewars.com/users/minonOfLight">code   wars</a> profiles</Typography>
