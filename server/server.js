@@ -9,4 +9,5 @@ app.use(express.static(public));
 app.use((req, res, next) => {
   res.sendFile(path.join(__dirname, '..', 'build', 'index.html'))
 })
+
 app.listen(port);
