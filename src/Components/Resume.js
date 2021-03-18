@@ -277,29 +277,29 @@ const Resume = () => {
               </ListItem>
             </List>
 
-            <Typography>Facilities Coordinator + Chief Problem Solver </Typography>
-            <Link href="https://www.pirkeybarber.com/" className={classes.company}>Pirkey Barber PLLC, Austin, TX</Link>
+            <Typography>Facilities Coordinator + Chief Problem Solver</Typography>
+            <Link href="https://www.pirkeybarber.com/" className={classes.company}>Pirkey Barber PLLC, Austin, TX ~ Intellectual Property Law Firm</Link>
             <br/>
             <em>Jun 2012 - May 2015</em>
             <List>
               <ListItem>
                 <ListItemAvatar>~</ListItemAvatar>
                 <ListItemText>
-                Maintain a Professional Office of over 30 employees 
+                Maintained a professional office of 30+ employees 
                 </ListItemText>
               </ListItem>
 
               <ListItem>
                 <ListItemAvatar>~</ListItemAvatar>
                 <ListItemText>
-                Digital & physical documentations at multiple locations 
+                Manage digital & physical documentations in multiple locations
                 </ListItemText>
               </ListItem>
 
               <ListItem>
                 <ListItemAvatar>~</ListItemAvatar>
                 <ListItemText>
-                 General office duties 
+                General office duties: reception work, receiving goods, placing orders, facilitating events, mail processing, hardware maintenance 
                 </ListItemText>
               </ListItem>
 
@@ -307,6 +307,7 @@ const Resume = () => {
                 <ListItemAvatar>~</ListItemAvatar>
                 <ListItemText>
                 Supervisor of 3 employees  
+ 
                 </ListItemText>
               </ListItem>
             </List>
