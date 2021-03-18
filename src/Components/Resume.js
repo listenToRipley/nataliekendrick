@@ -223,6 +223,7 @@ const Resume = () => {
             <ListItem>HTML5</ListItem>
             <ListItem>CSS </ListItem>
             <ListItem>Debugging</ListItem>
+            <ListItem>Webpack</ListItem>
             <ListItem>Heroku</ListItem>
             <ListItem>RESTful API</ListItem>
             <ListItem>Git/GitHub </ListItem>
