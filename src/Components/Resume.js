@@ -239,7 +239,7 @@ const Resume = () => {
           className={classes.right}> 
             <Typography>About</Typography>
             <Paper className={classes.separates}>___________________</Paper>
-            <p>Hard-working professional with over 10 years of work experience in a variety of fields and a working knowledge of application development, database design and the importance of leveraging those skills in creative and innovative approaches to problems while synthesizing the business and client needs.</p>
+            <p>After working in a variety of fields I have developed a comprehensive knowledge base for effective business practices, including:  application development, database design and the importance of leveraging those skills in creative and innovative approaches to problems while synthesizing the business and client needs.</p>
   
             <Typography>Experience</Typography>
             <Paper className={classes.separates}>___________________</Paper>
