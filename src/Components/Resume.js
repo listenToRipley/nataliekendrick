@@ -244,7 +244,7 @@ const Resume = () => {
             <Typography>Experience</Typography>
             <Paper className={classes.separates}>___________________</Paper>
             <Typography>Procurement Card Administrator</Typography>
-            <Link href="https://procard.financials.utexas.edu/" className={classes.company}>University of Texas at Austin + Purchasing Office , Austin, TX</Link>
+            <Link href="https://procard.financials.utexas.edu/" className={classes.company}>University of Texas at Austin + Purchasing Office , Austin, TX  ~ Edu.Institution </Link>
             <br/>
             <em>May 2015 - Present</em>
             <List>
