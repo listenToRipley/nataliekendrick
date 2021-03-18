@@ -313,21 +313,21 @@ const Resume = () => {
             </List>
 
             <Typography>DMS Specialist + Warehouse Assistant </Typography>
-            <Link href="https://www.ironmountain.com/" className={classes.company}>Iron Mountain, Austin, TX</Link>
+            <Link href="https://www.ironmountain.com/" className={classes.company}>Iron Mountain, Austin, TX ~ Records Management</Link>
             <br/>
             <em>Feb 2011 - Jun 2012</em>
             <List>
               <ListItem>
                 <ListItemAvatar>~</ListItemAvatar>
                 <ListItemText>
-                Documentation Preparation 
+                Receiving & preparation of documentation
                 </ListItemText>
               </ListItem>
 
               <ListItem>
                 <ListItemAvatar>~</ListItemAvatar>
                 <ListItemText>
-                Digital Imaging of Sensitive Documents 
+                Digital Imaging of confidential information
                 </ListItemText>
               </ListItem>
 
