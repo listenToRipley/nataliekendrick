@@ -73,7 +73,7 @@ const About = () => {
       src={profile}
      />
     </Grid>
-      <Grid div item xs={12} s={6} md={6} lg={9} spacing={6} alignContent='space-evenly' >
+      <Grid div item xs={12} s={6} md={5} lg={9} spacing={6} alignContent='space-evenly' >
 
      <p 
     className={classes.name}
