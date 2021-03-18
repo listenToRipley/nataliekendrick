@@ -251,28 +251,28 @@ const Resume = () => {
               <ListItem>
                 <ListItemAvatar>~</ListItemAvatar>
                 <ListItemText>
-                 Manage card usage and policy for approx. 1400  cards & more users
+                Manage card usage & policy for approx. 1400+ cards & users
                 </ListItemText>
               </ListItem>
 
               <ListItem>
                 <ListItemAvatar>~</ListItemAvatar>
                 <ListItemText>
-                Facilitate and resolve issues been user, the bank and internal systems 
+                Facilitate & resolve issues between multi-parties 
                 </ListItemText>
               </ListItem>
 
               <ListItem>
                 <ListItemAvatar>~</ListItemAvatar>
                 <ListItemText>
-                 Create processes to maintenance practices 
+                Create & maintain consistent, secure & effective processes for users 
                 </ListItemText>
               </ListItem>
 
               <ListItem>
                 <ListItemAvatar>~</ListItemAvatar>
                 <ListItemText>
-                Create reports to manage & calibrate usage and purchasing needs 
+                Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users expectations 
                 </ListItemText>
               </ListItem>
             </List>
