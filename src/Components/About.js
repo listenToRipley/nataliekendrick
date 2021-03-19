@@ -61,6 +61,8 @@ const useStyles = makeStyles({
 
 const About = () => {
   const classes = useStyles();
+  const quote = `"I may not have gone where I intended to go, but I think I have ended up where I needed to be."`
+  const author = "Douglas Adams"
 
   return (
     <Paper className={classes.about}>
@@ -84,8 +86,8 @@ const About = () => {
       
      <div className={classes.quote}> 
       <em>
-      “The most dangerous phrase in the language is we've always done”
-    </em> ~ Grace Hopper
+      {quote}
+    </em> ~ {author}
     </div>
       </Grid>
     <div className={classes.body}>
