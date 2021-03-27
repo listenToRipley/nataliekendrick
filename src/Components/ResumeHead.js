@@ -23,14 +23,25 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "5em",
     maxWidth: 900
   },
+  name: {
+    fontSize: 32,
+    fontFamily: 'Droid Sans'
+  },
+  title: {
+    fontSize: 20,
+    marginTop: '.5em',
+  },
   separates: {
     display: "flex",
+    flexWrap: "wrap",
     color: "white",
     backgroundImage: `url(${backdrop})`,
     backgroundRepeat: "no-repeat",
     justifyContent: "space-around",
-    //this needs to be bolder
+    fontWeight: 600,
+    letterSpacing: "1px"
   },
+
 })
 );
 
