@@ -55,8 +55,11 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: '5px'
   },
   studentDuty:{
-    fontSize: 10,
-    padding: '0 aut0'
+    fontSize: '15px',
+    height: '2.2em',
+    paddingTop: '-.1em',
+    marginTop: '-.1em',
+    marginBottom: ' -1.5em'
   }
 
 }));
@@ -295,7 +298,7 @@ const ResumeExp = () => {
           return(
             <div>
             <ListItem className={classes.studentHistory}>
-              <ListItemAvatar>{each.div}</ListItemAvatar>
+    
               <ListItemText className={classes.studentDuty}>{duty}</ListItemText>
             </ListItem>
           </div>
