@@ -21,6 +21,8 @@ import aca from './projectImgs/acaBadge.png';
 import pima from './projectImgs/pima.png';
 import backdrop from './projectImgs/backdrop.jpeg';
 
+import ResumeHead from './ResumeHead';
+
 const useStyles = makeStyles((theme) => ({
   resume: {
     flexGrow: 1,
@@ -136,6 +138,7 @@ const Resume = () => {
   return (
     <div className={classes.resume}>
       <Paper className={classes.paper}>
+      <ResumeHead/>
         <Grid
         container
         direction="row"
