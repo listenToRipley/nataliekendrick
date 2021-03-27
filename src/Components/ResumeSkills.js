@@ -76,10 +76,13 @@ const ResumeSkills = () => {
       </Paper>
     
       <div className={classes.skillList}>
-      <Typography>Soft Skills</Typography>
-      {skills.map((skill) => <Chip label={skill} variant="outline" className={classes.chip}/>)}
+      
       <Typography>Hard Skills</Typography>
       {technologies.map((tech) => <Chip label={tech} variant="outline" className={classes.chip}/>)}
+
+      <Typography>Soft Skills</Typography>
+      {skills.map((skill) => <Chip label={skill} variant="outline" className={classes.chip}/>)}
+      
       </div>
     </List>
   )
