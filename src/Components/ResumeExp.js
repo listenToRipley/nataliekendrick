@@ -40,11 +40,7 @@ const useStyles = makeStyles((theme) => ({
   },
   studentCard: {
     display: 'block-inline',
-    minWidth: '80px',
-    maxWidth:'80px',
-    minHeight: '100px',
-    maxHeight: '100px',
-    margin: '1em'
+    fontSize: 15,
   },
   studentTitle: {
     fontSize: 15
@@ -53,7 +49,10 @@ const useStyles = makeStyles((theme) => ({
     color: 'midnightblue'
   },
   content: {
-    margin: '1em'
+    height: '300px',
+    width:'250px',
+    marginTop: '5px',
+    marginBottom: '5px'
   },
   studentDuty:{
     fontSize: 10,
