@@ -142,7 +142,7 @@ const Resume = () => {
       <Paper className={classes.paper}>
       <ResumeHead/>
       <ResumeEdu/>
-
+      <ResumeSkills/>
         <Grid
         container
         direction="row"

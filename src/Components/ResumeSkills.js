@@ -50,6 +50,7 @@ const ResumeSkills = () => {
     "Workflow Creation",
     ]
 
+    //better option than list? 
   return(
     <List className={classes.skillLIst}>
       <Paper className={classes.separates}>
