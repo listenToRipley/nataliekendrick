@@ -10,8 +10,47 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar'
 import ListItemText from '@material-ui/core/ListItemText';
 
+import backdrop from './projectImgs/backdrop.jpeg';
+
+const useStyles = makeStyles((theme) => ({
+  sectionTitle: {
+    fontSize: 20,
+    marginTop: '-1em'
+  },
+  separates: {
+    display: 'block',
+    color: 'white',
+    backgroundImage: `url(${backdrop})`,
+    backgroundRepeat: 'no-repeat'
+  },
+  eduIcons: {
+    marginLeft: '-1.5em',
+    marginRight: '-3em',
+    overflow: 'auto',
+    maxHeight: 300,
+  },
+  eduContact: {
+    underline: 'hover'
+  },
+  eduLocation: {
+   display: 'block',
+   textAlign: 'end',
+   marginTop: '-1em',
+  },
+  degree: {
+    display: 'block',
+    marginLeft:'1em',
+    marginRight: '1em',
+    fontSize: '1em',
+    fontStyle: 'italic',
+    fontWeight:' fontWeightLight',
+  }
+
+}));
 
 const ResumeSkills = () => {
+
+  const classes = useStyles();
 
   const skills = [
     "JavaScript",
@@ -35,7 +74,12 @@ const ResumeSkills = () => {
     ]
 
   return(
-    <div>Skills</div>
+    <List className={classes.skillLIst}>
+      <ListItem className={classes.sectionTitle}>Skill</ListItem>
+      {skills.map((skill) => {
+        return <ListItem>{skill}</ListItem>
+      })}
+    </List>
   )
 } 
 
