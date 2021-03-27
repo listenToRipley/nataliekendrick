@@ -140,6 +140,7 @@ const Resume = () => {
     <div className={classes.resume}>
       <Paper className={classes.paper}>
       <ResumeHead/>
+      <ResumeEdu/>
         <Grid
         container
         direction="row"
