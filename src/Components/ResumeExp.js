@@ -130,40 +130,6 @@ const ResumeExp = () => {
 
       {fullHistory}
 
-        <Typography>Procurement Card Administrator</Typography>
-      <Link href="https://procard.financials.utexas.edu/" className={classes.company}>University of Texas at Austin + Purchasing Office , Austin, TX  ~ Edu.Institution </Link>
-      <br/>
-      <em>May 2015 - Present</em>
-      <List>
-              <ListItem>
-                <ListItemAvatar>~</ListItemAvatar>
-                <ListItemText>
-                Manage card usage & policy for approx. 1400+ cards & users
-                </ListItemText>
-              </ListItem>
-
-              <ListItem>
-                <ListItemAvatar>~</ListItemAvatar>
-                <ListItemText>
-                Facilitate & resolve issues between multi-parties 
-                </ListItemText>
-              </ListItem>
-
-              <ListItem>
-                <ListItemAvatar>~</ListItemAvatar>
-                <ListItemText>
-                Create & maintain consistent, secure & effective processes for users 
-                </ListItemText>
-              </ListItem>
-
-              <ListItem>
-                <ListItemAvatar>~</ListItemAvatar>
-                <ListItemText>
-                Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users expectations 
-                </ListItemText>
-              </ListItem>
-            </List>
-
             <Typography>Facilities Coordinator + Chief Problem Solver</Typography>
             <Link href="https://www.pirkeybarber.com/" className={classes.company}>Pirkey Barber PLLC, Austin, TX ~ Intellectual Property Law Firm</Link>
             <br/>
