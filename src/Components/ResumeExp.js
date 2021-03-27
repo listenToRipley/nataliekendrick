@@ -261,6 +261,7 @@ const ResumeExp = () => {
     )
   })
 
+  //should I add an option to hid? to keep hidden and option to open?
   const studentHistory = schoolHistory.map((each) => {
     return (
       <Card classes={classes.studentCard}>
