@@ -152,35 +152,6 @@ const Resume = () => {
           className={classes.left}> 
 
             <p>________________</p>
-            <List className={classes.contactInfo}>
-              <ListItem>
-               <ListItemAvatar className={classes.contactIcons}>
-                <FaGoogle/> 
-               </ListItemAvatar>
-               <ListItemText disableTypography='true' className={classes.contactText}>
-                  <Link className={classes.email} href='mailto: natalie.m.kendrick@gmail.com'>natalie.m.kendrick@gmail.com</Link>
-               </ListItemText>
-              </ListItem>
-
-              <ListItem>
-               <ListItemAvatar className={classes.contactIcons}>
-                <FaPhoneAlt/> 
-               </ListItemAvatar>
-               <ListItemText disableTypography='true' className={classes.contactText}>
-                 (520)-404-3721
-               </ListItemText>
-              </ListItem>
-
-              <ListItem>
-               <ListItemAvatar disableTypography='true' className={classes.contactIcons}>
-                <FaMapMarkerAlt/> 
-               </ListItemAvatar>
-               <ListItemText className={classes.contactText}>
-               Austin, TX
-               </ListItemText>
-              </ListItem>
-            </List>
-            <p>________________</p>
             <List>
               <ListItem className={classes.sectionTitle}>Education</ListItem>
               <ListItem className={classes.eduIcons}>
