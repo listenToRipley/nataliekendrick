@@ -41,6 +41,13 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 600,
     letterSpacing: "1px"
   },
+  contactText: {
+    flexWrap: 'wrap',
+    fontSize: '98%',
+  },
+  email: {
+    color: '#4fb5dd',
+  },
 
 })
 );
@@ -55,8 +62,8 @@ const ResumeHead = () => {
     <p className={classes.title}>Full Stack Developer</p>
     <Paper className={classes.separates}>
 
-      <p classesName={classes.contact}>natalie.m.kendrick@austin.utexas.edu</p>
-      <p>520-404-3721</p>
+      <p className={classes.email} href='mailto: natalie.m.kendrick@gmail.com'>natalie.m.kendrick@austin.utexas.edu</p>
+      <p disableTypography='true' className={classes.contactText}>520-404-3721</p>
 
     </Paper>
   </div>
