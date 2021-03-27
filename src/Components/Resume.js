@@ -23,6 +23,7 @@ import backdrop from './projectImgs/backdrop.jpeg';
 
 import ResumeHead from './ResumeHead';
 import ResumeEdu from './ResumeEdu';
+import ResumeSkills from './ResumeSkills';
 
 const useStyles = makeStyles((theme) => ({
   resume: {
@@ -141,6 +142,7 @@ const Resume = () => {
       <Paper className={classes.paper}>
       <ResumeHead/>
       <ResumeEdu/>
+
         <Grid
         container
         direction="row"
