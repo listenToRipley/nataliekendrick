@@ -109,40 +109,6 @@ const ResumeExp = () => {
 
       {fullHistory}
 
-            <Typography>Facilities Coordinator + Chief Problem Solver</Typography>
-            <Link href="https://www.pirkeybarber.com/" className={classes.company}>Pirkey Barber PLLC, Austin, TX ~ Intellectual Property Law Firm</Link>
-            <br/>
-            <em>Jun 2012 - May 2015</em>
-            <List>
-              <ListItem>
-                <ListItemAvatar>~</ListItemAvatar>
-                <ListItemText>
-                Maintained a professional office of 30+ employees 
-                </ListItemText>
-              </ListItem>
-
-              <ListItem>
-                <ListItemAvatar>~</ListItemAvatar>
-                <ListItemText>
-                Manage digital & physical documentations in multiple locations
-                </ListItemText>
-              </ListItem>
-
-              <ListItem>
-                <ListItemAvatar>~</ListItemAvatar>
-                <ListItemText>
-                General office duties: reception work, receiving goods, placing orders, facilitating events, mail processing, hardware maintenance 
-                </ListItemText>
-              </ListItem>
-
-              <ListItem>
-                <ListItemAvatar>~</ListItemAvatar>
-                <ListItemText>
-                Supervisor of 3 employees  
- 
-                </ListItemText>
-              </ListItem>
-            </List>
 
             <Typography>DMS Specialist + Warehouse Assistant </Typography>
             <Link href="https://www.ironmountain.com/" className={classes.company}>Iron Mountain, Austin, TX ~ Records Management</Link>
