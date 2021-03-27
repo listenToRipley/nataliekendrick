@@ -34,7 +34,14 @@ const ResumeExp = () => {
   const classes = useStyles();
 
   const experiences = [
+    { 
+      company: '',
+      site: '',
+      title: '',
+      tenure: '',
+      res: [],
 
+    }
   ]
 
   return(
