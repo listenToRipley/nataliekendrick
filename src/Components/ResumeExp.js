@@ -41,6 +41,7 @@ const ResumeExp = () => {
       type:'Educational Institution',
       title: 'Procurement Card Administrator',
       tenure: 'May 2015 - Present',
+      div: '~',
       res: [
         'Manage card usage & policy for approx. 1400+ cards & users',
         'Facilitate & resolve issues between multi-parties',
@@ -54,7 +55,10 @@ const ResumeExp = () => {
       type:'',
       title: '',
       tenure: '',
-      res: [],
+      div: '',
+      res: [
+        
+      ],
     }
 
   ]
@@ -64,6 +68,7 @@ const ResumeExp = () => {
   //   type:'',
   //   title: '',
   //   tenure: '',
+  //   div: ''
   //   res: [],
 
 
@@ -80,8 +85,8 @@ const ResumeExp = () => {
           return(
             <div>
             <ListItem>
-              <ListItemAvatar>~</ListItemAvatar>
-              <ListItemText>{duty}</ListItemText>
+              <ListItemAvatar>{each.div}</ListItemAvatar>
+              <ListItemText className={classes.duty}>{duty}</ListItemText>
             </ListItem>
           </div>
           )
