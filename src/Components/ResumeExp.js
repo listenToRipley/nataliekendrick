@@ -66,14 +66,17 @@ const ResumeExp = () => {
       ],
     }, 
     {
-       company: '',
-       site: '',
-       type:'',
-       title: '',
-       tenure: '',
-       div: '',
+       company: 'Iron Mountain, Austin, TX',
+       site: 'https://www.ironmountain.com/',
+       type:'Records Management',
+       title: 'DMS Specialist + Warehouse Assistant',
+       tenure: 'Feb 2011 - Jun 2012',
+       div: '~',
        res: [
-         
+        'Receiving & preparation of documentation',
+        'Digital Imaging of confidential information',
+        'Quality Control',
+        'Data Entry'
        ],
     }
 
@@ -88,7 +91,7 @@ const ResumeExp = () => {
   //   res: [],
 
 
-  const fullHistory = experiences.map((each) => {
+  const profHistory = experiences.map((each) => {
     return (
       <div>
       <Typography>{each.title}</Typography>
@@ -118,7 +121,7 @@ const ResumeExp = () => {
         <ListItem className={classes.sectionTitle}>Experience</ListItem>
       </Paper>
 
-      {fullHistory}
+      {profHistory}
 
 
             <Typography>DMS Specialist + Warehouse Assistant </Typography>
