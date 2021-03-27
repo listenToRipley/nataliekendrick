@@ -149,35 +149,6 @@ const Resume = () => {
         jusitify="center"
         alignItems="center"
         spacing={'auto'}>
-          <Grid
-          item 
-          xs={4}
-          gutterBottom
-          className={classes.left}> 
-
-            <p>________________</p>
-            <List className={classes.skillsList}>
-            <ListItem className={classes.sectionTitle} >Skills</ListItem>
-            <ListItem>JavaScript </ListItem>
-            <ListItem>Node.js </ListItem>
-            <ListItem>React</ListItem>
-            <ListItem>Redux</ListItem>
-            <ListItem>MySQL</ListItem>
-            <ListItem>Express.js </ListItem>
-            <ListItem>HTML5</ListItem>
-            <ListItem>CSS </ListItem>
-            <ListItem>Debugging</ListItem>
-            <ListItem>Webpack</ListItem>
-            <ListItem>Heroku</ListItem>
-            <ListItem>RESTful API</ListItem>
-            <ListItem>Git/GitHub </ListItem>
-            <ListItem>Strategic Planning </ListItem>
-            <ListItem>Project Management</ListItem>
-            <ListItem>Time Management</ListItem>
-            <ListItem>Customer Service</ListItem>
-            </List>
-
-          </Grid>
 
           <Grid
           item xs={8}
