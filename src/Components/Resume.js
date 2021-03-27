@@ -25,6 +25,7 @@ import ResumeHead from './ResumeHead';
 import ResumeEdu from './ResumeEdu';
 import ResumeSkills from './ResumeSkills';
 import ResumeMission from './ResumeMission';
+import ResumeExp from './ResumeExp'; 
 
 const useStyles = makeStyles((theme) => ({
   resume: {
@@ -143,6 +144,7 @@ const Resume = () => {
       <Paper className={classes.paper}>
       <ResumeHead/>
       <ResumeMission/>
+      <ResumeExp/>
       <ResumeEdu/>
       <ResumeSkills/>
         <Grid

@@ -4,11 +4,10 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
 import Link from '@material-ui/core/Link';
-import Button from '@material-ui/core/Button';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
-import Avatar from '@material-ui/core/Avatar'
 import ListItemText from '@material-ui/core/ListItemText';
+import backdrop from './projectImgs/backdrop.jpeg';
 
 const useStyles = makeStyles((theme) => ({
   sectionTitle: {
@@ -34,15 +33,20 @@ const ResumeExp = () => {
 
   const classes = useStyles();
 
+  const experiences = [
+
+  ]
+
   return(
-    <div>
-                  <Typography>Experience</Typography>
-            <Paper className={classes.separates}>___________________</Paper>
-            <Typography>Procurement Card Administrator</Typography>
-            <Link href="https://procard.financials.utexas.edu/" className={classes.company}>University of Texas at Austin + Purchasing Office , Austin, TX  ~ Edu.Institution </Link>
-            <br/>
-            <em>May 2015 - Present</em>
-            <List>
+    <div>            
+      <Paper className={classes.separates}>
+        <ListItem className={classes.sectionTitle}>Experience</ListItem>
+      </Paper>
+        <Typography>Procurement Card Administrator</Typography>
+      <Link href="https://procard.financials.utexas.edu/" className={classes.company}>University of Texas at Austin + Purchasing Office , Austin, TX  ~ Edu.Institution </Link>
+      <br/>
+      <em>May 2015 - Present</em>
+      <List>
               <ListItem>
                 <ListItemAvatar>~</ListItemAvatar>
                 <ListItemText>
