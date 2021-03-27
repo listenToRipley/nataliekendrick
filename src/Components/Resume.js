@@ -154,39 +154,6 @@ const Resume = () => {
           className={classes.left}> 
 
             <p>________________</p>
-            <List>
-              <ListItem className={classes.sectionTitle}>Education</ListItem>
-              <ListItem className={classes.eduIcons}>
-              <ListItemAvatar>
-                <Avatar 
-                className={classes.avatar}
-                alter='AustinCodingAcademy Badge' 
-                src={aca}
-                />
-              </ListItemAvatar>
-              <Link className={classes.eduContact}
-               href='https://austincodingacademy.com/'>AUSTIN CODING ACADEMY</Link>
-              </ListItem>
-              <ListItem className={classes.eduLocation}>Austin, TX</ListItem>
-              <Typography className={classes.degree}>Full Stack Developer  (Dec 2020)</Typography>
-              <ListItem
-              className={classes.eduIcons}>
-              <ListItemAvatar>
-                <Avatar 
-                className={classes.avatar}
-                alter='Pima Community College Logo' 
-                src={pima}
-                />
-              </ListItemAvatar>
-              <Link
-              className={classes.eduContact}
-              href='https://www.pima.edu/'> PIMA COMMUNITY COLLEGE </Link>
-              </ListItem>
-              <ListItem className={classes.eduLocation}>Tucson, AZ</ListItem>
-              <Typography className={classes.degree}>General Studies Associate's Degree Liberal Arts 
-(Dec 2010)</Typography>
-            </List>
-            <p>________________</p>
             <List className={classes.skillsList}>
             <ListItem className={classes.sectionTitle} >Skills</ListItem>
             <ListItem>JavaScript </ListItem>
