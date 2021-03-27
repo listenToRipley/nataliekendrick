@@ -64,6 +64,17 @@ const ResumeExp = () => {
         'General office duties: reception work, receiving goods, placing orders, facilitating events, mail processing, hardware maintenance',
         'Training & supervision of 3 employees'
       ],
+    }, 
+    {
+       company: '',
+       site: '',
+       type:'',
+       title: '',
+       tenure: '',
+       div: '',
+       res: [
+         
+       ],
     }
 
   ]
@@ -73,7 +84,7 @@ const ResumeExp = () => {
   //   type:'',
   //   title: '',
   //   tenure: '',
-  //   div: ''
+  //   div: '',
   //   res: [],
 
 
