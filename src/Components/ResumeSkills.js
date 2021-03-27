@@ -9,8 +9,10 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar'
 import ListItemText from '@material-ui/core/ListItemText';
+import Chip from '@material-ui/core/Chip';
 
 import backdrop from './projectImgs/backdrop.jpeg';
+import { faFileExcel } from '@fortawesome/free-regular-svg-icons';
 
 const useStyles = makeStyles((theme) => ({
   sectionTitle: {
@@ -23,6 +25,17 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage: `url(${backdrop})`,
     backgroundRepeat: 'no-repeat'
   },
+  skillList: {
+    display: 'incline',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+    '& > *': {
+      margin: theme.spacing(0.5),
+        }
+  },
+  chip: {
+
+  }, 
 }));
 
 const ResumeSkills = () => {
@@ -30,18 +43,7 @@ const ResumeSkills = () => {
   const classes = useStyles();
 
   const skills = [
-    "JavaScript",
-    "Node.js",
-    "React",
-    "Redux",
-    "MySQL",
-    "Express.js",
-    "HTML5",
-    "CSS",
     "Debugging",
-    "Heroku",
-    "RESTful API",
-    "Git/GitHub",
     "Strategic Planning",
     "Project Management",
     "Time Management",
@@ -50,15 +52,35 @@ const ResumeSkills = () => {
     "Workflow Creation",
     ]
 
+    const technologies = [
+      "JavaScript",
+      "Node.js",
+      "React",
+      "Redux",
+      "MySQL",
+      "Express.js",
+      "HTML5",
+      "CSS",
+      "Heroku",
+      "RESTful API",
+      "Git/GitHub",
+      "Excel",
+      "American Sign Language"
+    ]
+
     //better option than list? 
   return(
-    <List className={classes.skillLIst}>
+    <List>
       <Paper className={classes.separates}>
         <ListItem className={classes.sectionTitle}>Skills</ListItem>
       </Paper>
-      {skills.map((skill) => {
-        return <ListItem>{skill}</ListItem>
-      })}
+    
+      <div className={classes.skillList}>
+      <Typography>Soft Skills</Typography>
+      {skills.map((skill) => <Chip label={skill} variant="outline" className={classes.chip}/>)}
+      <Typography>Hard Skills</Typography>
+      {technologies.map((tech) => <Chip label={tech} variant="outline" className={classes.chip}/>)}
+      </div>
     </List>
   )
 } 
