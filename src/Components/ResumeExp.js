@@ -28,6 +28,9 @@ const useStyles = makeStyles((theme) => ({
     color: 'secondary',
     underline: 'hover',
   },
+  duty: {
+    fontSize: 10
+  },
   studentHistory: {
     display: 'flex',
     flexWrap: 'wrap',
@@ -35,7 +38,11 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: '2em'
   },
   studentCard:{
-    padding: '1em'
+    display: 'flex',
+    flexWrap: 'wrap',
+    maxWidth: '100px',
+    maxHeight: '150px',
+    margin: '1em',
   },
   studentTitle: {
     fontSize: 15
@@ -43,9 +50,14 @@ const useStyles = makeStyles((theme) => ({
   noLink: {
     color: 'midnightblue'
   },
-  duty: {
-    fontSize: 10
+  content: {
+    padding: '2em'
+  },
+  studentDuty:{
+    fontSize: 10,
+    padding: '0 aut0'
   }
+
 }));
 
 
@@ -265,6 +277,7 @@ const ResumeExp = () => {
   const studentHistory = schoolHistory.map((each) => {
     return (
       <Card classes={classes.studentCard}>
+      <div className={classes.content}>
       {each.site === ''? 
       <Typography className={classes.company}>
       <p className={classes.noLink}>{each.company} ~ {each.type}</p>
@@ -282,12 +295,13 @@ const ResumeExp = () => {
             <div>
             <ListItem className={classes.studentHistory}>
               <ListItemAvatar>{each.div}</ListItemAvatar>
-              <ListItemText className={classes.duty}>{duty}</ListItemText>
+              <ListItemText className={classes.studentDuty}>{duty}</ListItemText>
             </ListItem>
           </div>
           )
         })}
       </List>
+      </div>
       </Card>
     )
   })
