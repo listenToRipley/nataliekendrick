@@ -150,8 +150,7 @@ const Resume = () => {
           xs={4}
           gutterBottom
           className={classes.left}> 
-            <Typography className={classes.name}>Natalie Kendrick</Typography>
-            <p className={classes.title}>Full Stack Developer</p>
+
             <p>________________</p>
             <List className={classes.contactInfo}>
               <ListItem>
