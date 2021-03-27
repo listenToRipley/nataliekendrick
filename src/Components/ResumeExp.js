@@ -1,7 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import Card from '@material-ui/core/Card'
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
 import Link from '@material-ui/core/Link';
@@ -22,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundRepeat: 'no-repeat'
   },
   company: {
-    display: 'flex',
+    display: 'inline',
     fontStyle: 'italic',
     fontSize: 15,
     color: 'secondary',
@@ -34,15 +35,16 @@ const useStyles = makeStyles((theme) => ({
   studentHistory: {
     display: 'flex',
     flexWrap: 'wrap',
-    marginTop: '1em',
-    marginBottom: '2em'
+    maxWidth: '100%',
+    margin: '2%',
   },
-  studentCard:{
-    display: 'flex',
-    flexWrap: 'wrap',
-    maxWidth: '100px',
-    maxHeight: '150px',
-    margin: '1em',
+  studentCard: {
+    display: 'block-inline',
+    minWidth: '80px',
+    maxWidth:'80px',
+    minHeight: '100px',
+    maxHeight: '100px',
+    margin: '1em'
   },
   studentTitle: {
     fontSize: 15
@@ -51,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
     color: 'midnightblue'
   },
   content: {
-    padding: '2em'
+    margin: '1em'
   },
   studentDuty:{
     fontSize: 10,
@@ -277,7 +279,7 @@ const ResumeExp = () => {
   const studentHistory = schoolHistory.map((each) => {
     return (
       <Card classes={classes.studentCard}>
-      <div className={classes.content}>
+      <CardContent className={classes.content}>
       {each.site === ''? 
       <Typography className={classes.company}>
       <p className={classes.noLink}>{each.company} ~ {each.type}</p>
@@ -301,7 +303,7 @@ const ResumeExp = () => {
           )
         })}
       </List>
-      </div>
+      </CardContent>
       </Card>
     )
   })
