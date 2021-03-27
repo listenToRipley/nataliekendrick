@@ -144,35 +144,50 @@ const ResumeExp = () => {
     site: 'https://hamerlaw.com/',
     type:'Personal Injury & Debt Collections Law',
     title: 'File Clerk',
-    tenure: '',
-    div: '',
-    res: [],
+    tenure: '2007-2009',
+    div: '~',
+    res: [
+      'Data Entry',
+      'Mail Processing',
+      'File Management',
+      'Reception Duties'
+    ],
     },
     {
     company: 'Hawkins and EZ Messenger',
     site: 'https://www.ezmessenger.com/',
     type:'Court Document Processor',
     title: 'Data Entry Clerk',
-    tenure: '',
-    div: '',
-    res: [],
+    tenure: '2007',
+    div: '~',
+    res: [
+      'Data Entry',
+      'Reception Duties',
+      'Mail Processing',
+      'Official Court Document Courier'
+    ],
     },
     {
     company: 'C.A.R.E',
     site: '',
     type:'Child Care Facility',
     title: 'Care Giver',
-    tenure: '',
-    div: '',
-    res: [],
+    tenure: '2007',
+    div: '~',
+    res: [
+      'Child Care',
+      'Activity Planning',
+      'Small Repairs',
+      'Inventory'
+    ],
     },
     {
     company: 'Borderlands Trade Co.',
     site: '',
     type:'Import Sales',
     title: 'Sales Associate',
-    tenure: '',
-    div: '',
+    tenure: '2006',
+    div: '~',
     res: [
       'Customer Service',
       'Visual Merchandising',
@@ -185,9 +200,14 @@ const ResumeExp = () => {
     site: 'https://www.cinemark.com/theatres/az-tucson/century-park-place-20-and-xd',
     type:'Movie Theatre',
     title: 'Usher/Cleaning Crew',
-    tenure: '',
-    div: '',
-    res: [],
+    tenure: '2005',
+    div: '~',
+    res: [
+      'Customer Service',
+      'Cleaning',
+      'Stocking',
+      'Concessions'
+    ],
     },
   ]
 
