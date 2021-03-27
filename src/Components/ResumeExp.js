@@ -26,6 +26,9 @@ const useStyles = makeStyles((theme) => ({
     color: 'secondary',
     underline: 'hover',
   },
+  studentHistory: {
+
+  },
   duty: {
     fontSize: 10
   }
@@ -233,6 +236,30 @@ const ResumeExp = () => {
           return(
             <div>
             <ListItem>
+              <ListItemAvatar>{each.div}</ListItemAvatar>
+              <ListItemText className={classes.duty}>{duty}</ListItemText>
+            </ListItem>
+          </div>
+          )
+        })}
+      </List>
+      </div>
+    )
+  })
+
+  const studentHistory = schoolHistory.map((each) => {
+    return (
+      <div>
+      <Typography>{each.title}</Typography>
+      <Link className={classes.company}>
+        <p>{each.company} ~ {each.type}</p>
+      </Link>
+      <em>{each.tenure}</em>
+      <List>
+        {each.res.map((duty) => {
+          return(
+            <div>
+            <ListItem className={classes.studentHistory}>
               <ListItemAvatar>{each.div}</ListItemAvatar>
               <ListItemText className={classes.duty}>{duty}</ListItemText>
             </ListItem>
