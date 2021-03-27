@@ -37,11 +37,59 @@ const ResumeExp = () => {
     { 
       company: '',
       site: '',
+      type:'',
       title: '',
       tenure: '',
       res: [],
-
-    }
+    },
+    { 
+      company: '',
+      site: '',
+      type:'',
+      title: '',
+      tenure: '',
+      res: [],
+    },
+    { 
+      company: '',
+      site: '',
+      type:'',
+      title: '',
+      tenure: '',
+      res: [],
+    },
+    { 
+      company: '',
+      site: '',
+      type:'',
+      title: '',
+      tenure: '',
+      res: [],
+    },
+    { 
+      company: '',
+      site: '',
+      type:'',
+      title: '',
+      tenure: '',
+      res: [],
+    },
+    { 
+      company: '',
+      site: '',
+      type:'',
+      title: '',
+      tenure: '',
+      res: [],
+    },
+    { 
+      company: '',
+      site: '',
+      type:'',
+      title: '',
+      tenure: '',
+      res: [],
+    },
   ]
 
   return(
