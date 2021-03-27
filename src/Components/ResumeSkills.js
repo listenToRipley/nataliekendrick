@@ -23,29 +23,6 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage: `url(${backdrop})`,
     backgroundRepeat: 'no-repeat'
   },
-  eduIcons: {
-    marginLeft: '-1.5em',
-    marginRight: '-3em',
-    overflow: 'auto',
-    maxHeight: 300,
-  },
-  eduContact: {
-    underline: 'hover'
-  },
-  eduLocation: {
-   display: 'block',
-   textAlign: 'end',
-   marginTop: '-1em',
-  },
-  degree: {
-    display: 'block',
-    marginLeft:'1em',
-    marginRight: '1em',
-    fontSize: '1em',
-    fontStyle: 'italic',
-    fontWeight:' fontWeightLight',
-  }
-
 }));
 
 const ResumeSkills = () => {
@@ -75,7 +52,9 @@ const ResumeSkills = () => {
 
   return(
     <List className={classes.skillLIst}>
-      <ListItem className={classes.sectionTitle}>Skill</ListItem>
+      <Paper className={classes.separates}>
+        <ListItem className={classes.sectionTitle}>Skills</ListItem>
+      </Paper>
       {skills.map((skill) => {
         return <ListItem>{skill}</ListItem>
       })}
