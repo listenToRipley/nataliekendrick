@@ -85,20 +85,26 @@ const ResumeExp = () => {
     {
     company: 'Natalie’s House Sitting and Baby Sitting',
     site: '',
-    type:'',
+    type:'Personal Services',
     title: 'Executive President and Diaper Changer',
-    tenure: '',
-    div: '',
-    res: [],
+    tenure: '1998-2013',
+    div: '~',
+    res: [
+      'Household care',
+      'Pet sitting',
+      'Childcare'
+    ],
     },
     {
     company: 'Target',
-    site: '',
+    site: 'https://www.target.com/',
     type:'',
     title: 'Softlines Sales Associate ',
-    tenure: '',
-    div: '',
-    res: [],
+    tenure: 'Retailer',
+    div: '~',
+    res: [
+      
+    ],
     },
     {
     company: 'Silver Sea',
