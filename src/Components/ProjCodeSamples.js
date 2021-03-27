@@ -46,4 +46,4 @@ const CodeSamples = () => {
   )
 }
 
-export default CodeSamples 
+export default CodeSamples;
