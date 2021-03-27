@@ -79,7 +79,12 @@ const ResumeExp = () => {
         'Data Entry'
        ],
     }
+  ]
 
+  const schoolHistory = [
+    {
+
+    },
   ]
 
   //   company: '',
@@ -123,6 +128,10 @@ const ResumeExp = () => {
 
       {profHistory}
     <br/>
+
+    <p>The jobs listed below were part time employment while Natalie was completing her education</p>
+    <br/>
+    
     </div>
   )
 } 
