@@ -23,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
   company: {
     display: 'flex',
     fontStyle: 'italic',
+    fontSize: 15,
     color: 'secondary',
     underline: 'hover',
   },
@@ -250,10 +251,16 @@ const ResumeExp = () => {
   const studentHistory = schoolHistory.map((each) => {
     return (
       <div>
-      <Typography>{each.title}</Typography>
+      {each.site === ''? 
+      <Typography className={classes.company}>
+      <p>{each.company} ~ {each.type}</p>
+      </Typography> 
+      : 
       <Link className={classes.company}>
         <p>{each.company} ~ {each.type}</p>
       </Link>
+      }
+      <Typography className={classes.studentTitle}>{each.title}</Typography>
       <em>{each.tenure}</em>
       <List>
         {each.res.map((duty) => {
@@ -283,6 +290,9 @@ const ResumeExp = () => {
     <p>The jobs listed below were part time employment while Natalie was completing her education</p>
     <br/>
     
+    <div className={classes.studentHistory}>
+    {studentHistory}
+    </div>
     </div>
   )
 } 
