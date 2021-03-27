@@ -22,6 +22,7 @@ import pima from './projectImgs/pima.png';
 import backdrop from './projectImgs/backdrop.jpeg';
 
 import ResumeHead from './ResumeHead';
+import ResumeEdu from './ResumeEdu';
 
 const useStyles = makeStyles((theme) => ({
   resume: {
