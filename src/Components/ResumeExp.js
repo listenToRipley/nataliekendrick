@@ -21,9 +21,10 @@ const useStyles = makeStyles((theme) => ({
     backgroundRepeat: 'no-repeat'
   },
   company: {
+    display: 'flex',
     fontStyle: 'italic',
     color: 'secondary',
-    underline: 'hover'
+    underline: 'hover',
   },
 
 }));
@@ -32,71 +33,103 @@ const useStyles = makeStyles((theme) => ({
 const ResumeExp = () => {
 
   const classes = useStyles();
+  // { 
+  //   company: '',
+  //   site: '',
+  //   type:'',
+  //   title: '',
+  //   tenure: '',
+  //   res: [],
+  // },
+  // { 
+  //   company: '',
+  //   site: '',
+  //   type:'',
+  //   title: '',
+  //   tenure: '',
+  //   res: [],
+  // },
+  // { 
+  //   company: '',
+  //   site: '',
+  //   type:'',
+  //   title: '',
+  //   tenure: '',
+  //   res: [],
+  // },
+  // { 
+  //   company: '',
+  //   site: '',
+  //   type:'',
+  //   title: '',
+  //   tenure: '',
+  //   res: [],
+  // },
+  // { 
+  //   company: '',
+  //   site: '',
+  //   type:'',
+  //   title: '',
+  //   tenure: '',
+  //   res: [],
+  // },
+  // { 
+  //   company: '',
+  //   site: '',
+  //   type:'',
+  //   title: '',
+  //   tenure: '',
+  //   res: [],
 
   const experiences = [
     { 
-      company: '',
-      site: '',
-      type:'',
-      title: '',
-      tenure: '',
-      res: [],
+      company: 'University of Texas at Austin + Purchasing Office',
+      site: 'https://procard.financials.utexas.edu/',
+      type:'Educational Institution',
+      title: 'Procurement Card Administrator',
+      tenure: 'May 2015 - Present',
+      res: [
+        'Manage card usage & policy for approx. 1400+ cards & users',
+        'Facilitate & resolve issues between multi-parties',
+        'Create & maintain consistent, secure & effective processes for users',
+        'Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users expectations '
+      ],
     },
-    { 
-      company: '',
-      site: '',
-      type:'',
-      title: '',
-      tenure: '',
-      res: [],
-    },
-    { 
-      company: '',
-      site: '',
-      type:'',
-      title: '',
-      tenure: '',
-      res: [],
-    },
-    { 
-      company: '',
-      site: '',
-      type:'',
-      title: '',
-      tenure: '',
-      res: [],
-    },
-    { 
-      company: '',
-      site: '',
-      type:'',
-      title: '',
-      tenure: '',
-      res: [],
-    },
-    { 
-      company: '',
-      site: '',
-      type:'',
-      title: '',
-      tenure: '',
-      res: [],
-    },
-    { 
-      company: '',
-      site: '',
-      type:'',
-      title: '',
-      tenure: '',
-      res: [],
-    },
+
   ]
+
+  const fullHistory = experiences.map((each) => {
+    return (
+      <div>
+      <Typography>{each.title}</Typography>
+      <Link className={classes.company}>
+        <p>{each.company} ~ {each.type}</p>
+      </Link>
+      <em>{each.tenure}</em>
+      <List>
+        {each.res.map((duty) => {
+          return(
+            <div>
+            <ListItem>
+              <ListItemAvatar>~</ListItemAvatar>
+              <ListItemText>{duty}</ListItemText>
+            </ListItem>
+          </div>
+          )
+        })}
+      </List>
+      </div>
+    )
+  })
 
   return(
     <div>            
       <Paper className={classes.separates}>
         <ListItem className={classes.sectionTitle}>Experience</ListItem>
       </Paper>
+
+      {fullHistory}
+
         <Typography>Procurement Card Administrator</Typography>
       <Link href="https://procard.financials.utexas.edu/" className={classes.company}>University of Texas at Austin + Purchasing Office , Austin, TX  ~ Edu.Institution </Link>
       <br/>
