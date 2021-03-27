@@ -30,7 +30,12 @@ const useStyles = makeStyles((theme) => ({
   },
   studentHistory: {
     display: 'flex',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
+    marginTop: '1em',
+    marginBottom: '2em'
+  },
+  studentCard:{
+    padding: '1em'
   },
   studentTitle: {
     fontSize: 15
@@ -258,7 +263,7 @@ const ResumeExp = () => {
 
   const studentHistory = schoolHistory.map((each) => {
     return (
-      <div>
+      <Card classes={classes.studentCard}>
       {each.site === ''? 
       <Typography className={classes.company}>
       <p className={classes.noLink}>{each.company} ~ {each.type}</p>
@@ -282,7 +287,7 @@ const ResumeExp = () => {
           )
         })}
       </List>
-      </div>
+      </Card>
     )
   })
 
