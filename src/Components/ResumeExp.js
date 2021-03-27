@@ -33,53 +33,6 @@ const useStyles = makeStyles((theme) => ({
 const ResumeExp = () => {
 
   const classes = useStyles();
-  // { 
-  //   company: '',
-  //   site: '',
-  //   type:'',
-  //   title: '',
-  //   tenure: '',
-  //   res: [],
-  // },
-  // { 
-  //   company: '',
-  //   site: '',
-  //   type:'',
-  //   title: '',
-  //   tenure: '',
-  //   res: [],
-  // },
-  // { 
-  //   company: '',
-  //   site: '',
-  //   type:'',
-  //   title: '',
-  //   tenure: '',
-  //   res: [],
-  // },
-  // { 
-  //   company: '',
-  //   site: '',
-  //   type:'',
-  //   title: '',
-  //   tenure: '',
-  //   res: [],
-  // },
-  // { 
-  //   company: '',
-  //   site: '',
-  //   type:'',
-  //   title: '',
-  //   tenure: '',
-  //   res: [],
-  // },
-  // { 
-  //   company: '',
-  //   site: '',
-  //   type:'',
-  //   title: '',
-  //   tenure: '',
-  //   res: [],
 
   const experiences = [
     { 
@@ -95,8 +48,24 @@ const ResumeExp = () => {
         'Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users expectations '
       ],
     },
+    {
+      company: '',
+      site: '',
+      type:'',
+      title: '',
+      tenure: '',
+      res: [],
+    }
 
   ]
+
+  //   company: '',
+  //   site: '',
+  //   type:'',
+  //   title: '',
+  //   tenure: '',
+  //   res: [],
+
 
   const fullHistory = experiences.map((each) => {
     return (
