@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
+import Card from '@material-ui/core/Card'
 import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
 import Link from '@material-ui/core/Link';
@@ -28,7 +29,14 @@ const useStyles = makeStyles((theme) => ({
     underline: 'hover',
   },
   studentHistory: {
-
+    display: 'flex',
+    flexWrap: 'wrap'
+  },
+  studentTitle: {
+    fontSize: 15
+  },
+  noLink: {
+    color: 'midnightblue'
   },
   duty: {
     fontSize: 10
@@ -253,7 +261,7 @@ const ResumeExp = () => {
       <div>
       {each.site === ''? 
       <Typography className={classes.company}>
-      <p>{each.company} ~ {each.type}</p>
+      <p className={classes.noLink}>{each.company} ~ {each.type}</p>
       </Typography> 
       : 
       <Link className={classes.company}>
