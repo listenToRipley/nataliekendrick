@@ -35,15 +35,21 @@ const useStyles = makeStyles((theme) => ({
   studentHistory: {
     display: 'flex',
     flexWrap: 'wrap',
+    alignSelf: 'start',
     maxWidth: '100%',
+    minWidth: '250px',
+    justifyContent:'center',
     margin: '2%',
+    padding: '2%',
   },
   studentCard: {
-    display: 'block-inline',
-    fontSize: 15,
+    alignSelf: 'space-around',
+    margin: '2%'
+ 
   },
   studentTitle: {
-    fontSize: 15
+    fontSize: 15,
+    height: '3em',
   },
   noLink: {
     color: 'midnightblue'
@@ -55,7 +61,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: '5px'
   },
   studentDuty:{
-    fontSize: '15px',
+    fontSize: '10px',
     height: '2.2em',
     paddingTop: '-.1em',
     marginTop: '-.1em',
@@ -294,11 +300,11 @@ const ResumeExp = () => {
       <Typography className={classes.studentTitle}>{each.title}</Typography>
       <em>{each.tenure}</em>
       <List>
+        Duties
         {each.res.map((duty) => {
           return(
             <div>
-            <ListItem className={classes.studentHistory}>
-    
+            <ListItem>
               <ListItemText className={classes.studentDuty}>{duty}</ListItemText>
             </ListItem>
           </div>
