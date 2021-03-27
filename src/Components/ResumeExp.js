@@ -26,7 +26,9 @@ const useStyles = makeStyles((theme) => ({
     color: 'secondary',
     underline: 'hover',
   },
-
+  duty: {
+    fontSize: 10
+  }
 }));
 
 
@@ -50,14 +52,17 @@ const ResumeExp = () => {
       ],
     },
     {
-      company: '',
-      site: '',
-      type:'',
-      title: '',
-      tenure: '',
-      div: '',
+      company: 'Pirkey Barber PLLC, Austin, TX',
+      site: 'https://www.pirkeybarber.com/',
+      type:'Intellectual Property Law Firm',
+      title: 'Facilities Coordinator + Chief Problem Solver',
+      tenure: 'Jun 2012 - May 2015',
+      div: '~',
       res: [
-        
+        'Maintained a professional office of 30+ employees',
+        'Manage digital & physical documentations in multiple locations',
+        'General office duties: reception work, receiving goods, placing orders, facilitating events, mail processing, hardware maintenance',
+        'Training & supervision of 3 employees'
       ],
     }
 
