@@ -15,8 +15,8 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import ListItemText from '@material-ui/core/ListItemText';
 import { FiCreditCard } from "@react-icons/all-files/fi/FiCreditCard";
 import { FiClipboard } from "@react-icons/all-files/fi/FiClipboard";
-import { FiCopy } from "@react-icons/all-files/fi/FiCopy";
 import { FiArchive } from "@react-icons/all-files/fi/FiArchive";
+import { FiTriangle } from "@react-icons/all-files/fi/FiTriangle";
 import backdrop from './projectImgs/backdrop.jpeg';
 
 const useStyles = makeStyles((theme) => ({
@@ -33,6 +33,7 @@ const useStyles = makeStyles((theme) => ({
   profHistory:{
     marginTop: '1.5em',
     marginLeft: '5em',
+    marginRight: '6em'
   },
   company: {
     display: 'inline',
@@ -40,6 +41,9 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 15,
     color: 'secondary',
     underline: 'hover',
+  },
+  listDuties: {
+    marginLeft: '2em',
   },
   duty: {
     fontSize: 10
@@ -74,14 +78,15 @@ const useStyles = makeStyles((theme) => ({
     height: '3em',
   },
   historySummary: {
-    marginTop: '-1em',
+    marginTop: '-.5em',
     marginBottom: '-50px'
   },
   noLink: {
     color: 'midnightblue'
   },
   character: {
-    marginTop: '5px'
+    fontSize: '5px',
+    margin: '2px'
   },
   content: {
     height: '300px',
@@ -300,7 +305,7 @@ const ResumeExp = () => {
         {each.res.map((duty) => {
           return(
             <div>
-            <ListItem>
+            <ListItem className={classes.listDuties}>
               <ListItemAvatar>{each.div}</ListItemAvatar>
               <ListItemText className={classes.duty}>{duty}</ListItemText>
             </ListItem>
@@ -334,7 +339,7 @@ const ResumeExp = () => {
           return(
             <div>
             <ListItem>
-              <ListItemText className={classes.studentDuty}> <span className={classes.character}>*</span> {duty}</ListItemText>
+              <ListItemText className={classes.studentDuty}> <FiTriangle className={classes.character}/> {duty}</ListItemText>
             </ListItem>
           </div>
           )
@@ -365,7 +370,7 @@ const ResumeExp = () => {
           <Typography className={classes.heading}>Complete Work History</Typography>
       </AccordionSummary>
       <AccordionDetails>
-      <p className={classes.historySummary}>The jobs listed below were part time employment while Natalie was completing her education</p>
+      <p className={classes.historySummary}>These jobs were part time employment while Natalie was completing her education</p>
       </AccordionDetails>
 
       <br/>
