@@ -55,20 +55,22 @@ const useStyles = makeStyles((theme) => ({
 const ResumeContact = () => {
   const classes = useStyles();
 
+  const colors = []; 
+
   const contactDetails = [
     {
-      type: '',
-      icon: '',
-      color: '',
-      link: ''
+      type: 'linkedIn',
+      icon: <FaLinkedin/>,
+      link: 'https://www.linkedin.com/in/nataliemichellekendrick/',
+      title: '@nataliemichellekendrick'
     }
-  ]
+  ]; 
 
   // {
   //   type: '',
   //   icon: '',
-  //   color: '',
-  //   link: ''
+  //   link: '',
+  //   title: ''
   // }
   
 
