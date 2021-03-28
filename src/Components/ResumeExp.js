@@ -13,7 +13,8 @@ import Link from '@material-ui/core/Link';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import ListItemText from '@material-ui/core/ListItemText';
-import { FiCreditCard } from "@react-icons/all-files/fi/FiCreditCard"
+import { FiCreditCard } from "@react-icons/all-files/fi/FiCreditCard";
+import { FaGavel } from "@react-icons/all-files/fa/FaGavel";
 import backdrop from './projectImgs/backdrop.jpeg';
 
 const useStyles = makeStyles((theme) => ({
@@ -122,7 +123,7 @@ const ResumeExp = () => {
       type:'Intellectual Property Law Firm',
       title: 'Facilities Coordinator + Chief Problem Solver',
       tenure: 'Jun 2012 - May 2015',
-      div: '~',
+      div: <FaGavel color="grey"/>,
       res: [
         'Maintained a professional office of 30+ employees',
         'Manage digital & physical documentations in multiple locations',
