@@ -26,6 +26,10 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage: `url(${backdrop})`,
     backgroundRepeat: 'no-repeat'
   },
+  profHistory:{
+    marginTop: '1.5em',
+    marginLeft: '5em',
+  },
   company: {
     display: 'inline',
     fontStyle: 'italic',
@@ -343,7 +347,7 @@ const ResumeExp = () => {
         <ListItem className={classes.sectionTitle}>Experience</ListItem>
       </Paper>
 
-      <div>
+      <div className={classes.profHistory}>
         {profHistory}
       </div>
     <br/>
