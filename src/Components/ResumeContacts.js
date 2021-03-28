@@ -119,9 +119,9 @@ const ResumeContact = () => {
          variant="contained"
          aria-label='email'
          startIcon={<FaGoogle/>}
-         onClick={() => window.open(``)}
+         href='mailto: natalie.m.kendrick@gmail.com'
          >
-         
+         natalie.m.kendrick@austin.utexas.edu
         </Button>
      </div>
 
