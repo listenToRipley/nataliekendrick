@@ -15,6 +15,7 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import ListItemText from '@material-ui/core/ListItemText';
 import { FiCreditCard } from "@react-icons/all-files/fi/FiCreditCard";
 import { FaGavel } from "@react-icons/all-files/fa/FaGavel";
+import { FaStickyNote } from "@react-icons/all-files/fa/FaStickyNote";
 import backdrop from './projectImgs/backdrop.jpeg';
 
 const useStyles = makeStyles((theme) => ({
@@ -137,7 +138,7 @@ const ResumeExp = () => {
        type:'Records Management',
        title: 'DMS Specialist + Warehouse Assistant',
        tenure: 'Feb 2011 - Jun 2012',
-       div: '~',
+       div: <FaStickyNote color="grey"/>,
        res: [
         'Receiving & preparation of documentation',
         'Digital Imaging of confidential information',
