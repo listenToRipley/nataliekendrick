@@ -14,7 +14,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import ListItemText from '@material-ui/core/ListItemText';
 import { FiCreditCard } from "@react-icons/all-files/fi/FiCreditCard";
-import { FaGavel } from "@react-icons/all-files/fa/FaGavel";
+import { FiClipboard } from "@react-icons/all-files/fi/FiClipboard";
 import { FiCopy } from "@react-icons/all-files/fi/FiCopy";
 import { FiArchive } from "@react-icons/all-files/fi/FiArchive";
 import backdrop from './projectImgs/backdrop.jpeg';
@@ -125,7 +125,7 @@ const ResumeExp = () => {
       type:'Intellectual Property Law Firm',
       title: 'Facilities Coordinator + Chief Problem Solver',
       tenure: 'Jun 2012 - May 2015',
-      div: <FiCopy/>,
+      div: <FiClipboard/>,
       res: [
         'Maintained a professional office of 30+ employees',
         'Manage digital & physical documentations in multiple locations',
