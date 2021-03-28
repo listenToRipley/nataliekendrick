@@ -113,6 +113,18 @@ const ResumeContact = () => {
       <ListItem className={classes.sectionTitle}>Contact</ListItem>
     </Paper>
       <div className={classes.additionalContact}>
+
+      <div className={classes.contactGrid} >
+      <Button className={classes.contactButton} 
+         variant="contained"
+         aria-label='email'
+         startIcon={<FaGoogle/>}
+         onClick={() => window.open(``)}
+         >
+         
+        </Button>
+     </div>
+
       {media}
      
       </div>
