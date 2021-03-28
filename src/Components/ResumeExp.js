@@ -13,6 +13,7 @@ import Link from '@material-ui/core/Link';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import ListItemText from '@material-ui/core/ListItemText';
+import { FiCreditCard } from "@react-icons/all-files/fi/FiCreditCard"
 import backdrop from './projectImgs/backdrop.jpeg';
 
 const useStyles = makeStyles((theme) => ({
@@ -107,7 +108,7 @@ const ResumeExp = () => {
       type:'Educational Institution',
       title: 'Procurement Card Administrator',
       tenure: 'May 2015 - Present',
-      div: '~',
+      div: <FiCreditCard/>,
       res: [
         'Manage card usage & policy for approx. 1400+ cards & users',
         'Facilitate & resolve issues between multi-parties',
