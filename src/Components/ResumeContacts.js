@@ -57,6 +57,9 @@ const ResumeContact = () => {
 
   return(
     <div>
+    <Paper className={classes.separates}>
+      <ListItem className={classes.sectionTitle}>Contact</ListItem>
+    </Paper>
       <div className={classes.additionalContact}>
       <div className={classes.contactGrid} >
          <Button className={classes.contactButton} 
