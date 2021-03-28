@@ -125,6 +125,17 @@ const ResumeContact = () => {
         </Button>
      </div>
 
+     <div className={classes.contactGrid} >
+      <Button className={classes.contactButton} 
+         variant="contained"
+         aria-label='phone'
+         startIcon={<FaPhoneAlt/>}
+         onClick={() => window.open(``)}
+         >
+         
+        </Button>
+     </div>
+
       {media}
      
       </div>
