@@ -3,16 +3,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
-import Link from '@material-ui/core/Link';
-import Button from '@material-ui/core/Button';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemAvatar from '@material-ui/core/ListItemAvatar';
-import Avatar from '@material-ui/core/Avatar'
-import ListItemText from '@material-ui/core/ListItemText';
 import Chip from '@material-ui/core/Chip';
-
 import backdrop from './projectImgs/backdrop.jpeg';
-import { faFileExcel } from '@fortawesome/free-regular-svg-icons';
+
 
 const useStyles = makeStyles((theme) => ({
   sectionTitle: {
@@ -25,8 +19,14 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage: `url(${backdrop})`,
     backgroundRepeat: 'no-repeat'
   },
+  skillTitle: {
+    paddingTop: '1em'
+  },
   skillList: {
     display: 'incline',
+    marginLeft: '2em',
+    marginRight: '1em',
+    marginBottom: '1em',
     justifyContent: 'center',
     flexWrap: 'wrap',
     '& > *': {
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
         }
   },
   chip: {
-
+    margin: '.5em'
   }, 
 }));
 
@@ -64,6 +64,7 @@ const ResumeSkills = () => {
       "Heroku",
       "RESTful API",
       "Git/GitHub",
+      "Webpack",
       "Excel",
       "American Sign Language"
     ]
@@ -77,12 +78,12 @@ const ResumeSkills = () => {
     
       <div className={classes.skillList}>
       
-      <Typography>Hard Skills</Typography>
+      <Typography className={classes.skillTitle}>Hard Skills</Typography>
       {technologies.map((tech) => <Chip label={tech} variant="outline" className={classes.chip}/>)}
 
-      <Typography>Soft Skills</Typography>
+      <Typography className={classes.skillTitle}>Soft Skills</Typography>
       {skills.map((skill) => <Chip label={skill} variant="outline" className={classes.chip}/>)}
-      
+
       </div>
     </List>
   )
