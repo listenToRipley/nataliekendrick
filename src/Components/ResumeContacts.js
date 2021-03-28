@@ -55,6 +55,23 @@ const useStyles = makeStyles((theme) => ({
 const ResumeContact = () => {
   const classes = useStyles();
 
+  const contactDetails = [
+    {
+      type: '',
+      icon: '',
+      color: '',
+      link: ''
+    }
+  ]
+
+  // {
+  //   type: '',
+  //   icon: '',
+  //   color: '',
+  //   link: ''
+  // }
+  
+
   return(
     <div>
     <Paper className={classes.separates}>
