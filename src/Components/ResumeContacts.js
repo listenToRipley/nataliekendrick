@@ -21,7 +21,62 @@ import { FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 const ResumeContact = () => {
 
   return(
-    <div>Contact</div>
+
+    <div
+              className={classes.additionalContact}>
+            <div
+              className={classes.contactGrid}
+              >
+               <Button className={classes.contactButton} 
+                  variant="contained"
+                  aria-label="linked in"
+                  startIcon={<FaLinkedin color={'blue'}/>}
+                  onClick={() => window.open('https://www.linkedin.com/in/nataliemichellekendrick/')}
+                  >
+                    @nataliemichellekendrick
+                 </Button>
+              </div>
+
+              <div
+              className={classes.contactGrid}> 
+                <Button className={classes.contactButton} 
+                 variant="contained"
+      
+                 aria-label="twitter contact"
+                 startIcon={<FaTwitterSquare color={'skyBlue'} />}
+                 onClick={() => window.open('https://twitter.com/NKendrick12')}
+                 >
+                   @NKendrick12
+                 </Button>
+              </div>
+
+              <div
+              className={classes.contactGrid}>
+              <Button className={classes.contactButton} 
+               variant="contained"
+        
+               aria-label="github contact"
+               startIcon={<FaGithubAlt color={'maroon'} />}
+               onClick={() => window.open('https://github.com/listenToRipley')}
+               >
+                 @listenToRipley 
+               </Button>
+              </div>
+
+              <div
+              className={classes.contactGrid}>
+              <Button className={classes.contactButton} 
+              variant="contained"
+              aria-label="instagram contact"
+              startIcon={<FaInstagram color={'red'}/>}
+              onClick={() => window.open('https://www.instagram.com/garbosmile/?hl=en')}
+              >
+                @garbosmile
+              </Button>
+              </div>
+
+            </div>
+
   )
 
 }
