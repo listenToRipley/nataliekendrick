@@ -63,6 +63,24 @@ const ResumeContact = () => {
       icon: <FaLinkedin/>,
       link: 'https://www.linkedin.com/in/nataliemichellekendrick/',
       title: '@nataliemichellekendrick'
+    },
+    {
+      type: 'twitter',
+      icon: <FaTwitterSquare/>,
+      link: 'https://twitter.com/NKendrick12',
+      title: '@NKendrick12'
+    },
+    {
+      type: 'github',
+      icon: <FaGithubAlt/>,
+      link: 'https://github.com/listenToRipley',
+      title: '@listenToRipley'
+    },
+    {
+      type: 'instagram',
+      icon: <FaInstagram/>,
+      link: 'https://www.instagram.com/garbosmile/?hl=en',
+      title: '@garbosmile'
     }
   ]; 
 
@@ -72,6 +90,21 @@ const ResumeContact = () => {
   //   link: '',
   //   title: ''
   // }
+
+  const media = contactDetails.map((each) => {
+    return (
+      <div className={classes.contactGrid} >
+      <Button className={classes.contactButton} 
+         variant="contained"
+         aria-label={each.type}
+         startIcon={each.icon}
+         onClick={() => window.open(`${each.link}`)}
+         >
+           {each.title}
+        </Button>
+     </div>
+    )
+  })
   
 
   return(
@@ -80,44 +113,8 @@ const ResumeContact = () => {
       <ListItem className={classes.sectionTitle}>Contact</ListItem>
     </Paper>
       <div className={classes.additionalContact}>
-      <div className={classes.contactGrid} >
-         <Button className={classes.contactButton} 
-            variant="contained"
-            aria-label="linked in"
-            startIcon={<FaLinkedin color={'blue'}/>}
-            onClick={() => window.open('https://www.linkedin.com/in/nataliemichellekendrick/')}
-            >
-              @nataliemichellekendrick
-           </Button>
-        </div>
-
-        <div className={classes.contactGrid}>    
-          <Button className={classes.contactButton}          variant="contained"         aria-label="twitter contact"         startIcon={<FaTwitterSquare color={'skyBlue'} />}         onClick={() => window.open('https://twitter.com/NKendrick12')}         >           @NKendrick12         </Button>      </div>
-
-        <div
-        className={classes.contactGrid}>
-        <Button className={classes.contactButton} 
-         variant="contained"
-         aria-label="github contact"
-         startIcon={<FaGithubAlt color={'maroon'} />}
-         onClick={() => window.open('https://github.com/listenToRipley')}
-         >
-           @listenToRipley 
-         </Button>
-        </div>
-
-        <div
-        className={classes.contactGrid}>
-        <Button className={classes.contactButton} 
-        variant="contained"
-        aria-label="instagram contact"
-        startIcon={<FaInstagram color={'red'}/>}
-        onClick={() => window.open('https://www.instagram.com/garbosmile/?hl=en')}
-        >
-          @garbosmile
-        </Button>
-        </div>
-
+      {media}
+     
       </div>
   </div>
   )
