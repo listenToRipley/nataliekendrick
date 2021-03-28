@@ -36,6 +36,12 @@ const useStyles = makeStyles((theme) => ({
   duty: {
     fontSize: 10
   },
+  accordHistory: {
+    display: 'block',
+    flexDirection: 'column',
+    marginLeft: '2%',
+    alignSelf: 'center'
+  },
   studentHeader: {
     fontSize: theme.typography.pxToRem(15),
     fontWeight: theme.typography.fontWeightRegular,
@@ -333,7 +339,7 @@ const ResumeExp = () => {
       {profHistory}
     <br/>
 
-    <Accordion>
+    <Accordion className={classes.accordHistory}>
       <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -352,7 +358,7 @@ const ResumeExp = () => {
     </div>
     </Accordion>
     <br/>
-    
+
     </div>
   )
 } 
