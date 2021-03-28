@@ -19,94 +19,18 @@ import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
 import { FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 
 const useStyles = makeStyles((theme) => ({
-  resume: {
-    flexGrow: 1,
-    flexWrap: 'wrap',
-    direction: 'row',
-    minWidth: '200px',
-    fontFamily: 'Droid Sans',
-    marginTop: '-3em',
-    marginBottom: '5em'
-  },
-  paper: {
-    padding: theme.spacing(2),
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    marginBottom: '5em',
-    maxWidth: 900,
+  sectionTitle: {
+    fontSize: 20,
+    marginTop: '-1em'
   },
   separates: {
     display: 'block',
-    color: 'transparent',
+    color: 'white',
     backgroundImage: `url(${backdrop})`,
     backgroundRepeat: 'no-repeat'
   },
-  left: {
-    minWidth: '220px',
-    alignSelf: 'flex-start'
-  },
-  sectionTitle: {
-    fontSize: 20,
-    marginLeft: '-1em',
-    marginTop: '-1em'
-  },
-  name: {
-    fontSize: 32,
-    fontFamily: 'Droid Sans'
-  },
-  title: {
-    fontSize: 20,
-    marginTop: '.5em',
-  },
-  contactInfo: {
-    padding: theme.spacing(2),
-    marginTop: '-1.5em',
-    marginBottom: '-2.2em',
-    textAlign: 'center',
-    flexWrap: 'wrap',
-  }, 
-  contactIcons: {
-    marginLeft: '-2.5em',
-    marginRight: '-2em',
-    overflow: 'auto',
-    maxHeight: 300,
-  },
-  contactText: {
-    flexWrap: 'wrap',
-    fontSize: '98%',
-  },
   email: {
     color: '#4fb5dd',
-  },
-  eduIcons: {
-    marginLeft: '-1.5em',
-    marginRight: '-3em',
-    overflow: 'auto',
-    maxHeight: 300,
-  },
-  eduContact: {
-    underline: 'hover'
-  },
-  eduLocation: {
-   display: 'block',
-   textAlign: 'end',
-   marginTop: '-1em',
-  },
-  degree: {
-    display: 'block',
-    marginLeft:'1em',
-    marginRight: '1em',
-    fontSize: '.75em',
-    fontStyle: 'italic',
-    fontWeight:' fontWeightLight',
-  },
-  right: {
-    width: '100%'
-  },
-  company: {
-    fontStyle: 'italic',
-    color: 'secondary',
-    underline: 'hover'
   },
   additionalContact: {
     padding: '10px',
