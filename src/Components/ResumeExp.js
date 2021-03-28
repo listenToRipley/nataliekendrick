@@ -65,8 +65,15 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 15,
     height: '3em',
   },
+  historySummary: {
+    marginTop: '-1em',
+    marginBottom: '-50px'
+  },
   noLink: {
     color: 'midnightblue'
+  },
+  character: {
+    marginTop: '5px'
   },
   content: {
     height: '300px',
@@ -319,7 +326,7 @@ const ResumeExp = () => {
           return(
             <div>
             <ListItem>
-              <ListItemText className={classes.studentDuty}>{duty}</ListItemText>
+              <ListItemText className={classes.studentDuty}> <span className={classes.character}>*</span> {duty}</ListItemText>
             </ListItem>
           </div>
           )
@@ -336,7 +343,9 @@ const ResumeExp = () => {
         <ListItem className={classes.sectionTitle}>Experience</ListItem>
       </Paper>
 
-      {profHistory}
+      <div>
+        {profHistory}
+      </div>
     <br/>
 
     <Accordion className={classes.accordHistory}>
@@ -348,7 +357,7 @@ const ResumeExp = () => {
           <Typography className={classes.heading}>Complete Work History</Typography>
       </AccordionSummary>
       <AccordionDetails>
-      <p>The jobs listed below were part time employment while Natalie was completing her education</p>
+      <p className={classes.historySummary}>The jobs listed below were part time employment while Natalie was completing her education</p>
       </AccordionDetails>
 
       <br/>
