@@ -18,67 +18,162 @@ import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
 import { FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 
+const useStyles = makeStyles((theme) => ({
+  resume: {
+    flexGrow: 1,
+    flexWrap: 'wrap',
+    direction: 'row',
+    minWidth: '200px',
+    fontFamily: 'Droid Sans',
+    marginTop: '-3em',
+    marginBottom: '5em'
+  },
+  paper: {
+    padding: theme.spacing(2),
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    marginBottom: '5em',
+    maxWidth: 900,
+  },
+  separates: {
+    display: 'block',
+    color: 'transparent',
+    backgroundImage: `url(${backdrop})`,
+    backgroundRepeat: 'no-repeat'
+  },
+  left: {
+    minWidth: '220px',
+    alignSelf: 'flex-start'
+  },
+  sectionTitle: {
+    fontSize: 20,
+    marginLeft: '-1em',
+    marginTop: '-1em'
+  },
+  name: {
+    fontSize: 32,
+    fontFamily: 'Droid Sans'
+  },
+  title: {
+    fontSize: 20,
+    marginTop: '.5em',
+  },
+  contactInfo: {
+    padding: theme.spacing(2),
+    marginTop: '-1.5em',
+    marginBottom: '-2.2em',
+    textAlign: 'center',
+    flexWrap: 'wrap',
+  }, 
+  contactIcons: {
+    marginLeft: '-2.5em',
+    marginRight: '-2em',
+    overflow: 'auto',
+    maxHeight: 300,
+  },
+  contactText: {
+    flexWrap: 'wrap',
+    fontSize: '98%',
+  },
+  email: {
+    color: '#4fb5dd',
+  },
+  eduIcons: {
+    marginLeft: '-1.5em',
+    marginRight: '-3em',
+    overflow: 'auto',
+    maxHeight: 300,
+  },
+  eduContact: {
+    underline: 'hover'
+  },
+  eduLocation: {
+   display: 'block',
+   textAlign: 'end',
+   marginTop: '-1em',
+  },
+  degree: {
+    display: 'block',
+    marginLeft:'1em',
+    marginRight: '1em',
+    fontSize: '.75em',
+    fontStyle: 'italic',
+    fontWeight:' fontWeightLight',
+  },
+  right: {
+    width: '100%'
+  },
+  company: {
+    fontStyle: 'italic',
+    color: 'secondary',
+    underline: 'hover'
+  },
+  additionalContact: {
+    padding: '10px',
+    display: 'flex',
+    flex: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between'
+  },
+  contactGrid: {
+    padding: '2%'
+  },
+  contactButton: {
+    justify: 'center',
+    backgroundColor: 'transparent'
+  },
+
+}));
+
+
+
 const ResumeContact = () => {
+  const classes = useStyles();
 
   return(
+    <div>
+      <div className={classes.additionalContact}>
+      <div className={classes.contactGrid} >
+         <Button className={classes.contactButton} 
+            variant="contained"
+            aria-label="linked in"
+            startIcon={<FaLinkedin color={'blue'}/>}
+            onClick={() => window.open('https://www.linkedin.com/in/nataliemichellekendrick/')}
+            >
+              @nataliemichellekendrick
+           </Button>
+        </div>
 
-    <div
-              className={classes.additionalContact}>
-            <div
-              className={classes.contactGrid}
-              >
-               <Button className={classes.contactButton} 
-                  variant="contained"
-                  aria-label="linked in"
-                  startIcon={<FaLinkedin color={'blue'}/>}
-                  onClick={() => window.open('https://www.linkedin.com/in/nataliemichellekendrick/')}
-                  >
-                    @nataliemichellekendrick
-                 </Button>
-              </div>
+        <div className={classes.contactGrid}>    
+          <Button className={classes.contactButton}          variant="contained"         aria-label="twitter contact"         startIcon={<FaTwitterSquare color={'skyBlue'} />}         onClick={() => window.open('https://twitter.com/NKendrick12')}         >           @NKendrick12         </Button>      </div>
 
-              <div
-              className={classes.contactGrid}> 
-                <Button className={classes.contactButton} 
-                 variant="contained"
-      
-                 aria-label="twitter contact"
-                 startIcon={<FaTwitterSquare color={'skyBlue'} />}
-                 onClick={() => window.open('https://twitter.com/NKendrick12')}
-                 >
-                   @NKendrick12
-                 </Button>
-              </div>
+        <div
+        className={classes.contactGrid}>
+        <Button className={classes.contactButton} 
+         variant="contained"
+         aria-label="github contact"
+         startIcon={<FaGithubAlt color={'maroon'} />}
+         onClick={() => window.open('https://github.com/listenToRipley')}
+         >
+           @listenToRipley 
+         </Button>
+        </div>
 
-              <div
-              className={classes.contactGrid}>
-              <Button className={classes.contactButton} 
-               variant="contained"
-        
-               aria-label="github contact"
-               startIcon={<FaGithubAlt color={'maroon'} />}
-               onClick={() => window.open('https://github.com/listenToRipley')}
-               >
-                 @listenToRipley 
-               </Button>
-              </div>
+        <div
+        className={classes.contactGrid}>
+        <Button className={classes.contactButton} 
+        variant="contained"
+        aria-label="instagram contact"
+        startIcon={<FaInstagram color={'red'}/>}
+        onClick={() => window.open('https://www.instagram.com/garbosmile/?hl=en')}
+        >
+          @garbosmile
+        </Button>
+        </div>
 
-              <div
-              className={classes.contactGrid}>
-              <Button className={classes.contactButton} 
-              variant="contained"
-              aria-label="instagram contact"
-              startIcon={<FaInstagram color={'red'}/>}
-              onClick={() => window.open('https://www.instagram.com/garbosmile/?hl=en')}
-              >
-                @garbosmile
-              </Button>
-              </div>
-
-            </div>
-
+      </div>
+  </div>
   )
-
 }
 
 export default ResumeContact
