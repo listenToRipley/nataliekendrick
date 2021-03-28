@@ -15,7 +15,8 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import ListItemText from '@material-ui/core/ListItemText';
 import { FiCreditCard } from "@react-icons/all-files/fi/FiCreditCard";
 import { FaGavel } from "@react-icons/all-files/fa/FaGavel";
-import { FaStickyNote } from "@react-icons/all-files/fa/FaStickyNote";
+import { FiCopy } from "@react-icons/all-files/fi/FiCopy";
+import { FiArchive } from "@react-icons/all-files/fi/FiArchive";
 import backdrop from './projectImgs/backdrop.jpeg';
 
 const useStyles = makeStyles((theme) => ({
@@ -124,7 +125,7 @@ const ResumeExp = () => {
       type:'Intellectual Property Law Firm',
       title: 'Facilities Coordinator + Chief Problem Solver',
       tenure: 'Jun 2012 - May 2015',
-      div: <FaGavel color="grey"/>,
+      div: <FiCopy/>,
       res: [
         'Maintained a professional office of 30+ employees',
         'Manage digital & physical documentations in multiple locations',
@@ -138,7 +139,7 @@ const ResumeExp = () => {
        type:'Records Management',
        title: 'DMS Specialist + Warehouse Assistant',
        tenure: 'Feb 2011 - Jun 2012',
-       div: <FaStickyNote color="grey"/>,
+       div: <FiArchive/>,
        res: [
         'Receiving & preparation of documentation',
         'Digital Imaging of confidential information',
