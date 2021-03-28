@@ -82,17 +82,19 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: '-50px'
   },
   noLink: {
-    color: 'midnightblue'
+    color: 'midnightblue',
+    marginBottom: '2em'
   },
   character: {
     fontSize: '5px',
-    margin: '2px'
+    marginTop: '2px',
+    marginRight: '3px'
   },
   content: {
     height: '300px',
     width:'250px',
     marginTop: '5px',
-    marginBottom: '5px'
+    marginBottom: '10px'
   },
   studentDuty:{
     fontSize: '10px',
