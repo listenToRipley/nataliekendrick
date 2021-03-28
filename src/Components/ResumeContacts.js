@@ -130,9 +130,8 @@ const ResumeContact = () => {
          variant="contained"
          aria-label='phone'
          startIcon={<FaPhoneAlt/>}
-         onClick={() => window.open(``)}
          >
-         
+          520-404-3721
         </Button>
      </div>
 
