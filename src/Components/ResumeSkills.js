@@ -43,7 +43,7 @@ const ResumeSkills = () => {
   const classes = useStyles();
 
   const skills = [
-    "Debugging",
+    "Communication",
     "Strategic Planning",
     "Project Management",
     "Time Management",
@@ -65,7 +65,10 @@ const ResumeSkills = () => {
       "RESTful API",
       "Git/GitHub",
       "Webpack",
+      "Debugging",
       "Excel",
+      "PowerPoint",
+      "MS Word",
       "American Sign Language"
     ]
 
