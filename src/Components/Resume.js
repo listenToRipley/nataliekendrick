@@ -158,9 +158,6 @@ const Resume = () => {
           <Grid
           item xs={8}
          > 
-  
-            <Typography>Additional contact information</Typography>
-            <Paper className={classes.separates}>___________________</Paper>
 
 
             <Typography>References</Typography>
