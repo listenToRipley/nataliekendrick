@@ -24,8 +24,9 @@ import ResumeEdu from './ResumeEdu';
 import ResumeSkills from './ResumeSkills';
 import ResumeMission from './ResumeMission';
 import ResumeExp from './ResumeExp'; 
-import ResumeContacts from './ResumeContacts'; 
 import ResumeContact from './ResumeContacts';
+import ResumeRef from './ResumeRef'; 
+
 
 const useStyles = makeStyles((theme) => ({
   resume: {
@@ -148,6 +149,7 @@ const Resume = () => {
       <ResumeEdu/>
       <ResumeSkills/>
       <ResumeContact/>
+      <ResumeRef/>
         <Grid
         container
         direction="row"
