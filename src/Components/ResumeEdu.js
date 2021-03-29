@@ -12,6 +12,9 @@ import pima from './projectImgs/pima.png';
 import backdrop from './projectImgs/backdrop.jpeg';
 
 const useStyles = makeStyles((theme) => ({
+  eduBody: {
+    marginBottom: '3em'
+  },
   sectionTitle: {
     fontSize: 20,
     marginTop: '-1em'
@@ -20,13 +23,12 @@ const useStyles = makeStyles((theme) => ({
     display: 'block',
     color: 'white',
     backgroundImage: `url(${backdrop})`,
-    backgroundRepeat: 'no-repeat'
+    backgroundRepeat: 'no-repeat',
+    marginBottom: '1em',
   },
   eduIcons: {
-    marginLeft: '-1.5em',
-    marginRight: '-3em',
+    marginRight: '4em',
     overflow: 'auto',
-    maxHeight: 300,
   },
   eduContact: {
     underline: 'hover'
@@ -34,12 +36,13 @@ const useStyles = makeStyles((theme) => ({
   eduLocation: {
    display: 'block',
    textAlign: 'end',
-   marginTop: '-1em',
+   marginTop: '-4em',
   },
   degree: {
     display: 'block',
     marginLeft:'1em',
     marginRight: '1em',
+    marginBottom: '2em',
     fontSize: '1em',
     fontStyle: 'italic',
     fontWeight:' fontWeightLight',
@@ -52,7 +55,7 @@ const ResumeEdu = () => {
   const classes = useStyles();
 
   return(
-    <div>
+    <div className={classes.eduBody}>
       <List>
         <Paper className={classes.separates}>
           <ListItem className={classes.sectionTitle}>Education</ListItem>
