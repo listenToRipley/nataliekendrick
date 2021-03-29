@@ -372,7 +372,7 @@ const ResumeExp = () => {
           <Typography className={classes.heading}>Complete Work History</Typography>
       </AccordionSummary>
       <AccordionDetails>
-      <p className={classes.historySummary}>These jobs were part time employment while Natalie was completing her education</p>
+      <p className={classes.historySummary}>These jobs were part time employment while in school.</p>
       </AccordionDetails>
 
       <br/>
