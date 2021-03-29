@@ -9,4 +9,5 @@ app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, '..', 'build', 'index.html'))
 })
 
+//need to add 404 route
 app.listen(port);
