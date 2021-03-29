@@ -20,15 +20,18 @@ import { FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 import backdrop from './projectImgs/backdrop.jpeg';
 
 const useStyles = makeStyles((theme) => ({
+  contactBody: {
+    marginBottom: '2.5em'
+  },
   sectionTitle: {
     fontSize: 20,
-    marginTop: '-1em'
   },
   separates: {
     display: 'block',
     color: 'white',
     backgroundImage: `url(${backdrop})`,
-    backgroundRepeat: 'no-repeat'
+    backgroundRepeat: 'no-repeat',
+    marginBottom: '1em'
   },
   email: {
     color: '#4fb5dd',
@@ -37,10 +40,11 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flex: 'row',
     flexWrap: 'wrap',
-    justifyContent: 'space-between'
+    justifyContent: 'space-around',
+    marginBottom: '2em'
   },
   contactGrid: {
-    padding: '.5em'
+    padding: '5px'
   },
   contactButton: {
     justify: 'center',
@@ -107,7 +111,7 @@ const ResumeContact = () => {
   
 
   return(
-    <div>
+    <div className={classes.body}>
     <Paper className={classes.separates}>
       <ListItem className={classes.sectionTitle}>Contact</ListItem>
     </Paper>
