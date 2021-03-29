@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
 const ResumeContact = () => {
   const classes = useStyles();
   //may want to update color of links
-  const colors = []; 
+  // const colors = []; 
 
   const contactDetails = [
     {
