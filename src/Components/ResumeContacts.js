@@ -34,14 +34,13 @@ const useStyles = makeStyles((theme) => ({
     color: '#4fb5dd',
   },
   additionalContact: {
-    padding: '10px',
     display: 'flex',
     flex: 'row',
     flexWrap: 'wrap',
     justifyContent: 'space-between'
   },
   contactGrid: {
-    padding: '2%'
+    padding: '.5em'
   },
   contactButton: {
     justify: 'center',
