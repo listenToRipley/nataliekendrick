@@ -2,8 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link';
-import backdrop from './projectImgs/backdrop.jpeg';
 
 const useStyles = makeStyles((theme) => ({
   resume: {
@@ -30,24 +28,8 @@ const useStyles = makeStyles((theme) => ({
   title: {
     fontSize: 20,
     marginTop: '.5em',
-  },
-  separates: {
-    display: "flex",
-    flexWrap: "wrap",
-    color: "white",
-    backgroundImage: `url(${backdrop})`,
-    backgroundRepeat: "no-repeat",
-    justifyContent: "space-around",
-    fontWeight: 600,
-    letterSpacing: "1px"
-  },
-  contactText: {
-    flexWrap: 'wrap',
-    fontSize: '98%',
-  },
-  email: {
-    color: '#4fb5dd',
-  },
+    marginBottom: '-2em'
+  }
 
 })
 );
@@ -60,12 +42,6 @@ const ResumeHead = () => {
     <div className={classes.paper}>
     <Typography className={classes.name}>Natalie Kendrick</Typography>
     <p className={classes.title}>Full Stack Developer</p>
-    <Paper className={classes.separates}>
-
-      <p className={classes.email} href='mailto: natalie.m.kendrick@gmail.com'>natalie.m.kendrick@austin.utexas.edu</p>
-      <p disableTypography='true' className={classes.contactText}>520-404-3721</p>
-
-    </Paper>
   </div>
   )
 } 
