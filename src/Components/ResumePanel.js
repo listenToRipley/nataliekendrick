@@ -8,7 +8,9 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 import  { FaArrowUp } from '@react-icons/all-files/fa/FaArrowUp'
 import { FaBriefcase } from '@react-icons/all-files/fa/FaBriefcase';
 import { FaSchool } from '@react-icons/all-files/fa/FaSchool'; 
-import { School } from '@material-ui/icons';
+import { FaSwatchbook } from '@react-icons/all-files/fa/FaSwatchbook';
+import { FaAddressBook } from '@react-icons/all-files/fa/FaAddressBook';
+import { FaAsterisk } from '@react-icons/all-files/fa/FaAsterisk';
 //would like to add a second menu under the main on so the different sections of the resume can be linked to
 
 const useStyles = makeStyles({ 
@@ -40,9 +42,9 @@ const handleChange = (event, newValue) => {
       <BottomNavigationAction className={classes.icons} label="Top" value="top" icon={<FaArrowUp/>} />
       <BottomNavigationAction className={classes.icons} label="Experience" value="experiences" icon={<FaBriefcase/>} />
       <BottomNavigationAction className={classes.icons} label="Education" value="education" icon={<FaSchool />} />
-      <BottomNavigationAction className={classes.icons} label="Skills" value="skills" icon={<FolderIcon />} />
-      <BottomNavigationAction className={classes.icons} label="Contacts" value="contacts" icon={<FolderIcon />} />
-      <BottomNavigationAction className={classes.icons} label="References" value="references" icon={<FolderIcon />} />
+      <BottomNavigationAction className={classes.icons} label="Skills" value="skills" icon={<FaSwatchbook />} />
+      <BottomNavigationAction className={classes.icons} label="Contacts" value="contacts" icon={<FaAddressBook />} />
+      <BottomNavigationAction className={classes.icons} label="References" value="references" icon={<FaAsterisk />} />
     </BottomNavigation>
   </div>
   );
