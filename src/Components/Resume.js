@@ -9,7 +9,7 @@ import ResumeMission from './ResumeMission';
 import ResumeExp from './ResumeExp'; 
 import ResumeContact from './ResumeContacts';
 import ResumeRef from './ResumeRef'; 
-
+import ResumePanel from './ResumePanel';
 
 const useStyles = makeStyles((theme) => ({
   resume: {
@@ -37,8 +37,11 @@ const Resume = () => {
   const classes = useStyles();
 
   return (
+
+<div>
     <div className={classes.resume}>
       <Paper className={classes.paper}>
+
       <ResumeHead/>
       <ResumeMission/>
       <ResumeExp/>
@@ -49,6 +52,11 @@ const Resume = () => {
 
     </Paper>
     </div>
+
+    <footer>
+      <ResumePanel/>
+    </footer>
+  </div>
   )
 }
 
