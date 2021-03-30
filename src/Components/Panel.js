@@ -51,7 +51,8 @@ const WebPanel = () =>  {
       value={value} 
       onChange={handleChange} 
       aria-label="menu items" 
-      indicatorColor='primary' >
+      indicatorColor='transparent' 
+      >
         <Tab 
           label="Home"
           className={classes.link}
