@@ -109,6 +109,8 @@ const ResumeContact = () => {
     </Paper>
       <div className={classes.additionalContact}>
 
+      {media}
+
       <div className={classes.contactGrid} >
       <Button className={classes.contactButton} 
          variant="contained"
@@ -129,8 +131,6 @@ const ResumeContact = () => {
           520-404-3721
         </Button>
      </div>
-
-      {media}
      
       </div>
   </div>
