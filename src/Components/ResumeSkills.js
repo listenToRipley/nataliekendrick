@@ -82,10 +82,10 @@ const ResumeSkills = () => {
       <div className={classes.skillList}>
       
       <Typography className={classes.skillTitle}>Hard Skills</Typography>
-      {technologies.map((tech) => <Chip label={tech} variant="outline" className={classes.chip}/>)}
+      {technologies.sort().map((tech) => <Chip label={tech} variant="outline" className={classes.chip}/>)}
 
       <Typography className={classes.skillTitle}>Soft Skills</Typography>
-      {skills.map((skill) => <Chip label={skill} variant="outline" className={classes.chip}/>)}
+      {skills.sort().map((skill) => <Chip label={skill} variant="outline" className={classes.chip}/>)}
 
       </div>
     </List>
