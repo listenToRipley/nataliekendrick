@@ -52,10 +52,10 @@ const Resume = () => {
 
     </Paper>
     </div>
-
+{/* 
     <footer>
       <ResumePanel/>
-    </footer>
+    </footer> */}
   </div>
   )
 }
