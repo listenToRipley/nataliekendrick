@@ -33,7 +33,7 @@ const ResumeRef = () => {
     <Paper className={classes.separates}>
       <ListItem className={classes.sectionTitle}>References</ListItem>
     </Paper>
-    <Typography className={classes.ref}>References available upon request as well as complete work history</Typography>
+    <Typography className={classes.ref}>References available upon request</Typography>
     </div>
   )
 } 

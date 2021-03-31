@@ -69,7 +69,8 @@ const ResumeSkills = () => {
       "Excel",
       "PowerPoint",
       "MS Word",
-      "American Sign Language"
+      "American Sign Language",
+      "Netlify"
     ]
 
     //better option than list? 
