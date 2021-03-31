@@ -9,7 +9,6 @@ import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
 import ToolTip from '@material-ui/core/Tooltip';
-import PantryPals from './ProjPantryPals'
 import CodeSample from './ProjCodeSamples';
 import { makeStyles } from '@material-ui/core';
 //badges
