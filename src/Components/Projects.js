@@ -51,7 +51,8 @@ const useStyles = makeStyles({
     margin: '2%',
     flexWrap: 'wrap',
     minWidth: '420px',
-    width: '100vw'
+    width: '100vw',
+    maxWidth: '100%'
   },
   cards: {
     display: 'flex',
@@ -60,18 +61,20 @@ const useStyles = makeStyles({
     alignSelf: 'start',
     minWidth: '375px',
     justifySelf: 'center',
-    minHeight: '250em'
+    minHeight: '270em',
+    maxHeight: '270em'
   },
   cardBody: {
     maxWidth: '345px',
     minWidth: '345px',
     margin: '2%',
-    alignSelf: 'space-around',
+    minHeight: '42em'
   },
   cardMedia: {
     width: '90%',
     height: '45%',
-    paddingTop: '56.25%',
+    paddingTop: '50.25%',
+    marginTop: '0',
     marginLeft: '5%'
   },
   badges: {
@@ -102,10 +105,15 @@ const useStyles = makeStyles({
   },
   button: {
     marginTop: '15px',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    display: 'flex',
+    height: '100%',
+    marginBottom: 0
+
   },
   viewButtons: {
-    fontSize: '17px'
+    fontSize: '17px',
+    flex: 'auto',
   },
   additions: {
     margin: '5%',
