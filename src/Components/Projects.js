@@ -59,7 +59,8 @@ const useStyles = makeStyles({
     marginLeft: '8em',
     alignSelf: 'start',
     minWidth: '375px',
-    justifySelf: 'center'
+    justifySelf: 'center',
+    minHeight: '250em'
   },
   cardBody: {
     maxWidth: '345px',
@@ -88,7 +89,8 @@ const useStyles = makeStyles({
   description:{
     height: '2.5em',
     marginTop: '5px',
-    marginBottom: '5px'
+    marginBottom: '5px',
+    height: 'auto'
   },
   skills: {
     fontSize: '15px',
@@ -123,7 +125,7 @@ const Projects = () => {
       completed: 'December 2020',
       image: pantryPals,
       imageTitle: 'pantry-pals',
-      description: <p>    An full stack application keeping track of shopping and pantry items. Feel free to look over the <Link to={'/pantryPalsPlanning'}>planning process</Link></p>,
+      description: <p>Full stack app to keep track of shopping and pantry items. Feel free to look over the <Link to={'/pantryPalsPlanning'}>planning process</Link></p>,
       badges: [ <FaCss3Alt/>, <FaJs/>, <FaReact/> ],
       color: '#3bb371',
       skills: ' CSS, Javascript, SQL, React',
