@@ -7,6 +7,7 @@ import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
+import Link from '@material-ui/core/Link';
 import ToolTip from '@material-ui/core/Tooltip';
 import PantryPals from './ProjPantryPals'
 import CodeSample from './ProjCodeSamples';
@@ -28,6 +29,7 @@ import pigLatin from './projectImgs/pigLatin.png';
 import dodgeball from './projectImgs/dodgeball.png';
 import addressBook from './projectImgs/addressBook.png';
 import smallBusiness from './projectImgs/smallBusiness.png';
+import pantryPals from './projectImgs/pantryPals.png';
 
 const useStyles = makeStyles({ 
   project:{
@@ -116,6 +118,19 @@ const Projects = () => {
   const classes = useStyles();
 
   let projects = [
+    {
+      num: 11,  
+      header: 'Pantry Pals',
+      completed: 'December 2020',
+      image: pantryPals,
+      imageTitle: 'pantry-pals',
+      description: <p>    An full stack application keeping track of shopping and pantry items. Feel free to look over the <Link to={'/pantryPalsPlanning'}>planning process</Link></p>,
+      badges: [ <FaCss3Alt/>, <FaJs/>, <FaReact/> ],
+      color: '#3bb371',
+      skills: ' CSS, Javascript, SQL, React',
+      site: 'https://pantrypals.herokuapp.com/',
+      code: 'https://github.com/listenToRipley/capstone',
+    },
     {
       num: 10,  
       header: 'Small Business',
