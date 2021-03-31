@@ -325,7 +325,6 @@ const Projects = () => {
    variant='h4'
    >Portfolio</Typography>
     <div className={classes.cards}>
-      <PantryPals/>
       {card}
     </div>
     <div className={classes.additions}>
