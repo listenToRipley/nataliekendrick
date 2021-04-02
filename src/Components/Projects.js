@@ -133,7 +133,7 @@ const Projects = () => {
       completed: 'December 2020',
       image: pantryPals,
       imageTitle: 'pantry-pals',
-      description: <p>Full stack app to keep track of shopping and pantry items. Feel free to look over the <Link to={'/pantryPalsPlanning'}>planning process</Link></p>,
+      description: <p>Full stack app to keep track of shopping and pantry items, (MVP). Feel free to look over the <Link to={'/pantryPalsPlanning'}>planning process</Link></p>,
       badges: [ <FaCss3Alt/>, <FaJs/>, <FaReact/> ],
       color: '#3bb371',
       skills: ' CSS, Javascript, SQL, React',
