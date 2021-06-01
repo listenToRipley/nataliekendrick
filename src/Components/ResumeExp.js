@@ -112,12 +112,27 @@ const ResumeExp = () => {
   const classes = useStyles();
 
   const experiences = [
+    {
+    company: 'University of Texas Libraries',
+      site: 'https://www.lib.utexas.edu/',
+      type:'Educational Institution',
+      title: 'Software Developer',
+      tenure: 'June 2021- Present',
+      div: <FiCreditCard/>,
+      res: [
+        'Write, test and debug programming for UTL systems.', 
+        'Provide operational and customer support for UTL services, including monitoring systems, providing customer service, issue investigation, and documentation.', 'Participate as an active member of one or more project teams. Tasks may include planning and monitoring of project tasks, communicating project status to stakeholders, and ensuring timely completion of milestones.  Work collaboratively with customers and stakeholders to elicit requirements, identify functional and technical solutions, and investigate and resolve issues.', 
+        'Contribute to application quality; participate in validation, testing, and documentation of product releases.  Participate in the development of team software development standards, process improvements, and technical documentation.', 
+        'Keep up with technological trends and industry standards to ensure all products exhibit excellence in robustness, availability, security, data integrity, and failure tolerance.'
+
+      ],
+    },
     { 
       company: 'University of Texas at Austin + Purchasing Office',
       site: 'https://procard.financials.utexas.edu/',
       type:'Educational Institution',
       title: 'Procurement Card Administrator',
-      tenure: 'May 2015 - Present',
+      tenure: 'May 2015 - June 2021',
       div: <FiCreditCard/>,
       res: [
         'Manage card usage & policy for approx. 1400+ cards & users',
