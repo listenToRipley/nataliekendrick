@@ -39,7 +39,7 @@ const ResumeHead = () => {
   return(
     <div className={classes.paper}>
     <Typography className={classes.name} align="center">Natalie Kendrick</Typography>
-    <p className={classes.title} align="center">Full Stack Developer</p>
+    <p className={classes.title} align="center">Software Developer</p>
   </div>
   )
 } 
