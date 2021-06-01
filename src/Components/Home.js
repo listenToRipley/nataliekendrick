@@ -102,7 +102,7 @@ const Homepage = () => {
   return (
     <div className={classes.home}>
       <h1 align='center' className={classes.name}>Natalie Kendrick</h1>
-      <p align='center'  className={classes.title}><em>Full Stack Developer</em></p>
+      <p align='center'  className={classes.title}><em>Software Developer</em></p>
       <div align='center' className={classes.iconDiv}>
       {contacts.map((connect) => {
         return(
