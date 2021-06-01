@@ -17,6 +17,7 @@ import { FiCreditCard } from "@react-icons/all-files/fi/FiCreditCard";
 import { FiClipboard } from "@react-icons/all-files/fi/FiClipboard";
 import { FiArchive } from "@react-icons/all-files/fi/FiArchive";
 import { FiTriangle } from "@react-icons/all-files/fi/FiTriangle";
+import { FaLaptopCode } from "@react-icons/all-files/fa/FaLaptopCode";
 import backdrop from './projectImgs/backdrop.jpeg';
 
 const useStyles = makeStyles((theme) => ({
@@ -118,7 +119,7 @@ const ResumeExp = () => {
       type:'Educational Institution',
       title: 'Software Developer',
       tenure: 'June 2021- Present',
-      div: <FiCreditCard/>,
+      div: <FaLaptopCode/>,
       res: [
         'Write, test & debug programming for UTL systems.', 
         'Provide operational & customer support for UTL services', 
