@@ -126,6 +126,21 @@ const useStyles = makeStyles({
 const Projects = () => {
   const classes = useStyles();
 
+  let group = [
+    {num: 1,
+    header: 'TARO',
+    description: 'TARO (Texas Archival Resources Online)',
+    image: '',
+    imageTitle: 'Taro Page',
+    badges: [ <FaCss3Alt/>, <FaJs/>, <FaReact/> ],
+    color: '#3bb371',
+    skills: ' CSS, Javascript, React, XML',
+    site: 'https://txarchives.org/home',
+    code: <p>Due to this project being the property of The University of Texas at Austin Libraries, I am unable to share this code directly, but please feel free to review the contents on their <a href='https://github.com/utlibraries'>github</a> </p>,
+    }
+  ]
+
+
   let projects = [
     {
       num: 11,  
