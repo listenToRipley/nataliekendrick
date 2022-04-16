@@ -65,5 +65,13 @@
   "main": "index.js",
   "devDependencies": {},
   "author": "Natalie Kendrick",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/listenToRipley/nataliekendrick.git"
+  },
+  "bugs": {
+    "url": "https://github.com/listenToRipley/nataliekendrick/issues"
+  },
+  "homepage": "https://github.com/listenToRipley/nataliekendrick#readme"
 }
