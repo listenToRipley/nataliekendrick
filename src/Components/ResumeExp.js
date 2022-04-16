@@ -112,6 +112,15 @@ const ResumeExp = () => {
 
   const classes = useStyles();
 
+  // TEMPLATE for experience 
+  //   company: '',
+  //   site: '',
+  //   type:'',
+  //   title: '',
+  //   tenure: '',
+  //   div: '',
+  //   res: [],
+
   const experiences = [
     {
     company: 'University of Texas Libraries',
@@ -171,6 +180,7 @@ const ResumeExp = () => {
        ],
     }
   ]
+  
 
   const schoolHistory = [
     {
@@ -301,14 +311,6 @@ const ResumeExp = () => {
     ],
     },
   ]
-
-  //   company: '',
-  //   site: '',
-  //   type:'',
-  //   title: '',
-  //   tenure: '',
-  //   div: '',
-  //   res: [],
 
 
   const profHistory = experiences.map((each) => {
