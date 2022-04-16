@@ -134,7 +134,7 @@ const Projects = () => {
     imageTitle: 'Taro Page',
     badges: [ <FaCss3Alt/>, <FaJs/>, <FaReact/> ],
     color: '#3bb371',
-    skills: ' CSS, Javascript, React, XML',
+    skills: ' CSS, Django, Javascript, myPHPSQL, React, XML',
     site: 'https://txarchives.org/home',
     code: <p>Due to this project being the property of The University of Texas at Austin Libraries, I am unable to share this code directly, but please feel free to review the contents on their <a href='https://github.com/utlibraries'>github</a> </p>,
     }
