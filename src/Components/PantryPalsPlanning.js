@@ -1,5 +1,5 @@
 import React from 'react';
-import {makeStyles} from '@mui/material';
+// import {makeStyles} from '@mui/material';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Card from '@mui/material/Card';
@@ -106,50 +106,50 @@ import useCase15 from './projectImgs/pantryPalPlanning/useCase15.jpg';
 import useCase16 from './projectImgs/pantryPalPlanning/useCase16.jpg';
 import useCase17 from './projectImgs/pantryPalPlanning/useCase17.jpg';
 
-const useStyles = makeStyles({ 
-  planning:{
-    width: '100vw',
-    height: '100vh',
-    minWidth: '535px'
-  },
-  paper: {
-    width: '80%',
-    marginLeft: '10%',
-    marginTop: '5%',
-    marginBottom: '1oopx'
-  },
-  title: {
-    display: 'block',
-    marginTop:'4em',
-    marginLeft: '4em',
-    marginBottom:'4em',
-    paddingTop: '1em',
-  },
-  body:{
-    height: '100%',
-    width: '80%',
-    marginTop: '2em',
-    marginLeft: '2em',
-    marginBottom: '2em'
-  },
-  carousel:{
-    display: 'block',
-    width: '70%',
-    height:'900%',
-    margin: 'auto',
-  },
-  img:{
-    width: '56vw',
-    height: '75vh',
-    padding: '5%',
-    margin: 'auto',
-  },
-})
+// const useStyles = makeStyles({ 
+//   planning:{
+//     width: '100vw',
+//     height: '100vh',
+//     minWidth: '535px'
+//   },
+//   paper: {
+//     width: '80%',
+//     marginLeft: '10%',
+//     marginTop: '5%',
+//     marginBottom: '1oopx'
+//   },
+//   title: {
+//     display: 'block',
+//     marginTop:'4em',
+//     marginLeft: '4em',
+//     marginBottom:'4em',
+//     paddingTop: '1em',
+//   },
+//   body:{
+//     height: '100%',
+//     width: '80%',
+//     marginTop: '2em',
+//     marginLeft: '2em',
+//     marginBottom: '2em'
+//   },
+//   carousel:{
+//     display: 'block',
+//     width: '70%',
+//     height:'900%',
+//     margin: 'auto',
+//   },
+//   img:{
+//     width: '56vw',
+//     height: '75vh',
+//     padding: '5%',
+//     margin: 'auto',
+//   },
+// })
 
 
 const PantryPalPlanning = () => {
 
-  const classes = useStyles();
+  // const classes = useStyles();
 
   let img = [ 
     {
@@ -676,14 +676,14 @@ const PantryPalPlanning = () => {
 
   //look into how to update timing. 
   return (
-    <div className={classes.planning}>
-      <Paper className={classes.paper}>
-      <div className={classes.title}>
+    <div className="planning">
+      <Paper className="paper">
+      <div className="title">
       <Typography 
       variant='h3' 
       component='h3'>Pantry Pals Planning</Typography>
       
-      <div className={classes.body}>
+      <div className="body">
         <p>
         <a href="https://docs.google.com/presentation/d/19xS8029_NRw05XWOCFp0lhlehDhmF07N_eE1Eif6Lfg/edit?usp=sharing">Original Concept</a> of the application was more of a meal planning, but I tried to slim it down. 
         </p>
@@ -695,13 +695,13 @@ const PantryPalPlanning = () => {
 
         <Card 
         className=
-        {classes.carousel} 
+        "carousel" 
         variant='outlined' 
         raised='true'>
         <Carousel showArrows={true} >
        {
                 img.map( (item, i) => <img 
-                className={classes.img} 
+                className="img"
                 key={i} 
                 alt={item.description} 
                 src={item.image} /> )
