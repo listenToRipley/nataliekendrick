@@ -11,14 +11,14 @@ function App() {
   
   return (
  
-    <div className='App'>
+    <div className="App">
       <CssBaseline>
         <BrowserRouter>
           <Panel/>
           <Router/>
         </BrowserRouter>
         <MyFooter/>
-    </CssBaseline>
+      </CssBaseline>
     </div>
   
   );
