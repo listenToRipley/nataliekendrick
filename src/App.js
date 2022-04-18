@@ -11,13 +11,15 @@ function App() {
   
   return (
  
-    <CssBaseline>
-      <BrowserRouter>
-        <Panel/>
-        <Router/>
-      </BrowserRouter>
-      <MyFooter/>
+    <div className='App'>
+      <CssBaseline>
+        <BrowserRouter>
+          <Panel/>
+          <Router/>
+        </BrowserRouter>
+        <MyFooter/>
     </CssBaseline>
+    </div>
   
   );
 }
