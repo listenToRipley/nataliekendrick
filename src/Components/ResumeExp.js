@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@mui/material/styles';
+// import { makeStyles } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -20,97 +20,97 @@ import { FiTriangle } from "@react-icons/all-files/fi/FiTriangle";
 import { FaLaptopCode } from "@react-icons/all-files/fa/FaLaptopCode";
 import backdrop from './projectImgs/backdrop.jpeg';
 
-const useStyles = makeStyles((theme) => ({
-  sectionTitle: {
-    fontSize: 20,
-    marginTop: '-1em'
-  },
-  separates: {
-    display: 'block',
-    color: 'white',
-    backgroundImage: `url(${backdrop})`,
-    backgroundRepeat: 'no-repeat'
-  },
-  profHistory:{
-    marginTop: '1.5em',
-    marginLeft: '5em',
-    marginRight: '6em'
-  },
-  company: {
-    display: 'inline',
-    fontStyle: 'italic',
-    fontSize: 15,
-    color: 'secondary',
-    underline: 'hover',
-  },
-  listDuties: {
-    marginLeft: '2em',
-  },
-  duty: {
-    fontSize: 10
-  },
-  accordHistory: {
-    display: 'block',
-    flexDirection: 'column',
-    marginLeft: '2%',
-    alignSelf: 'center'
-  },
-  studentHeader: {
-    fontSize: theme.typography.pxToRem(15),
-    fontWeight: theme.typography.fontWeightRegular,
-  },
-  studentHistory: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    alignSelf: 'start',
-    maxWidth: '100%',
-    minWidth: '250px',
-    justifyContent:'center',
-    margin: '2%',
-    padding: '2%',
-  },
-  studentCard: {
-    alignSelf: 'space-around',
-    margin: '2%'
+// const useStyles = makeStyles((theme) => ({
+//   sectionTitle: {
+//     fontSize: 20,
+//     marginTop: '-1em'
+//   },
+//   separates: {
+//     display: 'block',
+//     color: 'white',
+//     backgroundImage: `url(${backdrop})`,
+//     backgroundRepeat: 'no-repeat'
+//   },
+//   profHistory:{
+//     marginTop: '1.5em',
+//     marginLeft: '5em',
+//     marginRight: '6em'
+//   },
+//   company: {
+//     display: 'inline',
+//     fontStyle: 'italic',
+//     fontSize: 15,
+//     color: 'secondary',
+//     underline: 'hover',
+//   },
+//   listDuties: {
+//     marginLeft: '2em',
+//   },
+//   duty: {
+//     fontSize: 10
+//   },
+//   accordHistory: {
+//     display: 'block',
+//     flexDirection: 'column',
+//     marginLeft: '2%',
+//     alignSelf: 'center'
+//   },
+//   studentHeader: {
+//     fontSize: theme.typography.pxToRem(15),
+//     fontWeight: theme.typography.fontWeightRegular,
+//   },
+//   studentHistory: {
+//     display: 'flex',
+//     flexWrap: 'wrap',
+//     alignSelf: 'start',
+//     maxWidth: '100%',
+//     minWidth: '250px',
+//     justifyContent:'center',
+//     margin: '2%',
+//     padding: '2%',
+//   },
+//   studentCard: {
+//     alignSelf: 'space-around',
+//     margin: '2%'
  
-  },
-  studentTitle: {
-    fontSize: 15,
-    height: '3em',
-  },
-  historySummary: {
-    marginTop: '-.5em',
-    marginBottom: '-50px'
-  },
-  noLink: {
-    color: 'midnightblue',
-    marginBottom: '2em'
-  },
-  character: {
-    fontSize: '5px',
-    marginTop: '2px',
-    marginRight: '3px'
-  },
-  content: {
-    height: '300px',
-    width:'250px',
-    marginTop: '5px',
-    marginBottom: '10px'
-  },
-  studentDuty:{
-    fontSize: '10px',
-    height: '2.2em',
-    paddingTop: '-.1em',
-    marginTop: '-.1em',
-    marginBottom: ' -1.5em'
-  }
+//   },
+//   studentTitle: {
+//     fontSize: 15,
+//     height: '3em',
+//   },
+//   historySummary: {
+//     marginTop: '-.5em',
+//     marginBottom: '-50px'
+//   },
+//   noLink: {
+//     color: 'midnightblue',
+//     marginBottom: '2em'
+//   },
+//   character: {
+//     fontSize: '5px',
+//     marginTop: '2px',
+//     marginRight: '3px'
+//   },
+//   content: {
+//     height: '300px',
+//     width:'250px',
+//     marginTop: '5px',
+//     marginBottom: '10px'
+//   },
+//   studentDuty:{
+//     fontSize: '10px',
+//     height: '2.2em',
+//     paddingTop: '-.1em',
+//     marginTop: '-.1em',
+//     marginBottom: ' -1.5em'
+//   }
 
-}));
+// }));
 
 
 const ResumeExp = () => {
 
-  const classes = useStyles();
+  // const classes = useStyles();
 
   // TEMPLATE for experience 
   //   company: '',
@@ -317,7 +317,7 @@ const ResumeExp = () => {
     return (
       <div>
       <Typography>{each.title}</Typography>
-      <Link className={classes.company}>
+      <Link className="company">
         <p>{each.company} ~ {each.type}</p>
       </Link>
       <em>{each.tenure}</em>
@@ -325,9 +325,9 @@ const ResumeExp = () => {
         {each.res.map((duty) => {
           return(
             <div>
-            <ListItem className={classes.listDuties}>
+            <ListItem className="listDuties">
               <ListItemAvatar>{each.div}</ListItemAvatar>
-              <ListItemText className={classes.duty}>{duty}</ListItemText>
+              <ListItemText className="duty">{duty}</ListItemText>
             </ListItem>
           </div>
           )
@@ -340,18 +340,18 @@ const ResumeExp = () => {
   //should I add an option to hid? to keep hidden and option to open?
   const studentHistory = schoolHistory.map((each) => {
     return (
-      <Card classes={classes.studentCard}>
-      <CardContent className={classes.content}>
+      <Card classes="studentCard">
+      <CardContent className="content">
       {each.site === ''? 
-      <Typography className={classes.company}>
-      <p className={classes.noLink}>{each.company} ~ {each.type}</p>
+      <Typography className="company">
+      <p className="noLink">{each.company} ~ {each.type}</p>
       </Typography> 
       : 
-      <Link className={classes.company}>
+      <Link className="company">
         <p>{each.company} ~ {each.type}</p>
       </Link>
       }
-      <Typography className={classes.studentTitle}>{each.title}</Typography>
+      <Typography className="studentTitle">{each.title}</Typography>
       <em>{each.tenure}</em>
       <List>
         Duties
@@ -359,7 +359,7 @@ const ResumeExp = () => {
           return(
             <div>
             <ListItem>
-              <ListItemText className={classes.studentDuty}> <FiTriangle className={classes.character}/> {duty}</ListItemText>
+              <ListItemText className="studentDuty"> <FiTriangle className="character"/> {duty}</ListItemText>
             </ListItem>
           </div>
           )
@@ -372,30 +372,30 @@ const ResumeExp = () => {
 
   return(
     <div>            
-      <Paper className={classes.separates}>
-        <ListItem className={classes.sectionTitle}>Experience</ListItem>
+      <Paper className="separates">
+        <ListItem className="sectionTitle">Experience</ListItem>
       </Paper>
 
-      <div className={classes.profHistory}>
+      <div className="profHistory">
         {profHistory}
       </div>
     <br/>
 
-    <Accordion className={classes.accordHistory}>
+    <Accordion className="accordHistory">
       <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
           >
-          <Typography className={classes.heading}>Complete Work History</Typography>
+          <Typography className="heading">Complete Work History</Typography>
       </AccordionSummary>
       <AccordionDetails>
-      <p className={classes.historySummary}>These jobs were part time employment while in school.</p>
+      <p className="historySummary">These jobs were part time employment while in school.</p>
       </AccordionDetails>
 
       <br/>
     
-    <div className={classes.studentHistory}>
+    <div className="studentHistory">
     {studentHistory}
     </div>
     </Accordion>
