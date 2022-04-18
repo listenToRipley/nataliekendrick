@@ -1,5 +1,4 @@
 import React from 'react';
-// import { makeStyles } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import ListItem from '@mui/material/ListItem';
@@ -11,7 +10,6 @@ import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
 import { FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 import backdrop from '../Imgs/backdrop.jpeg';
 
-// const useStyles = makeStyles((theme) => ({
   const contactBody = {
     marginBottom: '2.5em'
   }
@@ -49,13 +47,9 @@ import backdrop from '../Imgs/backdrop.jpeg';
     backgroundColor: 'transparent'
   }
 
-// }));
 
 
 const ResumeContact = () => {
-  // const classes = useStyles();
-  //may want to update color of links
-  // const colors = []; 
 
   const contactDetails = [
     {
