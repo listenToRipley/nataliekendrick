@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@mui/material/styles';
+// import { makeStyles } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import ListItem from '@mui/material/ListItem';
@@ -11,44 +11,43 @@ import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
 import { FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 import backdrop from './projectImgs/backdrop.jpeg';
 
-const useStyles = makeStyles((theme) => ({
-  contactBody: {
-    marginBottom: '2.5em'
-  },
-  sectionTitle: {
-    fontSize: 20,
-  },
-  separates: {
-    display: 'block',
-    color: 'white',
-    backgroundImage: `url(${backdrop})`,
-    backgroundRepeat: 'no-repeat',
-    marginBottom: '1em'
-  },
-  email: {
-    color: '#4fb5dd',
-  },
-  additionalContact: {
-    display: 'flex',
-    flex: 'row',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around', //might want to try something else here. 
-    marginBottom: '2em'
-  },
-  contactGrid: {
-    padding: '5px'
-  },
-  contactButton: {
-    justify: 'center',
-    backgroundColor: 'transparent'
-  },
+// const useStyles = makeStyles((theme) => ({
+//   contactBody: {
+//     marginBottom: '2.5em'
+//   },
+//   sectionTitle: {
+//     fontSize: 20,
+//   },
+//   separates: {
+//     display: 'block',
+//     color: 'white',
+//     backgroundImage: `url(${backdrop})`,
+//     backgroundRepeat: 'no-repeat',
+//     marginBottom: '1em'
+//   },
+//   email: {
+//     color: '#4fb5dd',
+//   },
+//   additionalContact: {
+//     display: 'flex',
+//     flex: 'row',
+//     flexWrap: 'wrap',
+//     justifyContent: 'space-around', //might want to try something else here. 
+//     marginBottom: '2em'
+//   },
+//   contactGrid: {
+//     padding: '5px'
+//   },
+//   contactButton: {
+//     justify: 'center',
+//     backgroundColor: 'transparent'
+//   },
 
-}));
-
+// }));
 
 
 const ResumeContact = () => {
-  const classes = useStyles();
+  // const classes = useStyles();
   //may want to update color of links
   // const colors = []; 
 
@@ -88,8 +87,8 @@ const ResumeContact = () => {
 
   const media = contactDetails.map((each) => {
     return (
-      <div className={classes.contactGrid} >
-      <Button className={classes.contactButton} 
+      <div className="contactGrid" >
+      <Button className="contactButton" 
          variant="contained"
          aria-label={each.type}
          startIcon={each.icon}
@@ -103,16 +102,16 @@ const ResumeContact = () => {
   
 
   return(
-    <div className={classes.body}>
-    <Paper className={classes.separates}>
-      <ListItem className={classes.sectionTitle}>Contact</ListItem>
+    <div className="body">
+    <Paper className="separates">
+      <ListItem className="sectionTitle">Contact</ListItem>
     </Paper>
-      <div className={classes.additionalContact}>
+      <div className="additionalContact">
 
       {media}
 
-      <div className={classes.contactGrid} >
-      <Button className={classes.contactButton} 
+      <div className="contactGrid" >
+      <Button className="contactButton" 
          variant="contained"
          aria-label='email'
          startIcon={<FaGoogle/>}
@@ -122,8 +121,8 @@ const ResumeContact = () => {
         </Button>
      </div>
 
-     <div className={classes.contactGrid} >
-      <Button className={classes.contactButton} 
+     <div className="contactGrid" >
+      <Button className="contactButton" 
          variant="contained"
          aria-label='phone'
          startIcon={<FaPhoneAlt/>}
