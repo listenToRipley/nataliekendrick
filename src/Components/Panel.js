@@ -1,17 +1,8 @@
 import * as React from 'react';
 import {useState} from 'react';
 import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
-import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import MenuItem from '@mui/material/MenuItem';
+import Box from '@mui/material/Box';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import {Link} from 'react-router-dom';
@@ -19,12 +10,12 @@ import './Components.css';
 
 // const useStyles = makeStyles({ 
 //   panel:{
-//     display: 'flex',
-//     flexWrap: 'wrap',
-//     color: 'transparent',
-//     position:'static',
-//     height: '20%',
-//     marginBottom: '12em'
+    // display: 'flex',
+    // flexWrap: 'wrap',
+    // color: 'transparent',
+    // position:'static',
+    // height: '20%',
+    // marginBottom: '12em'
 //   },
 //   bar:{
 //     padding: '1em',
@@ -57,27 +48,39 @@ const WebPanel = () =>  {
     <AppBar 
     className="bar"
     position="static"
-    // color='transparent' 
+    color='transparent'
+    sx={{
+      position:'absolute',
+    }}
     >
-      <Container 
+    <Box sx={{ 
+      width: '100%',
+      }}>
+      <Tabs 
       maxWidth="xl"
       className="tab"
-      variant="fullWidth"
       value={value} 
       onChange={handleChange} 
       aria-label="menu items" 
-      // indicatorColor='transparent' 
+      indicatorColor='transparent'
+      allowScrollButtonsMobile='true'
+      scrollButtons="auto"
+      sx={{
+        flexWrap: 'wrap',
+        // justifyContent:'space-around',
+        color: 'white',
+      }}  
+      centered='true'
       >
       <Toolbar disableGutters>
-        <Typography
-          variant="h6"
-          component={Link}
-          sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
+        <Tab
           label="Home"
           className="link"
-
           to='/' 
           aria-label='home'
+          sx={{
+            fontSize: '1.5em',
+          }}
         />
         <Tab 
           label="About"
@@ -85,23 +88,34 @@ const WebPanel = () =>  {
           className="link"
           to='/about'  
           aria-label='about'
+          sx={{
+            fontSize: '1.5em',
+          }}
+          
         />
-        <Tab 
+        <Tab
           label="Resume"  
           component={Link}
           className="link"
           to='/resume' 
           aria-label='resume'
+          sx={{
+            fontSize: '1.5em',
+          }}
         />
-        <Tab 
+        <Tab
           label="Projects" 
           className="link"
           component={Link}
           to='/projects' 
           aria-label='projects'
+          sx={{
+            fontSize: '1.5em',
+          }}
         />
         </Toolbar>
-      </Container>
+      </Tabs>
+      </Box>
     </AppBar>
   </div>
   );
