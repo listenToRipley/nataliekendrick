@@ -14,7 +14,7 @@ import Typography from '@mui/material/Typography';
 // })
 
 const SampleRPS = () => {
-  const classes = useStyles();
+  // const classes = useStyles();
 
   return (
     <div className="body">
