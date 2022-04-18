@@ -1,5 +1,5 @@
 import React from 'react'
-import {makeStyles} from '@mui/material';
+// import {makeStyles} from '@mui/material';
 import Typography from '@mui/material/Typography';
 import SampleBank from './SampleBank';
 import SampleMastermind from './SampleMastermind';
@@ -7,25 +7,25 @@ import SampleController from './SampleController';
 import SampleRPS from './SampleRPS';
 import SampleTower from './SampleTower';
 
-const useStyles = makeStyles({ 
-  sample: {
-    display: 'flex',
-    flexDirection: 'column',
-    width: '75%',
-    marginLeft: '12%'
-  },
-  profiles: {
-    marginTop: '2em',
-    color: 'white'
-  }
-})
+// const useStyles = makeStyles({ 
+//   sample: {
+//     display: 'flex',
+//     flexDirection: 'column',
+//     width: '75%',
+//     marginLeft: '12%'
+//   },
+//   profiles: {
+//     marginTop: '2em',
+//     color: 'white'
+//   }
+// })
 
 const CodeSamples = () => {
 
-  const classes = useStyles();
+  // const classes = useStyles();
 
   return (
-    <div className={classes.sample}>
+    <div className="sample">
       <Typography variant='h5'>Sample code : </Typography>
       <br/>
       <SampleBank/>
@@ -38,7 +38,7 @@ const CodeSamples = () => {
       <br/>
       <SampleTower/>
       <br/>
-     <div className={classes.profiles}>
+     <div className="profiles">
      <Typography paragraph> If you would like to review additional project,  please feel free to go to <a href="https://repl.it/@listenToRipley">repl.  it</a> or my <a href="https://www.codewars.com/users/minonOfLight">code   wars</a> profiles</Typography>
        <Typography paragraph>As well as my <a href="https://github.com/  listenToRipley">github page</a></Typography>
      </div>
