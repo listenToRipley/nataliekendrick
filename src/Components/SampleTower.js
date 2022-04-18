@@ -1,5 +1,5 @@
 import React from 'react'
-import { makeStyles } from '@mui/material';
+// import { makeStyles } from '@mui/material';
 import {Controlled as CodeMirror} from 'react-codemirror2'
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/neat.css';
@@ -7,17 +7,17 @@ import 'codemirror/mode/javascript/javascript.js';
 import 'codemirror/theme/material.css';
 import Typography from '@mui/material/Typography';
 
-const useStyles = makeStyles({ 
-  body:{
-    color: 'white'
-  }
-})
+// const useStyles = makeStyles({ 
+//   body:{
+//     color: 'white'
+//   }
+// })
 
 const SampleTower = () => {
-  const classes = useStyles();
+  // const classes = useStyles();
 
   return (
-    <div className={classes.body}>
+    <div className="body">
       <Typography
         align='right' 
         variant='h6'>
