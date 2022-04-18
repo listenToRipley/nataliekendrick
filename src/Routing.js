@@ -2,9 +2,9 @@ import React from 'react';
 import {Switch, Route} from 'react-router';
 import Home from './Components/Home';
 import About from './Components/About';
-import Resume from './Components/Resume';
-import Projects from './Components/Projects';
-import PantryPalsPlanning from './Components/PantryPalsPlanning'
+import Resume from './Components/Resume/Resume';
+import Projects from './Components/Projects/Projects';
+import PantryPalsPlanning from './Components/Projects/PantryPalsPlanning'
 
 
 const Router = () => {

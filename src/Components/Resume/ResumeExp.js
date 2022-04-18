@@ -18,7 +18,7 @@ import { FiClipboard } from "@react-icons/all-files/fi/FiClipboard";
 import { FiArchive } from "@react-icons/all-files/fi/FiArchive";
 import { FiTriangle } from "@react-icons/all-files/fi/FiTriangle";
 import { FaLaptopCode } from "@react-icons/all-files/fa/FaLaptopCode";
-import backdrop from './projectImgs/backdrop.jpeg';
+import backdrop from '../Imgs/backdrop.jpeg';
 
 // const useStyles = makeStyles((theme) => ({
 //   sectionTitle: {

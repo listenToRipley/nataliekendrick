@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import Chip from '@mui/material/Chip';
-import backdrop from './projectImgs/backdrop.jpeg';
+import backdrop from '../Imgs/backdrop.jpeg';
 
 
 // const useStyles = makeStyles((theme) => ({

@@ -3,7 +3,7 @@ import React from 'react';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import ListItem from '@mui/material/ListItem';
-import backdrop from './projectImgs/backdrop.jpeg';
+import backdrop from '../Imgs/backdrop.jpeg';
 
 // const useStyles = makeStyles((theme) => ({
 //   sectionTitle: {

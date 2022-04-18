@@ -4,7 +4,7 @@ import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import profile from './projectImgs/profile.jpeg';
-import background from './projectImgs/backdrop.jpeg'
+import background from './Imgs/backdrop.jpeg'
 
 // const useStyles = makeStyles({ 
 //   about: {

@@ -9,7 +9,7 @@ import ResumeMission from './ResumeMission';
 import ResumeExp from './ResumeExp'; 
 import ResumeContact from './ResumeContacts';
 import ResumeRef from './ResumeRef'; 
-import ResumePanel from './ResumePanel';
+// import ResumePanel from './ResumePanel';
 
 // const useStyles = makeStyles((theme) => ({
 //   resume: {

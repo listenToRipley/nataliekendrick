@@ -7,9 +7,9 @@ import Link from '@mui/material/Link';
 import ListItem from '@mui/material/ListItem';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar'
-import aca from './projectImgs/acaBadge.png';
-import pima from './projectImgs/pima.png';
-import backdrop from './projectImgs/backdrop.jpeg';
+import aca from './ResumeImgs/acaBadge.png';
+import pima from './ResumeImgs/pima.png';
+import backdrop from '../Imgs/backdrop.jpeg';
 
 // const useStyles = makeStyles((theme) => ({
 //   eduBody: {
