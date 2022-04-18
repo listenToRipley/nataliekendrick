@@ -1,5 +1,5 @@
 import React from 'react';
-import {makeStyles} from '@mui/material';
+// import {makeStyles} from '@mui/material';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
@@ -15,71 +15,71 @@ import ToolTip from '@mui/material/Tooltip';
 import { Link } from 'react-router-dom';
 import pantryPals from './projectImgs/pantryPals.png';
 
-const useStyles = makeStyles({ 
-  body:{
-    maxWidth: '345px',
-    minWidth: '345px',
-    margin: '2%',
-    alignItem: 'space-around',
-    justifySelf: 'center'
+// const useStyles = makeStyles({ 
+//   body:{
+//     maxWidth: '345px',
+//     minWidth: '345px',
+//     margin: '2%',
+//     alignItem: 'space-around',
+//     justifySelf: 'center'
 
-  },
-  media: {
-    width: '90%',
-    height: '45%',
-    paddingTop: '56.25%',
-    marginLeft: '5%'
-  },
-  badges: {
-    display: 'inline-flex',
-    fontSize: '40px',
-    paddingLeft: '15px',
-    height: '1.2em',
-  },
-  eachBadge: {
-    marginLeft: '15px',
-    marginTop: '-10px',
-  },
-  pBadge:{
-    fontSize: '30px',
-    marginLeft: '15px',
-    marginTop: '2px',
-    marginBottom:'1px',
-    color: 'grey'
-  },
-  description:{
-    height: '2.5em',
-    marginTop: '-5px',
-    marginBottom: '5px'
-  },
-  skills: {
-    fontSize: '15px',
-    color: 'grey',
-    marginTop: '-.5em',
-    marginBottom: ' -.5em'
-  },
-  viewButtons: {
-    fontSize: '14px'
-  },
-  button: {
-    marginBottom: '15px'
-  }
+//   },
+//   media: {
+//     width: '90%',
+//     height: '45%',
+//     paddingTop: '56.25%',
+//     marginLeft: '5%'
+//   },
+//   badges: {
+//     display: 'inline-flex',
+//     fontSize: '40px',
+//     paddingLeft: '15px',
+//     height: '1.2em',
+//   },
+//   eachBadge: {
+//     marginLeft: '15px',
+//     marginTop: '-10px',
+//   },
+//   pBadge:{
+//     fontSize: '30px',
+//     marginLeft: '15px',
+//     marginTop: '2px',
+//     marginBottom:'1px',
+//     color: 'grey'
+//   },
+//   description:{
+//     height: '2.5em',
+//     marginTop: '-5px',
+//     marginBottom: '5px'
+//   },
+//   skills: {
+//     fontSize: '15px',
+//     color: 'grey',
+//     marginTop: '-.5em',
+//     marginBottom: ' -.5em'
+//   },
+//   viewButtons: {
+//     fontSize: '14px'
+//   },
+//   button: {
+//     marginBottom: '15px'
+//   }
 
-})
+// })
 
 const PantryPals = () => {
 
-  const classes = useStyles();
+  // const classes = useStyles();
 
 return (
 
-<Card className={classes.body}>
+<Card className="body">
   <CardHeader
     title="Pantry Pals"
     subheader="December 2020"
   />
   <CardMedia
-    className={classes.media}
+    className="media"
     image={pantryPals}
     title="pantry pals"
   />
@@ -87,16 +87,16 @@ return (
   <p className='description'>
     An full stack application keeping track of shopping and pantry items.
   </p>
-    <Typography className={classes.badges}>
+    <Typography className="badges">
 
-    <p className={classes.eachBadge}>
-      <FaCss3Alt className={classes.pBadge}/>
-      <FaJs className={classes.pBadge}/>
-      <FaReact className={classes.pBadge}/>  
+    <p className="eachBadge">
+      <FaCss3Alt className="pBadge"/>
+      <FaJs className="pBadge"/>
+      <FaReact className="pBadge"/>  
     </p>    
 
     </Typography>
-      <p className={classes.skills}>
+      <p className="skills">
          CSS, Javascript, SQL, React
       </p>
   <CardActions>
@@ -106,10 +106,10 @@ return (
     variant="text" 
     size="large" 
     component="div" 
-    className={classes.button}>
+    className="button">
     <ToolTip title='see-site'>
     <Button 
-    className={classes.viewButtons}
+    className="viewButtons"
     onClick={() => window.open('https://pantrypals.herokuapp.com/')}>
     View Site
     </Button>
@@ -117,7 +117,7 @@ return (
 
     <ToolTip title='see-planning'>
     <Button 
-    className={classes.viewButtons}
+    className="viewButtons"
     align='center' component={Link} 
     to={'/pantryPalsPlanning'} >
     View Planning
@@ -126,7 +126,7 @@ return (
 
     <ToolTip title='see-code'>
     <Button 
-    className={classes.viewButtons}
+    className="viewButtons"
     onClick={()=> window.open('https://github.com/listenToRipley/capstone')}>
     View Code
     </Button>
