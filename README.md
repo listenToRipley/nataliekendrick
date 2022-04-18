@@ -7,5 +7,9 @@ Most of the contents is listed in JSON format for easy update.
 
 # Spin up site locally 
 npm install 
+local run goes up with `npm run-script start-client`
 
 # Deploy notes 
+
+# If you have issues run 
+npm cache clean --force 

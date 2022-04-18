@@ -10,4 +10,5 @@ app.get('/*', (req, res) => {
 })
 
 //need to add 404 route
+console.log(`PROVIDE PORT ${port}`)
 app.listen(port);

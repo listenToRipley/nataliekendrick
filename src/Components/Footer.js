@@ -1,4 +1,4 @@
-import {React} from react; 
+import React from 'react';
 import { TableFooter } from '@mui/material';
 
 const MyFooter = () => {
