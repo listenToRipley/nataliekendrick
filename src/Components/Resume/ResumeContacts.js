@@ -12,36 +12,42 @@ import { FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 import backdrop from '../Imgs/backdrop.jpeg';
 
 // const useStyles = makeStyles((theme) => ({
-//   contactBody: {
-//     marginBottom: '2.5em'
-//   },
-//   sectionTitle: {
-//     fontSize: 20,
-//   },
-//   separates: {
-//     display: 'block',
-//     color: 'white',
-//     backgroundImage: `url(${backdrop})`,
-//     backgroundRepeat: 'no-repeat',
-//     marginBottom: '1em'
-//   },
-//   email: {
-//     color: '#4fb5dd',
-//   },
-//   additionalContact: {
-//     display: 'flex',
-//     flex: 'row',
-//     flexWrap: 'wrap',
-//     justifyContent: 'space-around', //might want to try something else here. 
-//     marginBottom: '2em'
-//   },
-//   contactGrid: {
-//     padding: '5px'
-//   },
-//   contactButton: {
-//     justify: 'center',
-//     backgroundColor: 'transparent'
-//   },
+  const contactBody = {
+    marginBottom: '2.5em'
+  }
+
+  const sectionTitle = {
+    fontSize: 20,
+  }
+
+  const separates = {
+    display: 'block',
+    color: 'white',
+    backgroundImage: `url(${backdrop})`,
+    backgroundRepeat: 'no-repeat',
+    marginBottom: '1em'
+  }
+
+  const email = {
+    color: '#4fb5dd',
+  }
+
+  const additionalContact = {
+    display: 'flex',
+    flex: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around', //might want to try something else here. 
+    marginBottom: '2em'
+  }
+
+  const contactGrid = {
+    padding: '5px'
+  }
+
+  const contactButton = {
+    justify: 'center',
+    backgroundColor: 'transparent'
+  }
 
 // }));
 
@@ -87,50 +93,52 @@ const ResumeContact = () => {
 
   const media = contactDetails.map((each) => {
     return (
-      <div className="contactGrid" >
+      <div className="contactGrid" sx={{ additionalContact }}>
       <Button className="contactButton" 
-         variant="contained"
-         aria-label={each.type}
-         startIcon={each.icon}
-         onClick={() => window.open(`${each.link}`)}
-         >
-           {each.title}
+        sx={{ contactButton }}
+        variant="contained"
+        aria-label={each.type}
+        startIcon={each.icon}
+        onClick={() => window.open(`${each.link}`)}
+        >
+          {each.title}
         </Button>
-     </div>
+      </div>
     )
   })
   
 
   return(
-    <div className="body">
-    <Paper className="separates">
-      <ListItem className="sectionTitle">Contact</ListItem>
+    <div className="body" sx={{ contactBody }}>
+    <Paper className="separates" sx={{ separates }}>
+      <ListItem className="sectionTitle"  sx={{ sectionTitle }}>Contact</ListItem>
     </Paper>
       <div className="additionalContact">
 
       {media}
 
-      <div className="contactGrid" >
-      <Button className="contactButton" 
-         variant="contained"
-         aria-label='email'
-         startIcon={<FaGoogle/>}
-         href='mailto: natalie.m.kendrick@gmail.com'
-         >
-         natalie.m.kendrick@austin.utexas.edu
+      <div className="contactGrid" sx={{ contactGrid }}>
+      <Button className="contactButton"
+        sx={{ email }} 
+        variant="contained"
+        aria-label='email'
+        startIcon={<FaGoogle/>}
+        href='mailto: natalie.m.kendrick@gmail.com'
+        >
+        natalie.m.kendrick@austin.utexas.edu
         </Button>
-     </div>
+      </div>
 
-     <div className="contactGrid" >
+      <div className="contactGrid" sx={{ contactGrid }} >
       <Button className="contactButton" 
-         variant="contained"
-         aria-label='phone'
-         startIcon={<FaPhoneAlt/>}
-         >
+        variant="contained"
+        aria-label='phone'
+        startIcon={<FaPhoneAlt/>}
+        >
           520-404-3721
         </Button>
-     </div>
-     
+      </div>
+
       </div>
   </div>
   )
