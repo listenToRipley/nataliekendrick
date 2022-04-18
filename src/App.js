@@ -12,7 +12,7 @@ function App() {
  
     <div className="App">
       <CssBaseline>
-        <BrowserRouter forceRefresh={true}>
+        <BrowserRouter>
           <Panel/>
           <Router/>
         </BrowserRouter>

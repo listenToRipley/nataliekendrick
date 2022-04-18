@@ -8,68 +8,73 @@ import {FaMediumM} from "@react-icons/all-files/fa/FaMediumM";
 // import { makeStyles } from '@mui/material';
 import gold from './Imgs/golden.jpeg'
 
-// const useStyles = makeStyles({
-//   home: {
-//     position:'fixed',
-//     height:'90%',
-//     fontFamily: `'Open Sans', sans-serif, 'Bold'`,
-//     textAlign: 'center',
-//     zIndex: '-1',
-//     marginTop: '-4em'
-//   },
-//   name: {
-//     display: 'block',
-//     padding: '2%',
-//     fontSize: '75px',
-//     letterSpacing: '6px',
-//     marginBottom: '8%',
-//     color: 'transparent',
-//     backgroundImage: `url(${gold})`,
-//     WebkitTextFillColor: 'transparent',
-//     WebkitBackgroundClip: 'text',
-//     backgroundPosition: 'center',
-//     backgroundRepeat: 'no-repeat',
-//     textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
-//     WebkitBackgroundSize: '2650px 1440px',   
-//     MozBackgroundClip: 'text',
-//   },
-//   title: {
-//     fontSize: '50px',
-//     margin: '2%',
-//     fontSamily: `'Josefin Slab', serif`,
-//     fontWeight: 500,
-//     color: 'transparent',
-//     backgroundImage: `url(${gold})`,
-//     WebkitTextFillColor: 'transparent',
-//     WebkitBackgroundClip: 'text',
-//     backgroundPosition: 'center',
-//     backgroundRepeat: 'no-repeat',
-//     textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
-//     WebkitBackgroundSize: '2650px 1440px',   
-//     MozBackgroundClip: 'text',
-//     marginTop: '-1.5em'
-//   },
-//   iconDiv: {
-//     top: 'auto',
-//     bottom: 0,
-//     alignItems: 'center',
-//     height: '80vh',
-//     width: '100vw',
-//     marginTop: '.5em',
-//     fontSize: '75px',
-//   },
-//   icons: {
-//     color:'rgba(245, 245, 245, 0.315)'
-//   },
-//   firstIcon: {
-//     color:'rgba(245, 245, 245, 0.315)'
-//   },
-//   eachIcon: {
-//     display: 'inline',
-//     marginLeft: '.5em',
-//     color:'rgba(245, 245, 245, 0.315)',
 
-//   }
+// const useStyles = makeStyles({
+  const home = {
+    position:'fixed',
+    height:'90%',
+    fontFamily: `'Open Sans', sans-serif, 'Bold'`,
+    textAlign: 'center',
+    zIndex: '-1',
+    marginTop: '-4em'
+  }
+  const name = {
+    display: 'block',
+    padding: '2%',
+    fontSize: '75px',
+    letterSpacing: '6px',
+    marginBottom: '8%',
+    color: 'transparent',
+    backgroundImage: `url(${gold})`,
+    WebkitTextFillColor: 'transparent',
+    WebkitBackgroundClip: 'text',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
+    WebkitBackgroundSize: '2650px 1440px',   
+    MozBackgroundClip: 'text',
+    }
+
+  const title = {
+    fontSize: '50px',
+    margin: '2%',
+    fontSamily: `'Josefin Slab', serif`,
+    fontWeight: 500,
+    color: 'transparent',
+    backgroundImage: `url(${gold})`,
+    WebkitTextFillColor: 'transparent',
+    WebkitBackgroundClip: 'text',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    textShadow: '2px 2px 3px rgba(255, 255, 255, 0.199)',
+    WebkitBackgroundSize: '2650px 1440px',   
+    MozBackgroundClip: 'text',
+    marginTop: '-1.5em'
+    }
+const iconDiv = {
+    top: 'auto',
+    bottom: 0,
+    alignItems: 'center',
+    height: '80vh',
+    width: '100vw',
+    marginTop: '.5em',
+    fontSize: '75px',
+    }
+
+  const icons = {
+    color:'rgba(245, 245, 245, 0.315)'
+  }
+
+  const firstIcon =  {
+    color:'rgba(245, 245, 245, 0.315)'
+  }
+
+  const eachIcon = {
+    display: 'inline',
+    marginLeft: '.5em',
+    color:'rgba(245, 245, 245, 0.315)',
+
+  }
 // })
 
 const Homepage = () => {
@@ -100,19 +105,33 @@ const Homepage = () => {
   ]
 
   return (
-    <div className="home">
-      <h1 align='center' className="name">Natalie Kendrick</h1>
-      <p align='center'  className="title"><em>Software Developer</em></p>
-      <div align='center' className="iconDiv">
+    <div className="home"
+    sx={{
+      home
+      }}>
+      <h1 className="name"
+      sx={{ name }}>
+        Natalie Kendrick</h1>
+      <p 
+      align='center'  
+      className="title"
+      ><em
+      sx={{ title }}
+      >Software Developer</em></p>
+      <div align='center' 
+      className="iconDiv"
+      sx={{ title }}
+      >
       {contacts.map((connect) => {
         return(
-        <Link className="icons" href={connect.link}>
+        <Link 
+        className="icons" 
+        href={connect.link}
+        sx={{ icons }}>
           {connect.icon}
         </Link>
         )
       })}
-
-      
       </div>
     </div>
   )

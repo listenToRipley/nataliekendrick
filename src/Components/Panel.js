@@ -11,13 +11,28 @@ import './Components.css';
 const WebPanel = () =>  {
   console.log('panel here?')
 
-  // const classes = useStyles();
   const [value, setValue] = useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
     //will need to include routing on click, use links. 
   };
+
+  // styles
+  const panel = {
+    position:'absolute'
+  }
+
+  const tabs = {
+    flexWrap: 'wrap',
+    color: 'white',
+    fontSize: '5em',
+
+  }
+
+  const tab = {
+    fontSize: '5em',
+  }
 
   return (
     <div className="panel">
@@ -26,7 +41,7 @@ const WebPanel = () =>  {
     position="static"
     color='transparent'
     sx={{
-      position:'absolute',
+      panel
     }}
     >
     <Box sx={{ 
@@ -42,8 +57,7 @@ const WebPanel = () =>  {
       allowScrollButtonsMobile={true}
       variant='fullWidth'
       sx={{
-        flexWrap: 'wrap',
-        color: 'white',
+        tabs
       }}  
       centered='true'
       >
@@ -54,7 +68,7 @@ const WebPanel = () =>  {
           to='/' 
           aria-label='home'
           sx={{
-            fontSize: '1.5em',
+            tab
           }}
         />
         <Tab 
@@ -64,7 +78,7 @@ const WebPanel = () =>  {
           to='/about'  
           aria-label='about'
           sx={{
-            fontSize: '1.5em',
+            tab
           }}
           
         />
@@ -75,7 +89,7 @@ const WebPanel = () =>  {
           to='/resume' 
           aria-label='resume'
           sx={{
-            fontSize: '1.5em',
+            tab
           }}
         />
         <Tab
@@ -85,7 +99,7 @@ const WebPanel = () =>  {
           to='/projects' 
           aria-label='projects'
           sx={{
-            fontSize: '1.5em',
+            tab
           }}
         />
         </Toolbar>
