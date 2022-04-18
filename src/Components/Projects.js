@@ -10,7 +10,7 @@ import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
 import ToolTip from '@mui/material/Tooltip';
 import CodeSample from './ProjCodeSamples';
-import { makeStyles } from '@mui/material';
+// import { makeStyles } from '@mui/material';
 //badges
 import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5";
 import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt";
@@ -30,101 +30,101 @@ import addressBook from './projectImgs/addressBook.png';
 import smallBusiness from './projectImgs/smallBusiness.png';
 import pantryPals from './projectImgs/pantryPals.png';
 
-const useStyles = makeStyles({ 
-  project:{
-    display: 'block',
-    width: '100vw',
-    height: '100vh',
-    flexDirection: 'column',
-    marginLeft: '2%',
-    alignSelf: 'center'
-  },
-  title: {
-    display: 'block',
-    fontSize: '3em',
-    width: '100%',
-    padding: '2%',
-    marginTop: '-1.5em'
-  },
-  body: {
-    display: 'block',
-    margin: '2%',
-    flexWrap: 'wrap',
-    minWidth: '420px',
-    width: '100vw',
-    maxWidth: '100%'
-  },
-  cards: {
-    display: 'flex',
-    flexWrap:'wrap',
-    marginLeft: '8em',
-    alignSelf: 'start',
-    minWidth: '375px',
-    justifySelf: 'center',
-    minHeight: '270em',
-    maxHeight: '270em'
-  },
-  cardBody: {
-    maxWidth: '345px',
-    minWidth: '345px',
-    margin: '2%',
-    minHeight: '42em'
-  },
-  cardMedia: {
-    width: '90%',
-    height: '45%',
-    paddingTop: '50.25%',
-    marginTop: '0',
-    marginLeft: '5%'
-  },
-  badges: {
-    display: 'inline-flex',
-    fontSize: '40px',
-    paddingLeft: '15px',
-    height: '1.2em',
-  },
-  eachBadge: {
-    fontSize: '30px',
-    marginLeft: '15px',
-    marginTop: '2px',
-    color: 'grey'
-  },
-  description:{
-    height: '2.5em',
-    marginTop: '5px',
-    marginBottom: '5px',
-    height: 'auto'
-  },
-  skills: {
-    fontSize: '15px',
-    color: 'grey',
-    height: '2.2em',
-    paddingTop: '-.1em',
-    marginTop: '-.1em',
-    marginBottom: ' -1.5em'
-  },
-  button: {
-    marginTop: '15px',
-    justifyContent: 'center',
-    display: 'flex',
-    height: '100%',
-    marginBottom: 0
+// const useStyles = makeStyles({ 
+//   project:{
+//     display: 'block',
+//     width: '100vw',
+//     height: '100vh',
+//     flexDirection: 'column',
+//     marginLeft: '2%',
+//     alignSelf: 'center'
+//   },
+//   title: {
+//     display: 'block',
+//     fontSize: '3em',
+//     width: '100%',
+//     padding: '2%',
+//     marginTop: '-1.5em'
+//   },
+//   body: {
+//     display: 'block',
+//     margin: '2%',
+//     flexWrap: 'wrap',
+//     minWidth: '420px',
+//     width: '100vw',
+//     maxWidth: '100%'
+//   },
+//   cards: {
+//     display: 'flex',
+//     flexWrap:'wrap',
+//     marginLeft: '8em',
+//     alignSelf: 'start',
+//     minWidth: '375px',
+//     justifySelf: 'center',
+//     minHeight: '270em',
+//     maxHeight: '270em'
+//   },
+//   cardBody: {
+//     maxWidth: '345px',
+//     minWidth: '345px',
+//     margin: '2%',
+//     minHeight: '42em'
+//   },
+//   cardMedia: {
+//     width: '90%',
+//     height: '45%',
+//     paddingTop: '50.25%',
+//     marginTop: '0',
+//     marginLeft: '5%'
+//   },
+//   badges: {
+//     display: 'inline-flex',
+//     fontSize: '40px',
+//     paddingLeft: '15px',
+//     height: '1.2em',
+//   },
+//   eachBadge: {
+//     fontSize: '30px',
+//     marginLeft: '15px',
+//     marginTop: '2px',
+//     color: 'grey'
+//   },
+//   description:{
+//     height: '2.5em',
+//     marginTop: '5px',
+//     marginBottom: '5px',
+//     height: 'auto'
+//   },
+//   skills: {
+//     fontSize: '15px',
+//     color: 'grey',
+//     height: '2.2em',
+//     paddingTop: '-.1em',
+//     marginTop: '-.1em',
+//     marginBottom: ' -1.5em'
+//   },
+//   button: {
+//     marginTop: '15px',
+//     justifyContent: 'center',
+//     display: 'flex',
+//     height: '100%',
+//     marginBottom: 0
 
-  },
-  viewButtons: {
-    fontSize: '17px',
-    flex: 'auto',
-  },
-  additions: {
-    margin: '5%',
-    justifyContent:'center'
-  },
+//   },
+//   viewButtons: {
+//     fontSize: '17px',
+//     flex: 'auto',
+//   },
+//   additions: {
+//     margin: '5%',
+//     justifyContent:'center'
+//   },
 
-})
+// })
 
 
 const Projects = () => {
-  const classes = useStyles();
+  // const classes = useStyles();
 
   let group = [
     {num: 1,
@@ -290,39 +290,39 @@ const Projects = () => {
 
   const card = projects.map((proj, index) => 
 
-    <Card className={classes.cardBody} key={proj.num}>
+    <Card className="cardBody" key={proj.num}>
     <CardHeader
-      classNam={classes.header}
+      classNam="header"
       title={proj.header}
       subheader={proj.completed}
     />
     <CardMedia
-      className={classes.cardMedia}
+      className="cardMedia"
       image={proj.image}
       title={projects.subheader}
     />
     <CardContent>
-    <p className={classes.description}>
+    <p className="description">
       {proj.description}
     </p>
 
-      <Typography className={classes.badges} color={proj.color}>
+      <Typography className="badges"color={proj.color}>
       { proj.badges.map((badge, index) => 
-    <p key={index} className={classes.eachBadge}>
+    <p key={index} className="eachBadge">
         {badge}
     </p> )}
       </Typography>
-        <p paragraph className={classes.skills}>
+        <p paragraph className="skills">
            {proj.skills}
         </p>
     <CardActions>
       <ButtonGroup 
       fullWidth={true} 
       variant="text" size="large"
-      className={classes.button}>
+      className="buttons">
       <ToolTip title='see site'>
         <Button 
-        className={classes.viewButtons}
+        className="viewButtons"
         onClick={() => window.open(proj.site)}>
         View Site
         </Button>
@@ -330,7 +330,7 @@ const Projects = () => {
 
         <ToolTip title='see code'>
         <Button 
-        className={classes.viewButtons}
+        className="viewButtons"
         onClick={()=> window.open(proj.code)}>
         View Code
         </Button>
@@ -343,15 +343,15 @@ const Projects = () => {
   )
 
   return (
-   <div className={classes.project}>
+   <div className="projects">
    <Typography 
-   className={classes.title} 
+   className="title" 
    variant='h4'
    >Portfolio</Typography>
-    <div className={classes.cards}>
+    <div className="cards">
       {card}
     </div>
-    <div className={classes.additions}>
+    <div className="additions">
     </div>
     <CodeSample/>
    </div>
