@@ -5,8 +5,8 @@ import { FaGoogle } from "@react-icons/all-files/fa/FaGoogle";
 import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 import { FaGithubAlt } from "@react-icons/all-files/fa/FaGithubAlt";
 import {FaMediumM} from "@react-icons/all-files/fa/FaMediumM";
-import { makeStyles } from '@mui/material';
-import gold from './projectImgs/golden.jpeg'
+// import { makeStyles } from '@mui/material';
+import gold from './Imgs/golden.jpeg'
 
 // const useStyles = makeStyles({
 //   home: {

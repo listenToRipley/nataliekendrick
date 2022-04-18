@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 // import { makeStyles } from '@mui/material';
-import AppBar from '@mui/material/AppBar';
+import { AppBar } from '@mui/material';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import {Link} from 'react-router-dom';
