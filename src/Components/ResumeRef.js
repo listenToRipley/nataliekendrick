@@ -24,7 +24,7 @@ import backdrop from './projectImgs/backdrop.jpeg';
 
 
 const ResumeRef = () => {
-  const classes = useStyles();
+  // const classes = useStyles();
 
 //would like to add testimonials 
 
