@@ -1,11 +1,11 @@
 import React from 'react';
-import Link from '@material-ui/core/Link';
+import Link from '@mui/material/Link';
 import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn";
 import { FaGoogle } from "@react-icons/all-files/fa/FaGoogle";
 import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 import { FaGithubAlt } from "@react-icons/all-files/fa/FaGithubAlt";
 import {FaMediumM} from "@react-icons/all-files/fa/FaMediumM";
-import { makeStyles } from '@material-ui/core';
+import { makeStyles } from '@mui/material';
 import gold from './projectImgs/golden.jpeg'
 
 const useStyles = makeStyles({

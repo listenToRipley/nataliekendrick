@@ -1,10 +1,10 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import BottomNavigation from '@material-ui/core/BottomNavigation';
-import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-// import FolderIcon from '@material-ui/icons/Folder';
-// import FavoriteIcon from '@material-ui/icons/Favorite';
-// import LocationOnIcon from '@material-ui/icons/LocationOn';
+import { makeStyles } from '@mui/material/styles';
+import BottomNavigation from '@mui/material/BottomNavigation';
+import BottomNavigationAction from '@mui/material/BottomNavigationAction';
+// import FolderIcon from '@mui/icons-material/Folder';
+// import FavoriteIcon from '@mui/icons-material/Favorite';
+// import LocationOnIcon from '@mui/icons-material/LocationOn';
 import  { FaArrowUp } from '@react-icons/all-files/fa/FaArrowUp'
 import { FaBriefcase } from '@react-icons/all-files/fa/FaBriefcase';
 import { FaSchool } from '@react-icons/all-files/fa/FaSchool'; 

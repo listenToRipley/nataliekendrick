@@ -1,8 +1,8 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import ListItem from '@material-ui/core/ListItem';
-import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@mui/material/styles';
+import Paper from '@mui/material/Paper';
+import ListItem from '@mui/material/ListItem';
+import Typography from '@mui/material/Typography';
 import backdrop from './projectImgs/backdrop.jpeg';
 
 const useStyles = makeStyles((theme) => ({ 

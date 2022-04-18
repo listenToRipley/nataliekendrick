@@ -1,12 +1,12 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-import List from '@material-ui/core/List';
-import Link from '@material-ui/core/Link';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemAvatar from '@material-ui/core/ListItemAvatar';
-import Avatar from '@material-ui/core/Avatar'
+import { makeStyles } from '@mui/material/styles';
+import Paper from '@mui/material/Paper';
+import Typography from '@mui/material/Typography';
+import List from '@mui/material/List';
+import Link from '@mui/material/Link';
+import ListItem from '@mui/material/ListItem';
+import ListItemAvatar from '@mui/material/ListItemAvatar';
+import Avatar from '@mui/material/Avatar'
 import aca from './projectImgs/acaBadge.png';
 import pima from './projectImgs/pima.png';
 import backdrop from './projectImgs/backdrop.jpeg';

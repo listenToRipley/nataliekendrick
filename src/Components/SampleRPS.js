@@ -1,11 +1,11 @@
 import React from 'react'
-import { makeStyles } from '@material-ui/core';
+import { makeStyles } from '@mui/material';
 import {Controlled as CodeMirror} from 'react-codemirror2'
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/neat.css';
 import 'codemirror/mode/javascript/javascript.js';
 import 'codemirror/theme/material.css';
-import Typography from '@material-ui/core/Typography';
+import Typography from '@mui/material/Typography';
 
 const useStyles = makeStyles({ 
   body:{

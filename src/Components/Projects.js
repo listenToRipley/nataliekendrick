@@ -1,16 +1,16 @@
 import React from 'react';
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
-import Typography from '@material-ui/core/Typography';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
-import Button from '@material-ui/core/Button';
-import Link from '@material-ui/core/Link';
-import ToolTip from '@material-ui/core/Tooltip';
+import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
+import CardMedia from '@mui/material/CardMedia';
+import CardContent from '@mui/material/CardContent';
+import CardActions from '@mui/material/CardActions';
+import Typography from '@mui/material/Typography';
+import ButtonGroup from '@mui/material/ButtonGroup';
+import Button from '@mui/material/Button';
+import Link from '@mui/material/Link';
+import ToolTip from '@mui/material/Tooltip';
 import CodeSample from './ProjCodeSamples';
-import { makeStyles } from '@material-ui/core';
+import { makeStyles } from '@mui/material';
 //badges
 import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5";
 import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt";

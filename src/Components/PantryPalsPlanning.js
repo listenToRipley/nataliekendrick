@@ -1,8 +1,8 @@
 import React from 'react';
-import {makeStyles} from '@material-ui/core';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-import Card from '@material-ui/core/Card';
+import {makeStyles} from '@mui/material';
+import Paper from '@mui/material/Paper';
+import Typography from '@mui/material/Typography';
+import Card from '@mui/material/Card';
 import Carousel from 'react-material-ui-carousel';
 //pictures
 import actionRel1 from './projectImgs/pantryPalPlanning/actionRel1.jpg';

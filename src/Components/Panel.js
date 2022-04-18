@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import { makeStyles } from '@material-ui/core';
-import AppBar from '@material-ui/core/AppBar';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
+import { makeStyles } from '@mui/material';
+import AppBar from '@mui/material/AppBar';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
 import {Link} from 'react-router-dom';
 import './Components.css';
 
