@@ -8,30 +8,6 @@ import Tab from '@mui/material/Tab';
 import {Link} from 'react-router-dom';
 import './Components.css';
 
-// const useStyles = makeStyles({ 
-//   panel:{
-    // display: 'flex',
-    // flexWrap: 'wrap',
-    // color: 'transparent',
-    // position:'static',
-    // height: '20%',
-    // marginBottom: '12em'
-//   },
-//   bar:{
-//     padding: '1em',
-//     position: 'absolute'
-//   },
-//   tabs:{ 
-//     width: '100%',
-//     color: 'white',
-//     justifyContent: 'space-evenly',
-//   },  
-//   link: {
-//     fontSize: '1.5em',
-//     padding: '.2em'
-//   }
-// });
-
 const WebPanel = () =>  {
   console.log('panel here?')
 
@@ -63,11 +39,10 @@ const WebPanel = () =>  {
       onChange={handleChange} 
       aria-label="menu items" 
       indicatorColor='transparent'
-      allowScrollButtonsMobile='true'
-      scrollButtons="auto"
+      allowScrollButtonsMobile={true}
+      variant='fullWidth'
       sx={{
         flexWrap: 'wrap',
-        // justifyContent:'space-around',
         color: 'white',
       }}  
       centered='true'
