@@ -1,38 +1,38 @@
 import React, {useState} from 'react';
-import { makeStyles } from '@mui/material';
+// import { makeStyles } from '@mui/material';
 import AppBar from '@mui/material/AppBar';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import {Link} from 'react-router-dom';
 import './Components.css';
 
-const useStyles = makeStyles({ 
-  panel:{
-    display: 'flex',
-    flexWrap: 'wrap',
-    color: 'transparent',
-    position:'static',
-    height: '20%',
-    marginBottom: '12em'
-  },
-  bar:{
-    padding: '1em',
-    position: 'absolute'
-  },
-  tabs:{ 
-    width: '100%',
-    color: 'white',
-    justifyContent: 'space-evenly',
-  },  
-  link: {
-    fontSize: '1.5em',
-    padding: '.2em'
-  }
-});
+// const useStyles = makeStyles({ 
+//   panel:{
+//     display: 'flex',
+//     flexWrap: 'wrap',
+//     color: 'transparent',
+//     position:'static',
+//     height: '20%',
+//     marginBottom: '12em'
+//   },
+//   bar:{
+//     padding: '1em',
+//     position: 'absolute'
+//   },
+//   tabs:{ 
+//     width: '100%',
+//     color: 'white',
+//     justifyContent: 'space-evenly',
+//   },  
+//   link: {
+//     fontSize: '1.5em',
+//     padding: '.2em'
+//   }
+// });
 
 const WebPanel = () =>  {
 
-  const classes = useStyles();
+  // const classes = useStyles();
   const [value, setValue] = useState(0);
 
   const handleChange = (event, newValue) => {
@@ -41,12 +41,12 @@ const WebPanel = () =>  {
   };
 
   return (
-    <div className={classes.panel}>
+    <div className="panel">
     <AppBar 
-    className={classes.bar}
+    className="bar"
     color='transparent' >
       <Tabs 
-      className={classes.tabs}
+      className="tab"
       variant="fullWidth"
       value={value} 
       onChange={handleChange} 
@@ -55,7 +55,7 @@ const WebPanel = () =>  {
       >
         <Tab 
           label="Home"
-          className={classes.link}
+          className="link"
           component={Link}
           to='/' 
           aria-label='home'
@@ -63,20 +63,20 @@ const WebPanel = () =>  {
         <Tab 
           label="About"
           component={Link}
-          className={classes.link}
+          className="link"
           to='/about'  
           aria-label='about'
         />
         <Tab 
           label="Resume"  
           component={Link}
-          className={classes.link}
+          className="link"
           to='/resume' 
           aria-label='resume'
         />
         <Tab 
           label="Projects" 
-          className={classes.link}
+          className="link"
           component={Link}
           to='/projects' 
           aria-label='projects'
