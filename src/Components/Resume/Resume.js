@@ -12,22 +12,23 @@ import ResumeRef from './ResumeRef';
 // import ResumePanel from './ResumePanel';
 
 // const useStyles = makeStyles((theme) => ({
-//   resume: {
-//     flexGrow: 1,
-//     flexWrap: 'wrap',
-//     direction: 'row',
-//     minWidth: '200px',
-//     fontFamily: 'Droid Sans',
-//     marginTop: '-3em',
-//     marginBottom: '5em'
-//   },
-//   paper: {
-//     padding: theme.spacing(2),
-//     marginLeft: 'auto',
-//     marginRight: 'auto',
-//     marginBottom: '5em',
-//     maxWidth: 900,
-//   },
+  const resume = {
+    flexGrow: 1,
+    flexWrap: 'wrap',
+    direction: 'row',
+    minWidth: '200px',
+    fontFamily: 'Droid Sans',
+    marginTop: '-3em',
+    marginBottom: '5em'
+  }
+
+  const paper = {
+    // padding: theme.spacing(2),
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    marginBottom: '5em',
+    maxWidth: 900,
+  }
 
 // }));
 
@@ -39,8 +40,9 @@ const Resume = () => {
   return (
 
 <div>
-    <div className="resume">
-      <Paper className="paper">
+    <div className="resume"
+    sx={{resume}}>
+      <Paper className="paper" sx={{paper}} >
 
       <ResumeHead/>
       <ResumeMission/>
