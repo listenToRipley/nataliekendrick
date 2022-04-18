@@ -18,7 +18,7 @@ import { FaJs} from "@react-icons/all-files/fa/FaJs";
 import { FaBootstrap } from "@react-icons/all-files/fa/FaBootstrap";
 import { FaReact } from "@react-icons/all-files/fa/FaReact";
 //images
-import animate from './../projectImgs/animate.png';
+import animate from './projectImgs/animate.png';
 import mustacchio from './projectImgs/mustacchio.png';
 import nasa from './projectImgs/NASA.png';
 import ticTacToe from './projectImgs/TicTacToe.png';

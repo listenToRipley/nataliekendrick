@@ -1,6 +1,17 @@
-import React, {useState} from 'react';
-// import { makeStyles } from '@mui/material';
-import { AppBar } from '@mui/material';
+import * as React from 'react';
+import {useState} from 'react';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import Menu from '@mui/material/Menu';
+import MenuIcon from '@mui/icons-material/Menu';
+import Container from '@mui/material/Container';
+import Avatar from '@mui/material/Avatar';
+import Button from '@mui/material/Button';
+import Tooltip from '@mui/material/Tooltip';
+import MenuItem from '@mui/material/MenuItem';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import {Link} from 'react-router-dom';
@@ -31,6 +42,7 @@ import './Components.css';
 // });
 
 const WebPanel = () =>  {
+  console.log('panel here?')
 
   // const classes = useStyles();
   const [value, setValue] = useState(0);
@@ -44,19 +56,26 @@ const WebPanel = () =>  {
     <div className="panel">
     <AppBar 
     className="bar"
-    color='transparent' >
-      <Tabs 
+    position="static"
+    // color='transparent' 
+    >
+      <Container 
+      maxWidth="xl"
       className="tab"
       variant="fullWidth"
       value={value} 
       onChange={handleChange} 
       aria-label="menu items" 
-      indicatorColor='transparent' 
+      // indicatorColor='transparent' 
       >
-        <Tab 
+      <Toolbar disableGutters>
+        <Typography
+          variant="h6"
+          component={Link}
+          sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           label="Home"
           className="link"
-          component={Link}
+
           to='/' 
           aria-label='home'
         />
@@ -81,7 +100,8 @@ const WebPanel = () =>  {
           to='/projects' 
           aria-label='projects'
         />
-      </Tabs>
+        </Toolbar>
+      </Container>
     </AppBar>
   </div>
   );

@@ -7,14 +7,12 @@ import Panel from './Components/Panel';
 // import MyFooter from './Components/MyFooter'; 
 
 function App() {
-
-  console.log(`log process env public${process.env.PUBLIC_URL}`)
   
   return (
  
     <div className="App">
       <CssBaseline>
-        <BrowserRouter>
+        <BrowserRouter forceRefresh={true}>
           <Panel/>
           <Router/>
         </BrowserRouter>
