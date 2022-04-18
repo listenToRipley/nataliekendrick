@@ -100,13 +100,13 @@ const Homepage = () => {
   ]
 
   return (
-    <div className={classes.home}>
-      <h1 align='center' className={classes.name}>Natalie Kendrick</h1>
-      <p align='center'  className={classes.title}><em>Software Developer</em></p>
-      <div align='center' className={classes.iconDiv}>
+    <div className="home">
+      <h1 align='center' className="name">Natalie Kendrick</h1>
+      <p align='center'  className="title"><em>Software Developer</em></p>
+      <div align='center' className="iconDiv">
       {contacts.map((connect) => {
         return(
-        <Link className={classes.icons} href={connect.link}>
+        <Link className="icons" href={connect.link}>
           {connect.icon}
         </Link>
         )
