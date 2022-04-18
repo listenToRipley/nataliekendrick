@@ -1,25 +1,25 @@
 import React from 'react';
-import { makeStyles } from '@mui/material/styles';
+// import { makeStyles } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import ListItem from '@mui/material/ListItem';
 import backdrop from './projectImgs/backdrop.jpeg';
 
-const useStyles = makeStyles((theme) => ({
-  sectionTitle: {
-    fontSize: 20,
-    marginTop: '-1em'
-  },
-  separates: {
-    display: 'block',
-    color: 'white',
-    backgroundImage: `url(${backdrop})`,
-    backgroundRepeat: 'no-repeat'
-  },
-  ref: {
-    margin: '1em'
-  }
-}));
+// const useStyles = makeStyles((theme) => ({
+//   sectionTitle: {
+//     fontSize: 20,
+//     marginTop: '-1em'
+//   },
+//   separates: {
+//     display: 'block',
+//     color: 'white',
+//     backgroundImage: `url(${backdrop})`,
+//     backgroundRepeat: 'no-repeat'
+//   },
+//   ref: {
+//     margin: '1em'
+//   }
+// }));
 
 
 
@@ -30,10 +30,10 @@ const ResumeRef = () => {
 
   return(
     <div>
-    <Paper className={classes.separates}>
-      <ListItem className={classes.sectionTitle}>References</ListItem>
+    <Paper className="separates">
+      <ListItem className="sectionTitle">References</ListItem>
     </Paper>
-    <Typography className={classes.ref}>References available upon request</Typography>
+    <Typography className="ref">References available upon request</Typography>
     </div>
   )
 } 
