@@ -133,11 +133,11 @@ const Projects = () => {
   let projects = [
     {
       num: 12,  
-      header: 'Taro',
+      header: 'TARO',
       completed: 'January 2021',
       image: taro,
       imageTitle: 'taro logo',
-      description: <p>Contributing member of this University of Texas Project</p>,
+      description: <p>TARO, or Texas Archival Resources Online, was brought to the University of Texas at Austin Libraries back in 2019. This site was objected from it's legacy version. Natalie was able to be a contributing member of this project and bring the final project to life.</p>,
       badges: [ <FaCss3Alt/>, <FaJs/>, <FaReact/> ],
       color: '#3bb371',
       skills: ' CSS, Javascript, React, Django, Python, XML',
