@@ -128,7 +128,7 @@ const ResumeExp = () => {
         'Monitoring systems, providing customer service, issue investigation, and documentation.', 
         'Planning & monitoring of project tasks, communicating project status to stakeholders to ensure deadlines are met.', 
         'Contribute to application quality through participate in validation, testing, and documentation of product releases.',
-        `* Contributing member on ${taro}`,
+        `* Contributing member on ` + taro,
       ],
     },
     { 
