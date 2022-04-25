@@ -112,6 +112,8 @@ const ResumeExp = () => {
 
   const classes = useStyles();
 
+  const taro = <a href='https://txarchives.org/home'>Taro</a>
+
   const experiences = [
     {
     company: 'University of Texas Libraries',
@@ -139,7 +141,8 @@ const ResumeExp = () => {
         'Manage card usage & policy for approx. 1400+ cards & users',
         'Facilitate & resolve issues between multi-parties',
         'Create & maintain consistent, secure & effective processes for users',
-        'Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users expectations '
+        'Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users expectations',
+        `* Contributing member on ${taro}`,
       ],
     },
     {
