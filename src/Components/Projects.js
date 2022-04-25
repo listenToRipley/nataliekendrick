@@ -127,9 +127,6 @@ const useStyles = makeStyles({
 const Projects = () => {
   const classes = useStyles();
 
-  const taro = <a href=''>Taro</a>
-
-
   let projects = [
     {
       num: 12,  
@@ -137,9 +134,9 @@ const Projects = () => {
       completed: 'January 2021',
       image: taro,
       imageTitle: 'taro logo',
-      description: <p>TARO, or Texas Archival Resources Online, was brought to the University of Texas at Austin Libraries back in 2019. This site was objected from it's legacy version. Natalie was able to be a contributing member of this project and bring the final project to life.</p>,
+      description: <p>TARO is a UT Austin Project started in 2019. Natalie was able to be a contributing member of this project and bring the final project to life.</p>,
       badges: [ <FaCss3Alt/>, <FaJs/>, <FaReact/> ],
-      color: '#3bb371',
+      color: '#48637f',
       skills: ' CSS, Javascript, React, Django, Python, XML',
       site: 'https://txarchives.org/home',
       code: 'https://github.com/utlibraries?q=&type=all&language=&sort=',
