@@ -127,7 +127,8 @@ const ResumeExp = () => {
         'Provide operational & customer support for UTL services', 
         'Monitoring systems, providing customer service, issue investigation, and documentation.', 
         'Planning & monitoring of project tasks, communicating project status to stakeholders to ensure deadlines are met.', 
-        'Contribute to application quality through participate in validation, testing, and documentation of product releases.'
+        'Contribute to application quality through participate in validation, testing, and documentation of product releases.',
+        `* Contributing member on ${taro}`,
       ],
     },
     { 
@@ -142,7 +143,6 @@ const ResumeExp = () => {
         'Facilitate & resolve issues between multi-parties',
         'Create & maintain consistent, secure & effective processes for users',
         'Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users expectations',
-        `* Contributing member on ${taro}`,
       ],
     },
     {
