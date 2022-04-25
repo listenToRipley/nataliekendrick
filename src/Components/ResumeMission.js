@@ -35,7 +35,7 @@ const ResumeMission = () => {
         <ListItem className={classes.sectionTitle}>Mission</ListItem>
       </Paper>
       <Typography className={classes.mission} align="center">
-        After working in a variety of fields I have developed a comprehensive knowledge base for effective business practices, including:  application development, database design and the importance of leveraging those skills in creative and innovative approaches to problems while synthesizing the business and client needs.
+        After working in a variety of fields I have developed a comprehensive knowledge of business practices. This means I understand the importance of leveraging these skills to provide sustainable and meaningful practices that create innovative, efficient and effective products to support all parties.   
       </Typography>
     </div>
   )
