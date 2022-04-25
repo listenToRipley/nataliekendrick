@@ -111,9 +111,7 @@ const useStyles = makeStyles((theme) => ({
 const ResumeExp = () => {
 
   const classes = useStyles();
-
-  const taro = <a href='https://txarchives.org/home'>Taro</a>
-
+  
   const experiences = [
     {
     company: 'University of Texas Libraries',

@@ -29,6 +29,7 @@ import dodgeball from './projectImgs/dodgeball.png';
 import addressBook from './projectImgs/addressBook.png';
 import smallBusiness from './projectImgs/smallBusiness.png';
 import pantryPals from './projectImgs/pantryPals.png';
+import taro from './projectImgs/taro.png'
 
 const useStyles = makeStyles({ 
   project:{
@@ -126,7 +127,23 @@ const useStyles = makeStyles({
 const Projects = () => {
   const classes = useStyles();
 
+  const taro = <a href=''>Taro</a>
+
+
   let projects = [
+    {
+      num: 12,  
+      header: 'Taro',
+      completed: 'January 2021',
+      image: taro,
+      imageTitle: 'taro logo',
+      description: <p>Contributing member of this University of Texas Project</p>,
+      badges: [ <FaCss3Alt/>, <FaJs/>, <FaReact/> ],
+      color: '#3bb371',
+      skills: ' CSS, Javascript, React, Django, Python, XML',
+      site: 'https://txarchives.org/home',
+      code: 'https://github.com/utlibraries?q=&type=all&language=&sort=',
+    },
     {
       num: 11,  
       header: 'Pantry Pals',
