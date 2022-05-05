@@ -217,9 +217,9 @@ const ResumeExp = () => {
     },
     {
     company: 'Blockbuster Video',
-    site: 'http://www.blockbuster.com/',
+    site: 'https://bendblockbuster.com/',
     type:'Media Retailer',
-    title: 'Customer Services Respresentative',
+    title: 'Customer Services Representative',
     tenure: '2009-2010',
     div: '~',
     res: [
@@ -315,7 +315,7 @@ const ResumeExp = () => {
     return (
       <div>
       <Typography>{each.title}</Typography>
-      <Link className={classes.company}>
+      <Link className={classes.site}>
         <p>{each.company} ~ {each.type}</p>
       </Link>
       <em>{each.tenure}</em>
@@ -345,7 +345,7 @@ const ResumeExp = () => {
       <p className={classes.noLink}>{each.company} ~ {each.type}</p>
       </Typography> 
       : 
-      <Link className={classes.company}>
+      <Link className={classes.site}>
         <p>{each.company} ~ {each.type}</p>
       </Link>
       }
