@@ -99,7 +99,8 @@ const ResumeSkills = () => {
       "Slack", 
       "Trello",
       "Composer",
-      "Postman"
+      "Postman",
+      "Bootstrap"
     ]
 
     //better option than list? 

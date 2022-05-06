@@ -315,10 +315,10 @@ const ResumeExp = () => {
     return (
       <div>
       <Typography>{each.title}</Typography>
-      <Link className={classes.company} href={classes.site}>
+      <Link className={classes.company} href={each.site}>
       {each.company} ~ {each.type}
       </Link>
-      <em>{each.tenure}</em>
+      <em> {each.tenure} </em>
       <List>
         {each.res.map((duty) => {
           return(
@@ -345,12 +345,12 @@ const ResumeExp = () => {
       <p className={classes.noLink}>{each.company} ~ {each.type}</p>
       </Typography> 
       : 
-      <Link className={classes.company} href={classes.site}>
-      {each.company} ~ {each.type}
+      <Link className={classes.company} href={each.site}>
+      {each.company}  ~  {each.type}
       </Link>
       }
       <Typography className={classes.studentTitle}>{each.title}</Typography>
-      <em>{each.tenure}</em>
+      <em> {each.tenure} </em>
       <List>
         Duties
         {each.res.map((duty) => {
