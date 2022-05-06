@@ -53,7 +53,9 @@ const ResumeSkills = () => {
     "Story Writing",
     "Public Speaking",
     "Presenting",
-    "Business Acumen"
+    "Business Acumen",
+    "Managing User Expectations",
+    "Mapping Processes"
     ]
 
     const technologies = [
@@ -92,7 +94,12 @@ const ResumeSkills = () => {
       "American Sign Language",
       "Netlify",
       "Splunk",
-      "Rancher"
+      "Rancher",
+      "Jira",
+      "Slack", 
+      "Trello",
+      "Composer",
+      "Postman"
     ]
 
     //better option than list? 
