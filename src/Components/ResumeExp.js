@@ -315,7 +315,7 @@ const ResumeExp = () => {
     return (
       <div>
       <Typography>{each.title}</Typography>
-      <Link className={classes.site}>
+      <Link className={classes.site} href={classes.site}>
         <p>{each.company} ~ {each.type}</p>
       </Link>
       <em>{each.tenure}</em>
@@ -345,7 +345,7 @@ const ResumeExp = () => {
       <p className={classes.noLink}>{each.company} ~ {each.type}</p>
       </Typography> 
       : 
-      <Link className={classes.site}>
+      <Link className={classes.site} href={classes.site}>
         <p>{each.company} ~ {each.type}</p>
       </Link>
       }
