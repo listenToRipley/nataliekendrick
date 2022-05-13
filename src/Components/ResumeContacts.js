@@ -118,7 +118,7 @@ const ResumeContact = () => {
          startIcon={<FaGoogle/>}
          href='mailto: natalie.m.kendrick@gmail.com'
          >
-         natalie.m.kendrick@austin.utexas.edu
+         natalie.m.kendrick@gmail.com
         </Button>
      </div>
 
