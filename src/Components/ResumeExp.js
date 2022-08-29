@@ -114,11 +114,26 @@ const ResumeExp = () => {
   
   const experiences = [
     {
+      company: 'University of Rochester Laboratory For Laser Energetics ~ (LLE) ',
+        site: 'https://www.lle.rochester.edu/',
+        type:'Educational Institution',
+        title: 'Analyst/Programmer SR',
+        tenure: 'August 2022- Present',
+        div: <FaLaptopCode/>,
+        res: [
+          'Write, test & debug programming for UTL systems.', 
+          'Provide operational & customer support for UTL services', 
+          'Monitoring systems, providing customer service, issue investigation, and documentation.', 
+          'Planning & monitoring of project tasks, communicating project status to stakeholders to ensure deadlines are met.', 
+          'Contribute to application quality through participate in validation, testing, and documentation of product releases.',
+        ],
+    },
+    {
     company: 'University of Texas Libraries',
       site: 'https://www.lib.utexas.edu/',
       type:'Educational Institution',
       title: 'Software Developer',
-      tenure: 'June 2021- Present',
+      tenure: 'June 2021- August 2022',
       div: <FaLaptopCode/>,
       res: [
         'Write, test & debug programming for UTL systems.', 
