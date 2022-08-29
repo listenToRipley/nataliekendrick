@@ -121,11 +121,10 @@ const ResumeExp = () => {
         tenure: 'August 2022- Present',
         div: <FaLaptopCode/>,
         res: [
-          'Write, test & debug programming for UTL systems.', 
-          'Provide operational & customer support for UTL services', 
-          'Monitoring systems, providing customer service, issue investigation, and documentation.', 
-          'Planning & monitoring of project tasks, communicating project status to stakeholders to ensure deadlines are met.', 
-          'Contribute to application quality through participate in validation, testing, and documentation of product releases.',
+          'Management and maintenance of technical debt.', 
+          'Validate and update database systems/ content.',
+          'Management and maintain documentation',
+          'Updating of legacy code.'
         ],
     },
     {
