@@ -157,18 +157,18 @@ const ResumeExp = () => {
       ],
     }, 
     {
-       company: 'Iron Mountain, Austin, TX',
-       site: 'https://www.ironmountain.com/',
-       type:'Records Management',
-       title: 'DMS Specialist + Warehouse Assistant',
-       tenure: 'Feb 2011 - Jun 2012',
-       div: <FiArchive/>,
-       res: [
+      company: 'Iron Mountain, Austin, TX',
+      site: 'https://www.ironmountain.com/',
+      type:'Records Management',
+      title: 'DMS Specialist + Warehouse Assistant',
+      tenure: 'Feb 2011 - Jun 2012',
+      div: <FiArchive/>,
+      res: [
         'Receiving & preparation of documentation',
         'Digital Imaging of confidential information',
         'Quality Control',
         'Data Entry'
-       ],
+      ],
     }
   ]
 
