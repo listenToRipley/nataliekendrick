@@ -33,7 +33,7 @@ const ResumeRef = () => {
     <Paper className={classes.separates}>
       <ListItem className={classes.sectionTitle}>References</ListItem>
     </Paper>
-    <Typography className={classes.ref}>References available upon request</Typography>
+    <Typography className={classes.ref}>References available upon <a href='https://docs.google.com/spreadsheets/d/1xOWVDYFLIk4DrofA3K6GosPREidyfyjn-aBjJGK02M4/edit?usp=sharing'>request</a></Typography>
     </div>
   )
 } 
