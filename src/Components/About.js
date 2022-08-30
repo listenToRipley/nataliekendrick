@@ -92,7 +92,7 @@ const About = () => {
       </Grid>
     <div className={classes.body}>
     <Typography paragraph>
-    Creatively driven, flexible, organized, goal oriented and bringing a unique perspective to the table. Natalie is a motivated professional with extensive experience ranging from web development and fine arts to customer service.
+    Creatively driven, flexible, organized, goal-oriented, and bringing a unique perspective to the table. Natalie is a motivated professional with extensive experience ranging from web development and fine arts to customer service.
     </Typography>
     <Typography> When it comes to problem solving she is proactive, a self-starter who believes that amicable and efficient solutions can be found. A team playing who knows her successes benefit the team as much as they do her.
 </Typography>
