@@ -4,6 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import ListItem from '@material-ui/core/ListItem';
 import backdrop from './projectImgs/backdrop.jpeg';
+import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles((theme) => ({
   sectionTitle: {
@@ -33,7 +34,7 @@ const ResumeRef = () => {
     <Paper className={classes.separates}>
       <ListItem className={classes.sectionTitle}>References</ListItem>
     </Paper>
-    <Typography className={classes.ref}>References available upon request</Typography>
+    <Typography className={classes.ref}>References available upon <Link href='https://docs.google.com/spreadsheets/d/1xOWVDYFLIk4DrofA3K6GosPREidyfyjn-aBjJGK02M4/edit?usp=sharing'>request</Link></Typography>
     </div>
   )
 } 
