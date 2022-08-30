@@ -108,6 +108,7 @@ const ResumeSkills = () => {
     <List>
       <Paper className={classes.separates}>
         <ListItem className={classes.sectionTitle}>Skills</ListItem>
+        <Typography><em>"A jack of all trades is master of none, but oftentimes better than a master of none."</em></Typography>
       </Paper>
     
       <div className={classes.skillList}>
