@@ -114,20 +114,6 @@ const ResumeExp = () => {
   
   const experiences = [
     {
-      company: 'University of Rochester Laboratory For Laser Energetics ~ (LLE) ',
-        site: 'https://www.lle.rochester.edu/',
-        type:'Educational Institution',
-        title: 'Analyst/Programmer SR',
-        tenure: 'August 2022- Present',
-        div: <FaLaptopCode/>,
-        res: [
-          'Management and maintenance of technical debt.', 
-          'Validate and update database systems/ content.',
-          'Management and maintain documentation',
-          'Updating of legacy code.'
-        ],
-    },
-    {
     company: 'University of Texas Libraries',
       site: 'https://www.lib.utexas.edu/',
       type:'Educational Institution',
