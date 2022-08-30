@@ -118,7 +118,7 @@ const ResumeExp = () => {
       site: 'https://www.lib.utexas.edu/',
       type:'Educational Institution',
       title: 'Software Developer',
-      tenure: 'June 2021- August 2022',
+      tenure: 'June 2021 - August 2022',
       div: <FaLaptopCode/>,
       res: [
         'Write, test & debug programming for UTL systems.', 
