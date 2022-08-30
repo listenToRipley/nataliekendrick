@@ -97,10 +97,10 @@ const About = () => {
     <Typography> When it comes to problem-solving, she is proactive and a self-starter who believes that amicable and efficient solutions can be found. A team player who knows her successes benefits the team as much as they do her.
 </Typography>
     <Typography paragraph>
-    In her spare time she loves to read, hike with her dog, does yoga, and plays board games. She is passionate about food, cooking, and sharing those meals with great conversation. She is also a massive movie buff and enjoys international television.
+    She loves to read, hike with her dog, do yoga, and play board games in her spare time. In addition, she is passionate about food, cooking, and sharing those meals with great conversation. She is also a massive movie buff and enjoys international television.
     </Typography>
     <Typography>
-    She looks forward to hearing from you and hopes you have a fantastic adventure today 
+    She looks forward to hearing from you and hopes you have a fantastic adventure today.
     </Typography>
     </div>
     </Grid>
