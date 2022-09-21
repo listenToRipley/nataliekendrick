@@ -61,13 +61,13 @@ const useStyles = makeStyles({
   icons: {
     color:'rgba(245, 245, 245, 0.315)',
   },
-  firstIcon: {
-    color:'rgba(245, 245, 245, 0.315)'
-  },
+  // firstIcon: {
+  //   color:'rgba(245, 245, 245, 0.315)'
+  // },
   eachIcon: {
     display: 'inline',
     color:'rgba(245, 245, 245, 0.315)',
-    maxHeight: '30px',
+    maxHeight: '5%',
     minHeight: '15px',
     marginLeft: '.5em', 
     minWidth: '1em',
@@ -98,7 +98,7 @@ const Homepage = () => {
     {
       title: 'linkedIn',
       link: 'https://www.linkedin.com/in/nataliemichellekendrick/', 
-      icon: <FaLinkedinIn className={classes.firstIcon} />},
+      icon: <FaLinkedinIn className={classes.eachIcon} />},
       
   ]
 
