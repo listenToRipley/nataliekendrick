@@ -151,7 +151,7 @@ const ResumeExp = () => {
       res: [
         'Maintained a professional office of 30+ employees.',
         'Manage digital & physical documentation in multiple locations.',
-        'General office duties: reception work, receiving goods, placing orders, facilitating events, mail processing, hardware maintenance.',
+        'General office duties: reception work, receiving goods, placing orders, facilitating events, mail processing, and hardware maintenance.',
         'Training & supervision of 3 employees.'
       ],
     }, 
