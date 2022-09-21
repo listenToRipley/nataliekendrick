@@ -58,22 +58,21 @@ const useStyles = makeStyles({
     marginTop: '.5em',
     fontSize: '75px',
   },
-  icons: {
-    color:'rgba(245, 245, 245, 0.315)',
-  },
   firstIcon: {
     color:'rgba(245, 245, 245, 0.315)'
   },
-  icon: {
+  icons: {
     display: 'inline',
     color:'rgba(245, 245, 245, 0.315)',
   },
   eachIcon: {
     maxHeight: '15%',
     minHeight: '15px',
-    marginLeft: '.5em', 
+    marginLeft: '1em', 
     minWidth: '1em',
-  }
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
 })
 
 const Homepage = () => {
@@ -87,19 +86,19 @@ const Homepage = () => {
     {
       title: 'medium',
       link: 'https://listentoripley.medium.com/', 
-      icon: <FaMediumM className={`${classes.icon} ${classes.eachIcon}`}/>},
+      icon: <FaMediumM className={`${classes.icons} ${classes.eachIcon}`}/>},
     {
       title: 'gmail',
       link: 'mailto: natalie.m.kendrick@gmail.com', 
-      icon:  <FaGoogle className={`${classes.icon} ${classes.eachIcon}`}/>},
+      icon:  <FaGoogle className={`${classes.icons} ${classes.eachIcon} ${classes.googleIcon}`}/>},
     {
       title: 'github',
       link: 'https://github.com/listenToRipley', 
-      icon: <FaGithubAlt className={`${classes.icon} ${classes.eachIcon}`}/> },
+      icon: <FaGithubAlt className={`${classes.icons} ${classes.eachIcon}`}/> },
     {
       title: 'linkedIn',
       link: 'https://www.linkedin.com/in/nataliemichellekendrick/', 
-      icon: <FaLinkedinIn className={`${classes.icon} ${classes.eachIcon}`} />},
+      icon: <FaLinkedinIn className={`${classes.icons} ${classes.eachIcon}`} />},
       
   ]
 
