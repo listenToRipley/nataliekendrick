@@ -2,7 +2,7 @@ import React from 'react';
 import Link from '@material-ui/core/Link';
 import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn";
 import { FaGoogle } from "@react-icons/all-files/fa/FaGoogle";
-import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
+import { AiFillTwitterCircle } from "@react-icons/all-files/ai/AiFillTwitterCircle"; 
 import { FaGithubAlt } from "@react-icons/all-files/fa/FaGithubAlt";
 import {FaMediumM} from "@react-icons/all-files/fa/FaMediumM";
 import { makeStyles } from '@material-ui/core';
@@ -77,25 +77,25 @@ const Homepage = () => {
 
   const contacts = [
     {
-      title: 'linkedIn',
-      link: 'https://www.linkedin.com/in/nataliemichellekendrick/', 
-      icon: <FaLinkedinIn className={classes.firstIcon} />},
+      title: 'twitter',
+      link: 'https://twitter.com/NKendrick12', 
+      icon: <AiFillTwitterCircle className={classes.eachIcon} />},
+    {
+      title: 'medium',
+      link: 'https://listentoripley.medium.com/', 
+      icon: <FaMediumM className={classes.eachIcon}/>},
     {
       title: 'gmail',
       link: 'mailto: natalie.m.kendrick@gmail.com', 
       icon:  <FaGoogle className={classes.eachIcon}/>},
     {
-        title: 'twitter',
-        link: 'https://twitter.com/NKendrick12', 
-        icon: <FaTwitter className={classes.eachIcon} />},
+      title: 'github',
+      link: 'https://github.com/listenToRipley', 
+      icon: <FaGithubAlt className={classes.eachIcon}/> },
     {
-        title: 'github',
-        link: 'https://github.com/listenToRipley', 
-        icon: <FaGithubAlt className={classes.eachIcon}/> },
-    {
-       title: 'medium',
-       link: 'https://listentoripley.medium.com/', 
-       icon: <FaMediumM className={classes.eachIcon}/>},
+      title: 'linkedIn',
+      link: 'https://www.linkedin.com/in/nataliemichellekendrick/', 
+      icon: <FaLinkedinIn className={classes.firstIcon} />},
       
   ]
 
