@@ -121,10 +121,10 @@ const ResumeExp = () => {
       div: <FaLaptopCode/>,
       res: [
         'Write, test & debug programming for UTL systems.', 
-        'Provide operational & customer support for UTL services', 
+        'Provide operational & customer support for UTL services.', 
         'Monitoring systems, providing customer service, issue investigation, and documentation.', 
         'Planning & monitoring of project tasks, communicating project status to stakeholders to ensure deadlines are met.', 
-        'Contribute to application quality through participate in validation, testing, and documentation of product releases.',
+        'Contribute to application quality through participation in validation, testing, and documentation of product releases.',
       ],
     },
     { 
@@ -135,10 +135,10 @@ const ResumeExp = () => {
       tenure: 'May 2015 - June 2021',
       div: <FiCreditCard/>,
       res: [
-        'Manage card usage & policy for approx. 1400+ cards & users',
-        'Facilitate & resolve issues between multi-parties',
-        'Create & maintain consistent, secure & effective processes for users',
-        'Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users expectations',
+        'Manage card usage & policy for approx. 1400+ cards & users.',
+        'Facilitate & resolve issues between multi-parties.',
+        'Create & maintain consistent, secure & effective processes for users.',
+        'Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users expectations.',
       ],
     },
     {
@@ -149,10 +149,10 @@ const ResumeExp = () => {
       tenure: 'Jun 2012 - May 2015',
       div: <FiClipboard/>,
       res: [
-        'Maintained a professional office of 30+ employees',
-        'Manage digital & physical documentations in multiple locations',
-        'General office duties: reception work, receiving goods, placing orders, facilitating events, mail processing, hardware maintenance',
-        'Training & supervision of 3 employees'
+        'Maintained a professional office of 30+ employees.',
+        'Manage digital & physical documentations in multiple locations.',
+        'General office duties: reception work, receiving goods, placing orders, facilitating events, mail processing, hardware maintenance.',
+        'Training & supervision of 3 employees.'
       ],
     }, 
     {
@@ -163,10 +163,10 @@ const ResumeExp = () => {
       tenure: 'Feb 2011 - Jun 2012',
       div: <FiArchive/>,
       res: [
-        'Receiving & preparation of documentation',
-        'Digital Imaging of confidential information',
-        'Quality Control',
-        'Data Entry'
+        'Receiving & preparation of documentation.',
+        'Digital Imaging of confidential information.',
+        'Quality Control.',
+        'Data Entry.'
       ],
     }
   ]
