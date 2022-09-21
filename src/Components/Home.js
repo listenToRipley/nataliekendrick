@@ -59,15 +59,18 @@ const useStyles = makeStyles({
     fontSize: '75px',
   },
   icons: {
-    color:'rgba(245, 245, 245, 0.315)'
+    color:'rgba(245, 245, 245, 0.315)',
   },
   firstIcon: {
     color:'rgba(245, 245, 245, 0.315)'
   },
   eachIcon: {
     display: 'inline',
-    marginLeft: '.5em',
     color:'rgba(245, 245, 245, 0.315)',
+    maxHeight: '30px',
+    minHeight: '15px',
+    marginLeft: '.5em', 
+    minWidth: '1em',
 
   }
 })
