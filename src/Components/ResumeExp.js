@@ -138,7 +138,7 @@ const ResumeExp = () => {
         'Manage card usage & policy for approx. 1400+ cards & users.',
         'Facilitate & resolve issues between multi-parties.',
         'Create & maintain consistent, secure & effective processes for users.',
-        'Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users expectations.',
+        "Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users' expectations.",
       ],
     },
     {
@@ -150,7 +150,7 @@ const ResumeExp = () => {
       div: <FiClipboard/>,
       res: [
         'Maintained a professional office of 30+ employees.',
-        'Manage digital & physical documentations in multiple locations.',
+        'Manage digital & physical documentation in multiple locations.',
         'General office duties: reception work, receiving goods, placing orders, facilitating events, mail processing, hardware maintenance.',
         'Training & supervision of 3 employees.'
       ],
