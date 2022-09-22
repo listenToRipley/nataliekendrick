@@ -66,7 +66,7 @@ const ResumeSkills = () => {
       "MySQL",
       "Express.js",
       "HTML5",
-      "CSS",
+      "CSS3",
       "Docker",
       "Python",
       "SOLR",
@@ -100,7 +100,10 @@ const ResumeSkills = () => {
       "Trello",
       "Composer",
       "Postman",
-      "Bootstrap"
+      "Bootstrap",
+      "Axios",
+      "Material UI",
+      "Typescript"
     ]
 
     //better option than list? 
