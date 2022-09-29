@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=2000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -47,6 +47,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/listenToRipley/nataliekendrick/issues"
-  },
-  "homepage": "https://github.com/listenToRipley/nataliekendrick#readme"
+  }
 }
