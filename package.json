@@ -34,5 +34,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Technologies used - [React](https://reactjs.org/)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/listenToRipley/nataliekendrick.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/listenToRipley/nataliekendrick/issues"
+  },
+  "homepage": "https://github.com/listenToRipley/nataliekendrick#readme"
 }
