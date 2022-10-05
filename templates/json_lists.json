@@ -1,0 +1,15 @@
+{
+  "profession":{
+    "company": {
+      "name": "",
+      "site": "", 
+      "type": "",
+      "title": "",
+      "tenure": "",
+      "divider": "", 
+      "responsibilities": [
+      ]
+    }
+  }
+
+}
