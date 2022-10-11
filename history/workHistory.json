@@ -5,6 +5,7 @@
         "name": "University of Texas Libraries",
         "site": "https://www.lib.utexas.edu/", 
         "type": "Educational Institution",
+        "location":"Austin, Texas",
         "title": "Software Developer",
         "tenure": "June 2021 - August 2022",
         "divider": "<FaLaptopCode/>", 
@@ -22,6 +23,7 @@
         "name": "University of Texas at Austin + Purchasing Office",
         "site": "https://procard.financials.utexas.edu/", 
         "type": "Educational Institution",
+        "location": "Austin, Texas",
         "title": "Procurement Card Administrator",
         "tenure": "May 2015 - June 2021",
         "divider": "<FiCreditCard/>", 
@@ -30,6 +32,23 @@
           "Facilitate & resolve issues between multi-parties.",
           "Create & maintain consistent, secure & effective processes for users",
           "Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users' expectations.",
+        ]
+      }
+    }, 
+    "professional":{
+      "company": {
+        "name": "Pirkey Barber PLLC",
+        "site": "https://www.pirkeybarber.com/", 
+        "type": "Intellectual Property Law Firm",
+        "location": "Austin, Texas",
+        "title": "Facilities Coordinator + Chief Problem Solver",
+        "tenure": "Jun 2012 - May 2015",
+        "divider": "<FiClipboard/>", 
+        "responsibilities": [
+          "Maintained a professional office of 30+ employees.",
+          "Manage digital & physical documentation in multiple locations.",
+          "General office duties: reception work, receiving goods, placing orders, facilitating events, mail processing, and hardware maintenance.",
+          "Training & supervision of 3 employees."
         ]
       }
     }
