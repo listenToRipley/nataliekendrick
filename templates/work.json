@@ -15,22 +15,7 @@
       "divider": "", 
       "responsibilities": [
       ]
-    },
-    "partTime": {
-      "company": {
-        "name": "",
-        "site": "", 
-        "type": "",
-        "location": ""
-        },
-      "title": "",
-      "tenure": {
-        "start":"",
-        "end":""
-      },
-      "responsibilities": [
-      ]
-      }
     }
-  
+
+    } 
 ]

@@ -177,7 +177,26 @@
         "File Management",
         "Reception Duties"
       ]
-      }
+    },
+    "partTime": {
+      "company": {
+        "name": "Hawkins and EZ Messenger",
+        "site": "https://www.ezmessenger.com/", 
+        "type": "Legal Courier and Processing",
+        "location": "Tucson, Arizona"
+        },
+      "title": "Data Entry Clerk",
+      "tenure": {
+        "start":"2007",
+        "end":"2007"
+      },
+      "responsibilities": [
+        "Data Entry",
+        "Reception Duties",
+        "Mail Processing",
+        "Official Court Document Courier"
+      ]
+    },
   
   }
 ]
