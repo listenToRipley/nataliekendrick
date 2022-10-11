@@ -98,7 +98,27 @@
           "Childcare"
         ]
       }
+    },
+    "partTime": {
+      "company": {
+        "name": "Target",
+        "site": "https://www.target.com/", 
+        "type": "Retail",
+        "location": "Austin, Texas",
+        "title": "Softlines Sales Associate",
+        "tenure": {
+          "start":"2010",
+          "end":"2010"
+        },
+        "responsibilities": [
+          "Customer Service",
+          "Visual Merchandising",
+          "Stocking",
+          "Point of Sale"
+        ]
+      }
     }
+  
   
   }
 ]
