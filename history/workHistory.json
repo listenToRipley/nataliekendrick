@@ -118,7 +118,26 @@
         ]
       }
     }, 
-    
+    "partTime": {
+      "company": {
+        "name": "Silver Sea Jewelry",
+        "site": "https://silverseajewelry.com/", 
+        "type": "Retail",
+        "location": "Tucson, Arizona",
+        "title": "Sales Associate",
+        "tenure": {
+          "start":"2004",
+          "end":"2010"
+        },
+        "responsibilities": [
+          "Customer Service",
+          "Visual Merchandising",
+          "Stocking",
+          "Point of Sale",
+          "Inventory"
+        ]
+      }
+    },
   
   
   }
