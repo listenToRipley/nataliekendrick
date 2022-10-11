@@ -5,32 +5,32 @@
         "name": "",
         "site": "", 
         "type": "",
-        "location": "",
-        "title": "",
-        "tenure": {
-          "start":"",
-          "end":""
+        "location": ""
         },
-        "divider": "", 
-        "responsibilities": [
-        ]
-      }
+      "title": "",
+      "tenure": {
+        "start":"",
+        "end":""
+      },
+      "divider": "", 
+      "responsibilities": [
+      ]
     },
     "partTime": {
       "company": {
         "name": "",
         "site": "", 
         "type": "",
-        "location": "",
-        "title": "",
-        "tenure": {
-          "start":"",
-          "end":""
+        "location": ""
         },
-        "responsibilities": [
-        ]
+      "title": "",
+      "tenure": {
+        "start":"",
+        "end":""
+      },
+      "responsibilities": [
+      ]
       }
     }
   
-  }
 ]
