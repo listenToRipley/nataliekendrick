@@ -81,7 +81,24 @@
         ]
       }
     },
-    
+    "partTime": {
+      "company": {
+        "name": "Natalie’s House, Pet and Baby Sitting",
+        "site": "", 
+        "type": "Personal Services / Caretaker ",
+        "location": "Tucson, Arizona / Austin, Texas",
+        "title": "Executive President and Diaper Changer",
+        "tenure": {
+          "start":"1998",
+          "end":"2013"
+        },
+        "responsibilities": [
+          "Household care",
+          "Pet sitting",
+          "Childcare"
+        ]
+      }
+    }
   
   }
 ]
