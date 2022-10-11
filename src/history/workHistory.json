@@ -5,7 +5,7 @@
         "name": "University of Texas Libraries",
         "site": "https://www.lib.utexas.edu/", 
         "type": "Educational Institution",
-        "location":"Austin, Texas",
+        "location":"Austin, Texas"
         },
       "title": "Software Developer",
       "tenure": {
@@ -26,19 +26,19 @@
         "name": "University of Texas at Austin + Purchasing Office",
         "site": "https://procard.financials.utexas.edu/", 
         "type": "Educational Institution",
-        "location": "Austin, Texas",
+        "location": "Austin, Texas"
         },
       "title": "Procurement Card Administrator",
       "tenure": {
         "start": "May 2015",
-        "end": "June 2021",
+        "end": "June 2021"
       },
       "divider": "<FiCreditCard/>", 
       "responsibilities": [
         "Manage card usage & policy for approx. 1400+ cards & users.",
         "Facilitate & resolve issues between multi-parties.",
         "Create & maintain consistent, secure & effective processes for users",
-        "Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users' expectations.",
+        "Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users' expectations."
       ]
     }, 
     "professional":{
@@ -46,7 +46,7 @@
         "name": "Pirkey Barber, PLLC",
         "site": "https://www.pirkeybarber.com/", 
         "type": "Intellectual Property Law Firm",
-        "location": "Austin, Texas",
+        "location": "Austin, Texas"
         },
       "title": "Facilities Coordinator + Chief Problem Solver",
       "tenure": {
@@ -66,7 +66,7 @@
         "name": "Iron Mountain, Austin, TX",
         "site": "https://www.ironmountain.com/", 
         "type": "Records Management",
-        "location": "Austin, Texas",
+        "location": "Austin, Texas"
         },
       "title": "DMS Specialist + Warehouse Assistant",
       "tenure": {
@@ -86,12 +86,12 @@
         "name": "Natalie’s House, Pet and Baby Sitting",
         "site": "", 
         "type": "Personal Services / Caretaker ",
-        "location": "Tucson, Arizona / Austin, Texas",
-      },
+        "location": "Tucson, Arizona / Austin, Texas"
+        },
       "title": "Executive President and Diaper Changer",
       "tenure": {
-        "start":"1998",
-        "end":"2013"
+        "start":1998,
+        "end":2013
       },
       "responsibilities": [
         "Household care",
@@ -104,12 +104,12 @@
         "name": "Target",
         "site": "https://www.target.com/", 
         "type": "Retail",
-        "location": "Austin, Texas",
+        "location": "Austin, Texas"
         },
       "title": "Softlines Sales Associate",
       "tenure": {
-        "start":"2010",
-        "end":"2010"
+        "start":2010,
+        "end":2010
       },
       "responsibilities": [
         "Customer Service",
@@ -123,12 +123,12 @@
         "name": "Silver Sea Jewelry",
         "site": "https://silverseajewelry.com/", 
         "type": "Retail",
-        "location": "Tucson, Arizona",
+        "location": "Tucson, Arizona"
         },
       "title": "Sales Associate",
       "tenure": {
-        "start":"2004",
-        "end":"2010"
+        "start":2004,
+        "end":2010
       },
       "responsibilities": [
         "Customer Service",
@@ -143,12 +143,12 @@
         "name": "Blockbuster Video",
         "site": "https://bendblockbuster.com/", 
         "type": "Retail",
-        "location": "Tucson, Arizona",
+        "location": "Tucson, Arizona"
       },
       "title": "Customer Services Representative",
       "tenure": {
-        "start":"2009",
-        "end":"2010"
+        "start":2009,
+        "end":2010
       },
       "responsibilities": [
         "Customer Service",
@@ -167,8 +167,8 @@
         },
       "title": "File Clerk",
       "tenure": {
-        "start":"2007",
-        "end":"2009"
+        "start":2007,
+        "end":2009
       },
       "responsibilities": [
         "Data Entry",
@@ -187,8 +187,8 @@
         },
       "title": "Data Entry Clerk",
       "tenure": {
-        "start":"2007",
-        "end":"2007"
+        "start":2007,
+        "end":2007
       },
       "responsibilities": [
         "Data Entry",
@@ -202,7 +202,7 @@
         "name": "C.A.R.E",
         "site": "",
         "type": "Child Care Facility",
-        "location": "Tucson, Arizona",
+        "location": "Tucson, Arizona"
       },
       "title": "Care Giver",
       "tenure": {
@@ -214,14 +214,14 @@
       "Activity Planning",
       "Small Repairs",
       "Inventory"
-      ],
+      ]
     }, 
     "partTime": {
       "company": {
         "name":"Borderlands Trade Co.",
         "site": "",
         "type":"Import Sales",
-        "location":"Tucson, Arizona",
+        "location":"Tucson, Arizona"
       },
       "title": "Sales Associate",
       "tenure": {
@@ -233,7 +233,7 @@
         "Visual Merchandising",
         "Stocking",
         "Point of Sale"
-        ],
+        ]
       },
     "partTime":{
       "company": {
@@ -252,7 +252,7 @@
         "Cleaning",
         "Stocking",
         "Concessions"
-      ],
+      ]
   },
   "volunteer": {
     "company": {
@@ -263,8 +263,8 @@
     },
     "title": "CASA Volunteer",
     "tenure": {
-      "start": "2017",
-      "end": "2022"
+      "start": 2017,
+      "end": 2022
     }
   },
   "volunteer": {
@@ -276,10 +276,36 @@
     },
     "title": "Jamboree Assistant",
     "tenure": {
-      "start": "2013",
-      "end": "2015"
+      "start": 2013,
+      "end": 2015
     }
   },
-  
+  "volunteer": {
+    "company": {
+      "name": "Austin Pets Alive!",
+      "site": "https://www.austinpetsalive.org/", 
+      "location": "Austin, Texas",
+      "description": "Dedicated to making Austin Texas a no kill city and finding happy homes for all pets."
+    },
+    "title": "Transportation Volunteer",
+    "tenure": {
+      "start": 2010,
+      "end": 2013
+    }
+  },
+  "volunteer": {
+    "company": {
+      "name": "We Are Blood",
+      "site": "https://weareblood.org/", 
+      "location": "Texas",
+      "description": "Blood and Tissue Bank of Texas"
+    },
+    "title": "Donor",
+    "tenure": {
+      "start": 2010,
+      "end": 2022
+    }
+  }
+}
 
 ]
