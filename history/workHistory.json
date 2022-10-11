@@ -197,6 +197,61 @@
         "Official Court Document Courier"
       ]
     },
-  
-  }
+    "partTime": {
+      "company": {
+        "name": "C.A.R.E",
+        "site": "",
+        "type": "Child Care Facility",
+        "location": "Tucson, Arizona",
+      },
+      "title": "Care Giver",
+      "tenure": {
+        "start": 2007,
+        "end": 2007
+      },
+      "responsibilities": [
+      "Child Care",
+      "Activity Planning",
+      "Small Repairs",
+      "Inventory"
+      ],
+    }, 
+    "partTime": {
+      "company": {
+        "name":"Borderlands Trade Co.",
+        "site": "",
+        "type":"Import Sales",
+        "location":"Tucson, Arizona",
+      },
+      "title": "Sales Associate",
+      "tenure": {
+        "start": 2006,
+        "end": 2006
+      },
+      "responsibilities": [
+        "Customer Service",
+        "Visual Merchandising",
+        "Stocking",
+        "Point of Sale"
+        ],
+      },
+    "partTime":{
+      "company": {
+        "name": "20 Century Park Place",
+        "site": "https://www.cinemark.com/theatres/az-tucson/century-park-place-20-and-xd",
+        "type": "Movie Theatre",
+        "location": "Tucson, Arizona"
+      },
+      "title": "Usher/Cleaning Crew",
+      "tenure": {
+        "start": 2005, 
+        "end": 2005
+      },
+      "responsibilities": [
+        "Customer Service",
+        "Cleaning",
+        "Stocking",
+        "Concessions"
+      ],
+  },
 ]
