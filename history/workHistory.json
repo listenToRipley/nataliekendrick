@@ -266,5 +266,20 @@
       "start": "2017",
       "end": "2022"
     }
-  }
+  },
+  "volunteer": {
+    "company": {
+      "name": "Girl Scouts of America",
+      "site": "https://www.girlscouts-gateway.org/en/for-volunteers/why-volunteer.html", 
+      "location": "Austin, Texas",
+      "description": "A group for girls to empowered and change the world, one bandage at a time."
+    },
+    "title": "Jamboree Assistant",
+    "tenure": {
+      "start": "2013",
+      "end": "2015"
+    }
+  },
+  
+
 ]
