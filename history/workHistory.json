@@ -7,7 +7,10 @@
         "type": "Educational Institution",
         "location":"Austin, Texas",
         "title": "Software Developer",
-        "tenure": "June 2021 - August 2022",
+        "tenure": {
+          "start":"June 2021",
+          "end": "August 2022"
+        },
         "divider": "<FaLaptopCode/>", 
         "responsibilities": [
           "Write, test & debug programming for UTL systems.", 
@@ -25,7 +28,10 @@
         "type": "Educational Institution",
         "location": "Austin, Texas",
         "title": "Procurement Card Administrator",
-        "tenure": "May 2015 - June 2021",
+        "tenure": {
+          "start": "May 2015",
+          "end": "June 2021",
+        },
         "divider": "<FiCreditCard/>", 
         "responsibilities": [
           "Manage card usage & policy for approx. 1400+ cards & users.",
@@ -37,12 +43,15 @@
     }, 
     "professional":{
       "company": {
-        "name": "Pirkey Barber PLLC",
+        "name": "Pirkey Barber, PLLC",
         "site": "https://www.pirkeybarber.com/", 
         "type": "Intellectual Property Law Firm",
         "location": "Austin, Texas",
         "title": "Facilities Coordinator + Chief Problem Solver",
-        "tenure": "Jun 2012 - May 2015",
+        "tenure": {
+          "start":"Jun 2012",
+          "end":"May 2015"
+        },
         "divider": "<FiClipboard/>", 
         "responsibilities": [
           "Maintained a professional office of 30+ employees.",
@@ -51,7 +60,28 @@
           "Training & supervision of 3 employees."
         ]
       }
-    }
+    },
+    "professional":{
+      "company": {
+        "name": "Iron Mountain, Austin, TX",
+        "site": "https://www.ironmountain.com/", 
+        "type": "Records Management",
+        "location": "Austin, Texas",
+        "title": "DMS Specialist + Warehouse Assistant",
+        "tenure": {
+          "start":"Feb 2011",
+          "end":"Jun 2012"
+        },
+        "divider": "<FiArchive/>", 
+        "responsibilities": [
+          "Receiving & preparation of documentation.",
+          "Digital Imaging of confidential information.",
+          "Quality Control.",
+          "Data Entry."
+        ]
+      }
+    },
+
   
   }
 ]
