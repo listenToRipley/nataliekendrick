@@ -1,15 +1,17 @@
-{
-  "profession":{
-    "company": {
-      "name": "",
-      "site": "", 
-      "type": "",
-      "title": "",
-      "tenure": "",
-      "divider": "", 
-      "responsibilities": [
-      ]
+[
+  {
+    "professional":{
+      "company": {
+        "name": "",
+        "site": "", 
+        "type": "",
+        "title": "",
+        "tenure": "",
+        "divider": "", 
+        "responsibilities": [
+        ]
+      }
     }
+  
   }
-
-}
+]

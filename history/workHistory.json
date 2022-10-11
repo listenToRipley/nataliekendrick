@@ -1,0 +1,38 @@
+[
+  {
+    "professional":{
+      "company": {
+        "name": "University of Texas Libraries",
+        "site": "https://www.lib.utexas.edu/", 
+        "type": "Educational Institution",
+        "title": "Software Developer",
+        "tenure": "June 2021 - August 2022",
+        "divider": "<FaLaptopCode/>", 
+        "responsibilities": [
+          "Write, test & debug programming for UTL systems.", 
+          "Provide operational & customer support for UTL services.", 
+          "Monitoring systems, providing customer service, issue investigation, and documentation.", 
+          "Planning & monitoring of project tasks, communicating project status to stakeholders to ensure deadlines are met.", 
+          "Contribute to application quality through participation in validation, testing, and documentation of product releases."
+        ]
+      }
+    },
+    "professional":{
+      "company": {
+        "name": "University of Texas at Austin + Purchasing Office",
+        "site": "https://procard.financials.utexas.edu/", 
+        "type": "Educational Institution",
+        "title": "Procurement Card Administrator",
+        "tenure": "May 2015 - June 2021",
+        "divider": "<FiCreditCard/>", 
+        "responsibilities": [
+          "Manage card usage & policy for approx. 1400+ cards & users.",
+          "Facilitate & resolve issues between multi-parties.",
+          "Create & maintain consistent, secure & effective processes for users",
+          "Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users' expectations.",
+        ]
+      }
+    }
+  
+  }
+]
