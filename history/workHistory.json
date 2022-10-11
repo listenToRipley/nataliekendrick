@@ -158,7 +158,26 @@
         "Inventory"
       ]
     },
-
+    "partTime": {
+      "company": {
+        "name": "Hameroff/Lavinsky Law Firm",
+        "site": "https://hamerlaw.com/", 
+        "type": "Legal Firm",
+        "location": "Tucson, Arizona"
+        },
+      "title": "File Clerk",
+      "tenure": {
+        "start":"2007",
+        "end":"2009"
+      },
+      "responsibilities": [
+        "Data Entry",
+        "Mail Processing",
+        "Preparation of legal documents",
+        "File Management",
+        "Reception Duties"
+      ]
+      }
   
   }
 ]
