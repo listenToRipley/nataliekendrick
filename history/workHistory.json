@@ -254,4 +254,17 @@
         "Concessions"
       ],
   },
+  "volunteer": {
+    "company": {
+      "name": "CASA of Travis County",
+      "site": "https://www.casatravis.org/", 
+      "location": "Austin, Texas",
+      "description": "CASA - Child Appointed Special Advocate help children currently in the care of The State to insure they are not just a number in the system, but are known and their needs and wants are fully met as individuals."
+    },
+    "title": "CASA Volunteer",
+    "tenure": {
+      "start": "2017",
+      "end": "2022"
+    }
+  }
 ]
