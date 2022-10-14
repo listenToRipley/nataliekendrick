@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "quote": "",
+    "author": "",
+    "source":{
+      "type": "OPTIONAL SECTION media type",
+      "title": "findable title/book/article/song"
+    },
+    "bio":"url link"
+  },
+  {
+    "id": 2,
+    "quote": "",
+    "author": "",
+    "bio":"url link"
+  }
+]
