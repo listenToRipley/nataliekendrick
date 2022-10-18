@@ -20,5 +20,11 @@
     "quote": "The most dangerous phrase in the language is 'we've always done it this way.'",
     "author": "Rear Admiral Grace Murray Hopper",
     "bio":"https://en.wikipedia.org/wiki/Grace_Hopper"
+  },
+  {
+    "id": 4,
+    "quote": " A jack of all trades is a master of none, but oftentimes better than a master of one.",
+    "author": "Robert Greene",
+    "bio": "https://en.wikipedia.org/wiki/Robert_Greene_(dramatist)"
   }
 ]
