@@ -26,5 +26,17 @@
     "quote": " A jack of all trades is a master of none, but oftentimes better than a master of one.",
     "author": "Robert Greene",
     "bio": "https://en.wikipedia.org/wiki/Robert_Greene_(dramatist)"
+  }, 
+  {
+    "id": 5,
+    "quote": "Failure is not a period, it’s a comma. And only if you stop trying will you really fail.",
+    "author": "Paul Angone",
+    "bio": "https://www.linkedin.com/in/paulangone/"
+  },
+  {
+    "id": 6, 
+    "quote": "Sometimes what makes us valuable is what we're willing to learn along the way.",
+    "author": "Robyn Benincasa",
+    "bio": "https://www.linkedin.com/in/robynbenincasa/"
   }
 ]
