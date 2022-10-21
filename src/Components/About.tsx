@@ -1,6 +1,12 @@
 import React, {useState, useEffect} from "react";
 import quotes from "../info/history/quotes.json";
 
+// #TODO: 
+// 1. stop quotes from loading twice 
+// 2. map a quote to the page 
+// 3. store intro and call it. 
+
+
 interface Quote {
   id: number;
   quote: string;
