@@ -21,7 +21,7 @@ interface Quote {
 const About = (): JSX.Element => {
   const [quote, setQuote] = useState<Quote | undefined>(undefined) 
 
-  const findQuote = () => {
+  const findQuote = () : number => {
     const quotesLen = Object.keys(quotes).length
     let quoteId: number = Math.floor(Math.random() * quotesLen);
     return quoteId
