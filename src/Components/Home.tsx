@@ -1,26 +1,32 @@
-import React from 'react'; 
+import React, {useEffect, useState} from 'react'; 
 import socialLinks from "../info/history/socialLinks.json"
 
 export default function Home(): JSX.Element {
+  const [links, setLinks] = useState<JSX.Element[]| undefined>(undefined);
 
-  const linksList = () : React.ComponentState  => {
-    socialLinks.forEach((item) => {
+  useEffect(() => {
+
+    let listLinks: JSX.Element [] = socialLinks.map((item, index) => {
       console.log(item.link)
       return (
-        <div>
-          <a href={item.link} hrefLang={item.title}>
+        <a key={index} href={item.link} hrefLang={item.title}>
+          {item.title}
+          <br/>
           {item.icon}
-          </a>
-        </div>
+        </a>
       );
-    });
-  };
+    }, [socialLinks]);
+
+    setLinks(listLinks)
+  
+  }, [])
+  
 
   return <div>
     <h1>Natalie Kendrick</h1>
     <h3>Software Developer</h3>
     <div>
-      {linksList()}
+      {links ? [...links] : <br/>}
     </div>
   </div>
   

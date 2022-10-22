@@ -1,8 +1,8 @@
 [
   {
-    "title": "twitter",
-    "link":  "https://twitter.com/NKendrick12", 
-    "icon":  "&#x26;"
+    "title":"twitter",
+    "link":"https://twitter.com/NKendrick12", 
+    "icon":"&#x26;"
   },
   {
     "title":"medium",
@@ -21,7 +21,7 @@
   },
   {
     "title":"linkedIn",
-    "link:":"https://www.linkedin.com/in/nataliemichellekendrick/", 
+    "link:":" https://www.linkedin.com/in/nataliemichellekendrick ", 
     "icon:":"&#x26;"
   }
 ]
