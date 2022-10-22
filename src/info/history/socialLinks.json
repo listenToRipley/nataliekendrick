@@ -1,0 +1,27 @@
+[
+  {
+    "title": "twitter",
+    "link":  "https://twitter.com/NKendrick12", 
+    "icon":  "<AiFillTwitterCircle/>"
+  },
+  {
+    "title":"medium",
+    "link":"'https://listentoripley.medium.com/", 
+    "icon":"<FaMediumM />"
+  },
+  {
+    "title":"gmail",
+    "link":"mailto: natalie.m.kendrick@gmail.com", 
+    "icon":"<FaGoogle/>"
+  },
+  {
+    "title":"github",
+    "link":"https://github.com/listenToRipley", 
+    "icon":"<FaGithubAlt/>"
+  },
+  {
+    "title":"linkedIn",
+    "link:":"https://www.linkedin.com/in/nataliemichellekendrick/", 
+    "icon:":"<FaLinkedinIn/>"
+  }
+]
