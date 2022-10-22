@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import quotes from "../info/history/quotes.json";
+import profile from './projectImgs/profile.jpeg';
 
 // #TODO: 
 // 1. stop quotes from loading twice 
@@ -51,6 +52,7 @@ const About = (): JSX.Element => {
 
   return (
     <div>
+      <img className="App-logo" src={profile}></img>
       <p className="name">Natalie Kendrick</p>
       <div className="pronouns">
         <em>pronouns: she/her/hers</em>
