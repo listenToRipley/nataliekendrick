@@ -52,7 +52,7 @@ const About = (): JSX.Element => {
 
   return (
     <div>
-      <img className="App-logo" src={profile}></img>
+      <img className="App-logo" src={profile} alt="natalie kendrick"></img>
       <p className="name">Natalie Kendrick</p>
       <div className="pronouns">
         <em>pronouns: she/her/hers</em>
