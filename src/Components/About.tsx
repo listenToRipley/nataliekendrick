@@ -4,6 +4,9 @@ import profile from './projectImgs/profile.jpeg';
 
 // #TODO: 
 // 1. stop quotes from loading twice 
+// 2. map a quote to the page 
+// 3. store intro and call it. 
+
 
 interface Quote {
   id: number;
@@ -17,33 +20,36 @@ interface Quote {
 };
 
 const About = (): JSX.Element => {
-  const [quote, setQuote] = useState<Quote | undefined>(undefined) 
-
-  const findQuote = () : number => {
-    const quotesLen = Object.keys(quotes).length
-    let quoteId: number = Math.floor(Math.random() * quotesLen);
-    console.log(quoteId)
-    return quoteId
-  };
-
-  const id: number = findQuote();
+  const [quote, setQuote] = useState<Quote | undefined>(undefined);
+  const [quoteId, setQuoteId] = useState< number | undefined>(undefined);
 
   useEffect(() => {
-    const newQuote: Quote = quotes[id]
-    return setQuote(newQuote)
-  }, []);
+    const findQuote = () => {
+      const quotesLen = Object.keys(quotes).length
+      let quoteId: number = Math.floor(Math.random() * quotesLen);
+      return setQuoteId(quoteId); 
+    };
 
-  console.log(quote)
+    findQuote(); 
+  }, []); 
 
-  const createQuote = () => {
-    if (quote !== undefined) {
-      return (
-        <div className="quote">
-        <p>{quote?.quote}</p> <span>~</span><a href={quote.bio}><em>{quote.author}</em></a>
-        {quote.source ? <div><strong>{quote.source.title}</strong>/<p>{quote.source.type}</p></div> : <br/>}
-      </div>
-      ); 
-    }; 
+  useEffect(() => {
+
+    if (quoteId !== undefined) {
+      const newQuote: Quote = quotes[quoteId]
+      return setQuote(newQuote)
+    }
+  }, [quoteId]);
+
+    const createQuote = () => {
+      if (quote !== undefined) {
+        return (
+          <div className="quote">
+          <p>{quote?.quote}</p> <span>~</span><a href={quote.bio}><em>{quote.author}</em></a>
+          {quote.source ? <div><strong>{quote.source.title}</strong>/<p>{quote.source.type}</p></div> : <br/>}
+        </div>
+        ); 
+      }; 
   };
   
 

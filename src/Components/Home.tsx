@@ -8,8 +8,8 @@ export default function Home(): JSX.Element {
       console.log(item.link)
       return (
         <div>
-          <a href={item.link}>
-          {item.title}
+          <a href={item.link} hrefLang={item.title}>
+          {item.icon}
           </a>
         </div>
       );
