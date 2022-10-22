@@ -4,9 +4,6 @@ import profile from './projectImgs/profile.jpeg';
 
 // #TODO: 
 // 1. stop quotes from loading twice 
-// 2. map a quote to the page 
-// 3. store intro and call it. 
-
 
 interface Quote {
   id: number;
