@@ -18,7 +18,10 @@ const Resume = () => {
       </div>
       <div>Skills</div>
       <div>Contacts</div>
-      <div>References</div>
+      <div>
+        <h3>References</h3>
+        <p className='references'>References available upon <a href='https://docs.google.com/spreadsheets/d/1xOWVDYFLIk4DrofA3K6GosPREidyfyjn-aBjJGK02M4/edit?usp=sharing'>request</a></p>
+      </div>
     </div>
   )
 
