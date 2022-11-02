@@ -5,6 +5,8 @@ import skills from '../info/history/skills.json';
 //1. For each of the skills create a list
 
 const ResumeSkills = () => {
+  console.log(skills)
+
   return (
     <div>
       <h3>Skills</h3>
