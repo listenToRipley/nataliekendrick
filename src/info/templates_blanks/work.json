@@ -1,34 +1,38 @@
 [
   {
-    "professional":{
-      "company": {
-        "name": "",
-        "site": "", 
-        "type": "",
-        "location": ""
+    "professional":[
+      {
+        "company": {
+          "name": "",
+          "site": "", 
+          "type": "",
+          "location": ""
+          },
+        "title": "",
+        "tenure": {
+          "start":"",
+          "end":""
         },
-      "title": "",
-      "tenure": {
-        "start":"",
-        "end":""
-      },
-      "divider": "", 
-      "responsibilities": [
-      ]
-    },
-    "volunteer": {
-      "company": {
-        "name": "",
-        "site": "", 
-        "location": "",
-        "description": ""
-      },
-      "title": "",
-      "tenure": {
-        "start": "",
-        "end": ""
+        "divider": "", 
+        "responsibilities": [
+        ]
       }
-    }
+    ],
+    "volunteer": [
+      {
+        "company": {
+          "name": "",
+          "site": "", 
+          "location": "",
+          "description": ""
+        },
+        "title": "",
+        "tenure": {
+          "start": "",
+          "end": ""
+        }
+      }
+    ]
 
     } 
 ]

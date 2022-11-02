@@ -1,6 +1,7 @@
 [
   {
-    "professional_utl":{
+    "professional": [
+    {
       "company": {
         "name": "University of Texas Libraries",
         "site": "https://www.lib.utexas.edu/", 
@@ -21,7 +22,7 @@
         "Contribute to application quality through participation in validation, testing, and documentation of product releases."
       ]
     },
-    "professional_utp":{
+    {
       "company": {
         "name": "University of Texas at Austin + Purchasing Office",
         "site": "https://procard.financials.utexas.edu/", 
@@ -41,7 +42,7 @@
         "Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users' expectations."
       ]
     }, 
-    "professional_pb":{
+    {
       "company": {
         "name": "Pirkey Barber, PLLC",
         "site": "https://www.pirkeybarber.com/", 
@@ -61,7 +62,7 @@
           "Training & supervision of 3 employees."
         ]
     },
-    "professional_im":{
+    {
       "company": {
         "name": "Iron Mountain, Austin, TX",
         "site": "https://www.ironmountain.com/", 
@@ -80,8 +81,10 @@
         "Quality Control.",
         "Data Entry."
       ]
-    },
-    "partTime_sit": {
+    }
+  ],
+  "partTime": [
+    {
       "company": {
         "name": "Natalie’s House, Pet and Baby Sitting",
         "site": "", 
@@ -99,7 +102,7 @@
         "Childcare"
       ]
     },
-    "partTime_tar": {
+    {
       "company": {
         "name": "Target",
         "site": "https://www.target.com/", 
@@ -118,7 +121,7 @@
         "Point of Sale"
       ]
     }, 
-    "partTime_ss": {
+    {
       "company": {
         "name": "Silver Sea Jewelry",
         "site": "https://silverseajewelry.com/", 
@@ -138,7 +141,7 @@
         "Inventory"
       ]
     },
-    "partTime_bv": {
+    {
       "company": {
         "name": "Blockbuster Video",
         "site": "https://bendblockbuster.com/", 
@@ -158,7 +161,7 @@
         "Inventory"
       ]
     },
-    "partTime_hl": {
+    {
       "company": {
         "name": "Hameroff/Lavinsky Law Firm",
         "site": "https://hamerlaw.com/", 
@@ -178,7 +181,7 @@
         "Reception Duties"
       ]
     },
-    "partTime_hez": {
+    {
       "company": {
         "name": "Hawkins and EZ Messenger",
         "site": "https://www.ezmessenger.com/", 
@@ -197,7 +200,7 @@
         "Official Court Document Courier"
       ]
     },
-    "partTime_car": {
+    {
       "company": {
         "name": "C.A.R.E",
         "site": "",
@@ -216,7 +219,7 @@
       "Inventory"
       ]
     }, 
-    "partTime_bt": {
+    {
       "company": {
         "name":"Borderlands Trade Co.",
         "site": "",
@@ -235,7 +238,7 @@
         "Point of Sale"
         ]
       },
-    "partTime_pp":{
+    {
       "company": {
         "name": "20 Century Park Place",
         "site": "https://www.cinemark.com/theatres/az-tucson/century-park-place-20-and-xd",
@@ -253,21 +256,23 @@
         "Stocking",
         "Concessions"
       ]
-  },
-  "volunteer_cas": {
-    "company": {
-      "name": "CASA of Travis County",
-      "site": "https://www.casatravis.org/", 
-      "location": "Austin, Texas",
-      "description": "CASA - Child Appointed Special Advocate help children currently in the care of The State to insure they are not just a number in the system, but are known and their needs and wants are fully met as individuals."
-    },
-    "title": "CASA Volunteer",
-    "tenure": {
-      "start": 2017,
-      "end": 2022
-    }
-  },
-  "volunteer_gs": {
+  }
+  ],
+  "volunteer": [
+    {
+      "company": {
+        "name": "CASA of Travis County",
+        "site": "https://www.casatravis.org/", 
+        "location": "Austin, Texas",
+        "description": "CASA - Child Appointed Special Advocate help children currently in the care of The State to insure they are not just a number in the system, but are known and their needs and wants are fully met as individuals."
+      },
+      "title": "CASA Volunteer",
+      "tenure": {
+        "start": 2017,
+        "end": 2022
+      }
+    },  
+    {
     "company": {
       "name": "Girl Scouts of America",
       "site": "https://www.girlscouts-gateway.org/en/for-volunteers/why-volunteer.html", 
@@ -280,7 +285,7 @@
       "end": 2015
     }
   },
-  "volunteer_apa": {
+  {
     "company": {
       "name": "Austin Pets Alive!",
       "site": "https://www.austinpetsalive.org/", 
@@ -293,7 +298,7 @@
       "end": 2013
     }
   },
-  "volunteer_wab": {
+  {
     "company": {
       "name": "We Are Blood",
       "site": "https://weareblood.org/", 
@@ -306,6 +311,7 @@
       "end": 2022
     }
   }
+  ]
 }
 
 ]
