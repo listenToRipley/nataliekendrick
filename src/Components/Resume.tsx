@@ -2,6 +2,7 @@ import React from 'react';
 import ResumeExperience from './ResumeExp';
 import ResumeContacts from './ResumeContacts';
 import ResumeSkills from './ResumeSkills';
+import SampleCode from './SampleCode';
 
 const Resume = () => {
 
@@ -27,6 +28,10 @@ const Resume = () => {
       <div>
         <h3>References</h3>
         <p className='references'>References available upon <a href='https://docs.google.com/spreadsheets/d/1xOWVDYFLIk4DrofA3K6GosPREidyfyjn-aBjJGK02M4/edit?usp=sharing'>request</a></p>
+      </div>
+
+      <div>
+        <SampleCode/>
       </div>
     </div>
   )
