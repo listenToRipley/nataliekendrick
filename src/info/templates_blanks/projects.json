@@ -1,0 +1,14 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "projectName": "title",
+      "altText": "description for image",
+      "description": "description of project", 
+      "skills": ["array", "off ", "skills ", "used"],
+      "color": "color you would like to appear on section",
+      "site": "url",
+      "code": "url of code repo"
+    }
+  ]
+}
