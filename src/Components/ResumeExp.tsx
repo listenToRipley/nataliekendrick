@@ -28,6 +28,12 @@ const ResumeExperience = () => {
             </div>
           </div>
         </div>
+      </div>
+
+    <div>
+      Volunteer work
+      <p><a href=''>Group Name</a></p>
+      <p>Volunteer Title</p>
     </div>
 
   </div>
