@@ -3,10 +3,12 @@
     {
       "id": 1,
       "projectName": "title",
+      "completed": "when the project was completed",
       "altText": "description for image",
       "description": "description of project", 
       "skills": ["array", "off ", "skills ", "used"],
       "color": "color you would like to appear on section",
+      "image": "image name, will still need to create path of image",
       "site": "url",
       "code": "url of code repo"
     }
