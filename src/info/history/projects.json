@@ -1,9 +1,12 @@
 {
-  "skills": [
+  "projects": [
     {
       "id": 1,
       "projectName": "TARO",
-      "completed": "December 2020",
+      "completed": {
+        "year": 2020,
+        "month": "December"
+        },
       "altText": "taro logo",
       "description": "TARO is a UT Austin Project started in 2019. Natalie was able to be a contributing member of this project and bring the final project to life.", 
       "skills": ["CSS", "Javascript", "React", "Django", "Python", "XML"],
@@ -15,7 +18,10 @@
     {
       "id": 2,
       "projectName": "Pantry Pals",
-      "completed": "October 2020",
+      "completed": {
+        "year": 2020,
+        "month": "October"
+        },
       "altText": "small Business",
       "description": "TARO is a UT Austin Project started in 2019. Natalie was able to be a contributing member of this project and bring the final project to life.", 
       "skills": ["CSS", "Javascript", "React", "Django", "Python", "XML"],
@@ -23,6 +29,21 @@
       "image": "pantryPals.png",
       "site": "https://txarchives.org/home",
       "code": "https://github.com/utlibraries?q=&type=all&language=&sort="
+    },
+    {
+      "id": 3,
+      "projectName": "Tailwind",
+      "completed": {
+        "year": 2023,
+        "month": "January"
+        },
+      "altText": "taro logo",
+      "description": "TARO is a UT Austin Project started in 2019. Natalie was able to be a contributing member of this project and bring the final project to life.", 
+      "skills": ["CSS", "Javascript", "React", "Django", "Python", "XML"],
+      "color": "#48637f",
+      "image": "taro.png",
+      "site": "https://github.com/listenToRipley/tailwind-course-starter/",
+      "code": "https://listentoripley.github.io/tailwind-course-starter/src/index.html"
     }
   ]
 }

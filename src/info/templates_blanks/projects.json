@@ -3,7 +3,10 @@
     {
       "id": 1,
       "projectName": "title",
-      "completed": "when the project was completed",
+      "completed": {
+        "year": "numeric value of year",
+        "month": "month at they were completed."
+      },
       "altText": "description for image",
       "description": "description of project", 
       "skills": ["array", "off ", "skills ", "used"],
