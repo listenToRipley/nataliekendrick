@@ -7,11 +7,11 @@
         "year": 2023,
         "month": "January"
         },
-      "altText": "tailwind",
       "description": "Udemy Tailwind CSS tutorial", 
       "skills": ["Tailwind", "HTML5", "Javascript"],
       "color": "#48637f",
       "image": "placeholder",
+      "altText": "tailwind",
       "site": "https://github.com/listenToRipley/tailwind-course-starter",
       "code": "https://listentoripley.github.io/tailwind-course-starter/src/index.html"
     },
@@ -22,11 +22,11 @@
         "year": 2020,
         "month": "December"
         },
-      "altText": "taro logo",
       "description": "TARO is a UT Austin Project started in 2019. Natalie was able to be a contributing member of this project and bring the final project to life.", 
       "skills": ["XML", "React", "Python", "Javascript", "Django", "CSS"],
       "color": "#48637f",
       "image": "taro.png",
+      "altText": "taro logo",
       "site": "https://txarchives.org/home",
       "code": "https://github.com/utlibraries?q=&type=all&language=&sort="
     },
@@ -37,11 +37,11 @@
         "year": 2020,
         "month": "October"
         },
-      "altText": "small Business",
       "description": "TARO is a UT Austin Project started in 2019. Natalie was able to be a contributing member of this project and bring the final project to life.", 
       "skills": ["XML", "React", "Python", "Javascript", "Django", "CSS"],
       "color": "#48637f",
       "image": "pantryPals.png",
+      "altText": "pantry pals homepage",
       "site": "https://txarchives.org/home",
       "code": "https://github.com/utlibraries?q=&type=all&language=&sort="
     },
@@ -52,11 +52,11 @@
         "year": 2020,
         "month": "October"
         },
-      "altText": "small business",
       "description": "A sample of small business registry", 
       "skills": ["React", "Javascript", "CSS"],
       "color": "#3bb371",
-      "image": "placeholder",
+      "image": "smallBusiness.png",
+      "altText": "small business",
       "site": "https://listentoripley.github.io/small-business/#/",
       "code": "https://github.com/listenToRipley/small-business"
     },
@@ -67,13 +67,28 @@
         "year": 2020,
         "month": "May"
         },
-      "altText": "example address book",
       "description": "Using random user generateAPI to create a sample address book", 
       "skills": ["Javascript", "HTML5", "CSS"],
       "color": "#dba71a",
-      "image": "placeholder",
+      "image": "addressBook.png",
+      "altText": "example address book",
       "site": "https://listentoripley.github.io/javascript-workbook/07week/addressBook.html",
       "code": "https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/07week"
+    },
+    {
+      "id": 3,
+      "projectName": "Dodge Ball game",
+      "completed": {
+        "year": 2020,
+        "month": "May"
+        },
+      "description": "Using random user generateAPI to create a sample address book", 
+      "skills": ["Javascript", "HTML5", "CSS"],
+      "color": "#dba71a",
+      "image": "dodgeball.png",
+      "altText": "dodgeball play offs",
+      "site": "https://listentoripley.github.io/javascript-workbook/06week/dodgeBall.html",
+      "code": "https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/06week"
     }
   ]
 }
