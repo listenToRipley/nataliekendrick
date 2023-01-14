@@ -104,6 +104,21 @@
       "altText": "big latin page",
       "site": "https://listentoripley.github.io/javascript-workbook/02week/pigLatin.html",
       "code": "https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/02week"
-    }
+    },
+    {
+      "id": 3,
+      "projectName": "Click and Spin",
+      "completed": {
+        "year": 2020,
+        "month": "March"
+        },
+      "description": "Click and spin project", 
+      "skills": ["HTML5", "Bootstrap", "CSS"],
+      "color": "#6496ec",
+      "image": "pigLatin.png",
+      "altText": "big latin page",
+      "site": "https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/checkpoint3/click/click.html",
+      "code": "https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/checkpoint3"
+    },
   ]
 }
