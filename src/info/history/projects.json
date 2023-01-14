@@ -134,6 +134,21 @@
       "altText": "silver sea website",
       "site": "https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/checkpoint2/checkpoint2.html",
       "code": "https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/checkpoint2"
+    },
+    {
+      "id": 3,
+      "projectName": "Tic Tac Toe",
+      "completed": {
+        "year": 2020,
+        "month": "February"
+        },
+      "description": "First Tic Tac Toe", 
+      "skills": ["Javascript", "HTML5", "CSS"],
+      "color": "#818181",
+      "image": "silverSea.png",
+      "altText": "silver sea website",
+      "site": "https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/tictactoe/ttt.html",
+      "code": "https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/tictactoe"
     }
   ]
 }
