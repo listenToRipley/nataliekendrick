@@ -164,6 +164,21 @@
       "altText": "NASA contact page",
       "site": "https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/flexbox/nasa.html",
       "code": "https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/flexbox"
+    },
+    {
+      "id": 3,
+      "projectName": "Mustacchio",
+      "completed": {
+        "year": 2020,
+        "month": "February"
+        },
+      "description": "Mustacchio Barber mock barber shop page.", 
+      "skills": ["HTML5", "CSS"],
+      "color": "#6f184b",
+      "image": "mustacchio.png",
+      "altText": "Mustacchio Barber mock barber shop page",
+      "site": "https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/hairsalon/hairsalon.html",
+      "code": "https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/hairsalon"
     }
   ]
 }
