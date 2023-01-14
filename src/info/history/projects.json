@@ -84,11 +84,26 @@
         },
       "description": "Using random user generateAPI to create a sample address book", 
       "skills": ["Javascript", "HTML5", "CSS"],
-      "color": "#dba71a",
+      "color": "#black",
       "image": "dodgeball.png",
       "altText": "dodgeball play offs",
       "site": "https://listentoripley.github.io/javascript-workbook/06week/dodgeBall.html",
       "code": "https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/06week"
+    },
+    {
+      "id": 3,
+      "projectName": "Pig Latin Translator",
+      "completed": {
+        "year": 2020,
+        "month": "April"
+        },
+      "description": "Pig Latin Translator", 
+      "skills": ["Javascript", "HTML5", "CSS"],
+      "color": "#6d6966",
+      "image": "pigLatin.png",
+      "altText": "big latin page",
+      "site": "https://listentoripley.github.io/javascript-workbook/02week/pigLatin.html",
+      "code": "https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/02week"
     }
   ]
 }
