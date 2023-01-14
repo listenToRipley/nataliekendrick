@@ -101,7 +101,7 @@
       "skills": ["Javascript", "HTML5", "CSS"],
       "color": "#6d6966",
       "image": "pigLatin.png",
-      "altText": "big latin page",
+      "altText": "pig latin page",
       "site": "https://listentoripley.github.io/javascript-workbook/02week/pigLatin.html",
       "code": "https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/02week"
     },
@@ -115,10 +115,25 @@
       "description": "Click and spin project", 
       "skills": ["HTML5", "Bootstrap", "CSS"],
       "color": "#6496ec",
-      "image": "pigLatin.png",
-      "altText": "big latin page",
+      "image": "clicknspin.png",
+      "altText": "click and spin page",
       "site": "https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/checkpoint3/click/click.html",
       "code": "https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/checkpoint3"
     },
+    {
+      "id": 3,
+      "projectName": "Silver Sea",
+      "completed": {
+        "year": 2020,
+        "month": "February"
+        },
+      "description": "Silver Sea website", 
+      "skills": ["Javascript", "HTML5", "CSS"],
+      "color": "#719996",
+      "image": "silverSea.png",
+      "altText": "silver sea website",
+      "site": "https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/checkpoint2/checkpoint2.html",
+      "code": "https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/checkpoint2"
+    }
   ]
 }
