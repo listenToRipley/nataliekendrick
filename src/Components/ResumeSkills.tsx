@@ -4,7 +4,7 @@ import skills from '../info/history/skills.json';
 //TODO: 
 //1. For each of the skills create a list
 
-const ResumeSkills = () => {
+const ResumeSkills = (): JSX.Element => {
   console.log(skills)
 
   return (

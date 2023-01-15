@@ -2,9 +2,8 @@ import React from 'react';
 import ResumeExperience from './ResumeExp';
 import ResumeContacts from './ResumeContacts';
 import ResumeSkills from './ResumeSkills';
-import SampleCode from './SampleCode';
 
-const Resume = () => {
+const Resume = (): JSX.Element => {
 
   return (
     <div>
