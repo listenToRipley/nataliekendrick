@@ -30,9 +30,6 @@ const Resume = () => {
         <p className='references'>References available upon <a href='https://docs.google.com/spreadsheets/d/1xOWVDYFLIk4DrofA3K6GosPREidyfyjn-aBjJGK02M4/edit?usp=sharing'>request</a></p>
       </div>
 
-      <div>
-        <SampleCode/>
-      </div>
     </div>
   )
 

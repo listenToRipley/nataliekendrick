@@ -1,5 +1,5 @@
 import React from "react";
-import caesarCipherWKey from "../CodeSamples/caesar"
+import caesarCipherWKey from "./Samples/caesar"
 
 const CodeSamples = (): JSX.Element => { 
 
