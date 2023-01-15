@@ -1,18 +1,22 @@
 import React from "react";
+import caesarCipherWKey from "../CodeSamples/caesar"
 
 const CodeSamples = (): JSX.Element => { 
 
+  const caesar: any = caesarCipherWKey
 
   return (
     <div>
       <div>
-      <h3>TITLE</h3>
-      <p>Description</p>
-        <pre>
-          <code>
-            placeholder
-          </code>
-        </pre>
+      <h3>Caesar Cipher</h3>
+      <p>Caesar Cipher with a key</p>
+      <pre className="prettyprinted">
+        <code className="language-js hljs" >
+            <span>
+              {caesar}
+            </span>
+        </code>
+      </pre>
       </div>
     </div>
   )

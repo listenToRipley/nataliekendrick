@@ -34,3 +34,5 @@ const caesarCipherWKey = (str, key ,num) => {
 };
 
 caesarCipherWKey(`BigCar`, 'abcdefghijklmnopqrstuvwxyz', 2);
+
+export default caesarCipherWKey; 
