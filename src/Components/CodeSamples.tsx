@@ -13,7 +13,7 @@ const CodeSamples = (): JSX.Element => {
       <pre className="prettyprinted">
         <code className="language-js hljs" >
             <span>
-              {caesar}
+              {`${caesar}`}
             </span>
         </code>
       </pre>
