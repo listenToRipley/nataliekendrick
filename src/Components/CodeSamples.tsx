@@ -13,7 +13,7 @@ const CodeSamples = (): JSX.Element => {
   const samples = [
     {
       "title": "Caesar Cipher",
-      "description": "Caesar Cipher with a key to where content will be removed.",
+      "description": "Caesar Cipher; shifts the given message letters by a specified number of characters which is passed in.",
       "language": "javascript",
       "code": caesar
     },

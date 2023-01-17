@@ -1,5 +1,3 @@
-//take in an array of prices and returns the max possible profit for the day. 
-// in other words, find the lowest point and the highest point. Subtract the value from the highest to the lowest and return that value. 
 const maxStockProfit = (priceArr) => {
 
   let sorted = priceArr.sort((a,b) => a-b);

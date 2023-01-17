@@ -1,4 +1,3 @@
-//shift the given message letters by the number passed in
 const caesarCipherWKey = (str, key ,num) => {
   
   let dictionary = key.toLowerCase().split(""); 
