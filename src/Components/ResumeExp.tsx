@@ -9,6 +9,26 @@ import workHistory from '../info/history/workHistory.json'
 
 const ResumeExperience = (): JSX.Element => {
 
+  interface Professional {
+    "company": {
+      "name": string
+      "site": string 
+      "type": string
+      "location": string
+      },
+    "title": string
+    "tenure": {
+      "start": string
+      "end": string
+    },
+    "divider": string 
+    "responsibilities": string[]
+  };
+
+  // const profExp = (workHistory: object[]): any => {
+  //   console.log('work history',JSON.stringify(workHistory))
+  // }
+
   return(
       <div>
 
