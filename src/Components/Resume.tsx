@@ -10,6 +10,9 @@ const Resume = (): JSX.Element => {
       <div className='header'>
         <h1>Natalie Kendrick</h1>
         <p className='title'>Software Developer</p>
+        <div>
+        <ResumeContacts/>
+      </div>
       </div>
       <div className='mission'>
         <h2>Mission</h2>
@@ -20,9 +23,6 @@ const Resume = (): JSX.Element => {
       </div>
       <div>
         <ResumeSkills/>
-      </div>
-      <div>
-        <ResumeContacts/>
       </div>
       <div>
         <h3>References</h3>
