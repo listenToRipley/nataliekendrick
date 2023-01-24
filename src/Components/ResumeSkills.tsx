@@ -1,9 +1,6 @@
 import React from 'react';
 import skills from '../info/history/skills.json';
 
-//TODO: 
-//1. For each of the skills create a list
-
 const ResumeSkills = (): JSX.Element => {
   
   const soft: string[] = skills.soft.sort((a,b) => {
