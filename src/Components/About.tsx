@@ -40,7 +40,7 @@ const About = (): JSX.Element => {
         return (
           <div className="quote">
           <p>{quote?.quote}</p> <span>~</span><a href={quote.bio}><em>{quote.author}</em></a>
-          {quote.source ? <div><strong>{quote.source.title}</strong>/<p>{quote.source.type}</p></div> : <br/>}
+          {quote.source ? <div><strong>{quote.source.title}</strong> <p>{quote.source.type}</p></div> : <br/>}
         </div>
         ); 
       }; 
