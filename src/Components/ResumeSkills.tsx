@@ -5,13 +5,46 @@ import skills from '../info/history/skills.json';
 //1. For each of the skills create a list
 
 const ResumeSkills = (): JSX.Element => {
-  console.log(skills)
+  
+  const soft: string[] = skills.soft.sort((a,b) => {
+    if (a<b) {return -1}
+    if (a>b) {return 1}
+    return 0
+  });
+  const tech: string[] = skills.technical.sort((a,b) => {
+    if (a<b) {return -1}
+    if (a>b) {return 1}
+    return 0
+  });
 
   return (
     <div>
       <h3>Skills</h3>
-      <div>Soft</div>
-      <div>Technical</div>
+
+      <div>
+        <div>Soft</div>
+        <ul>
+          {soft.map((skill: string): JSX.Element => {
+            return (
+              <li>{skill}</li>
+            )
+          })
+          }
+        </ul>
+      </div>
+
+      <div>
+        <div>Technical</div>
+        <ul>
+          {tech.map((skill: string): JSX.Element  => {
+            return (
+              <li>{skill}</li>
+            )
+          })
+          }
+        </ul>
+      </div>
+
     </div>
   )
 };
