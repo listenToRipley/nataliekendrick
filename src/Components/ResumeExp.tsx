@@ -29,18 +29,37 @@ const ResumeExperience = (): JSX.Element => {
   //   console.log('work history',JSON.stringify(workHistory))
   // }
 
+  const prof: Professional[] = workHistory[0].professional
+  // const partTime = workHistory[1].partTime
+
+  // console.log(partTime)
+
   return(
       <div>
 
       <div className='professional'>
         <h3>Professional Experience</h3>
-        <div className='profItem'>
-          <p className='jobTitle'>title</p>
-          <p className='companyLink'><a href=''>company</a></p>
-          <div className='jobDuties'>
-            <p>Responsibilities</p>
-          </div>
-        </div>
+        {
+          prof.map((el: any, id:number) => {
+            console.log(el)
+              return (
+                <div key={id}>
+                  <p className='jobTitle'>{el.title}</p>
+                  <p className='companyLink'><a href={el.company.site}>{el.company.name}</a></p>
+                  <p>{el.tenure.start} {el.tenure.end ? <span>- {el.tenure.end}</span>: ""}</p>
+                  <ul className='jobDuties'>
+                    {el.responsibilities.map((item: string): JSX.Element => {
+                      return (
+                        <li>{item}</li>
+                      )
+                    })}
+                  </ul>
+                  <a href={el.link}>{el.title}</a>
+                  <span>{el.icon}</span>
+                </div>
+              )
+            })
+      }
       </div>
 
       <div>
