@@ -1,10 +1,6 @@
 import React from 'react'; 
 import workHistory from '../info/history/workHistory.json'
 
-//TODO: 
-// 1. Loop though the workHistory
-// 2. if the key includes volunteer, create an entry for those. 
-
 const ResumeExperience = (): JSX.Element => {
 
   interface Professional {
@@ -36,12 +32,25 @@ const ResumeExperience = (): JSX.Element => {
       "end": number
     },
     "responsibilities": string[]
+  };
+
+  interface Volunteer {
+      "company": {
+        "name": string,
+        "site": string, 
+        "location": string,
+        "description": string
+      },
+      "title": string,
+      "tenure": {
+        "start": number,
+        "end":  number
+      }
   }
 
   const prof: Professional[] = workHistory[0].professional;
   const partTime: PartTime[] = workHistory[0].partTime;
-
-  console.log(partTime)
+  const volunteer: Volunteer[] = workHistory[0].volunteer;
 
   return(
       <div>
@@ -79,7 +88,7 @@ const ResumeExperience = (): JSX.Element => {
                 <div key={id}>
                   <p className='jobTitle'>{el.title}</p>
                   <p className='companyLink'>{el.company.name}</p>
-                  <p>{el.tenure.start} {el.tenure.end ? <span>- {el.tenure.end}</span>: ""}</p>
+                  <p>{el.tenure.start} - {el.tenure.end}</p>
                   <ul className='jobDuties'>
                     {el.responsibilities.map((item: string): JSX.Element => {
                       return (
@@ -95,8 +104,19 @@ const ResumeExperience = (): JSX.Element => {
 
     <div>
       Volunteer work
-      <p><a href=''>Group Name</a></p>
-      <p>Volunteer Title</p>
+      
+      {
+          volunteer.map((el: any, id:number) => {
+            console.log(el)
+              return (
+                <div key={id}>
+                  <p className='jobTitle'>{el.title}</p>
+                  <p className='companyLink'><a href={el.company.site}>{el.company.name}</a></p>
+                  <p>{el.tenure.start} - {el.tenure.end}</p>
+                </div>
+              )
+            })
+        }
     </div>
 
   </div>
