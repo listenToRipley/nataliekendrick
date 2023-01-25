@@ -3,8 +3,7 @@ import workHistory from '../info/history/workHistory.json'
 
 //TODO: 
 // 1. Loop though the workHistory
-// 2. if the key includes part time, create an entry for each of those 
-// 3. if the key includes volunteer, create an entry for those. 
+// 2. if the key includes volunteer, create an entry for those. 
 
 const ResumeExperience = (): JSX.Element => {
 
