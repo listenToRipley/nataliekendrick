@@ -1,7 +1,7 @@
 import React from 'react';
 import socialLinks from '../info/history/socialLinks.json';
 // TODO: 
-// 1. for each social link, create a link with icons
+// 1. Update Icons.
 
 const ResumeContacts = (): JSX.Element => {
   const phone: number = 5204043721;
