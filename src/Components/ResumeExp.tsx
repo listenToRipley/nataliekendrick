@@ -24,14 +24,25 @@ const ResumeExperience = (): JSX.Element => {
     "responsibilities": string[]
   };
 
-  // const profExp = (workHistory: object[]): any => {
-  //   console.log('work history',JSON.stringify(workHistory))
-  // }
+  interface PartTime {
+    "company": {
+      "name": string
+      "site": string | undefined
+      "type": string
+      "location": string
+      },
+    "title": string
+    "tenure": {
+      "start": number
+      "end": number
+    },
+    "responsibilities": string[]
+  }
 
-  const prof: Professional[] = workHistory[0].professional
-  // const partTime = workHistory[1].partTime
+  const prof: Professional[] = workHistory[0].professional;
+  const partTime: PartTime[] = workHistory[0].partTime;
 
-  // console.log(partTime)
+  console.log(partTime)
 
   return(
       <div>
@@ -40,7 +51,7 @@ const ResumeExperience = (): JSX.Element => {
         <h3>Professional Experience</h3>
         {
           prof.map((el: any, id:number) => {
-            console.log(el)
+
               return (
                 <div key={id}>
                   <p className='jobTitle'>{el.title}</p>
@@ -53,25 +64,34 @@ const ResumeExperience = (): JSX.Element => {
                       )
                     })}
                   </ul>
-                  <a href={el.link}>{el.title}</a>
-                  <span>{el.icon}</span>
                 </div>
               )
             })
-      }
+        }
       </div>
 
       <div>
         <h4>Part Time Experience</h4>
-        <div className='ptItem'>
-          <div className='ptItem'>
-            <p className='jobTitle'>title</p>
-            <p className='companyLink'><a href=''>company</a></p>
-            <div className='jobDuties'>
-              <p>Responsibilities</p>
-            </div>
-          </div>
-        </div>
+
+        {
+          partTime.map((el: any, id:number) => {
+
+              return (
+                <div key={id}>
+                  <p className='jobTitle'>{el.title}</p>
+                  <p className='companyLink'>{el.company.name}</p>
+                  <p>{el.tenure.start} {el.tenure.end ? <span>- {el.tenure.end}</span>: ""}</p>
+                  <ul className='jobDuties'>
+                    {el.responsibilities.map((item: string): JSX.Element => {
+                      return (
+                        <li>{item}</li>
+                      )
+                    })}
+                  </ul>
+                </div>
+              )
+            })
+        }
       </div>
 
     <div>
