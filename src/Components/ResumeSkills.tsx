@@ -21,9 +21,9 @@ const ResumeSkills = (): JSX.Element => {
       <div>
         <div>Soft</div>
         <ul>
-          {soft.map((skill: string): JSX.Element => {
+          {soft.map((skill: string, id: number): JSX.Element => {
             return (
-              <li>{skill}</li>
+              <li key={id}>{skill}</li>
             )
           })
           }
