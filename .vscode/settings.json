@@ -1,1 +1,6 @@
-{}
+{
+  "cSpell.words": [
+    "Imgs"
+  ],
+  "jest.jestCommandLine": "test-jest"
+}

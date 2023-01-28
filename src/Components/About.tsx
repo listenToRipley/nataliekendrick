@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import quotes from "../info/history/quotes.json";
-import profile from "./projectImgs/profile.jpeg";
+// import profile from "./projectImgs/profile.jpeg";
 import { Quote } from "../../Modules/quote";
 
 

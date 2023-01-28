@@ -1,0 +1,5 @@
+{
+  "root": "pwd",
+  "bail": 1,
+  "verbose": true
+}

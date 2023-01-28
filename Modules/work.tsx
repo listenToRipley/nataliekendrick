@@ -1,7 +1,7 @@
 export interface Professional {
   company: {
     name: string
-    site: string 
+    site: string
     type: string
     location: string
     },
