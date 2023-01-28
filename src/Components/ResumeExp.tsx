@@ -4,48 +4,47 @@ import workHistory from '../info/history/workHistory.json'
 const ResumeExperience = (): JSX.Element => {
 
   interface Professional {
-    "company": {
-      "name": string
-      "site": string 
-      "type": string
-      "location": string
+    company: {
+      name: string
+      site: string 
+      type: string
+      location: string
       },
-    "title": string
-    "tenure": {
-      "start": string
-      "end": string
+    title: string
+    tenure: {
+      start: string
+      end: string
     },
-    "divider": string 
-    "responsibilities": string[]
-    "achievements": string[]
+    divider: string 
+    responsibilities: string[]
   };
 
   interface PartTime {
     "company": {
-      "name": string
-      "site": string | undefined
-      "type": string
-      "location": string
+      name: string
+      site: string | undefined
+      type: string
+      location: string
       },
-    "title": string
-    "tenure": {
-      "start": number
-      "end": number
+    title: string
+    tenure: {
+      start: number
+      end: number
     },
-    "responsibilities": string[]
+    responsibilities: string[]
   };
 
   interface Volunteer {
-      "company": {
-        "name": string,
-        "site": string, 
-        "location": string,
-        "description": string
+      company: {
+        name: string,
+        site: string, 
+        location: string,
+        description: string
       },
-      "title": string,
-      "tenure": {
-        "start": number,
-        "end":  number
+      title: string,
+      tenure: {
+        start: number,
+        end:  number
       }
   }
 
@@ -68,13 +67,6 @@ const ResumeExperience = (): JSX.Element => {
                   <p>{el.tenure.start} {el.tenure.end ? <span>- {el.tenure.end}</span>: ""}</p>
                   <ul className='jobDuties'>
                     {el.responsibilities.map((item: string): JSX.Element => {
-                      return (
-                        <li>{item}</li>
-                      )
-                    })}
-                  </ul>
-                  <ul className='jobAchievements'>
-                    {el.achievements.map((item: string): JSX.Element => {
                       return (
                         <li>{item}</li>
                       )
