@@ -6,6 +6,7 @@
       "dom.iterable",
       "esnext"
     ],
+    "types": ["@types/react"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -19,15 +20,16 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "outDir": "./dist"
   },
   "include": [
     "src"
   ],
   "exclude": [
-    "client", 
-    "dist", 
+    "client",
+    "dist",
     "node_modules"
-  ]
+  ],
+  "skipLibCheck": true
 }

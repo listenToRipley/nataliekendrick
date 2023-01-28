@@ -3,6 +3,31 @@
     "professional": [
     {
       "company": {
+        "name": "University of Rochester Laboratory For Laser Energetics (LLE)",
+        "site": "https://www.lle.rochester.edu/", 
+        "type": "Educational Institution",
+        "location": "Rochester, NY"
+        },
+      "title": "Analyst/Programmer SR",
+      "tenure": {
+        "start":"August 2022",
+        "end":"Present"
+      },
+      "divider": "", 
+      "responsibilities": [ 
+        "Management of technical debt", 
+        "Addressing work requests & bugs",
+        "Validate and update database systems/ content on an Oracle system.",
+        "Management and maintenance documentation","Update legacy code to modern standards"
+      ],
+      "achievements": [
+        "Created Standardized Business Practices",
+        "Updated Swagger calls to be more consistent",
+        "Normalized Database content"
+      ]
+    },
+    {
+      "company": {
         "name": "University of Texas Libraries",
         "site": "https://www.lib.utexas.edu/", 
         "type": "Educational Institution",
@@ -13,13 +38,21 @@
         "start":"June 2021",
         "end": "August 2022"
       },
-      "divider": "<FaLaptopCode/>", 
+      "divider": "", 
       "responsibilities": [
         "Write, test & debug programming for UTL systems.", 
         "Provide operational & customer support for UTL services.", 
         "Monitoring systems, providing customer service, issue investigation, and documentation.", 
         "Planning & monitoring of project tasks, communicating project status to stakeholders to ensure deadlines are met.", 
         "Contribute to application quality through participation in validation, testing, and documentation of product releases."
+      ],
+      "achievements": [
+        "Helped launch TARO (https://txarchives.org/home)",
+        "Created container content on Docker",
+        "Created a search function with the use of SOLR",
+        "Processed XML docs averaging around 1000 lines (up to 5000)",
+        "Conversation of XML to JSON format for React display"
+
       ]
     },
     {
@@ -34,12 +67,20 @@
         "start": "May 2015",
         "end": "June 2021"
       },
-      "divider": "<FiCreditCard/>", 
+      "divider": "", 
       "responsibilities": [
         "Manage card usage & policy for approx. 1400+ cards & users.",
         "Facilitate & resolve issues between multi-parties.",
         "Create & maintain consistent, secure & effective processes for users",
         "Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users' expectations."
+      ],
+      "achievements":[
+        "Overhauled the Procurement Card Program", 
+        "Headed committee to rewrite and update policies and guidelines",
+        "Provided training to all cardholder",
+        "Updated communication tools for users", 
+        "Analyzed and closed security gaps",
+        "Changed Auditing process"
       ]
     }, 
     {
@@ -54,12 +95,19 @@
         "start":"Jun 2012",
         "end":"May 2015"
         },
-        "divider": "<FiClipboard/>", 
+        "divider": "", 
         "responsibilities": [
           "Maintained a professional office of 30+ employees.",
           "Manage digital & physical documentation in multiple locations.",
           "General office duties: reception work, receiving goods, placing orders, facilitating events, mail processing, and hardware maintenance.",
           "Training & supervision of 3 employees."
+        ],
+        "achievements":[
+          "Updated Inventory and filing systems",
+          "Provide more detailed and refined tracking of files",
+          "Automated electronic filing",
+          "Provided structure for digitalize files",  
+          "Streamlines inventory ordering and stocking"
         ]
     },
     {
@@ -74,7 +122,7 @@
         "start":"Feb 2011",
         "end":"Jun 2012"
       },
-      "divider": "<FiArchive/>", 
+      "divider": "", 
       "responsibilities": [
         "Receiving & preparation of documentation.",
         "Digital Imaging of confidential information.",
