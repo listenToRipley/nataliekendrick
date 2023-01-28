@@ -17,6 +17,7 @@ const ResumeExperience = (): JSX.Element => {
     },
     "divider": string 
     "responsibilities": string[]
+    "achievements": string[]
   };
 
   interface PartTime {
@@ -67,6 +68,13 @@ const ResumeExperience = (): JSX.Element => {
                   <p>{el.tenure.start} {el.tenure.end ? <span>- {el.tenure.end}</span>: ""}</p>
                   <ul className='jobDuties'>
                     {el.responsibilities.map((item: string): JSX.Element => {
+                      return (
+                        <li>{item}</li>
+                      )
+                    })}
+                  </ul>
+                  <ul className='jobAchievements'>
+                    {el.achievements.map((item: string): JSX.Element => {
                       return (
                         <li>{item}</li>
                       )
