@@ -6,11 +6,6 @@
       "dom.iterable",
       "esnext"
     ],
-<<<<<<< HEAD
-    "types": ["@types/react"],
-=======
-    "types": ["node", "jest"],
->>>>>>> 1d1f79e0c6911ff054f1f6bd24b863e758d8283d
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -19,20 +14,14 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "removeComments": true,
-    "module": "CommonJS",
+    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-<<<<<<< HEAD
     "outDir": "./dist"
-=======
-    "outDir": "./dist",
-    "baseUrl": "."
->>>>>>> 1d1f79e0c6911ff054f1f6bd24b863e758d8283d
   },
-  "compileOnSave": true,
   "include": [
     "src"
   ],
@@ -40,6 +29,5 @@
     "client",
     "dist",
     "node_modules"
-  ],
-  "skipLibCheck": true
+  ]
 }
