@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import quotes from "../info/history/quotes.json";
-// import profile from "./projectImgs/profile.jpeg";
+import profile from "./projectImgs/profile.jpeg";
 import { Quote } from "../../Modules/quote";
 
 
@@ -26,15 +26,19 @@ const About = (): JSX.Element => {
     }
   }, []);
 
-    const createQuote = () => {
+    const createQuote = (): JSX.Element => {
       if (quote !== undefined) {
         return (
           <div className="quote">
-          <p>{quote?.quote}</p><a href={quote.bio}><em>{quote.author}</em></a>
+          <p>{quote.quote}</p><a href={quote.bio}><em>{quote.author}</em></a>
           {quote.source ? <div><strong>{quote.source.title}</strong> <p>{quote.source.type}</p></div> : <br/>}
         </div>
         ); 
-      }; 
+      } else {
+        return (
+          <br />
+        )
+      }
   };
   
 
@@ -44,8 +48,8 @@ const About = (): JSX.Element => {
       <p className="name">Natalie Kendrick</p>
       <div className="pronouns">
         <em>pronouns: she/her/hers</em>
-        {createQuote()}
       </div>
+      <div>{createQuote()}</div>
       <div className="body">
         <p>Creatively driven, flexible, organized, goal-oriented, and bringing a unique perspective to the table. Natalie is a motivated professional with extensive experience ranging from web development and fine arts to customer service.</p>
         <p> When it comes to problem-solving, she is proactive and a self-starter who believes that amicable and efficient solutions can be found. A team player who knows her successes benefits the team as much as they do her.</p>
