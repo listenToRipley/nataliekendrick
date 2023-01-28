@@ -1,52 +1,8 @@
 import React from 'react'; 
-import workHistory from '../info/history/workHistory.json'
+import workHistory from '../info/history/workHistory.json';
+import { Professional, PartTime, Volunteer } from '../../Modules/work';
 
 const ResumeExperience = (): JSX.Element => {
-
-  interface Professional {
-    company: {
-      name: string
-      site: string 
-      type: string
-      location: string
-      },
-    title: string
-    tenure: {
-      start: string
-      end: string
-    },
-    divider: string 
-    responsibilities: string[]
-  };
-
-  interface PartTime {
-    "company": {
-      name: string
-      site: string | undefined
-      type: string
-      location: string
-      },
-    title: string
-    tenure: {
-      start: number
-      end: number
-    },
-    responsibilities: string[]
-  };
-
-  interface Volunteer {
-      company: {
-        name: string,
-        site: string, 
-        location: string,
-        description: string
-      },
-      title: string,
-      tenure: {
-        start: number,
-        end:  number
-      }
-  }
 
   const prof: Professional[] = workHistory[0].professional;
   const partTime: PartTime[] = workHistory[0].partTime;

@@ -1,17 +1,8 @@
 import React, {useState, useEffect} from "react";
 import quotes from "../info/history/quotes.json";
-import profile from './projectImgs/profile.jpeg';
+import profile from "./projectImgs/profile.jpeg";
+import { Quote } from "../../Modules/quote";
 
-interface Quote {
-  id: number;
-  quote : string;
-  author: string;
-  source?:{
-    type: string;
-    title: string;
-  },
-  bio: string; 
-};
 
 const About = (): JSX.Element => {
   const [quote, setQuote] = useState<Quote | undefined>(undefined);
@@ -33,13 +24,13 @@ const About = (): JSX.Element => {
       const newQuote: Quote = quotes[quoteId]
       return setQuote(newQuote)
     }
-  }, [quoteId]);
+  }, []);
 
     const createQuote = () => {
       if (quote !== undefined) {
         return (
           <div className="quote">
-          <p>{quote?.quote}</p> <span>~</span><a href={quote.bio}><em>{quote.author}</em></a>
+          <p>{quote?.quote}</p><a href={quote.bio}><em>{quote.author}</em></a>
           {quote.source ? <div><strong>{quote.source.title}</strong> <p>{quote.source.type}</p></div> : <br/>}
         </div>
         ); 
