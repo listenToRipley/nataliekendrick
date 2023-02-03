@@ -16,7 +16,7 @@
     "module": "esnext",
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
-    "outDir": "./dist/cjs/",
+    "outDir": "./dist/",
     "removeComments": true,
     "resolveJsonModule": true,
     "sourceMap": true,
