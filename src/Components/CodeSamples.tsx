@@ -32,11 +32,12 @@ const CodeSamples = (): JSX.Element => {
       `${
           samples.map((el) => {
             return (
-              <div>
-                <h3>{el.title}</h3>
-                <p>{el.description}</p>
-                <p><span>Language:</span> {el.language}</p>
-                <pre className="prettyprinted">
+              <div className="bg-black/80 text-gray-400 transition-colors p-4 justify-center mt-10">
+                <p className="text-xl">{el.title}</p>
+                <p><span className='italic'>Description</span>: {el.description}</p>
+                <p><span className='italic'>Language:</span> {el.language}</p>
+                <br />
+                <pre className="prettyprinted font-sans">
                   <code className="language-js hljs">
                     {`${el.code}`}
                   </code>

@@ -2,8 +2,6 @@ import React, {useState, useEffect} from "react";
 import quotes from "../info/history/quotes.json";
 import profile from "./projectImgs/profile.jpeg";
 import { Quote } from "../../Modules/quote";
-import jelly from "../assets/images/jelly.png"
-
 
 const About = (): JSX.Element => {
   const [quote, setQuote] = useState<Quote | undefined>(undefined);

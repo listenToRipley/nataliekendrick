@@ -1,6 +1,5 @@
 import React from 'react'; 
 import SocialLinks from './SocialLinks';
-import jelly from "../assets/images/jelly.png"
 
 export default function Home() {
 
