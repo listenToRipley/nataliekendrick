@@ -2,6 +2,13 @@
   {
     "title": "",
     "link":  "", 
-    "icon":  ""
+    "icon": {
+      "path": {
+        "d":"",
+        "stroke":"#000000",
+        "strokeLinecap":"round",
+        "strokeLinejoin":"round"
+      }
+    }
   }
 ]
