@@ -9,7 +9,7 @@ This application is built with:
 - [Craco](https://www.npmjs.com/package/@craco/craco)
 
 Each component type is made with a tsx document.
-This is the expectation of entry points, per the [tsconfig](https://www.typescriptlang.org/tsconfig#jsx) using `"jsx": "react-jsx"`. These files should be labeled as `.jsx` and will not be able to use the tsx typing options. See [App](./src/App.jsx) and [Home](./src/Components/Home.jsx).
+This is the expectation of entry points, per the [tsconfig](https://www.typescriptlang.org/tsconfig#jsx) using `"tsx": "perverse"`. These files should be labeled as `.tsx`. See [App](./src/App.tsx) and [Home](./src/Components/Home.jsx).
 
 ## Resources
 
