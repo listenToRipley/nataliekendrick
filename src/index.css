@@ -21,6 +21,16 @@ code {
     monospace;
 }
 
+#background {
+  display: inline-block;
+  position: fixed;
+  background-image: url(./assets/images/underwater.png);
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  min-height: 400px;
+}
+
 /* End global overrides. */
 
 @tailwind components;
