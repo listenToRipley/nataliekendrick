@@ -17,6 +17,10 @@ This is the expectation of entry points, per the [tsconfig](https://www.typescri
 
 [Setup with React, Typescript and Tailwind.](https://dev.to/0xkoji/setup-reactjs-typescript-with-tailwind-css-2k0i)
 
+## Error to Disregard
+
+- `react-router-dom` due to other packages being used. Disregard error messages to upgrade.
+
 ### TODO
 
 1. Add netlify content back into application.

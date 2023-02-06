@@ -6,7 +6,6 @@ export default function Home() {
   useEffect(() => {
 
     let listLinks = socialLinks.map((item, index) => {
-      console.log(item.link)
       return (
       <a 
         key={index} 
@@ -15,7 +14,7 @@ export default function Home() {
         className="no-underline"
         >
           <svg className="h-20 w-40 mx-auto" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d={item.icon.path.d} stroke={item.icon.path.stroke} stroke-linecap={item.icon.path.strokeLinecap} stroke-Linejoin={item.icon.path.strokeLinejoin} stroke-width="1"> 
+            <path d={item.icon.path.d} stroke="#000" strokeLinecap="round" strokeLinejoin="round"> 
             </path>
           </svg> 
       </a>
@@ -24,6 +23,7 @@ export default function Home() {
 
     setLinks(listLinks)
   
+
   }, [])
   
 

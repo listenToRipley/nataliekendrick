@@ -6,8 +6,8 @@ import ResumeSkills from './ResumeSkills';
 const Resume = (): JSX.Element => {
 
   return (
-    <div>
-      <div className='header'>
+    <div className='absolute'>
+      <div className=''>
         <h1>Natalie Kendrick</h1>
         <p className='title'>Software Developer</p>
         <div>
