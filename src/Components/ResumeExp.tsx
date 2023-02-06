@@ -9,7 +9,7 @@ const ResumeExperience = (): JSX.Element => {
   const volunteer: Volunteer[] = workHistory[0].volunteer;
 
   return(
-      <div>
+      <div className='bg-white/20 transition-colors p-4 justify-center mt-10'>
 
       <div className='professional'>
         <h3>Professional Experience</h3>

@@ -7,7 +7,7 @@ const ResumeContacts = (): JSX.Element =>  {
   const countryCode: number = 1; 
 
   return (
-    <div className='mt-4'>
+    <div className='bg-white/20 transition-colors p-4 justify-center mt-4 mb-4'>
       <div className=''>
         <SocialLinks />
       </div>
