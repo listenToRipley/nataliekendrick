@@ -63,7 +63,7 @@ const ResumeExperience = (): JSX.Element => {
       
       {
           volunteer.map((el: any, id:number) => {
-            console.log(el)
+            // console.log(el)
               return (
                 <div key={id}>
                   <p className='jobTitle'>{el.title}</p>

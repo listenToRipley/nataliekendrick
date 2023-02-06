@@ -24,7 +24,7 @@ const Projects = (): JSX.Element => {
 
   const projectsList: Project[] = projects.projects;
 
-  console.log(projectsList)
+  // console.log(projectsList)
 
   return (
     <div>

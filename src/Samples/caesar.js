@@ -27,7 +27,7 @@ const caesarCipherWKey = (str, key ,num) => {
     }
   };
 
-  console.log(newMessage); 
+  // console.log(newMessage); 
 
   return newMessage; 
 };

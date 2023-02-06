@@ -25,6 +25,6 @@ const sieveOfEratosthenes = (n) => {
   return results 
 }; 
 
-console.log(sieveOfEratosthenes(200))
+// console.log(sieveOfEratosthenes(200))
 
 export default sieveOfEratosthenes
