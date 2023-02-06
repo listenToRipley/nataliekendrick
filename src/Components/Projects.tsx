@@ -1,6 +1,7 @@
 import React from "react";
 import CodeSamples from "./CodeSamples";
 import projects from "../info/history/projects.json"
+import {} from "../"
 
 const Projects = (): JSX.Element => {
 
@@ -28,14 +29,14 @@ const Projects = (): JSX.Element => {
 
   return (
     <div className="bg-fixed h-screen min-h-screen object-cover p-8 scroll-smooth overflow-auto">
-      <div className="">
+      <div className="flex">
         {projectsList.map((proj: any) => {
           return (
-            <div key={proj.id}>
+            <div key={proj.id} className="m-32 col-auto">
               <p>{proj.projectName}</p>
               <p>placeholder for image for now</p>
               <p>Completed: <span>{proj.completed.year}</span></p>
-              <div>Summary: 
+              <div className="flex w-25%">Summary: 
                 <span>{proj.description}</span>
                 <br />
                 <p>Skills:</p><ul>{proj.skills.map((skill:string) => {

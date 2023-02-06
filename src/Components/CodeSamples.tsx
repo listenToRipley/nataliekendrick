@@ -29,7 +29,7 @@ const CodeSamples = (): JSX.Element => {
 
   return (
     <div>
-      `${
+      {
           samples.map((el) => {
             return (
               <div className="bg-black/80 text-gray-400 transition-colors p-4 justify-center mt-10">
@@ -45,7 +45,7 @@ const CodeSamples = (): JSX.Element => {
               </div>
             )
           })
-      }`
+      }
     </div>
   )
 };
