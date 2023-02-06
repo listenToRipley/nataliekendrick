@@ -22,12 +22,14 @@ export default function Home() {
   }, [])
   
 
-  return <div>
-    <h1 className='text-red-500'>Natalie Kendrick</h1>
+  return (
+    <div className="item-center ml-auto pl-6">
+    <h1 id="homeName" className="text-yellow-500 text-5xl justify-center">Natalie Kendrick</h1>
     <h3>Software Developer</h3>
     <div>
       {links ? [...links] : <br/>}
     </div>
   </div>
+  )
   
 };

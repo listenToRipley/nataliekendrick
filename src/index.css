@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
 @tailwind base;
 
 /**
@@ -24,11 +25,15 @@ code {
 #background {
   display: inline-block;
   position: fixed;
-  background-image: url(./assets/images/underwater.png);
+  background-image: url(./assets/images/jelly.png);
   background-position: center;
   width: 100vw;
   height: 100vh;
   min-height: 400px;
+}
+
+#homeName {
+  font-family: "Della Respira";
 }
 
 /* End global overrides. */
