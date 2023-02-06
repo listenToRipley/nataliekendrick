@@ -11,8 +11,12 @@ This application is built with:
 Each component type is made with a tsx document.
 This is the expectation of entry points, per the [tsconfig](https://www.typescriptlang.org/tsconfig#jsx) using `"jsx": "react-jsx"`. These files should be labeled as `.jsx` and will not be able to use the tsx typing options. See [App](./src/App.jsx) and [Home](./src/Components/Home.jsx).
 
-### TODO 
-1. Add netlify content back in
+## Resources
 
-## Resources 
 [React Launch Docs](./REACT_README.md)
+
+[Setup with React, Typescript and Tailwind.](https://dev.to/0xkoji/setup-reactjs-typescript-with-tailwind-css-2k0i)
+
+### TODO
+
+1. Add netlify content back into application.
