@@ -11,11 +11,17 @@ export default function Home() {
     let listLinks = socialLinks.map((item, index) => {
       console.log(item.link)
       return (
-        <a key={index} href={item.link} hrefLang={item.title}>
-          {item.title}
-          <br/>
-          <svg className="max-w-xs" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d={item.icon.path.d} stroke={item.icon.path.stroke} stroke-linecap={item.icon.path.strokeLinecap} stroke-Linejoin={item.icon.path.strokeLinejoin} ></path></svg> 
-        </a>
+      <a 
+        key={index} 
+        href={item.link} 
+        hrefLang={item.title}
+        className="no-underline"
+        >
+          <svg className="h-20 w-40 mx-auto" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d={item.icon.path.d} stroke={item.icon.path.stroke} stroke-linecap={item.icon.path.strokeLinecap} stroke-Linejoin={item.icon.path.strokeLinejoin} stroke-width="1"> 
+            </path>
+          </svg> 
+      </a>
       );
     }, [socialLinks]);
 
@@ -25,10 +31,13 @@ export default function Home() {
   
 
   return (
-    <div className="item-center ml-auto pl-6">
-    <h1 id="homeName" className="text-yellow-500 text-5xl justify-center">Natalie Kendrick</h1>
-    <h3>Software Developer</h3>
-    <div className="flex">
+    <div className="justify-center ml-auto pl-6 pt-5 ">
+    <div id="homeName" className="text-yellow-500 justify-center">
+      <div className="text-5xl">Natalie Kendrick</div>
+      <div className="text-4xl">Software Developer</div>
+    </div>
+    
+    <div id="tab" className="w-full flex py-2 justify-center">
       {links ? [...links] : <br/>}
     </div>
   </div>
