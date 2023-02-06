@@ -3,7 +3,7 @@ import ResumeExperience from './ResumeExp';
 import ResumeContacts from './ResumeContacts';
 import ResumeSkills from './ResumeSkills';
 
-const Resume = (): JSX.Element => {
+const Resume = (): JSX.Element =>  {
 
   return (
     <div className='text-black-500'>

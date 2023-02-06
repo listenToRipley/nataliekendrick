@@ -1,30 +1,8 @@
-import React, {useEffect, useState} from 'react'; 
-import socialLinks from "../info/history/socialLinks.json"
+import React from 'react'; 
+import SocialLinks from './SocialLinks';
 
 export default function Home() {
-  const [links, setLinks]: any = useState< void | JSX.Element[]>(undefined);
-  useEffect(() => {
 
-    let listLinks = socialLinks.map((item, index) => {
-      return (
-      <a 
-        key={index} 
-        href={item.link} 
-        hrefLang={item.title}
-        className="my-auto ml-auto block cursor-pointer pr-4"
-        >
-          <svg className="h-20 w-40 mx-auto" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d={item.icon.path.d} stroke="#000" strokeLinecap="round" strokeLinejoin="round"> 
-            </path>
-          </svg> 
-      </a>
-      );
-    }, [socialLinks]);
-
-    setLinks(listLinks)
-  
-
-  }, [])
   
 
   return (
@@ -33,9 +11,8 @@ export default function Home() {
       <div className="text-5xl">Natalie Kendrick</div>
       <div className="text-4xl">Software Developer</div>
     </div>
-    
+    <SocialLinks/>
     <div id="tab" className="w-full flex py-2 justify-center min-w-[80] md:min-w-[40%]">
-      {links ? [...links] : <br/>}
     </div>
   </div>
   )

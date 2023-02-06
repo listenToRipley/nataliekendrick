@@ -7,6 +7,7 @@ import Projects from './Components/Projects';
 
 const Router = (): JSX.Element => {
   console.log('resume',Resume);
+  console.log('home', Home);
   return ( 
     <Routes>
       <Route path="/" element={<Home/>}/>
