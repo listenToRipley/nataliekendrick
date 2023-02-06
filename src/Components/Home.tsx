@@ -2,10 +2,7 @@ import React, {useEffect, useState} from 'react';
 import socialLinks from "../info/history/socialLinks.json"
 
 export default function Home() {
-  const [links, setLinks] = useState(undefined);
-
-  const linkedin = <svg className="max-w-xs" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/></svg>
-
+  const [links, setLinks]: any = useState< void | JSX.Element[]>(undefined);
   useEffect(() => {
 
     let listLinks = socialLinks.map((item, index) => {
