@@ -1,12 +1,12 @@
 import React, {useEffect, useState} from 'react'; 
 import socialLinks from "../info/history/socialLinks.json"
 
-export default function Home(): JSX.Element {
-  const [links, setLinks] = useState<JSX.Element[]| undefined>(undefined);
+export default function Home() {
+  const [links, setLinks] = useState(undefined);
 
   useEffect(() => {
 
-    let listLinks: JSX.Element [] = socialLinks.map((item, index) => {
+    let listLinks = socialLinks.map((item, index) => {
       console.log(item.link)
       return (
         <a key={index} href={item.link} hrefLang={item.title}>
@@ -23,7 +23,7 @@ export default function Home(): JSX.Element {
   
 
   return <div>
-    <h1 className='font-size-50'>Natalie Kendrick</h1>
+    <h1 className='text-red-500'>Natalie Kendrick</h1>
     <h3>Software Developer</h3>
     <div>
       {links ? [...links] : <br/>}
