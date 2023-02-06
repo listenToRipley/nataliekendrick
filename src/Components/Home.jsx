@@ -14,7 +14,7 @@ export default function Home() {
         <a key={index} href={item.link} hrefLang={item.title}>
           {item.title}
           <br/>
-          {item.title === "linkedIn" ? linkedin : item.icon}
+          {item.title === "github" ? <svg className="max-w-xs" viewBox={item.icon.svg.viewBox} fill={item.icon.svg.fill} xmlns={item.icon.svg.xmlns}><path d={item.icon.path.d} stroke={item.icon.path.stroke} stroke-linecap={item.icon.path.strokeLinecap} stroke-Linejoin={item.icon.path.strokeLinejoin} ></path></svg> : linkedin}
         </a>
       );
     }, [socialLinks]);
