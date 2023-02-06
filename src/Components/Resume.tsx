@@ -6,7 +6,8 @@ import ResumeSkills from './ResumeSkills';
 const Resume = (): JSX.Element =>  {
 
   return (
-    <div className='scroll-smooth flex flex-wrap h-100% overflow-auto'>
+    <div>
+      <div className='scroll-smooth flex flex-wrap h-100% overflow-auto'>
       <div className='w-40'>
         <div className='bg-white/20 transition-colors p-4 justify-center mt-10'>
           <h1>Natalie Kendrick</h1>
@@ -31,6 +32,7 @@ const Resume = (): JSX.Element =>  {
         <p className='references'>References available upon <a href='https://docs.google.com/spreadsheets/d/1xOWVDYFLIk4DrofA3K6GosPREidyfyjn-aBjJGK02M4/edit?usp=sharing'>request</a></p>
       </div>
 
+    </div>
     </div>
   )
 

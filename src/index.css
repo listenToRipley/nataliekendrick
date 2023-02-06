@@ -8,16 +8,6 @@
  * (See https://tailwindcss.com/docs/adding-base-styles/#using-css)
  */
 
-/* #background {
-  display: inline-block;
-  position: fixed;
-  background-image: url(./assets/images/jelly.png);
-  background-position: center;
-  width: 100vw;
-  height: 100vh;
-  min-height: 400px;
-} */
-
 
 body {
   display: block;

@@ -27,8 +27,8 @@ const Projects = (): JSX.Element => {
   // console.log(projectsList)
 
   return (
-    <div>
-      <div>
+    <div className="bg-fixed h-screen min-h-screen object-cover p-8 scroll-smooth overflow-auto">
+      <div className="">
         {projectsList.map((proj: any) => {
           return (
             <div key={proj.id}>

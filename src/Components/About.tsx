@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import quotes from "../info/history/quotes.json";
 import profile from "./projectImgs/profile.jpeg";
 import { Quote } from "../../Modules/quote";
+import jelly from "../assets/images/jelly.png"
 
 
 const About = (): JSX.Element => {
@@ -24,7 +25,7 @@ const About = (): JSX.Element => {
       const newQuote: Quote = quotes[quoteId]
       return setQuote(newQuote)
     }
-  }, []);
+  }, [quoteId]);
 
     const createQuote = (): JSX.Element => {
       if (quote !== undefined) {
@@ -42,14 +43,15 @@ const About = (): JSX.Element => {
   
 
   return (
+    <div className='h-screen min-h-screen -mt-10'>
     <div className="justify-center grid mx-10 my-10 grid-cols-2">
-      <img className="rounded-full w-80 h-80 group-open:rotate-45 transition-all group-open:top-2 relative" src={profile} alt="natalie kendrick"></img>
+      <img className="mt-10 rounded-full w-80 h-80 group-open:rotate-45 transition-all group-open:top-2 relative" src={profile} alt="natalie kendrick"></img>
       <div className = "justify-center block">
-        <p id="name" className="text-yellow-500 h-100% text-8xl">Natalie Kendrick</p>
+        <p id="name" className="mt-10 text-yellow-500 h-100% text-8xl ">Natalie Kendrick</p>
         <div id="pronouns" className="mt-4 text-xl">
           <em>pronouns: she/her/hers</em>
         </div>
-        <div className="bg-white/20 transition-colors p-4 justify-center mt-10">
+        <div id={`${quoteId}`} className="bg-white/20 transition-colors p-4 justify-center mt-10">
           {createQuote()}
         </div>
   
@@ -62,6 +64,7 @@ const About = (): JSX.Element => {
         <p>She looks forward to hearing from you and hopes you have a fantastic adventure today.</p>
       </div>
       </div>
+    </div>
     </div>
   )
 };
