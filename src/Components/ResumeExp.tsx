@@ -36,13 +36,14 @@ const ResumeExperience = (): JSX.Element => {
       </div>
 
       <div className='mt-4'>
-        <h4 className='mt-2 mb-3 text-2xl'>Part Time Experience</h4>
+        <h4 className='mt-2 mb-3 text-2xl max-w-xl'>Part Time Experience</h4>
 
+        <div className='flex'>
         {
           partTime.map((el: any, id:number) => {
 
               return (
-                <div key={id}>
+                <div key={id} className='flex-wrap max-w-5xl min-w-xl'>
                   <p className='jobTitle'>{el.title}</p>
                   <p className='companyLink'>{el.company.name}</p>
                   <p>{el.tenure.start} - {el.tenure.end}</p>
@@ -57,23 +58,25 @@ const ResumeExperience = (): JSX.Element => {
               )
             })
         }
+        </div>
       </div>
 
-    <div className='mt-4'>
-      <h4 className='mt-2 mb-3 text-2xl'>Volunteer work</h4>
-      
+    <div className='mt-4 '>
+      <h4 className='mt-2 mb-3 text-2xl '>Volunteer work</h4>
+      <div className='flex'>
       {
           volunteer.map((el: any, id:number) => {
             // console.log(el)
               return (
-                <div key={id}>
+                <div key={id} className='mr-5'>
                   <p className='jobTitle'>{el.title}</p>
-                  <p className='companyLink'><a href={el.company.site}>{el.company.name}</a></p>
+                  <p className='companyLink'><a className='hover:underline hover:text-yellow-500' href={el.company.site}>{el.company.name}</a></p>
                   <p>{el.tenure.start} - {el.tenure.end}</p>
                 </div>
               )
             })
         }
+      </div>
     </div>
 
   </div>
