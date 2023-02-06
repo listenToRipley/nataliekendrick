@@ -15,12 +15,11 @@ const ResumeSkills = (): JSX.Element => {
   });
 
   return (
-    <div className='bg-white/20 transition-colors p-4 justify-center mt-10'>
-      <h3>Skills</h3>
-
+    <div className='bg-white/20 transition-colors p-4 justify-center mt-10 flex'>
+      <h3 className='text-2xl mr-4 underline'>Skills</h3>
       <div>
-        <div>Soft</div>
-        <ul>
+        <div className='text-xl italic'>Soft</div>
+        <ul className='p-2'>
           {soft.map((skill: string, id: number): JSX.Element => {
             return (
               <li key={id}>{skill}</li>
@@ -31,11 +30,11 @@ const ResumeSkills = (): JSX.Element => {
       </div>
 
       <div>
-        <div>Technical</div>
-        <ul>
-          {tech.map((skill: string): JSX.Element  => {
+        <div className='text-xl italic'>Technical</div>
+        <ul className='p-2 grid'>
+          {tech.map((skill: string, id:number): JSX.Element  => {
             return (
-              <li>{skill}</li>
+              <li className='px-2 col-span-2' key={id}>{skill}</li>
             )
           })
           }
