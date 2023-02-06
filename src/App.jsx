@@ -4,7 +4,7 @@ import Router from './Routing';
 
 function App() {
   return (
-    <div>
+    <div className="font-medium">
       <BrowserRouter>
         <Router/> 
       </BrowserRouter>
