@@ -8,17 +8,7 @@
  * (See https://tailwindcss.com/docs/adding-base-styles/#using-css)
  */
 
-body {
-  margin: 0;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-#background {
+/* #background {
   display: inline-block;
   position: fixed;
   background-image: url(./assets/images/jelly.png);
@@ -26,6 +16,14 @@ code {
   width: 100vw;
   height: 100vh;
   min-height: 400px;
+} */
+
+
+body {
+  display: block;
+  position: relative;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 #homeName {

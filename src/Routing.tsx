@@ -6,10 +6,9 @@ import Resume from './Components/Resume';
 import Projects from './Components/Projects'; 
 
 const Router = (): JSX.Element => {
-  console.log('resume',Resume);
-  console.log('home', Home);
+
   return ( 
-    <Routes>
+    <Routes >
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/resume" element={<Resume/>}/>

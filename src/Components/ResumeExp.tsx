@@ -11,20 +11,21 @@ const ResumeExperience = (): JSX.Element => {
   return(
       <div className='bg-white/20 transition-colors p-4 justify-center mt-10'>
 
-      <div className='professional'>
-        <h3>Professional Experience</h3>
+      <div className='mt-4'>
+        <h3 className='mt-2 mb-3 text-2xl'>Professional Experience</h3>
         {
           prof.map((el: any, id:number) => {
 
               return (
-                <div key={id}>
-                  <p className='jobTitle'>{el.title}</p>
-                  <p className='companyLink'><a href={el.company.site}>{el.company.name}</a></p>
-                  <p>{el.tenure.start} {el.tenure.end ? <span>- {el.tenure.end}</span>: ""}</p>
-                  <ul className='jobDuties'>
+                <div key={id} className='mb-12'>
+                  <p className='text-xl'>{el.title}</p>
+                  <p className='hover:underline hover:text-yellow-500'><a href={el.company.site}>{el.company.name}</a></p>
+                  <p className='text-right'>{el.tenure.start} {el.tenure.end ? <span>- {el.tenure.end}</span>: ""}</p>
+                  <ul className='pl-2'>
+                    <span>Duties:</span>
                     {el.responsibilities.map((item: string): JSX.Element => {
                       return (
-                        <li>{item}</li>
+                        <li className='pl-2 list-disc'>{item}</li>
                       )
                     })}
                   </ul>
@@ -34,8 +35,8 @@ const ResumeExperience = (): JSX.Element => {
         }
       </div>
 
-      <div>
-        <h4>Part Time Experience</h4>
+      <div className='mt-4'>
+        <h4 className='mt-2 mb-3 text-2xl'>Part Time Experience</h4>
 
         {
           partTime.map((el: any, id:number) => {
@@ -58,8 +59,8 @@ const ResumeExperience = (): JSX.Element => {
         }
       </div>
 
-    <div>
-      Volunteer work
+    <div className='mt-4'>
+      <h4 className='mt-2 mb-3 text-2xl'>Volunteer work</h4>
       
       {
           volunteer.map((el: any, id:number) => {

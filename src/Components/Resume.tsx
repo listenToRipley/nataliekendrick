@@ -15,12 +15,12 @@ const Resume = (): JSX.Element =>  {
         <div>
         <ResumeContacts/>
         </div>
-        <div className='bg-white/20 transition-colors p-4 justify-center mt-10'>
-        <h2>Mission</h2>
+        <div className='bg-white/20 transition-colors p-4 justify-center mt-10 '>
+        <h2 className='mt-2 mb-3 text-2xl'>Mission</h2>
         <p>After working in various fields, I have developed a comprehensive knowledge of business practices. This means I understand the importance of leveraging these skills to provide sustainable and meaningful practices that create innovative, efficient, and effective products to support all parties. </p>
       </div>
       </div>
-      <div className='grid w-90%'>
+      <div className='grid w-90%  ml-4'>
         <ResumeExperience/>
       </div>
       <div>
