@@ -10,8 +10,9 @@ export default function Home() {
           <div className="text-5xl">Natalie Kendrick</div>
           <div className="text-4xl">Software Developer</div>
         </div>
-        <SocialLinks/>
-        <div id="tab" className="w-full flex py-2 justify-center"></div>
+        <div id="tab" className="w-full flex py-2 justify-center">
+          <SocialLinks/>
+        </div>
       </div>
     </div>
   )
