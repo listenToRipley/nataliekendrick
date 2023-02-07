@@ -1,6 +1,6 @@
-import React from 'react'; 
-import workHistory from '../info/history/workHistory.json';
-import { Professional, PartTime, Volunteer } from '../../Modules/work';
+import React from "react"; 
+import workHistory from "../info/history/workHistory.json";
+import { Professional, PartTime, Volunteer } from "../../Modules/work";
 
 const ResumeExperience = (): JSX.Element => {
 
@@ -9,23 +9,23 @@ const ResumeExperience = (): JSX.Element => {
   const volunteer: Volunteer[] = workHistory[0].volunteer;
 
   return(
-      <div className='bg-white/20 transition-colors p-4 justify-center mt-10'>
+      <div className="bg-white/20 transition-colors p-4 justify-center mt-10">
 
-      <div className='mt-4'>
-        <h3 className='mt-2 mb-3 text-2xl'>Professional Experience</h3>
+      <div className="mt-4">
+        <h3 className="mt-2 mb-3 text-2xl">Professional Experience</h3>
         {
           prof.map((el: any, id:number) => {
 
               return (
-                <div key={id} className='mb-12'>
-                  <p className='text-xl'>{el.title}</p>
-                  <p className='hover:underline hover:text-yellow-500'><a href={el.company.site}>{el.company.name}</a></p>
-                  <p className='text-right'>{el.tenure.start} {el.tenure.end ? <span>- {el.tenure.end}</span>: ""}</p>
-                  <ul className='pl-2'>
+                <div key={id} className="mb-12">
+                  <p className="text-xl">{el.title}</p>
+                  <p className="hover:underline hover:text-yellow-500"><a href={el.company.site}>{el.company.name}</a></p>
+                  <p className="text-right">{el.tenure.start} {el.tenure.end ? <span>- {el.tenure.end}</span>: ""}</p>
+                  <ul className="pl-2">
                     <span>Duties:</span>
                     {el.responsibilities.map((item: string): JSX.Element => {
                       return (
-                        <li className='pl-2 list-disc'>{item}</li>
+                        <li className="pl-2 list-disc">{item}</li>
                       )
                     })}
                   </ul>
@@ -35,19 +35,19 @@ const ResumeExperience = (): JSX.Element => {
         }
       </div>
 
-      <div className='mt-4'>
-        <h4 className='mt-2 mb-3 text-2xl max-w-xl'>Part Time Experience</h4>
+      <div className="mt-4">
+        <h4 className="mt-2 mb-3 text-2xl max-w-xl">Part Time Experience</h4>
 
-        <div className='flex'>
+        <div className="flex">
         {
           partTime.map((el: any, id:number) => {
 
               return (
-                <div key={id} className='flex-wrap max-w-5xl min-w-xl'>
-                  <p className='jobTitle'>{el.title}</p>
-                  <p className='companyLink'>{el.company.name}</p>
+                <div key={id} className="flex-wrap max-w-5xl min-w-xl">
+                  <p className="first-letter:jobTitle">{el.title}</p>
+                  <p className="first-letter:companyLink">{el.company.name}</p>
                   <p>{el.tenure.start} - {el.tenure.end}</p>
-                  <ul className='jobDuties'>
+                  <ul className="jobDuties">
                     {el.responsibilities.map((item: string): JSX.Element => {
                       return (
                         <li>{item}</li>
@@ -61,16 +61,16 @@ const ResumeExperience = (): JSX.Element => {
         </div>
       </div>
 
-    <div className='mt-4 '>
-      <h4 className='mt-2 mb-3 text-2xl '>Volunteer work</h4>
-      <div className='flex'>
+    <div className="mt-4">
+      <h4 className="mt-2 mb-3 text-2xl">Volunteer work</h4>
+      <div className="flex">
       {
           volunteer.map((el: any, id:number) => {
             // console.log(el)
               return (
-                <div key={id} className='mr-5'>
-                  <p className='jobTitle'>{el.title}</p>
-                  <p className='companyLink'><a className='hover:underline hover:text-yellow-500' href={el.company.site}>{el.company.name}</a></p>
+                <div key={id} className="mr-5">
+                  <p className="jobTitle">{el.title}</p>
+                  <p className="companyLink"><a className="hover:underline hover:text-yellow-500" href={el.company.site}>{el.company.name}</a></p>
                   <p>{el.tenure.start} - {el.tenure.end}</p>
                 </div>
               )

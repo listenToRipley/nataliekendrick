@@ -14,7 +14,7 @@ const Certifications = ():JSX.Element => {
 
     return (
         <div>
-            <div className='text-2xl mr-4 underline'>Certificates</div>
+            <div className="text-2xl mr-4 underline">Certificates</div>
 
             {certificates.map((item: Certification, index:number): JSX.Element => {
                 return (

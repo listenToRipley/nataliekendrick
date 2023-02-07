@@ -5,7 +5,7 @@ import pima from "../assets/images/projectImgs/pima.png"
 
 const Education = (): JSX.Element => {
 
-    // TODO:add links for institions
+    // TODO:add links for institutions
 
     interface Education         {
         "institution": string,
@@ -21,7 +21,7 @@ const Education = (): JSX.Element => {
 
     return (
         <div className="mt-2">
-            <div className='text-2xl mr-4 underline'>Education</div>
+            <div className="text-2xl mr-4 underline">Education</div>
             {
                 educationHist.map((edu: Education, index: number)=> {
 

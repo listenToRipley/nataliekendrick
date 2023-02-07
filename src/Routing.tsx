@@ -1,9 +1,9 @@
-import React from 'react'; 
-import { Routes, Route } from 'react-router-dom';
-import Home from './Components/Home';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Projects from './Components/Projects'; 
+import React from "react"; 
+import { Routes, Route } from "react-router-dom";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Resume from "./Components/Resume";
+import Projects from "./Components/Projects"; 
 
 const Router = (): JSX.Element => {
 

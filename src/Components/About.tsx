@@ -41,7 +41,7 @@ const About = (): JSX.Element => {
   
 
   return (
-    <div className='h-screen min-h-screen -mt-10'>
+    <div className="h-screen min-h-screen -mt-10">
     <div className="justify-center grid mx-10 my-10 grid-cols-2">
       <img className="mt-10 rounded-full w-80 h-80 group-open:rotate-45 transition-all group-open:top-2 relative" src={profile} alt="natalie kendrick"></img>
       <div className = "justify-center block">

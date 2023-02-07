@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'; 
+import React, {useEffect, useState} from "react"; 
 import socialLinks from "../info/history/socialLinks.json"
 
 const SocialLinks = (): JSX.Element =>  {
