@@ -6,6 +6,7 @@ const Projects = (): JSX.Element => {
 
   //TODO:
   // 1. Add functionality for carousel
+  // 2. Add option to collapse the details on items.
   interface Project {
     "id": number,
     "projectName": string,
@@ -69,7 +70,10 @@ const Projects = (): JSX.Element => {
                   alt={proj.altText} />
               </a>
               </div>
-              <div className="p-8 divide-y divide-slate-20">
+              <div className="p-8">
+              <p>Details:</p>
+              <div className=" divide-y divide-slate-20">
+              
               <p>Completed: <span>{proj.completed.year}</span></p>
               <div className="flex flex-col"> 
                 <span className="italics">Summary:</span> 
@@ -82,6 +86,7 @@ const Projects = (): JSX.Element => {
                     <li key={index} className="first:pt-0 last:pb-0">{skill} </li>
                   )
                 })}</ul>
+              </div>
               </div>
               </div>
             </div>
