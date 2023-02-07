@@ -20,7 +20,7 @@ const Education = (): JSX.Element => {
     const educationHist: Education[] = edu.education
 
     return (
-        <div className="mt-2 bg-white/20 transition-colors p-4 justify-center mt-10 flex">
+        <div className="mt-2 bg-white/20 transition-colors p-4 mt-10 flex">
             <div className="text-2xl mr-4 underline">Education</div>
             {
                 educationHist.map((edu: Education, index: number)=> {

@@ -15,7 +15,7 @@ const ResumeSkills = (): JSX.Element => {
   });
 
   return (
-    <div className="bg-white/20 transition-colors p-4 justify-center mt-10 flex">
+    <div className="bg-white/20 transition-colors p-4 mt-10 flex">
       <h3 className="text-2xl mr-4 underline">Skills</h3>
       <div>
         <div className="text-xl italic">Soft</div>

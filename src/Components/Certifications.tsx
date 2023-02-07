@@ -18,7 +18,7 @@ const Certifications = ():JSX.Element => {
 
             {certificates.map((item: Certification, index:number): JSX.Element => {
                 return (
-                    <div key={index} className="flex">
+                    <div key={index} className="flex ml-4">
                         <div>
                             <span>{item.type}</span><span> from</span><span> {item.from}</span>
                         </div>
