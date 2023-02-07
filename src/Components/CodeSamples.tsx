@@ -4,8 +4,16 @@ import maxStockProfit from "../../src/Samples/maxStockProfit";
 import sieveOfEratosthenes from "../../src/Samples/sieveOfEratstenes";
 
 const CodeSamples = (): JSX.Element => { 
+  
 
-  const samples = [
+  interface Samples {
+    "title": string,
+    "description": string,
+    "language": string,
+    "code": any
+  };
+
+  const samples: Samples[] = [
     {
       "title": "Caesar Cipher",
       "description": "Caesar Cipher; shifts the given message letters by a specified number of characters which is passed in.",
@@ -30,9 +38,10 @@ const CodeSamples = (): JSX.Element => {
   return (
     <div>
       {
-          samples.map((el) => {
+          samples.map((el:Samples, index:number) => {
+
             return (
-              <div className="bg-black/80 text-gray-400 transition-colors p-4 justify-center mt-10">
+              <div key={index} className="bg-black/80 text-gray-400 transition-colors p-4 justify-center mt-10">
                 <p className="text-xl">{el.title}</p>
                 <p><span className='italic'>Description</span>: {el.description}</p>
                 <p><span className='italic'>Language:</span> {el.language}</p>
