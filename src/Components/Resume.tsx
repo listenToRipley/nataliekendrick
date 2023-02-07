@@ -2,6 +2,7 @@ import React from 'react';
 import ResumeExperience from './ResumeExp';
 import ResumeContacts from './ResumeContacts';
 import ResumeSkills from './ResumeSkills';
+import Education from './Education';
 
 const Resume = (): JSX.Element =>  {
 
@@ -23,6 +24,9 @@ const Resume = (): JSX.Element =>  {
       </div>
       <div className='grid w-90%  ml-4'>
         <ResumeExperience/>
+      </div>
+      <div>
+        <Education/>
       </div>
       <div>
         <ResumeSkills/>
