@@ -30,13 +30,13 @@ const Projects = (): JSX.Element => {
     <div className="bg-fixed h-screen min-h-screen object-cover p-8 scroll-smooth overflow-auto">
       <div className="flex">
         {projectsList.map((proj: any) => {
-          const relative= proj.image
+          const relative= "../assets/images/projectImgs/"+ proj.image
           console.log(relative)
           return (
             <div key={proj.id} className="m-32 col-auto">
               <p>{proj.projectName}</p>
               <div className="block h-20 w-20 bg-black/80">
-                <img src={proj.image} alt={proj.altText} />
+                <img src={relative} alt={proj.altText} />
               </div>
               <div className="">
               <p>Completed: <span>{proj.completed.year}</span></p>
