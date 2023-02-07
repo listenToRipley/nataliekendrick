@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import quotes from "../info/history/quotes.json";
 import profile from "../assets/images/projectImgs/profile.jpeg";
 import { Quote } from "../../Modules/quote";
+import ResumeContacts from "./ResumeContacts";
 
 //TODO:
 //1. Add location information
@@ -44,7 +45,7 @@ const About = (): JSX.Element => {
   
 
   return (
-    <div className="h-screen min-h-screen -mt-10">
+    <div className=" min-h-screen -mt-10 scroll-smooth flex flex-wrap h-100% overflow-auto grid">
     <div className="justify-center grid mx-10 my-10 grid-cols-2">
       <img className="mt-10 rounded-full w-80 h-80 group-open:rotate-45 transition-all group-open:top-2 relative" src={profile} alt="natalie kendrick"></img>
       <div className = "justify-center block">
@@ -65,6 +66,9 @@ const About = (): JSX.Element => {
         <p>She looks forward to hearing from you and hopes you have a fantastic adventure today.</p>
       </div>
       </div>
+    </div>
+    <div className="flex justify-self-end self-auto md:self-end -mt-80">
+      <ResumeContacts/>
     </div>
     </div>
   )
