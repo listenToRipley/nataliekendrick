@@ -1,6 +1,6 @@
 module.exports = {
   mode: 'jit',
-  darkMode: false,
+  darkMode: 'media',
   content: [
     "./src/**/*.{html,ts,tsx,js,jsx}",
     "./src/Components/**/*.{html,ts,tsx,js}",
