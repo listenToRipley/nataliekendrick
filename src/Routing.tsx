@@ -7,6 +7,8 @@ import Projects from "./Components/Projects";
 
 const Router = (): JSX.Element => {
 
+  //TODO: Need to add redirect for failed paths.
+
   return ( 
     <Routes >
       <Route path="/" element={<Home/>}/>
