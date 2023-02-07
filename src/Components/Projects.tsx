@@ -42,15 +42,25 @@ const Projects = (): JSX.Element => {
 
       <div id="carousel" className="mt-4 flex w-full flex-1 gap-4 overflow-x-auto scroll-smooth pb-5">
       <div className="flex">
-        {projectsList.map((proj: any): JSX.Element => {
+        {projectsList.map((proj: Project, index:number): JSX.Element => {
           const imgPath= require(`../assets/images/projectImgs/${proj.image}`)
 
           return (
             <div key={proj.id} className="min-w-[60] md:min-w-[15%] ml-4">
-              <div className="text-xl">{proj.projectName}</div>
-              <div className="">
-                <img className="aspect-auto w-full md:content-around shadow-md shadow-black/40 rounded-md" src={imgPath} alt={proj.altText} />
-              </div>
+              <div className="text-xl">
+                <a 
+                href={proj.code}
+                className="hover:text-yellow-500 transition duration-150 ease-in-out"
+      data-bs-toggle="tooltip" title="See the code">
+                  {proj.projectName}</a></div>
+              <a href={proj.site}>
+                <img 
+                  className="aspect-auto w-full md:content-around shadow-md shadow-black/40 rounded-md hover:shadow-orange-300 transition duration-150 ease-in-out"
+                  data-bs-toggle="tooltip" 
+                  title="See the site" 
+                  src={imgPath} 
+                  alt={proj.altText} />
+              </a>
               <div className="p-8 divide-y divide-slate-20">
               <p>Completed: <span>{proj.completed.year}</span></p>
               <div className="flex flex-col"> 
@@ -59,18 +69,11 @@ const Projects = (): JSX.Element => {
                 <br />
               </div>
               <div>
-              <p>Skills:</p><ul className="">{proj.skills.map((skill:string) => {
+              <p>Skills:</p><ul className="">{proj.skills.map((skill:string, index:number) => {
                   return (
-                    <li className="first:pt-0 last:pb-0">{skill} </li>
+                    <li key={index} className="first:pt-0 last:pb-0">{skill} </li>
                   )
                 })}</ul>
-              </div>
-              <div>
-              <a href={proj.site}>View Work</a>
-              </div>
-  
-              <div>
-              <a href={proj.code}>View Code</a>
               </div>
               </div>
             </div>
