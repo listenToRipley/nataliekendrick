@@ -40,13 +40,13 @@ const Projects = (): JSX.Element => {
       <div id="carousel" className="mt-4 flex w-full flex-1 gap-4 overflow-x-auto scroll-smooth pb-5">
       <div className="flex">
         {projectsList.map((proj: any): JSX.Element => {
-          const relative= "../assets/images/projectImgs/"+ proj.image
-          console.log(relative)
+          const imgPath= require(`../assets/images/projectImgs/${proj.image}`)
+
           return (
             <div key={proj.id} className="min-w-[60] md:min-w-[15%] ml-4">
               <p>{proj.projectName}</p>
               <div className="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20">
-                <img className="h-20 w-20 rounded-full" src={relative} alt={proj.altText} />
+                <img className="w-full" src={imgPath} alt={proj.altText} />
               </div>
               <div className="p-8 divide-y divide-slate-20">
               <p>Completed: <span>{proj.completed.year}</span></p>

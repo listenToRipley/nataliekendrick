@@ -7,7 +7,7 @@ const maxStockProfit = (priceArr) => {
   
 };
 
-let stock = [32,46,26,38,40,48,42];//22
+// let stock = [32,46,26,38,40,48,42];//22
 
 // console.log(maxStockProfit(stock));
 

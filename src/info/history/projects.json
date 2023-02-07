@@ -85,7 +85,7 @@
       "description": "Using random user generateAPI to create a sample address book", 
       "skills": ["Javascript", "HTML5", "CSS"],
       "color": "#black",
-      "image": "/dodgeball.png",
+      "image": "dodgeball.png",
       "altText": "dodgeball play offs",
       "site": "https://listentoripley.github.io/javascript-workbook/06week/dodgeBall.html",
       "code": "https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/06week"
