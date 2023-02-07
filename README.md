@@ -25,3 +25,4 @@ This is the expectation of entry points, per the [tsconfig](https://www.typescri
 
 1. Add netlify content back into application.
 2. Updates [scrollbar](https://www.npmjs.com/package/tailwind-scrollbar)
+3. Add interfaces to modules

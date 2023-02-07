@@ -18,7 +18,7 @@ const ResumeExperience = (): JSX.Element => {
 
               return (
                 <div key={id} className="mb-12">
-                  <p className="text-xl">{el.title}</p>
+                  <p className="text-xl font-medium">{el.title}</p>
                   <p className="hover:underline hover:text-yellow-500"><a href={el.company.site}>{el.company.name}</a></p>
                   <p className="text-right">{el.tenure.start} {el.tenure.end ? <span>- {el.tenure.end}</span>: ""}</p>
                   <ul className="pl-2">
@@ -36,29 +36,34 @@ const ResumeExperience = (): JSX.Element => {
       </div>
 
       <div className="mt-4">
-        <h4 className="mt-2 mb-3 text-2xl max-w-xl">Part Time Experience</h4>
+        <h4 className="mt-2 mb-3 text-2xl">Part Time Experience</h4>
 
-        <div className="flex">
+
+        <div className="flex max-w-6xl flex-wrap">
         {
           partTime.map((el: any, id:number) => {
 
               return (
-                <div key={id} className="flex-wrap max-w-5xl min-w-xl">
-                  <p className="first-letter:jobTitle">{el.title}</p>
+                <div key={id} className="max-w-5xl min-w-xl mb-10 ml-6">
+                  <div className="block w-48">
+                  <p className="first-letter:jobTitle font-semibold">{el.title}</p>
                   <p className="first-letter:companyLink">{el.company.name}</p>
                   <p>{el.tenure.start} - {el.tenure.end}</p>
                   <ul className="jobDuties">
-                    {el.responsibilities.map((item: string): JSX.Element => {
+                    <li>_</li>
+                    {el.responsibilities.map((item: string, index:number): JSX.Element => {
                       return (
-                        <li>{item}</li>
+                        <li key={index}>{item}</li>
                       )
                     })}
                   </ul>
+                  </div>
                 </div>
               )
             })
         }
         </div>
+      
       </div>
 
     <div className="mt-4">

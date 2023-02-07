@@ -13,8 +13,8 @@ const Resume = (): JSX.Element =>  {
 
   return (
     <div>
-      <div className="scroll-smooth flex flex-wrap h-100% overflow-auto">
-      <div className="w-40">
+      <div className="scroll-smooth flex h-100% overflow-auto">
+      <div className="w-40 col-auto">
         <div className="bg-white/20 transition-colors p-4 justify-center mt-10">
           <h1>Natalie Kendrick</h1>
           <p className="title">Software Developer</p>
@@ -22,12 +22,14 @@ const Resume = (): JSX.Element =>  {
         <div>
         <ResumeContacts/>
         </div>
-        <div className="bg-white/20 transition-colors p-4 justify-center mt-10 ">
-        <h2 className="mt-2 mb-3 text-2xl">Mission</h2>
-        <p>After working in various fields, I have developed a comprehensive knowledge of business practices. This means I understand the importance of leveraging these skills to provide sustainable and meaningful practices that create innovative, efficient, and effective products to support all parties. </p>
       </div>
-      </div>
-      <div className="grid w-90%  ml-4">
+
+      <div>
+        <div className="bg-white/20 transition-colors p-4 justify-center mt-10 ml-4">
+          <h2 className="mt-2 mb-3  text-2xl">Mission</h2>
+          <p>After working in various fields, I have developed a comprehensive knowledge of business practices. This means I understand the importance of leveraging these skills to provide sustainable and meaningful practices that create innovative, efficient, and effective products to support all parties. </p>
+        </div>
+        <div className="ml-4">
         <ResumeExperience/>
       </div>
       <div className="ml-4">
@@ -49,6 +51,8 @@ const Resume = (): JSX.Element =>  {
           </a>
         </p>
       </div>
+      </div>
+
 
     </div>
     </div>

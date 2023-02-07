@@ -5,7 +5,7 @@ import { Quote } from "../../Modules/quote";
 import ResumeContacts from "./ResumeContacts";
 
 //TODO:
-//1. Add location information
+//1. add interface for quotes.
 
 const About = (): JSX.Element => {
   const [quote, setQuote] = useState<Quote | undefined>(undefined);
@@ -45,9 +45,9 @@ const About = (): JSX.Element => {
   
 
   return (
-    <div className=" min-h-screen -mt-10 scroll-smooth flex flex-wrap h-100% overflow-auto grid">
-    <div className="justify-center grid mx-10 my-10 grid-cols-2">
-      <img className="mt-10 rounded-full w-80 h-80 group-open:rotate-45 transition-all group-open:top-2 relative" src={profile} alt="natalie kendrick"></img>
+    <div className=" min-h-screen -mt-10 scroll-smooth-100% overflow-auto grid">
+    <div className="justify-center grid mx-10 my-10 auto-cols-auto">
+      <img className="aspect-auto mt-10 rounded-full max-h-80 group-open:rotate-45 transition-all group-open:top-2 relative" src={profile} alt="natalie kendrick"></img>
       <div className = "justify-center block">
         <p id="name" className="mt-10 text-yellow-500 h-100% text-8xl ">Natalie Kendrick</p>
         <div id="pronouns" className="mt-4 text-xl">
@@ -58,18 +58,18 @@ const About = (): JSX.Element => {
         </div>
   
       </div>
-      <div className="bg-white/20 transition-colors p-4 justify-center mt-1 ">
-      <div className="text-center">
-        <p>Creatively driven, flexible, organized, goal-oriented, and bringing a unique perspective to the table. Natalie is a motivated professional with extensive experience ranging from web development and fine arts to customer service.</p>
-        <p> When it comes to problem-solving, she is proactive and a self-starter who believes that amicable and efficient solutions can be found. A team player who knows her successes benefits the team as much as they do her.</p>
-        <p>She loves to read, hike with her dog, do yoga, and play board games in her spare time. In addition, she is passionate about food, cooking, and sharing those meals with great conversation. She is also a massive movie buff and enjoys international television.</p>
-        <p>She looks forward to hearing from you and hopes you have a fantastic adventure today.</p>
+      <div className="bg-white/20 transition-colors justify-center mt-4">
+        <div className="p-4">
+          <p className="pt-4 pb-4">Creatively driven, flexible, organized, goal-oriented, and bringing a unique perspective to the table. Natalie is a motivated professional with extensive experience ranging from web development and fine arts to customer service.</p>
+          <p className="pb-4"> When it comes to problem-solving, she is proactive and a self-starter who believes that amicable and efficient solutions can be found. A team player who knows her successes benefits the team as much as they do her.</p>
+          <p className="pb-4">She loves to read, hike with her dog, do yoga, and play board games in her spare time. In addition, she is passionate about food, cooking, and sharing those meals with great conversation. She is also a massive movie buff and enjoys international television.</p>
+          <p className="pb-4">She looks forward to hearing from you and hopes you have a fantastic adventure today.</p>
+        </div>
       </div>
+        <div className="flex justify-self-end self-auto md:self-end -mt-76">
+        <ResumeContacts/>
+        </div>
       </div>
-    </div>
-    <div className="flex justify-self-end self-auto md:self-end -mt-80">
-      <ResumeContacts/>
-    </div>
     </div>
   )
 };
