@@ -3,6 +3,7 @@ import ResumeExperience from './ResumeExp';
 import ResumeContacts from './ResumeContacts';
 import ResumeSkills from './ResumeSkills';
 import Education from './Education';
+import Certifications from './Certifications';
 
 const Resume = (): JSX.Element =>  {
 
@@ -30,6 +31,9 @@ const Resume = (): JSX.Element =>  {
       </div>
       <div>
         <ResumeSkills/>
+      </div>
+      <div>
+        <Certifications/>
       </div>
       <div>
         <h3>References</h3>
