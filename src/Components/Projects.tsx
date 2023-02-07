@@ -5,8 +5,7 @@ import projects from "../info/history/projects.json";
 const Projects = (): JSX.Element => {
 
   //TODO:
-  // 1. Add images for projects
-  // 2. Add functionality for carousel
+  // 1. Add functionality for carousel
   interface Project {
     "id": number,
     "projectName": string,
@@ -35,9 +34,9 @@ const Projects = (): JSX.Element => {
       </div>
       <div className="flex">
 
-      <div id="previous" className="text-5xl flex justify-center items-center cursor-pointer p-2 relative -top-8">
+      {/* <div id="previous" className="text-5xl flex justify-center items-center cursor-pointer p-2 relative -top-8">
         <p>"!"</p>
-      </div>
+      </div> */}
           
 
       <div id="carousel" className="mt-4 flex w-full flex-1 gap-4 overflow-x-auto scroll-smooth pb-5">
@@ -91,9 +90,9 @@ const Projects = (): JSX.Element => {
       </div>
       </div>
 
-      <div id="next" className="text-5xl flex justify-center items-center cursor-pointer p-2 relative -top-8">
+      {/* <div id="next" className="text-5xl flex justify-center items-center cursor-pointer p-2 relative -top-8">
           <p>"!!"</p>
-          </div>
+          </div> */}
 
       </div>
       
