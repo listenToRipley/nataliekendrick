@@ -5,6 +5,10 @@ import ResumeSkills from "./ResumeSkills";
 import Education from "./Education";
 import Certifications from "./Certifications";
 
+//TODO:
+//1. Add location information
+//2. Format better
+
 const Resume = (): JSX.Element =>  {
 
   return (
@@ -26,18 +30,24 @@ const Resume = (): JSX.Element =>  {
       <div className="grid w-90%  ml-4">
         <ResumeExperience/>
       </div>
-      <div>
+      <div className="ml-4">
         <Education/>
       </div>
-      <div>
+      <div className="ml-4">
         <ResumeSkills/>
       </div>
-      <div>
+      <div className="ml-4">
         <Certifications/>
       </div>
-      <div>
-        <h3>References</h3>
-        <p className="references">References available upon <a href="https://docs.google.com/spreadsheets/d/1xOWVDYFLIk4DrofA3K6GosPREidyfyjn-aBjJGK02M4/edit?usp=sharing">request</a></p>
+      <div className=" bg-white/20 transition-colors p-4 justify-center mt-10 ml-4">
+        <p className="references">
+          <a 
+          href="https://docs.google.com/spreadsheets/d/1xOWVDYFLIk4DrofA3K6GosPREidyfyjn-aBjJGK02M4/edit?usp=sharing"
+          className="hover:text-orange-400 transition duration-150 ease-in-out underline text-gray-700"
+          >
+            References available upon request
+          </a>
+        </p>
       </div>
 
     </div>

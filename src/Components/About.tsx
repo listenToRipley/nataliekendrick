@@ -3,6 +3,9 @@ import quotes from "../info/history/quotes.json";
 import profile from "../assets/images/projectImgs/profile.jpeg";
 import { Quote } from "../../Modules/quote";
 
+//TODO:
+//1. Add location information
+
 const About = (): JSX.Element => {
   const [quote, setQuote] = useState<Quote | undefined>(undefined);
   const [quoteId, setQuoteId] = useState< number | undefined>(undefined);
