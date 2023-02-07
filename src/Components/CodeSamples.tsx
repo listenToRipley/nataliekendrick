@@ -6,14 +6,14 @@ import sieveOfEratosthenes from "../../src/Samples/sieveOfEratstenes";
 const CodeSamples = (): JSX.Element => { 
   
 
-  interface Samples {
+  interface Sample {
     "title": string,
     "description": string,
     "language": string,
     "code": any
   };
 
-  const samples: Samples[] = [
+  const samples: Sample[] = [
     {
       "title": "Caesar Cipher",
       "description": "Caesar Cipher; shifts the given message letters by a specified number of characters which is passed in.",
@@ -38,7 +38,7 @@ const CodeSamples = (): JSX.Element => {
   return (
     <div>
       {
-          samples.map((el:Samples, index:number) => {
+          samples.map((el:Sample, index:number) => {
 
             return (
               <div key={index} className="bg-black/80 text-gray-400 transition-colors p-4 justify-center mt-10">
