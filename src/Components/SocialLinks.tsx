@@ -1,18 +1,27 @@
 import React, {useEffect, useState} from "react"; 
-import socialLinks from "../info/history/socialLinks.json"
+import socialLinks from "../info/history/socialLinks.json";
 
 const SocialLinks = (): JSX.Element =>  {
+    interface SL {
+        "title": string,
+        "link": string, 
+        "icon": {
+            "path": {
+                "d": string
+            }
+        }
+    };
 
     const [links, setLinks]: any = useState< void | JSX.Element[]>(undefined);
     useEffect(() => {
 
-    let listLinks = socialLinks.map((item, index) => {
+    let listLinks = socialLinks.map((item: SL, index:number): JSX.Element => {
         return (
         <a 
-        key={index} 
-        href={item.link} 
-        hrefLang={item.title}
-        className="my-auto ml-auto block cursor-pointer pr-4"
+            key={index} 
+            href={item.link} 
+            hrefLang={item.title}
+            className="my-auto ml-auto block cursor-pointer pr-4"
         >
             <svg className="h-20 w-40 mx-auto" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d={item.icon.path.d} stroke="#000" strokeLinecap="round" strokeLinejoin="round"> </path>
