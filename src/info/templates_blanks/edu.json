@@ -1,10 +1,12 @@
 {
-    "education": {
+    "education": [
+        {
         "institution": "",
         "degree":"",
         "attended": {
             "start": "",
             "end": ""
+            }
         }
-    }
+    ]
 }
