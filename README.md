@@ -11,6 +11,8 @@ This application is built with:
 Each component type is made with a tsx document.
 This is the expectation of entry points, per the [tsconfig](https://www.typescriptlang.org/tsconfig#jsx) using `"tsx": "perverse"`. These files should be labeled as `.tsx`. See [App](./src/App.tsx) and [Home](./src/Components/Home.jsx).
 
+This application was deployed using [Netlify](https://docs.netlify.com/)
+
 ## Resources
 
 [React Launch Docs](./REACT_README.md)
