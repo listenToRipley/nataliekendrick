@@ -30,6 +30,9 @@ const Projects = (): JSX.Element => {
   return (
     <div className="bg-fixed h-screen min-h-screen object-cover p-4 scroll-smooth overflow-auto ">
       <div className="text-5xl">Projects</div>
+      <div>
+        This page is my main work at the moment. You may see changes from time to time when you visit and I would be happy to discuss those changes.
+      </div>
       <div className="flex">
 
       <div id="previous" className="text-5xl flex justify-center items-center cursor-pointer p-2 relative -top-8">
