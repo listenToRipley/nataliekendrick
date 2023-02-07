@@ -1,17 +1,13 @@
-import * as express from "express";
-import * as path from "path"; 
-import * as cors from "cors"; 
+const express = require('express');
+const path = require('path');
+const port = process.env.PORT || 8080;
+const app = express();
 
-const app = express(); 
+app.use(express.static(path.join(__dirname, '..', 'build')));
 
-app.use(express.static(path.join(__dirname, ".", "dist")))
-
-app.get("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "dist", "index.html"))
-});
-
-const port = process.env.PORT || 8000; 
-
-app.listen(port, () => {
-  console.log('listening on port :', port)
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', 'build', 'index.html'))
 })
+
+//need to add 404 route
+app.listen(port);
