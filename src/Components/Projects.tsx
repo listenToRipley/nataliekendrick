@@ -32,9 +32,9 @@ const Projects = (): JSX.Element => {
       <div className="text-5xl">Projects</div>
       <div className="flex">
 
-          <div id="previous" className="text-5xl flex justify-center items-center cursor-pointer p-2 relative -top-8">
-            <p>"!"</p>
-          </div>
+      <div id="previous" className="text-5xl flex justify-center items-center cursor-pointer p-2 relative -top-8">
+        <p>"!"</p>
+      </div>
           
 
       <div id="carousel" className="mt-4 flex w-full flex-1 gap-4 overflow-x-auto scroll-smooth pb-5">
@@ -44,9 +44,9 @@ const Projects = (): JSX.Element => {
 
           return (
             <div key={proj.id} className="min-w-[60] md:min-w-[15%] ml-4">
-              <p>{proj.projectName}</p>
-              <div className="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20">
-                <img className="w-full" src={imgPath} alt={proj.altText} />
+              <div className="text-xl">{proj.projectName}</div>
+              <div className="">
+                <img className="aspect-auto w-full md:content-around shadow-md shadow-black/40 rounded-md" src={imgPath} alt={proj.altText} />
               </div>
               <div className="p-8 divide-y divide-slate-20">
               <p>Completed: <span>{proj.completed.year}</span></p>
