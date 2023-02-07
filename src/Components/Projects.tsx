@@ -47,20 +47,29 @@ const Projects = (): JSX.Element => {
 
           return (
             <div key={proj.id} className="min-w-[60] md:min-w-[15%] ml-4">
-              <div className="text-xl">
+              <div className="text-xl has-tooltip ">
+                <span 
+                className="tooltip shadow-lg p-1 mt-8 duration-300 bg-gray-900 rounded-lg text-gray-500 ease-in-out">
+                  See the code
+                </span>
                 <a 
                 href={proj.code}
-                className="hover:text-yellow-500 transition duration-150 ease-in-out"
-      data-bs-toggle="tooltip" title="See the code">
-                  {proj.projectName}</a></div>
+                className="hover:text-orange-400 transition duration-150 ease-in-out">
+                  {proj.projectName}</a>
+                
+              </div>
+              <div className="has-tooltip">
               <a href={proj.site}>
+                <span 
+                className="tooltip shadow-lg p-1 mt-12 ml-2 duration-300 bg-gray-500 rounded-lg text-gray-900 ease-in-out">
+                  See {proj.projectName}'s site
+                </span>
                 <img 
-                  className="aspect-auto w-full md:content-around shadow-md shadow-black/40 rounded-md hover:shadow-orange-300 transition duration-150 ease-in-out"
-                  data-bs-toggle="tooltip" 
-                  title="See the site" 
+                  className="aspect-auto w-full md:content-around shadow-md shadow-black/40 rounded-md  hover:shadow-orange-300 transition duration-150 ease-in-out" 
                   src={imgPath} 
                   alt={proj.altText} />
               </a>
+              </div>
               <div className="p-8 divide-y divide-slate-20">
               <p>Completed: <span>{proj.completed.year}</span></p>
               <div className="flex flex-col"> 
