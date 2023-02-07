@@ -12,13 +12,11 @@ const Certifications = ():JSX.Element => {
 
     const certificates: Certification[] = certs.certifications
 
-    console.log(certificates)
-
     return (
         <div>
             <div className='text-2xl mr-4 underline'>Certificates</div>
 
-            {certificates.map((item, index) => {
+            {certificates.map((item: Certification, index:number): JSX.Element => {
                 return (
                     <div key={index}>
                         <div>

@@ -39,7 +39,7 @@ const Projects = (): JSX.Element => {
 
       <div id="carousel" className="mt-4 flex w-full flex-1 gap-4 overflow-x-auto scroll-smooth pb-5">
       <div className="flex">
-        {projectsList.map((proj: any) => {
+        {projectsList.map((proj: any): JSX.Element => {
           const relative= "../assets/images/projectImgs/"+ proj.image
           console.log(relative)
           return (
