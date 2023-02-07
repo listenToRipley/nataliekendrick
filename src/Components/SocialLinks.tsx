@@ -21,9 +21,8 @@ const SocialLinks = (): JSX.Element =>  {
             key={index} 
             href={item.link} 
             hrefLang={item.title}
-            className="my-auto ml-auto block cursor-pointer pr-4"
         >
-            <svg className="h-20 w-40 mx-auto" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="h-20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d={item.icon.path.d} stroke="#000" strokeLinecap="round" strokeLinejoin="round"> </path>
             </svg> 
         </a>
