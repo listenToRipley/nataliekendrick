@@ -1,7 +1,6 @@
 import React from "react";
 import CodeSamples from "./CodeSamples";
-import projects from "../info/history/projects.json"
-import {} from "../"
+import projects from "../info/history/projects.json";
 
 const Projects = (): JSX.Element => {
 
@@ -31,15 +30,23 @@ const Projects = (): JSX.Element => {
     <div className="bg-fixed h-screen min-h-screen object-cover p-8 scroll-smooth overflow-auto">
       <div className="flex">
         {projectsList.map((proj: any) => {
+          const relative= proj.image
+          console.log(relative)
           return (
             <div key={proj.id} className="m-32 col-auto">
               <p>{proj.projectName}</p>
-              <p>placeholder for image for now</p>
+              <div className="block h-20 w-20 bg-black/80">
+                <img src={proj.image} alt={proj.altText} />
+              </div>
+              <div className="">
               <p>Completed: <span>{proj.completed.year}</span></p>
-              <div className="flex w-25%">Summary: 
-                <span>{proj.description}</span>
+              <div className="flex"> 
+                <span>Summary:</span> 
+                <span className="bg-brown">{proj.description}</span>
                 <br />
-                <p>Skills:</p><ul>{proj.skills.map((skill:string) => {
+              </div>
+              <div>
+              <p>Skills:</p><ul className="flex">{proj.skills.map((skill:string) => {
                   return (
                     <li>{skill}</li>
                   )
@@ -48,6 +55,7 @@ const Projects = (): JSX.Element => {
               <a href={proj.site}>View Work</a>
               <br />
               <a href={proj.code}>View Code</a>
+              </div>
             </div>
           )
         })}
