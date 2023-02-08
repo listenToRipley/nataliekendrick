@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "quote": "I may not have gone where I intended to go, but I think I have ended up where I needed to be.",
+    "author": "Douglas Adams",
+    "source":{
+      "type": "Book",
+      "title": "The Long Dark Tea Time of the Soul"
+    },
+    "bio":"https://en.wikipedia.org/wiki/Douglas_Adams"
+  },
+  {
+    "id": 2,
+    "quote": "We can't solve problems by using the same kind of thinking we used when we created them.",
+    "author": "Albert Einstein",
+    "bio":"https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  {
+    "id": 3,
+    "quote": "The most dangerous phrase in the language is 'we've always done it this way.'",
+    "author": "Rear Admiral Grace Murray Hopper",
+    "bio":"https://en.wikipedia.org/wiki/Grace_Hopper"
+  },
+  {
+    "id": 4,
+    "quote": " A jack of all trades is a master of none, but oftentimes better than a master of one.",
+    "author": "Robert Greene",
+    "bio": "https://en.wikipedia.org/wiki/Robert_Greene_(dramatist)"
+  }, 
+  {
+    "id": 5,
+    "quote": "Failure is not a period, it’s a comma. And only if you stop trying will you really fail.",
+    "author": "Paul Angone",
+    "bio": "https://www.linkedin.com/in/paulangone/"
+  },
+  {
+    "id": 6, 
+    "quote": "Sometimes what makes us valuable is what we're willing to learn along the way.",
+    "author": "Robyn Benincasa",
+    "bio": "https://www.linkedin.com/in/robynbenincasa/"
+  }, 
+  {
+    "id": 7,
+    "quote": "Any sufficiently advanced technology is indistinguishable from magic.",
+    "author": "Arthur C. Clarke",
+    "source":{
+      "type": "Clarke's three laws",
+      "title": "Clarke's three laws"
+    },
+    "bio":"https://en.wikipedia.org/wiki/Arthur_C._Clarke"
+  }
+]

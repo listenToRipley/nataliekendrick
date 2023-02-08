@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "declaration": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "importHelpers": true,
+    "isolatedModules": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "outDir": "./dist/",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es6",
+  },
+  "include": [
+    "src",
+    "src/**/*.ts*",
+    "src/**/*.tsx",
+    "src/**/*.css",
+    "src/Components/**/*.tsx",
+    "src/Components/**/*.ts"
+    ],
+  "exclude": [
+    "client",
+    "dist",
+    "lib",
+    "node_modules"
+  ]
+}

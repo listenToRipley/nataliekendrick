@@ -1,0 +1,199 @@
+{
+  "projects": [
+    {
+      "id": 13,
+      "projectName": "Tailwind",
+      "completed": {
+        "year": 2023,
+        "month": "January"
+        },
+      "description": "Udemy Tailwind CSS tutorial", 
+      "skills": ["Tailwind", "HTML5", "Javascript"],
+      "color": "#48637f",
+      "image": "tailwind.png",
+      "altText": "tailwind",
+      "site": "https://listentoripley.github.io/tailwind-course-starter/src/index.html",
+      "code": "https://github.com/listenToRipley/tailwind-course-starter"
+    },
+    {
+      "id": 12,
+      "projectName": "TARO",
+      "completed": {
+        "year": 2020,
+        "month": "December"
+        },
+      "description": "TARO is a UT Austin Project started in 2019. Natalie was able to be a contributing member of this project and bring the final project to life.", 
+      "skills": ["XML", "React", "Python", "Javascript", "Django", "CSS"],
+      "color": "#48637f",
+      "image": "taro.png",
+      "altText": "taro logo",
+      "site": "https://txarchives.org/home",
+      "code": "https://github.com/utlibraries?q=&type=all&language=&sort="
+    },
+    {
+      "id": 11,
+      "projectName": "Pantry Pals",
+      "completed": {
+        "year": 2020,
+        "month": "October"
+        },
+      "description": "TARO is a UT Austin Project started in 2019. Natalie was able to be a contributing member of this project and bring the final project to life.", 
+      "skills": ["XML", "React", "Python", "Javascript", "Django", "CSS"],
+      "color": "#48637f",
+      "image": "pantryPals.png",
+      "altText": "pantry pals homepage",
+      "site": "https://txarchives.org/home",
+      "code": "https://github.com/utlibraries?q=&type=all&language=&sort="
+    },
+    {
+      "id": 10,
+      "projectName": "Small Business",
+      "completed": {
+        "year": 2020,
+        "month": "October"
+        },
+      "description": "A sample of small business registry", 
+      "skills": ["React", "Javascript", "CSS"],
+      "color": "#3bb371",
+      "image": "smallBusiness.png",
+      "altText": "small business",
+      "site": "https://listentoripley.github.io/small-business/#/",
+      "code": "https://github.com/listenToRipley/small-business"
+    },
+    {
+      "id": 9,
+      "projectName": "Sample Address Book",
+      "completed": {
+        "year": 2020,
+        "month": "May"
+        },
+      "description": "Using random user generateAPI to create a sample address book", 
+      "skills": ["Javascript", "HTML5", "CSS"],
+      "color": "#dba71a",
+      "image": "addressBook.png",
+      "altText": "example address book",
+      "site": "https://listentoripley.github.io/javascript-workbook/07week/addressBook.html",
+      "code": "https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/07week"
+    },
+    {
+      "id": 8,
+      "projectName": "Dodge Ball game",
+      "completed": {
+        "year": 2020,
+        "month": "May"
+        },
+      "description": "Using random user generateAPI to create a sample address book", 
+      "skills": ["Javascript", "HTML5", "CSS"],
+      "color": "#black",
+      "image": "dodgeball.png",
+      "altText": "dodgeball play offs",
+      "site": "https://listentoripley.github.io/javascript-workbook/06week/dodgeBall.html",
+      "code": "https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/06week"
+    },
+    {
+      "id": 7,
+      "projectName": "Pig Latin Translator",
+      "completed": {
+        "year": 2020,
+        "month": "April"
+        },
+      "description": "Pig Latin Translator", 
+      "skills": ["Javascript", "HTML5", "CSS"],
+      "color": "#6d6966",
+      "image": "pigLatin.png",
+      "altText": "pig latin page",
+      "site": "https://listentoripley.github.io/javascript-workbook/02week/pigLatin.html",
+      "code": "https://github.com/listenToRipley/javascript-workbook/tree/gh-pages/02week"
+    },
+    {
+      "id": 6,
+      "projectName": "Click and Spin",
+      "completed": {
+        "year": 2020,
+        "month": "March"
+        },
+      "description": "Click and spin project", 
+      "skills": ["HTML5", "Bootstrap", "CSS"],
+      "color": "#6496ec",
+      "image": "clicknspin.png",
+      "altText": "click and spin page",
+      "site": "https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/checkpoint3/click/click.html",
+      "code": "https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/checkpoint3"
+    },
+    {
+      "id": 5,
+      "projectName": "Silver Sea",
+      "completed": {
+        "year": 2020,
+        "month": "February"
+        },
+      "description": "Silver Sea website", 
+      "skills": ["Javascript", "HTML5", "CSS"],
+      "color": "#719996",
+      "image": "SilverSea.png",
+      "altText": "silver sea website",
+      "site": "https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/checkpoint2/checkpoint2.html",
+      "code": "https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/checkpoint2"
+    },
+    {
+      "id": 4,
+      "projectName": "Tic Tac Toe",
+      "completed": {
+        "year": 2020,
+        "month": "February"
+        },
+      "description": "First Tic Tac Toe", 
+      "skills": ["Javascript", "HTML5", "CSS"],
+      "color": "#818181",
+      "image": "TicTacToe.png",
+      "altText": "silver sea website",
+      "site": "https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/tictactoe/ttt.html",
+      "code": "https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/tictactoe"
+    },
+    {
+      "id": 3,
+      "projectName": "NASA Contact Page",
+      "completed": {
+        "year": 2020,
+        "month": "February"
+        },
+      "description": "NASA Contact Page", 
+      "skills": ["HTML5", "CSS"],
+      "color": "#6f184b",
+      "image": "NASA.png",
+      "altText": "NASA contact page",
+      "site": "https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/flexbox/nasa.html",
+      "code": "https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/flexbox"
+    },
+    {
+      "id": 2,
+      "projectName": "Mustacchio",
+      "completed": {
+        "year": 2020,
+        "month": "February"
+        },
+      "description": "Mustacchio Barber mock barber shop page.", 
+      "skills": ["HTML5", "CSS"],
+      "color": "#6b6b6b",
+      "image": "mustacchio.png",
+      "altText": "Mustacchio Barber mock barber shop page",
+      "site": "https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/hairsalon/hairsalon.html",
+      "code": "https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/hairsalon"
+    },
+    {
+      "id": 1,
+      "projectName": "Animate",
+      "completed": {
+        "year": 2020,
+        "month": "January"
+        },
+      "description": "Working with animation with CSS, hover each square to see the transitions", 
+      "skills": ["HTML5", "CSS"],
+      "color": "#d48c2a'",
+      "image": "animate.png",
+      "altText": "animated boxes",
+      "site": "https://listentoripley.github.io/ACA_web101_Natalie_Kendrick/src/animate/animate.html",
+      "code": "https://github.com/listenToRipley/ACA_web101_Natalie_Kendrick/tree/master/src/animate"
+    }
+  ]
+}

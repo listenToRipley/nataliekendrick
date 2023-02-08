@@ -1,18 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+@tailwind base;
+
+/**
+ * Begin global overrides.
+ *
+ * You can use `@apply` or `theme()` to access existing Tailwind CSS styles or variables.
+ * (See https://tailwindcss.com/docs/adding-base-styles/#using-css)
+ */
+
+
 body {
+  display: block;
+  position: relative;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: url('./Components/projectImgs/backdrop.jpeg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* TODO: update font import properly  */
+
+#homeName {
+  font-family: "Della Respira";
 }
+
+/* End global overrides. */
+
+@tailwind components;
+
+.tooltip {
+  @apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible z-50;
+}
+
+@tailwind utilities;

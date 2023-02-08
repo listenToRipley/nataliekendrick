@@ -1,0 +1,20 @@
+{
+    "education": [
+        {
+        "institution": "Austin Coding Academy",
+        "degree":"MERN Full Stack Developer",
+        "attended": {
+            "start": "Jan. 2020",
+            "end": "Dec. 2020"
+            }
+        },
+        {
+        "institution": "Pima Community College",
+        "degree":"Associates of Liberal Arts",
+        "attended": {
+            "start": "Jan. 2005",
+            "end": "Dec. 2010"
+            }
+        }
+    ]
+}

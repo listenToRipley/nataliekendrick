@@ -1,0 +1,365 @@
+[
+  {
+    "professional": [
+    {
+      "company": {
+        "name": "University of Rochester Laboratory For Laser Energetics (LLE)",
+        "site": "https://www.lle.rochester.edu/", 
+        "type": "Educational Institution",
+        "location": "Rochester, NY"
+        },
+      "title": "Analyst/Programmer SR",
+      "tenure": {
+        "start":"August 2022",
+        "end":"Present"
+      },
+      "divider": "", 
+      "responsibilities": [ 
+        "Management of technical debt", 
+        "Addressing work requests & bugs",
+        "Validate and update database systems/ content on an Oracle system.",
+        "Management and maintenance documentation","Update legacy code to modern standards"
+      ],
+      "achievements": [
+        "Created Standardized Business Practices",
+        "Updated Swagger calls to be more consistent",
+        "Normalized Database content"
+      ]
+    },
+    {
+      "company": {
+        "name": "University of Texas Libraries",
+        "site": "https://www.lib.utexas.edu/", 
+        "type": "Educational Institution",
+        "location":"Austin, Texas"
+        },
+      "title": "Software Developer",
+      "tenure": {
+        "start":"June 2021",
+        "end": "August 2022"
+      },
+      "divider": "", 
+      "responsibilities": [
+        "Write, test & debug programming for UTL systems.", 
+        "Provide operational & customer support for UTL services.", 
+        "Monitoring systems, providing customer service, issue investigation, and documentation.", 
+        "Planning & monitoring of project tasks, communicating project status to stakeholders to ensure deadlines are met.", 
+        "Contribute to application quality through participation in validation, testing, and documentation of product releases."
+      ],
+      "achievements": [
+        "Helped launch TARO (https://txarchives.org/home)",
+        "Created container content on Docker",
+        "Created a search function with the use of SOLR",
+        "Processed XML docs averaging around 1000 lines (up to 5000)",
+        "Conversation of XML to JSON format for React display"
+
+      ]
+    },
+    {
+      "company": {
+        "name": "University of Texas at Austin + Purchasing Office",
+        "site": "https://procard.financials.utexas.edu/", 
+        "type": "Educational Institution",
+        "location": "Austin, Texas"
+        },
+      "title": "Procurement Card Administrator",
+      "tenure": {
+        "start": "May 2015",
+        "end": "June 2021"
+      },
+      "divider": "", 
+      "responsibilities": [
+        "Manage card usage & policy for approx. 1400+ cards & users.",
+        "Facilitate & resolve issues between multi-parties.",
+        "Create & maintain consistent, secure & effective processes for users",
+        "Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users' expectations."
+      ],
+      "achievements":[
+        "Overhauled the Procurement Card Program", 
+        "Headed committee to rewrite and update policies and guidelines",
+        "Provided training to all cardholder",
+        "Updated communication tools for users", 
+        "Analyzed and closed security gaps",
+        "Changed Auditing process"
+      ]
+    }, 
+    {
+      "company": {
+        "name": "Pirkey Barber, PLLC",
+        "site": "https://www.pirkeybarber.com/", 
+        "type": "Intellectual Property Law Firm",
+        "location": "Austin, Texas"
+        },
+      "title": "Facilities Coordinator + Chief Problem Solver",
+      "tenure": {
+        "start":"Jun 2012",
+        "end":"May 2015"
+        },
+        "divider": "", 
+        "responsibilities": [
+          "Maintained a professional office of 30+ employees.",
+          "Manage digital & physical documentation in multiple locations.",
+          "General office duties: reception work, receiving goods, placing orders, facilitating events, mail processing, and hardware maintenance.",
+          "Training & supervision of 3 employees."
+        ],
+        "achievements":[
+          "Updated Inventory and filing systems",
+          "Provide more detailed and refined tracking of files",
+          "Automated electronic filing",
+          "Provided structure for digitalize files",  
+          "Streamlines inventory ordering and stocking"
+        ]
+    },
+    {
+      "company": {
+        "name": "Iron Mountain, Austin, TX",
+        "site": "https://www.ironmountain.com/", 
+        "type": "Records Management",
+        "location": "Austin, Texas"
+        },
+      "title": "DMS Specialist + Warehouse Assistant",
+      "tenure": {
+        "start":"Feb 2011",
+        "end":"Jun 2012"
+      },
+      "divider": "", 
+      "responsibilities": [
+        "Receiving & preparation of documentation.",
+        "Digital Imaging of confidential information.",
+        "Quality Control.",
+        "Data Entry."
+      ]
+    }
+  ],
+  "partTime": [
+    {
+      "company": {
+        "name": "Natalie’s House, Pet and Baby Sitting",
+        "site": "", 
+        "type": "Personal Services / Caretaker ",
+        "location": "Tucson, Arizona / Austin, Texas"
+        },
+      "title": "Executive President and Diaper Changer",
+      "tenure": {
+        "start":1998,
+        "end":2013
+      },
+      "responsibilities": [
+        "Household care",
+        "Pet sitting",
+        "Childcare"
+      ]
+    },
+    {
+      "company": {
+        "name": "Target",
+        "site": "https://www.target.com/", 
+        "type": "Retail",
+        "location": "Austin, Texas"
+        },
+      "title": "Softlines Sales Associate",
+      "tenure": {
+        "start":2010,
+        "end":2010
+      },
+      "responsibilities": [
+        "Customer Service",
+        "Visual Merchandising",
+        "Stocking",
+        "Point of Sale"
+      ]
+    }, 
+    {
+      "company": {
+        "name": "Silver Sea Jewelry",
+        "site": "https://silverseajewelry.com/", 
+        "type": "Retail",
+        "location": "Tucson, Arizona"
+        },
+      "title": "Sales Associate",
+      "tenure": {
+        "start":2004,
+        "end":2010
+      },
+      "responsibilities": [
+        "Customer Service",
+        "Visual Merchandising",
+        "Stocking",
+        "Point of Sale",
+        "Inventory"
+      ]
+    },
+    {
+      "company": {
+        "name": "Blockbuster Video",
+        "site": "https://bendblockbuster.com/", 
+        "type": "Retail",
+        "location": "Tucson, Arizona"
+      },
+      "title": "Customer Services Representative",
+      "tenure": {
+        "start":2009,
+        "end":2010
+      },
+      "responsibilities": [
+        "Customer Service",
+        "Visual Merchandising",
+        "Stocking",
+        "Point of Sale",
+        "Inventory"
+      ]
+    },
+    {
+      "company": {
+        "name": "Hameroff/Lavinsky Law Firm",
+        "site": "https://hamerlaw.com/", 
+        "type": "Legal Firm",
+        "location": "Tucson, Arizona"
+        },
+      "title": "File Clerk",
+      "tenure": {
+        "start":2007,
+        "end":2009
+      },
+      "responsibilities": [
+        "Data Entry",
+        "Mail Processing",
+        "Preparation of legal documents",
+        "File Management",
+        "Reception Duties"
+      ]
+    },
+    {
+      "company": {
+        "name": "Hawkins and EZ Messenger",
+        "site": "https://www.ezmessenger.com/", 
+        "type": "Legal Courier and Processing",
+        "location": "Tucson, Arizona"
+        },
+      "title": "Data Entry Clerk",
+      "tenure": {
+        "start":2007,
+        "end":2007
+      },
+      "responsibilities": [
+        "Data Entry",
+        "Reception Duties",
+        "Mail Processing",
+        "Official Court Document Courier"
+      ]
+    },
+    {
+      "company": {
+        "name": "C.A.R.E",
+        "site": "",
+        "type": "Child Care Facility",
+        "location": "Tucson, Arizona"
+      },
+      "title": "Care Giver",
+      "tenure": {
+        "start": 2007,
+        "end": 2007
+      },
+      "responsibilities": [
+      "Child Care",
+      "Activity Planning",
+      "Small Repairs",
+      "Inventory"
+      ]
+    }, 
+    {
+      "company": {
+        "name":"Borderlands Trade Co.",
+        "site": "",
+        "type":"Import Sales",
+        "location":"Tucson, Arizona"
+      },
+      "title": "Sales Associate",
+      "tenure": {
+        "start": 2006,
+        "end": 2006
+      },
+      "responsibilities": [
+        "Customer Service",
+        "Visual Merchandising",
+        "Stocking",
+        "Point of Sale"
+        ]
+      },
+    {
+      "company": {
+        "name": "20 Century Park Place",
+        "site": "https://www.cinemark.com/theatres/az-tucson/century-park-place-20-and-xd",
+        "type": "Movie Theatre",
+        "location": "Tucson, Arizona"
+      },
+      "title": "Usher/Cleaning Crew",
+      "tenure": {
+        "start": 2005, 
+        "end": 2005
+      },
+      "responsibilities": [
+        "Customer Service",
+        "Cleaning",
+        "Stocking",
+        "Concessions"
+      ]
+  }
+  ],
+  "volunteer": [
+    {
+      "company": {
+        "name": "CASA of Travis County",
+        "site": "https://www.casatravis.org/", 
+        "location": "Austin, Texas",
+        "description": "CASA - Child Appointed Special Advocate help children currently in the care of The State to insure they are not just a number in the system, but are known and their needs and wants are fully met as individuals."
+      },
+      "title": "CASA Volunteer",
+      "tenure": {
+        "start": 2017,
+        "end": 2022
+      }
+    },  
+    {
+    "company": {
+      "name": "Girl Scouts of America",
+      "site": "https://www.girlscouts-gateway.org/en/for-volunteers/why-volunteer.html", 
+      "location": "Austin, Texas",
+      "description": "A group for girls to empowered and change the world, one bandage at a time."
+    },
+    "title": "Jamboree Assistant",
+    "tenure": {
+      "start": 2013,
+      "end": 2015
+    }
+  },
+  {
+    "company": {
+      "name": "Austin Pets Alive!",
+      "site": "https://www.austinpetsalive.org/", 
+      "location": "Austin, Texas",
+      "description": "Dedicated to making Austin Texas a no kill city and finding happy homes for all pets."
+    },
+    "title": "Transportation Volunteer",
+    "tenure": {
+      "start": 2010,
+      "end": 2013
+    }
+  },
+  {
+    "company": {
+      "name": "We Are Blood",
+      "site": "https://weareblood.org/", 
+      "location": "Texas",
+      "description": "Blood and Tissue Bank of Texas"
+    },
+    "title": "Donor",
+    "tenure": {
+      "start": 2010,
+      "end": 2022
+    }
+  }
+  ]
+}
+
+]
