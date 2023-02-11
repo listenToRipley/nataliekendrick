@@ -28,3 +28,4 @@ This application was deployed using [Netlify](https://docs.netlify.com/)
 1. Add netlify content back into application.
 2. Updates [scrollbar](https://www.npmjs.com/package/tailwind-scrollbar)
 3. Add interfaces to modules
+4. Create references to allow for quick navigation in specific sections.
