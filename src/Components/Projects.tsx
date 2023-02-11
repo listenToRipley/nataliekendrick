@@ -54,7 +54,7 @@ const Projects = (): JSX.Element => {
                 </span>
                 <a 
                 href={proj.code}
-                className="hover:text-lime-400 transition duration-150 ease-in-out">
+                className="hover:text-lime-300 transition duration-150 ease-in-out">
                   {proj.projectName}</a>
                 
               </div>
