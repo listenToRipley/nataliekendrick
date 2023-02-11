@@ -13,14 +13,15 @@ const Education = (): JSX.Element => {
         "attended": {
             "start": string,
             "end": string
-            }
+            },
+        "link": string
         }
 
     
     const educationHist: Education[] = edu.education
 
     return (
-        <div className=" bg-white/20 transition-colors p-4 mt-10 mr-4 flex">
+        <div className=" bg-white/20 transition-colors p-4 mt-10 flex">
             <div className="text-2xl mr-4 underline">Education</div>
             {
                 educationHist.map((edu: Education, index: number)=> {
@@ -28,11 +29,17 @@ const Education = (): JSX.Element => {
                     const logoText = `${edu.institution} logo`
 
                     return(
-                        <div key={index} className="mb-4">
+                        <div key={index} className="mb-4 mr-4">
                             <div className="h-10 w-10 rounded-full">
                                 <img src={edu.institution === "Pima Community College" ?  pima: aca} alt={logoText}/>
                             </div>
-                            <div>{edu.institution}</div>
+                            <a
+                            href={edu.link}
+                            hrefLang={edu.institution}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className=""
+                            >{edu.institution}</a>
                             <div>
                                 <span>Degree: </span><span>{edu.degree}</span>
                             </div>

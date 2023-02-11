@@ -85,7 +85,7 @@ const ResumeExperience = (): JSX.Element => {
                   <p className="jobTitle">{el.title}</p>
                   <p className="companyLink">
                     <a 
-                    className="hover:underline hover:text-yellow-500" 
+                    className="hover:underline hover:text-lime-300 underline" 
                     href={el.company.site}
                     target="_blank"
                     rel="noopener noreferrer"
