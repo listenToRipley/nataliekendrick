@@ -54,7 +54,7 @@ const Projects = (): JSX.Element => {
                 </span>
                 <a 
                 href={proj.code}
-                className="hover:text-orange-400 transition duration-150 ease-in-out">
+                className="hover:text-lime-400 transition duration-150 ease-in-out">
                   {proj.projectName}</a>
                 
               </div>
@@ -65,7 +65,7 @@ const Projects = (): JSX.Element => {
                   See {proj.projectName}'s site
                 </span>
                 <img 
-                  className="aspect-auto w-full md:content-around shadow-md shadow-black/40 rounded-md  hover:shadow-orange-300 transition duration-150 ease-in-out" 
+                  className="aspect-auto w-full md:content-around shadow-md shadow-black/40 rounded-md  hover:shadow-lime-300 transition duration-150 ease-in-out" 
                   src={imgPath} 
                   alt={proj.altText} />
               </a>
