@@ -33,13 +33,17 @@ const Education = (): JSX.Element => {
                             <div className="h-10 w-10 rounded-full">
                                 <img src={edu.institution === "Pima Community College" ?  pima: aca} alt={logoText}/>
                             </div>
-                            <a
-                            href={edu.link}
-                            hrefLang={edu.institution}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className=""
-                            >{edu.institution}</a>
+                            <div className="mb-2">
+                                <a
+                                    href={edu.link}
+                                    hrefLang={edu.institution}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="hover:underline hover:text-lime-300 underline"
+                                >
+                                    {edu.institution}
+                                </a>
+                            </div>
                             <div>
                                 <span>Degree: </span><span>{edu.degree}</span>
                             </div>
