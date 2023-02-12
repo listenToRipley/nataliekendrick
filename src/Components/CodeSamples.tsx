@@ -2,16 +2,9 @@ import React from "react";
 import caesarCipherWKey from "../../src/Samples/caesar";
 import maxStockProfit from "../../src/Samples/maxStockProfit";
 import sieveOfEratosthenes from "../../src/Samples/sieveOfEratstenes";
+import { Sample } from "../../Modules/samples"
 
 const CodeSamples = (): JSX.Element => { 
-  
-
-  interface Sample {
-    "title": string,
-    "description": string,
-    "language": string,
-    "code": any
-  };
 
   const samples: Sample[] = [
     {
