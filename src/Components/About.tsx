@@ -46,13 +46,17 @@ const About = (): JSX.Element => {
 
   return (
     <div className=" min-h-screen -mt-10 scroll-smooth-100% overflow-auto grid">
-    <div className="justify-center grid mx-10 my-10 auto-cols-auto">
-      <img className="aspect-auto mt-10 rounded-full max-h-80 group-open:rotate-45 transition-all group-open:top-2 relative" src={profile} alt="natalie kendrick"></img>
-      <div className = "justify-center block">
-        <p id="name" className="mt-10 text-lime-300 h-100% text-8xl ">Natalie Kendrick</p>
-        <div id="pronouns" className="mt-4 text-xl">
-          <em>pronouns: she/her/hers</em>
+    <div className="grid justify-center mx-10 my-10 auto-cols-auto md:flex md:flex-col">
+      <div className="flex flex-shrink mt-8">
+        <img className="aspect-auto rounded-full max-h-80 group-open:rotate-45 transition-all relative" src={profile} alt="natalie kendrick"></img>
+        <p id="name" className=" text-lime-300 h-100% text-2xl ml-6 justify-self-end md:text-8xl md:text-lime-500">Natalie Kendrick</p>
+      </div>
+      <div id="pronouns" className="mt-4 text-xl text-lime-300">
+          <div className="justify-self-end ">
+            <em>pronouns: she/her/hers</em>
+          </div>
         </div>
+      <div className = "justify-center block">
         <div id={`${quoteId}`} className="bg-white/20 transition-colors p-4 justify-center mt-10">
           {createQuote()}
         </div>
@@ -66,7 +70,7 @@ const About = (): JSX.Element => {
           <p className="pb-4">She looks forward to hearing from you and hopes you have a fantastic adventure today.</p>
         </div>
       </div>
-        <div className="flex justify-self-end self-auto md:self-end -mt-76">
+      <div className="flex justify-self-end self-auto md:self-end -mt-76">
         <ResumeContacts/>
         </div>
       </div>
