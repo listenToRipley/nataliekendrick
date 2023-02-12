@@ -32,5 +32,4 @@ This application was deployed using [Netlify](https://docs.netlify.com/)
 5. Color blind friendly button
 6. Mobile nav.
 7. Fix word break on code samples
-8. Add icons for phone and location
-9. Fix font import
+8. Fix font import
