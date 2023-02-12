@@ -49,9 +49,9 @@ const About = (): JSX.Element => {
     <div className="grid justify-center mx-10 my-10 auto-cols-auto md:flex md:flex-col">
       <div className="flex flex-shrink mt-8">
         <img className="aspect-auto rounded-full max-h-80 group-open:rotate-45 transition-all relative" src={profile} alt="natalie kendrick"></img>
-        <p id="name" className=" text-lime-300 h-100% text-2xl ml-6 justify-self-end md:text-8xl md:text-lime-500">Natalie Kendrick</p>
+        <p id="name" className=" text-sky-700 h-100% text-2xl ml-6 justify-self-end md:text-8xl ">Natalie Kendrick</p>
       </div>
-      <div id="pronouns" className="mt-4 text-xl text-lime-300">
+      <div id="pronouns" className="mt-4 text-xl text-teal-200">
           <div className="justify-self-end ">
             <em>pronouns: she/her/hers</em>
           </div>
