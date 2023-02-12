@@ -6,7 +6,7 @@ const Navigation = () => {
     <nav className="flex items-center justify-between flex-wrap bg-sky-900 p-4">
         <div className="has-tooltip ">
             <span 
-            className="tooltip shadow-lg p-1 mt-16 ml-20 duration-150 bg-gray-500 rounded-lg text-gray-900 ease-in-out">
+            className="tooltip shadow-lg p-1 mt-16 ml-20 duration-150 bg-sky-500 rounded-lg text-teal-200 ease-in-out">
                     Home
             </span>
             <Link to="/" className="block lg:inline-block lg:mt-0">

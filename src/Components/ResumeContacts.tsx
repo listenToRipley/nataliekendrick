@@ -3,9 +3,6 @@ import SocialLinks from "./SocialLinks";
 
 const ResumeContacts = (): JSX.Element =>  {
 
-  //TODO:
-  //1. Add icons for phone and location
-
   const phone: number = 5204043721;
   const countryCode: number = 1; 
   const location: string = "Rochester, NY, USA"
