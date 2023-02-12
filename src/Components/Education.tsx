@@ -31,7 +31,7 @@ const Education = (): JSX.Element => {
                                     hrefLang={edu.institution}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="hover:underline hover:text-lime-300 underline"
+                                    className="hover:underline hover:text-teal-200 underline"
                                 >
                                     {edu.institution}
                                 </a>

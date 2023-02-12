@@ -17,7 +17,7 @@ const SocialLinks = (): JSX.Element =>  {
 
     let listLinks = socialLinks.map((item: SL, index:number): JSX.Element => {
         return (
-            <div className="has-tooltip hover:stroke-lime-300 transition duration-200 ease-in-out">
+            <div className="has-tooltip hover:stroke-teal-200 transition duration-200 ease-in-out">
                 <span 
                     className="tooltip shadow-lg p-1 mt-6 ml-20 duration-150 bg-gray-500 rounded-lg text-gray-900 ease-in-out">
                     {item.title}
@@ -29,7 +29,7 @@ const SocialLinks = (): JSX.Element =>  {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                <svg className="h-20 stroke-cyan-500 hover:stroke-lime-300 transition duration-150 ease-in-out" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="h-20 stroke-cyan-500 hover:stroke-teal-200 transition duration-150 ease-in-out" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path 
                         d={item.icon.path.d} 
                         strokeLinecap="round" 

@@ -19,7 +19,7 @@ const ResumeExperience = (): JSX.Element => {
               return (
                 <div key={id} className="mb-12">
                   <p className="text-xl font-medium">{el.title}</p>
-                  <p className="hover:underline hover:text-lime-300 underline">
+                  <p className="hover:underline hover:text-teal-200 underline">
                     <a 
                     href={el.company.site}
                     target="_blank"
@@ -85,7 +85,7 @@ const ResumeExperience = (): JSX.Element => {
                   <p className="jobTitle">{el.title}</p>
                   <p className="companyLink">
                     <a 
-                    className="hover:underline hover:text-lime-300 underline" 
+                    className="hover:underline hover:text-teal-200 underline" 
                     href={el.company.site}
                     target="_blank"
                     rel="noopener noreferrer"

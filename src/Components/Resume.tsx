@@ -49,7 +49,7 @@ const Resume = (): JSX.Element =>  {
           hrefLang="references google sheet"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-lime-300 transition duration-150 ease-in-out underline"
+          className="hover:text-teal-200 transition duration-150 ease-in-out underline"
           >
             their information only be provided upon request.
           </a></span>

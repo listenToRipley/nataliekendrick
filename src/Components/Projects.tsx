@@ -50,11 +50,11 @@ const Projects = (): JSX.Element => {
               <div className="text-xl has-tooltip ">
                 <span 
                 className="tooltip shadow-lg p-1 mt-8 duration-300 bg-gray-900 rounded-lg text-gray-500 ease-in-out">
-                  See the code
+                  See {proj.projectName} code
                 </span>
                 <a 
                 href={proj.code}
-                className="hover:text-lime-300 transition duration-150 ease-in-out">
+                className="hover:text-teal-100 transition duration-150 ease-in-out">
                   {proj.projectName}</a>
                 
               </div>
@@ -65,7 +65,7 @@ const Projects = (): JSX.Element => {
                   See {proj.projectName}'s site
                 </span>
                 <img 
-                  className="aspect-auto w-full md:content-around shadow-md shadow-black/40 rounded-md  hover:shadow-lime-300 transition duration-150 ease-in-out" 
+                  className="aspect-auto w-full md:content-around shadow-md shadow-black/50 rounded-md  hover:shadow-teal-200 transition duration-150 ease-in-out" 
                   src={imgPath} 
                   alt={proj.altText} />
               </a>
