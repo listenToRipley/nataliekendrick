@@ -9,6 +9,7 @@ const Education = (): JSX.Element => {
 
     interface Education         {
         "institution": string,
+        "initials": string,
         "degree": string,
         "attended": {
             "start": string,
@@ -29,11 +30,15 @@ const Education = (): JSX.Element => {
                     const logoText = `${edu.institution} logo`
 
                     return(
-                        <div key={index} className="mb-4 mr-4">
+                        <div key={index} className="mb-4 mr-4 has-tooltip">
                             <div className="h-10 w-10 rounded-full">
                                 <img src={edu.institution === "Pima Community College" ?  pima: aca} alt={logoText}/>
                             </div>
-                            <div className="mb-2">
+                            <div className="pb-2">
+                                <span 
+                                    className="tooltip shadow-lg p-2 -mt-10 ml-10 duration-300 bg-gray-500 rounded-lg text-gray-900 ease-in-out">
+                                    See {edu.initials}'s site
+                                </span>
                                 <a
                                     href={edu.link}
                                     hrefLang={edu.institution}

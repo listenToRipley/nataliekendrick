@@ -2,6 +2,7 @@
     "education": [
         {
         "institution": "Austin Coding Academy",
+        "initials":"ACA",
         "degree":"MERN Full Stack Developer",
         "attended": {
             "start": "Jan. 2020",
@@ -11,6 +12,7 @@
         },
         {
         "institution": "Pima Community College",
+        "initials":"PCC",
         "degree":"Associates of Liberal Arts",
         "attended": {
             "start": "Jan. 2005",

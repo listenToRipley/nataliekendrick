@@ -2,6 +2,7 @@
     "education": [
         {
         "institution": "",
+        "initials":"",
         "degree":"",
         "attended": {
             "start": "",
