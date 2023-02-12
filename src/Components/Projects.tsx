@@ -7,7 +7,6 @@ const Projects = (): JSX.Element => {
 
   const projectsList: Project[] = projects.projects;
 
-
   return (
     <div className="bg-fixed h-screen min-h-screen object-cover p-4 scroll-smooth overflow-auto ">
       <div className="text-5xl">Projects</div>
@@ -30,7 +29,7 @@ const Projects = (): JSX.Element => {
             <div key={proj.id} className="min-w-[60] md:min-w-[15%] ml-4">
               <div className="text-xl has-tooltip ">
                 <span 
-                className="tooltip shadow-lg p-1 mt-8 duration-300 bg-gray-900 rounded-lg text-gray-500 ease-in-out">
+                className="tooltip shadow-lg p-1 mt-8 duration-300 bg-sky-900 rounded-lg text-sky-500 ease-in-out">
                   See {proj.projectName} code
                 </span>
                 <a 
@@ -39,10 +38,10 @@ const Projects = (): JSX.Element => {
                   {proj.projectName}</a>
                 
               </div>
-              <div className="has-tooltip">
+              <div className="text-xl has-tooltip">
               <a href={proj.site}>
                 <span 
-                className="tooltip shadow-lg p-1 mt-12 ml-2 duration-300 bg-gray-500 rounded-lg text-gray-900 ease-in-out">
+                className="tooltip shadow-lg p-1 mt-12 ml-2 duration-300 bg-sky-500 rounded-lg text-sky-900 ease-in-out">
                   See {proj.projectName}'s site
                 </span>
                 <img 
