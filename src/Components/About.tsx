@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import quotes from "../info/history/quotes.json";
+import quotes from "../assets/history/quotes.json";
 import profile from "../assets/images/projectImgs/profile.jpeg";
 import { Quote } from "../../Modules/quote";
 import ResumeContacts from "./ResumeContacts";
@@ -46,27 +46,32 @@ const About = (): JSX.Element => {
 
   return (
     <div className=" min-h-screen -mt-10 scroll-smooth-100% overflow-auto grid">
-    <div className="justify-center grid mx-10 my-10 auto-cols-auto">
-      <img className="aspect-auto mt-10 rounded-full max-h-80 group-open:rotate-45 transition-all group-open:top-2 relative" src={profile} alt="natalie kendrick"></img>
-      <div className = "justify-center block">
-        <p id="name" className="mt-10 text-yellow-500 h-100% text-8xl ">Natalie Kendrick</p>
-        <div id="pronouns" className="mt-4 text-xl">
-          <em>pronouns: she/her/hers</em>
+    <div className="grid justify-center mx-10 my-10 auto-cols-auto md:flex md:flex-col ">
+      <div className="flex flex-shrink mt-8">
+        <img className="aspect-auto rounded-full max-h-80 group-open:rotate-45 transition-all relative" src={profile} alt="natalie kendrick"></img>
+        <div className="text-sky-800 ml-6 mt-24 md:flex-col drop-shadow-xl shadow-cyan-200/50">
+          <div id="name" className="text-2xl mb-8 md:text-8xl drop-shadow-xl shadow-cyan-200 ">Natalie Kendrick</div>
+          <div id="pronouns" className="mt-4 text-xl text-end italic ">
+            pronouns: she/her/hers
         </div>
-        <div id={`${quoteId}`} className="bg-white/20 transition-colors p-4 justify-center mt-10">
-          {createQuote()}
         </div>
-  
       </div>
-      <div className="bg-white/20 transition-colors justify-center mt-4">
-        <div className="p-4">
+
+      <div className="flex flex-wrap md:flex-nowrap mt-4 mb-5">
+        <div className="p-8">
+          <div id={`${quoteId}`} className="bg-black/40 text-teal-100 transition-colors p-6 mt-10">
+            {createQuote()}
+          </div>
+        </div>
+
+        <div className="p-4 mt-8 bg-black/40 text-teal-100 transition-colors break-normal">
           <p className="pt-4 pb-4">Creatively driven, flexible, organized, goal-oriented, and bringing a unique perspective to the table. Natalie is a motivated professional with extensive experience ranging from web development and fine arts to customer service.</p>
           <p className="pb-4"> When it comes to problem-solving, she is proactive and a self-starter who believes that amicable and efficient solutions can be found. A team player who knows her successes benefits the team as much as they do her.</p>
           <p className="pb-4">She loves to read, hike with her dog, do yoga, and play board games in her spare time. In addition, she is passionate about food, cooking, and sharing those meals with great conversation. She is also a massive movie buff and enjoys international television.</p>
           <p className="pb-4">She looks forward to hearing from you and hopes you have a fantastic adventure today.</p>
         </div>
       </div>
-        <div className="flex justify-self-end self-auto md:self-end -mt-76">
+      <div className="flex justify-self-end self-auto md:self-end -mt-76 bg-black/40 text-teal-100">
         <ResumeContacts/>
         </div>
       </div>

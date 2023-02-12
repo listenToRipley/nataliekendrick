@@ -25,8 +25,12 @@ This application was deployed using [Netlify](https://docs.netlify.com/)
 
 ### TODO
 
-1. Add netlify content back into application.
-2. Updates [scrollbar](https://www.npmjs.com/package/tailwind-scrollbar)
-3. Add interfaces to modules
-4. Update favicon
-5. Update social links to have hover views.
+1. Updates [scrollbar](https://www.npmjs.com/package/tailwind-scrollbar) on projects
+2. Add interfaces to modules
+3. Create references to allow for quick navigation in specific sections.
+4. Add links to where you can find certifications.
+5. Color blind friendly button
+6. Mobile nav.
+7. Fix word break on code samples
+8. Fix font import
+

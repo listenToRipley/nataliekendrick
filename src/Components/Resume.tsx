@@ -41,15 +41,19 @@ const Resume = (): JSX.Element =>  {
       <div className="ml-4">
         <Certifications/>
       </div>
-      <div className=" bg-white/20 transition-colors p-4 justify-center mt-10 ml-4">
-        <p className="references">
-          <a 
+      <div className=" bg-white/20 transition-colors p-4 justify-center mt-10 ml-4 mb-8">
+        <div className="references">
+        <div className="text-2xl mr-4 mb-2 underline">References</div>
+          <span>Out of respect for the privacy of those who are kind enough to provide references for me,           <a 
           href="https://docs.google.com/spreadsheets/d/1xOWVDYFLIk4DrofA3K6GosPREidyfyjn-aBjJGK02M4/edit?usp=sharing"
-          className="hover:text-orange-400 transition duration-150 ease-in-out underline text-gray-700"
+          hrefLang="references google sheet"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-teal-200 transition duration-150 ease-in-out underline"
           >
-            References available upon request
-          </a>
-        </p>
+            their information only be provided upon request.
+          </a></span>
+        </div>
       </div>
       </div>
 

@@ -1,5 +1,5 @@
 import React from "react"; 
-import workHistory from "../info/history/workHistory.json";
+import workHistory from "../assets/history/workHistory.json";
 import { Professional, PartTime, Volunteer } from "../../Modules/work";
 
 const ResumeExperience = (): JSX.Element => {
@@ -19,7 +19,15 @@ const ResumeExperience = (): JSX.Element => {
               return (
                 <div key={id} className="mb-12">
                   <p className="text-xl font-medium">{el.title}</p>
-                  <p className="hover:underline hover:text-yellow-500"><a href={el.company.site}>{el.company.name}</a></p>
+                  <p className="hover:underline hover:text-teal-200 underline">
+                    <a 
+                    href={el.company.site}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                      {el.company.name}
+                    </a>
+                  </p>
                   <p className="text-right">{el.tenure.start} {el.tenure.end ? <span>- {el.tenure.end}</span>: ""}</p>
                   <ul className="pl-2">
                     <span>Duties:</span>
@@ -75,7 +83,16 @@ const ResumeExperience = (): JSX.Element => {
               return (
                 <div key={id} className="mr-5">
                   <p className="jobTitle">{el.title}</p>
-                  <p className="companyLink"><a className="hover:underline hover:text-yellow-500" href={el.company.site}>{el.company.name}</a></p>
+                  <p className="companyLink">
+                    <a 
+                    className="hover:underline hover:text-teal-200 underline" 
+                    href={el.company.site}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                      {el.company.name}
+                    </a>
+                  </p>
                   <p>{el.tenure.start} - {el.tenure.end}</p>
                 </div>
               )

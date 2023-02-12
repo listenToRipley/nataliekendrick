@@ -1,31 +1,11 @@
 import React from "react";
 import CodeSamples from "./CodeSamples";
-import projects from "../info/history/projects.json";
+import projects from "../assets/history/projects.json";
+import { Project } from "../../Modules/projects";
 
 const Projects = (): JSX.Element => {
 
-  //TODO:
-  // 1. Add functionality for carousel
-  // 2. Add option to collapse the details on items.
-  interface Project {
-    "id": number,
-    "projectName": string,
-    "completed": {
-      "year": number,
-      "month": string
-    },
-    "description": string, 
-    "skills": string[],
-    "color": string,
-    "image": string,
-    "altText": string,
-    "site": string,
-    "code": string
-  }
-
   const projectsList: Project[] = projects.projects;
-
-  // console.log(projectsList)
 
   return (
     <div className="bg-fixed h-screen min-h-screen object-cover p-4 scroll-smooth overflow-auto ">
@@ -49,23 +29,23 @@ const Projects = (): JSX.Element => {
             <div key={proj.id} className="min-w-[60] md:min-w-[15%] ml-4">
               <div className="text-xl has-tooltip ">
                 <span 
-                className="tooltip shadow-lg p-1 mt-8 duration-300 bg-gray-900 rounded-lg text-gray-500 ease-in-out">
-                  See the code
+                className="tooltip shadow-lg p-1 mt-8 duration-300 bg-sky-900 rounded-lg text-sky-500 ease-in-out">
+                  See {proj.projectName} code
                 </span>
                 <a 
                 href={proj.code}
-                className="hover:text-orange-400 transition duration-150 ease-in-out">
+                className="hover:text-teal-100 transition duration-150 ease-in-out">
                   {proj.projectName}</a>
                 
               </div>
-              <div className="has-tooltip">
+              <div className="text-xl has-tooltip">
               <a href={proj.site}>
                 <span 
-                className="tooltip shadow-lg p-1 mt-12 ml-2 duration-300 bg-gray-500 rounded-lg text-gray-900 ease-in-out">
+                className="tooltip shadow-lg p-1 mt-12 ml-2 duration-300 bg-sky-500 rounded-lg text-sky-900 ease-in-out">
                   See {proj.projectName}'s site
                 </span>
                 <img 
-                  className="aspect-auto w-full md:content-around shadow-md shadow-black/40 rounded-md  hover:shadow-orange-300 transition duration-150 ease-in-out" 
+                  className="aspect-auto w-full md:content-around shadow-md shadow-black/50 rounded-md  hover:shadow-teal-200 transition duration-150 ease-in-out" 
                   src={imgPath} 
                   alt={proj.altText} />
               </a>
