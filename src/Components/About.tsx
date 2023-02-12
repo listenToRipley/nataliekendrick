@@ -49,8 +49,8 @@ const About = (): JSX.Element => {
     <div className="grid justify-center mx-10 my-10 auto-cols-auto md:flex md:flex-col ">
       <div className="flex flex-shrink mt-8">
         <img className="aspect-auto rounded-full max-h-80 group-open:rotate-45 transition-all relative" src={profile} alt="natalie kendrick"></img>
-        <div className="text-sky-700 ml-6 mt-24 md:flex-col">
-          <div id="name" className="text-2xl mb-8 md:text-8xl">Natalie Kendrick</div>
+        <div className="text-sky-800 ml-6 mt-24 md:flex-col drop-shadow-xl shadow-cyan-200/50">
+          <div id="name" className="text-2xl mb-8 md:text-8xl drop-shadow-xl shadow-cyan-200 ">Natalie Kendrick</div>
           <div id="pronouns" className="mt-4 text-xl text-end italic ">
             pronouns: she/her/hers
         </div>
@@ -64,7 +64,7 @@ const About = (): JSX.Element => {
           </div>
         </div>
 
-        <div className="p-4 mt-8 bg-black/40 text-teal-100 transition-colors">
+        <div className="p-4 mt-8 bg-black/40 text-teal-100 transition-colors break-normal">
           <p className="pt-4 pb-4">Creatively driven, flexible, organized, goal-oriented, and bringing a unique perspective to the table. Natalie is a motivated professional with extensive experience ranging from web development and fine arts to customer service.</p>
           <p className="pb-4"> When it comes to problem-solving, she is proactive and a self-starter who believes that amicable and efficient solutions can be found. A team player who knows her successes benefits the team as much as they do her.</p>
           <p className="pb-4">She loves to read, hike with her dog, do yoga, and play board games in her spare time. In addition, she is passionate about food, cooking, and sharing those meals with great conversation. She is also a massive movie buff and enjoys international television.</p>
