@@ -46,16 +46,17 @@ const About = (): JSX.Element => {
 
   return (
     <div className=" min-h-screen -mt-10 scroll-smooth-100% overflow-auto grid">
-    <div className="grid justify-center mx-10 my-10 auto-cols-auto md:flex md:flex-col">
+    <div className="grid justify-center mx-10 my-10 auto-cols-auto md:flex md:flex-col ">
       <div className="flex flex-shrink mt-8">
         <img className="aspect-auto rounded-full max-h-80 group-open:rotate-45 transition-all relative" src={profile} alt="natalie kendrick"></img>
-        <p id="name" className=" text-sky-700 h-100% text-2xl ml-6 justify-self-end md:text-8xl ">Natalie Kendrick</p>
-      </div>
-      <div id="pronouns" className="mt-4 text-xl text-teal-200">
-          <div className="justify-self-end ">
-            <em>pronouns: she/her/hers</em>
-          </div>
+        <div className=" text-sky-700 ml-6 mt-10 flex-col">
+          <div id="name" className="text-2xl mb-8 md:text-8xl">Natalie Kendrick</div>
+          <div id="pronouns" className="mt-4 text-xl text-sky-700 text-end italic">
+            pronouns: she/her/hers
         </div>
+        </div>
+      </div>
+
       <div className = "justify-center block">
         <div id={`${quoteId}`} className="bg-white/20 transition-colors p-4 justify-center mt-10">
           {createQuote()}
