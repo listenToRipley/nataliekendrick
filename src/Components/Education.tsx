@@ -23,7 +23,7 @@ const Education = (): JSX.Element => {
                             </div>
                             <div className="pb-2">
                                 <span 
-                                    className="tooltip shadow-lg p-2 -mt-10 ml-10 duration-300 bg-gray-500 rounded-lg text-gray-900 ease-in-out">
+                                    className="tooltip shadow-lg p-2 -mt-10 ml-10 duration-300 bg-sky-900 rounded-lg text-sky-500 ease-in-out">
                                     See {edu.initials}'s site
                                 </span>
                                 <a
