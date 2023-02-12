@@ -32,3 +32,4 @@ This application was deployed using [Netlify](https://docs.netlify.com/)
 5. Add links to where you can find certifications.
 6. Color blind friendly button
 7. Mobile nav.
+8. Fix word break on code samples
