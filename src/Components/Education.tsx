@@ -2,30 +2,17 @@ import React from "react";
 import edu from "../info/history/edu.json"
 import aca from "../assets/images/projectImgs/acaBadge.png";
 import pima from "../assets/images/projectImgs/pima.png"
+import { EduHistory } from "../../Modules/education";
 
 const Education = (): JSX.Element => {
-
-    // TODO:add links for institutions
-
-    interface Education         {
-        "institution": string,
-        "initials": string,
-        "degree": string,
-        "attended": {
-            "start": string,
-            "end": string
-            },
-        "link": string
-        }
-
     
-    const educationHist: Education[] = edu.education
+    const educationHist: EduHistory[] = edu.education
 
     return (
         <div className=" bg-white/20 transition-colors p-4 mt-10 flex">
             <div className="text-2xl mr-4 underline">Education</div>
             {
-                educationHist.map((edu: Education, index: number)=> {
+                educationHist.map((edu: EduHistory, index: number)=> {
 
                     const logoText = `${edu.institution} logo`
 
