@@ -49,7 +49,7 @@ const About = (): JSX.Element => {
     <div className="justify-center grid mx-10 my-10 auto-cols-auto">
       <img className="aspect-auto mt-10 rounded-full max-h-80 group-open:rotate-45 transition-all group-open:top-2 relative" src={profile} alt="natalie kendrick"></img>
       <div className = "justify-center block">
-        <p id="name" className="mt-10 text-yellow-500 h-100% text-8xl ">Natalie Kendrick</p>
+        <p id="name" className="mt-10 text-lime-300 h-100% text-8xl ">Natalie Kendrick</p>
         <div id="pronouns" className="mt-4 text-xl">
           <em>pronouns: she/her/hers</em>
         </div>
