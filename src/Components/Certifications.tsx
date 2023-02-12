@@ -1,5 +1,5 @@
 import React from "react";
-import certs from "../info/history/certifications.json"
+import certs from "../assets/history/certifications.json"
 import { Certification } from "../../Modules/certification";
 
 const Certifications = ():JSX.Element => {

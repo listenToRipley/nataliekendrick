@@ -1,6 +1,6 @@
 import React from "react";
 import CodeSamples from "./CodeSamples";
-import projects from "../info/history/projects.json";
+import projects from "../assets/history/projects.json";
 import { Project } from "../../Modules/projects";
 
 const Projects = (): JSX.Element => {

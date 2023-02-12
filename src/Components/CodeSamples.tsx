@@ -3,7 +3,7 @@ import caesarCipherWKey from "../../src/Samples/caesar";
 import maxStockProfit from "../../src/Samples/maxStockProfit";
 import sieveOfEratosthenes from "../../src/Samples/sieveOfEratstenes";
 import { Sample } from "../../Modules/samples";
-import codeSamples from "../info/history/codeSamples.json";
+import codeSamples from "../assets/history/codeSamples.json";
 
 const CodeSamples = (): JSX.Element => { 
 

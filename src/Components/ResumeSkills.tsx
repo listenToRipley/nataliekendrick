@@ -1,5 +1,5 @@
 import React from "react";
-import skills from "../info/history/skills.json";
+import skills from "../assets/history/skills.json";
 
 const ResumeSkills = (): JSX.Element => {
   

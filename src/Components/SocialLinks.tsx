@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react"; 
-import socialLinks from "../info/history/socialLinks.json";
+import socialLinks from "../assets/history/socialLinks.json";
 import { SocialLink } from "../../Modules/socialLink";
 
 const SocialLinks = (): JSX.Element =>  {

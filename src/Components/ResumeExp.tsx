@@ -1,5 +1,5 @@
 import React from "react"; 
-import workHistory from "../info/history/workHistory.json";
+import workHistory from "../assets/history/workHistory.json";
 import { Professional, PartTime, Volunteer } from "../../Modules/work";
 
 const ResumeExperience = (): JSX.Element => {

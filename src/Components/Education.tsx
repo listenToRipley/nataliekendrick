@@ -1,5 +1,5 @@
 import React from "react";
-import edu from "../info/history/edu.json"
+import edu from "../assets/history/edu.json"
 import aca from "../assets/images/projectImgs/acaBadge.png";
 import pima from "../assets/images/projectImgs/pima.png"
 import { EduHistory } from "../../Modules/education";

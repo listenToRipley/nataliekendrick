@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import quotes from "../info/history/quotes.json";
+import quotes from "../assets/history/quotes.json";
 import profile from "../assets/images/projectImgs/profile.jpeg";
 import { Quote } from "../../Modules/quote";
 import ResumeContacts from "./ResumeContacts";
