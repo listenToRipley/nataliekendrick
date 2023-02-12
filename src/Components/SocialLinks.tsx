@@ -1,21 +1,13 @@
 import React, {useEffect, useState} from "react"; 
 import socialLinks from "../info/history/socialLinks.json";
+import { SocialLink } from "../../Modules/socialLink";
 
 const SocialLinks = (): JSX.Element =>  {
-    interface SL {
-        "title": string,
-        "link": string, 
-        "icon": {
-            "path": {
-                "d": string
-            }
-        }
-    };
 
     const [links, setLinks]: any = useState< void | JSX.Element[]>(undefined);
     useEffect(() => {
 
-    let listLinks = socialLinks.map((item: SL, index:number): JSX.Element => {
+    let listLinks = socialLinks.map((item: SocialLink, index:number): JSX.Element => {
         return (
             <div className="has-tooltip hover:stroke-teal-200 transition duration-200 ease-in-out m-2">
                 <span 
