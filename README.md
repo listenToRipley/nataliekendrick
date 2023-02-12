@@ -33,3 +33,4 @@ This application was deployed using [Netlify](https://docs.netlify.com/)
 6. Mobile nav.
 7. Fix word break on code samples
 8. Fix font import
+
