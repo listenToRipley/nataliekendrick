@@ -1,25 +1,18 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-//TODO:
-//1. Change color of banner
-// 2. Add hover tooltips for nav.
-// 3. Add section options?
-// 4. Button functionality for resizing.
-
-
 const Navigation = () => {
     return (
-    <nav className="flex items-center justify-between flex-wrap bg-blue-800 p-4">
+    <nav className="flex items-center justify-between flex-wrap bg-sky-900 p-4">
         <div className="has-tooltip ">
             <span 
-            className="tooltip shadow-lg p-1 mt-10 ml-20 duration-150 bg-gray-500 rounded-lg text-gray-900 ease-in-out">
+            className="tooltip shadow-lg p-1 mt-16 ml-20 duration-150 bg-gray-500 rounded-lg text-gray-900 ease-in-out">
                     Home
             </span>
             <Link to="/" className="block lg:inline-block lg:mt-0">
                 <div className="flex items-center flex-shrink-0 text-white mr-8">
                     <svg 
-                    className="fill-current h-12 w-12 mr-2 mt-4 hover:stroke-lime-300 transition duration-150 ease-in-out" 
+                    className="fill-current h-12 w-12 mr-2 mt-4 " 
                     width="64" height="64" 
                     viewBox="0 4 35 30" xmlns="http://www.w3.org/2000/svg">
 
@@ -36,7 +29,7 @@ const Navigation = () => {
                         d="M19.81,23.36A2,2,0,0,1,18.65,23a2,2,0,0,1-.78-1.93l.43-2.5-1.82-1.78a2,2,0,0,1,1.09-3.36L20.09,13l1.12-2.28a2,2,0,0,1,3.54,0L25.87,13l2.52.37A2,2,0,0,1,30,14.75a2,2,0,0,1-.5,2l-1.82,1.78.43,2.5A2,2,0,0,1,27.31,23a2,2,0,0,1-2.08.15L23,22l-2.25,1.18A2,2,0,0,1,19.81,23.36ZM23,11.65l-1.54,3.22-3.55.52,2.59,2.46-.61,3.54L23,19.69l3.18,1.67-.65-3.51,2.58-2.51-3.55-.47Z"/>
 
                     </svg>
-                    <span className="font-semibold text-xl tracking-tight mt-4  md:text-3xl">Higher May</span>
+                    <span className="font-semibold text-xl tracking-tight mt-4 hover:hover:text-teal-200 transition duration-150 ease-in-out  md:text-3xl">Higher May</span>
                 </div>
             </Link>
         </div>

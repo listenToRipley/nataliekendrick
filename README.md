@@ -30,3 +30,5 @@ This application was deployed using [Netlify](https://docs.netlify.com/)
 3. Add interfaces to modules
 4. Create references to allow for quick navigation in specific sections.
 5. Add links to where you can find certifications.
+6. Color blind friendly button
+7. Mobile nav.
