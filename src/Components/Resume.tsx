@@ -46,6 +46,9 @@ const Resume = (): JSX.Element =>  {
         <div className="text-2xl mr-4 mb-2 underline">References</div>
           <span>Out of respect for the privacy of those who are kind enough to provide references for me,           <a 
           href="https://docs.google.com/spreadsheets/d/1xOWVDYFLIk4DrofA3K6GosPREidyfyjn-aBjJGK02M4/edit?usp=sharing"
+          hrefLang="references google sheet"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hover:text-lime-300 transition duration-150 ease-in-out underline"
           >
             their information only be provided upon request.
