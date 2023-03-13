@@ -1,4 +1,5 @@
 export interface Certification {
   "type": string,
-  "from": string
+  "from": string,
+  "link": string,
 };

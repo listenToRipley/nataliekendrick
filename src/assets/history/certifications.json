@@ -58,7 +58,8 @@
         },
         {
             "type": "Learning Splunk",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": "https://www.linkedin.com/learning/certificates/b3f460ba7b3fbdfa2387d2b43f4eef1d9bac5b809a0b0f3d1f2b152d512d0bc4?trk=backfilled_certificate"
         },
         {
             "type": "Learning webpack 4",
@@ -78,7 +79,8 @@
         },
         {
             "type": "Overcoming Obstacles and Building Team Resilience",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": "https://www.linkedin.com/learning/certificates/f601a964cca2c4f0f0e008517db302136d73a4d4c69ac6dfcf32ba694be10de3"
         },
         {
             "type": "Programming Foundations: Databases",
