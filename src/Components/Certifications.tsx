@@ -12,9 +12,23 @@ const Certifications = ():JSX.Element => {
 
             {certificates.map((item: Certification, index:number): JSX.Element => {
                 return (
-                    <div key={index} className="flex ml-4">
+                    <div key={index} className="flex ml-4 has-tooltip">
+                        <div className="pb-2">
+                            <span  className="tooltip shadow-lg p-2 -mt-10 ml-10 duration-300 bg-sky-900 rounded-lg text-sky-500 ease-in-out">
+                                See certificate
+                            </span>
+                        </div>
                         <div>
-                            <a href={item.link}>{item.type}</a><span> from</span><span> {item.from}</span>
+                            <a 
+                                href={item.link}
+                                hrefLang={item.from}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:underline hover:text-teal-200 underline"
+                                >
+                                    {item.type}</a> 
+                                    <span> from</span>
+                                    <span> {item.from}</span>
                         </div>
                     </div>
                 )
