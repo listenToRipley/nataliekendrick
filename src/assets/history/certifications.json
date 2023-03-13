@@ -3,12 +3,12 @@
         {
             "type": "AWS and React: Creating Full-Stack Apps",
             "from": "LinkedIn Learning",
-            "link": ""
+            "link": "https://www.linkedin.com/learning/certificates/3ed16ba57d082b586dbfbba83825108bef01992f3a5630bd76005160ea8ccbd5?trk=backfilled_certificate"
         },
         {
             "type": "Agile Foundations",
             "from": "LinkedIn Learning",
-            "link": ""
+            "link": "https://www.linkedin.com/learning/certificates/96d858cba6ebfd42a6e7c4fb9a27973c3b880410664715b1365f8d22af82ee1c?trk=backfilled_certificate"
         },
         {
             "type": "C++ Foundations",
@@ -23,12 +23,12 @@
         {
             "type": "Drupal 8 Essential Training",
             "from": "LinkedIn Learning",
-            "link": ""
+            "link": "https://www.linkedin.com/learning/certificates/e85f3496e598273539a425eb95bd884f6595d97b4cc95e62b12e16614a902c70?trk=backfilled_certificate"
         },
         {
             "type": "Drupal 9 Essential Training",
             "from": "LinkedIn Learning",
-            "link": ""
+            "link": "https://www.linkedin.com/learning/certificates/d86c7255a0eaef6725441f0261b3b29b823e23c96cfa8b472f842a30f67021f2?trk=backfilled_certificate"
         },
         {
             "type": "How to Be Both Assertive and Likable",
@@ -43,7 +43,7 @@
         {
             "type": "JavaScript Essential Training (2017)",
             "from": "LinkedIn Learning",
-            "link": ""
+            "link": "https://www.linkedin.com/learning/certificates/ee086f27896eb7e1cf40ae46288fc2890ae245ba8a22982dc1bc08d05d2f1610?trk=backfilled_certificate"
         },
         {
             "type": "Javascript Foundations",
@@ -57,12 +57,18 @@
         },
         {
             "type": "Learning Fedora Linux",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": "https://www.linkedin.com/learning/certificates/b521b6d7c902c0c9e901031de4ea3c861f2b87bcc832d8a85586628d4de1b24f?trk=backfilled_certificate"
+        },
+        {
+            "type": "Learning npm the Node Package Manager",
+            "from": "LinkedIn Learning",
+            "link": "https://www.linkedin.com/learning/certificates/a31e0dd367a1955a1237807687a17bf6e9405bf93a045c72952ec9dc6c757f32?trk=backfilled_certificate"
         },
         {
             "type": "Learning React.js",
             "from": "LinkedIn Learning",
-            "link": ""
+            "link": "https://www.linkedin.com/learning/certificates/b6bf317ddb631724653135e9449921f287dfdedad1db648e07577217518719bf?trk=backfilled_certificate"
         },
         {
             "type": "Learning Splunk",
@@ -71,7 +77,8 @@
         },
         {
             "type": "Learning webpack 4",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": "https://www.linkedin.com/learning/certificates/7fef23181ec839c6b7c1b43c24938df58452f9959a731cdd0174384e9c152f56?trk=backfilled_certificate"
         },
         {
             "type": "Mastering TypeScript",
@@ -81,12 +88,12 @@
         {
             "type": "MySQL Essential Training",
             "from": "LinkedIn Learning",
-            "link": ""
+            "link": "https://www.linkedin.com/learning/certificates/c4b9021c1a79fb749574f8496f02ee119c4786457c36c05e4d7e40ad855c306b?trk=backfilled_certificate"
         },
         {
             "type": "Node.js Essential Training",
             "from": "LinkedIn Learning",
-            "link": ""
+            "link": "https://www.linkedin.com/learning/certificates/8baabcb66e5b0e2eefb86f1313f1a436211453f018342c54be3a85682a65d63d?trk=backfilled_certificate"
         },
         {
             "type": "Overcoming Obstacles and Building Team Resilience",
@@ -96,32 +103,37 @@
         {
             "type": "Programming Foundations: Databases",
             "from": "LinkedIn Learning",
-            "link": ""
+            "link": "https://www.linkedin.com/learning/certificates/e4650f75147695611e49e8d0de785bfea90bfc50e5d8b7ca9d6b11e62286ccd9?trk=backfilled_certificate"
         },
         {
             "type": "Programming Foundations: Object-Oriented Design",
             "from": "LinkedIn Learning",
-            "link": ""
+            "link": "https://www.linkedin.com/learning/certificates/e0fae62ad8c90f0317b632847f4baa508ad6da519e3a673888e559d5f8ce653b?trk=backfilled_certificate"
         },
         {
             "type": "Python for Students",
             "from": "LinkedIn Learning",
-            "link": ""
+            "link": "https://www.linkedin.com/learning/certificates/0943fb8964b7fd25f36f3b9119181f04f8c638fe09215973da486f74c64a9675?trk=backfilled_certificate"
         },
         {
             "type": "React.js Essential Training",
             "from": "LinkedIn Learning",
-            "link": ""
+            "link": "https://www.linkedin.com/learning/certificates/e1608a7cfb27ea3657670940b95c9caf6339a7cb16004b879e9188b2aada10b9?trk=backfilled_certificate"
+        },
+        {
+            "type": "React.js Essential Training (2018)",
+            "from": "LinkedIn Learning",
+            "link": "https://www.linkedin.com/learning/certificates/cec0af968528543bebdcb84cdf885ff0c4b456a4ae0efa24020d1b07239ac8df?trk=backfilled_certificate"
         },
         {
             "type": "Relational Databases Essential Trainings",
             "from": "LinkedIn Learning",
-            "link": ""
-        },
+            "link": "https://www.linkedin.com/learning/certificates/a23d496b3501373090e230e74a0c90934efe70a55828ad3f5a9a15abd4969134?trk=backfilled_certificate"
+        },        
         {
-            "type": "The Complete Beginner's Javascript Course",
+            "type": "Scrum: The Basics",
             "from": "LinkedIn Learning",
-            "link": ""
+            "link": "https://www.linkedin.com/learning/certificates/c4d16f600569ac5f60c793cc9820836a2757111ce0da163dc07af0a8484acf4a?trk=backfilled_certificate"
         },
         {
             "type": "Tailwind CSS - Zero to Hero tailwind css v3",
