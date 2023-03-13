@@ -14,7 +14,7 @@ const Certifications = ():JSX.Element => {
                 return (
                     <div key={index} className="flex ml-4">
                         <div>
-                            <span>{item.type}</span><span> from</span><span> {item.from}</span>
+                            <a href={item.link}>{item.type}</a><span> from</span><span> {item.from}</span>
                         </div>
                     </div>
                 )
