@@ -2,11 +2,13 @@
     "certifications": [
         {
             "type": "AWS and React: Creating Full-Stack Apps",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": ""
         },
         {
             "type": "Agile Foundations",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": ""
         },
         {
             "type": "C++ Foundations",
@@ -20,15 +22,18 @@
         },
         {
             "type": "Drupal 8 Essential Training",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": ""
         },
         {
             "type": "Drupal 9 Essential Training",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": ""
         },
         {
             "type": "How to Be Both Assertive and Likable",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": "https://www.linkedin.com/learning/certificates/0fad682d13766d5483bc2ab54b4eac73ee92400da69cf8b1ef50ab69ff84c120?trk=backfilled_certificate"
         },
         {
             "type": "Intro to Object-Oriented Programming with Python",
@@ -37,11 +42,13 @@
         },
         {
             "type": "JavaScript Essential Training (2017)",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": ""
         },
         {
             "type": "Javascript Foundations",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": ""
         },
         {
             "type": "Javascript Foundations",
@@ -54,7 +61,8 @@
         },
         {
             "type": "Learning React.js",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": ""
         },
         {
             "type": "Learning Splunk",
@@ -67,15 +75,18 @@
         },
         {
             "type": "Mastering TypeScript",
-            "from": "Udemy"
+            "from": "Udemy",
+            "link": ""
         },
         {
             "type": "MySQL Essential Training",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": ""
         },
         {
             "type": "Node.js Essential Training",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": ""
         },
         {
             "type": "Overcoming Obstacles and Building Team Resilience",
@@ -84,31 +95,38 @@
         },
         {
             "type": "Programming Foundations: Databases",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": ""
         },
         {
             "type": "Programming Foundations: Object-Oriented Design",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": ""
         },
         {
             "type": "Python for Students",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": ""
         },
         {
             "type": "React.js Essential Training",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": ""
         },
         {
             "type": "Relational Databases Essential Trainings",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": ""
         },
         {
             "type": "The Complete Beginner's Javascript Course",
-            "from": "LinkedIn Learning"
+            "from": "LinkedIn Learning",
+            "link": ""
         },
         {
             "type": "Tailwind CSS - Zero to Hero tailwind css v3",
-            "from": "Udemy"
+            "from": "Udemy",
+            "link": ""
         }
     ]
 }
