@@ -9,6 +9,16 @@
             "from": "LinkedIn Learning"
         },
         {
+            "type": "C++ Foundations",
+            "from": "Zenva",
+            "link": "https://academy.zenva.com/certificate/f570d2f45a84"
+        },
+        {
+            "type": "The Complete Beginner's JavaScript Course",
+            "from": "Zenva",
+            "link": "https://academy.zenva.com/certificate/9ca52ae0"
+        },
+        {
             "type": "Drupal 8 Essential Training",
             "from": "LinkedIn Learning"
         },
@@ -21,12 +31,22 @@
             "from": "LinkedIn Learning"
         },
         {
+            "type": "Intro to Object-Oriented Programming with Python",
+            "from": "Zenva",
+            "link": "https://academy.zenva.com/certificate/a7645293"
+        },
+        {
             "type": "JavaScript Essential Training (2017)",
             "from": "LinkedIn Learning"
         },
         {
             "type": "Javascript Foundations",
             "from": "LinkedIn Learning"
+        },
+        {
+            "type": "Javascript Foundations",
+            "from": "Zenva",
+            "link": "https://academy.zenva.com/certificate/4c7f0410"
         },
         {
             "type": "Learning Fedora Linux",
