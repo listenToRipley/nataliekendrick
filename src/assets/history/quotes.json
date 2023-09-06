@@ -48,5 +48,33 @@
       "title": "Clarke's three laws"
     },
     "bio":"https://en.wikipedia.org/wiki/Arthur_C._Clarke"
+  },
+  {
+    "id": 8,
+    "quote": "If you don't go after what you want, you'll never have it. If you don't ask, the answer is always no. If you don't step forward, you're always in the same place.",
+    "author": "Nora Roberts",
+    "bio":"https://noraroberts.com/elementor-510/"
+  },
+  {
+    "id": 9,
+    "quote": "Clear is kind.",
+    "author": "Brené Brown",
+    "bio":"https://brenebrown.com/articles/2018/10/15/clear-is-kind-unclear-is-unkind/"
+  },
+  {
+    "id": 10,
+    "quote": "Replace judgement with curiosity.",
+    "author": "Simon Sinek",
+    "bio":"https://simonsinek.com/"
+  },
+  {
+    "id": 11,
+    "quote": "Don’t start with the problem. Start with the people. Start with empathy.",
+    "author": "William Burnett & David J. Evans",
+    "source":{
+      "type": "Book",
+      "title": "Designing Your Life"
+    },
+    "bio":"https://designingyour.life/"
   }
 ]

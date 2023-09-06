@@ -65,10 +65,18 @@ const About = (): JSX.Element => {
         </div>
 
         <div className="p-4 mt-8 bg-black/40 text-teal-100 transition-colors break-normal">
-          <p className="pt-4 pb-4">Creatively driven, flexible, organized, goal-oriented, and bringing a unique perspective to the table. Natalie is a motivated professional with extensive experience ranging from web development and fine arts to customer service.</p>
-          <p className="pb-4"> When it comes to problem-solving, she is proactive and a self-starter who believes that amicable and efficient solutions can be found. A team player who knows her successes benefits the team as much as they do her.</p>
-          <p className="pb-4">She loves to read, hike with her dog, do yoga, and play board games in her spare time. In addition, she is passionate about food, cooking, and sharing those meals with great conversation. She is also a massive movie buff and enjoys international television.</p>
-          <p className="pb-4">She looks forward to hearing from you and hopes you have a fantastic adventure today.</p>
+          <p className="pt-4 pb-4">I'm Natalie Kendrick, a Software Developer passionate about crafting innovative solutions. Technology attracted me because I was tired of reaching a point in my job where I felt I knew everything I knew. I found my outside-the-box thinking and problem-solving skills perfectly fit.</p>
+
+          <p className="pb-4"> When I'm not busy developing applications, studying algorithms, or design/organizational concepts, you can find me engrossed in various hobbies. I love to lose myself in a good story if that is a book, movie, or tv show. I'm an avid collector of interests (no joke, it's a problem), always eager to try new things and explore. Sometimes it means cooking a new dish I heard about; others, immersing myself in an unknown Dungeons and Dragons campaign or just trying a new knitting pattern while watching the latest K-drama. I throw myself into it with a hundred and ten percent of my energy.</p>
+
+          <p className="pb-4">My professional life and my hobbies tend to intertwine. I generally like to foster a sense of unity and trust within my team, like any D&D team I am a part of. I believe in cooperation and recognizing each team member's contributions. I believe in giving credit where it is due and ensuring all voices are heard on my team. It's through collaboration that we create something truly extraordinary. 
+</p>
+          <p className="pb-4">So, if you're looking for a Software Developer who is skilled, empathetic, creative, and ready to take on any challenge, you've come to the right person. I take great pride in my work and am committed to following through to ensure I deliver the best.</p>
+
+          <p className="pb-4"> 
+            <a href="mailto:natalie.m.kendrick@gmail.com" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Feel free to contact me, or you can also explore more about me and my work.
+            </a>
+          Here's to making the digital world a better and more exciting place!</p>
         </div>
       </div>
       <div className="flex justify-self-end self-auto md:self-end -mt-76 bg-black/40 text-teal-100">
