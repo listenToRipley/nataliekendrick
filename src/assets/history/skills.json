@@ -48,7 +48,8 @@
     "Pug",
     "Handlebars",
     "ChatGPT", 
-    "C++"
+    "C++",
+    "Content Management Systems Admin"
   ],
   "soft": [
     "Communication",
@@ -63,6 +64,7 @@
     "Presenting",
     "Business Acumen",
     "Managing User Expectations",
-    "Mapping Processes"
+    "Mapping Processes",
+    "Requirements Gathering"
   ]
 }
