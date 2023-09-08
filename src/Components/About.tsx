@@ -74,7 +74,7 @@ const About = (): JSX.Element => {
           <p className="pb-4">So, if you're looking for a Software Developer who is skilled, empathetic, creative, and ready to take on any challenge, you've come to the right person. I take great pride in my work and am committed to following through to ensure I deliver the best.</p>
 
           <p className="pb-4"> 
-            <a href="mailto:natalie.m.kendrick@gmail.com" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Feel free to contact me, or you can also explore more about me and my work.
+            <a href="mailto:natalie.m.kendrick@gmail.com" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Feel free to contact me, or you can also explore more about me and my work.
             </a>
           Here's to making the digital world a better and more exciting place!</p>
         </div>
