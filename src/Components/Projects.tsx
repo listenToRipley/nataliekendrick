@@ -53,8 +53,8 @@ const Projects = (): JSX.Element => {
             </div>
             <div className="flex">
                 <div id="previous"
-                     className="text-5xl flex justify-center items-center cursor-pointer p-2 relative -top-8">
-                    <button onClick={handlePrevious} className="">{"<"}</button>
+                     className={`text-5xl flex justify-center items-center cursor-pointer p-2 relative -top-8 ${focusedIndex === 0 ? 'hidden' : ''}`}>
+                    <button onClick={handlePrevious} className="h-full">{"<"}</button>
                 </div>
 
                 <div id="carousel" ref={carousel}
@@ -115,9 +115,8 @@ const Projects = (): JSX.Element => {
                         })}
                     </div>
                 </div>
-
-                <div id="next" className="text-5xl flex justify-center items-center cursor-pointer p-2 relative -top-8">
-                    <button onClick={()=> {handleNext()}}>{">"}</button>
+                <div id="next" className={`text-5xl flex justify-center items-center cursor-pointer p-2 relative -top-8 ${focusedIndex === projectsList.length - 1 ? 'hidden' : ''}`}>
+                    <button onClick={()=> {handleNext()}} className="h-full">{">"}</button>
                 </div>
             </div>
 
