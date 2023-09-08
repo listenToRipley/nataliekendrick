@@ -1,9 +1,8 @@
 import React, {useEffect, useRef, useState} from 'react';
-import CodeSamples from "./CodeSamples";
 import projects from "../assets/history/projects.json";
 import {Project} from "../../Modules/projects";
 
-const Projects = (): JSX.Element => {
+const ProjectList = (): JSX.Element => {
     const projectsList: Project[] = projects.projects;
     const carousel: any | null = useRef(null);
     // Initialize an array of refs for the projects
@@ -43,7 +42,7 @@ const Projects = (): JSX.Element => {
         }
     };
     return (
-        <div className="bg-fixed h-screen min-h-screen object-cover p-4 scroll-smooth overflow-auto ">
+        <div>
             <div className="text-5xl">Projects</div>
             <div>
                 This page is my main work at the moment. You may see changes from time to time when you visit, and I
@@ -51,12 +50,12 @@ const Projects = (): JSX.Element => {
             </div>
             <div className="flex">
                 <div id="previous"
-                     className={`text-5xl flex justify-center items-center cursor-pointer p-2 relative -top-8 ${focusedIndex === 0 ? 'hidden' : ''}`}>
+                     className={`text-5xl flex justify-center items-center cursor-pointer relative -top-8 ${focusedIndex === 0 ? 'hidden' : ''}`}>
                     <button onClick={handlePrevious} className="h-full">{"<"}</button>
                 </div>
 
                 <div id="carousel" ref={carousel}
-                     className="mt-4 flex w-full flex-1 gap-4 overflow-x-auto scroll-smooth pb-5">
+                     className="mt-4 flex w-full flex-1 gap-4 overflow-x-auto">
                     <div className="flex">
                         {projectsList.map((proj: Project, index: number): JSX.Element => {
                             const imgPath = require(`../assets/images/projectImgs/${proj.image}`)
@@ -117,12 +116,8 @@ const Projects = (): JSX.Element => {
                     <button onClick={()=> {handleNext()}} className="h-full">{">"}</button>
                 </div>
             </div>
-
-            <div>
-                <CodeSamples/>
-            </div>
         </div>
     )
 };
 
-export default Projects;
+export default ProjectList;

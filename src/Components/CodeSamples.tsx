@@ -9,7 +9,7 @@ const CodeSamples = (): JSX.Element => {
 
   const samples: Sample[] = codeSamples.sample;
 
-  let codePath = (title:string):any => {
+  let codePath = (title: string): any => {
     let code: any = ""
 
     switch(title) {
@@ -30,15 +30,18 @@ const CodeSamples = (): JSX.Element => {
   return (
     <div>
       {
-          samples.map((el:Sample, index:number) => {
+        samples.map((el: Sample, index: number) => {
 
-            return (
-              <div key={index} className="bg-black/80 text-gray-400 transition-colors p-4 justify-center mt-10 ">
+          return (
+            <div key={index} className="bg-black/80 text-gray-400 transition-colors p-4 pb-8 mt-10 mb-14 sm:flex sm:flex-col md:flex-col lg:flex-row xl:flex-row">
+              <div className="sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 sm:pr-4 md:pr-4 lg:pr-4 xl:pr-4 sm:pb-4 md:pb-0 lg:pb-0 xl:pb-0">
                 <p className="text-xl">{el.title}</p>
                 <p><span className='italic'>Description</span>: {el.description}</p>
                 <p><span className='italic'>Language:</span> {el.language}</p>
-                <br />
-                <div className="block break-words">
+              </div>
+              <br/>
+              <div className="sm:w-1/2 md:w-1/3 lg:w-2/3 xl:w-2/3">
+                <div className="block">
                   <pre className="font-sans">
                     <samp className="language-js break-normal">
                       {`${codePath(el.code)}`}
@@ -46,11 +49,12 @@ const CodeSamples = (): JSX.Element => {
                   </pre>
                 </div>
               </div>
-            )
-          })
+            </div>
+          )
+        })
       }
     </div>
   )
 };
 
-export default CodeSamples
+export default CodeSamples;
