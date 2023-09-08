@@ -4,7 +4,6 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Project from "./Components/Project";
-import CodeSamples from "./Components/CodeSamples";
 
 const Router = (): JSX.Element => {
 
@@ -16,7 +15,6 @@ const Router = (): JSX.Element => {
       <Route path="/about" element={<About/>}/>
       <Route path="/resume" element={<Resume/>}/>
       <Route path="/projects" element={<Project/>}/>
-        {/*<Route path="/code-samples" element={<CodeSamples/>} />*/}
     </Routes>
   )
 }; 
