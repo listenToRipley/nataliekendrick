@@ -5,19 +5,17 @@ import {Project} from "../../Modules/projects";
 
 const Projects = (): JSX.Element => {
     const projectsList: Project[] = projects.projects;
-    let [carouselWidth, setCarouselWidth]: any = useState(null);
     const carousel: any | null = useRef(null);
     // Initialize an array of refs for the projects
     const projectRefs: React.RefObject<HTMLDivElement>[] = projectsList.map(() => React.createRef());
     const [focusedIndex, setFocusedIndex] = useState<number | null>(null);
 
-    useEffect(() => {
+    useEffect(() :void => {
         // console.log('on load');
-        setCarouselWidth(carousel.current.offsetWidth);
         setFocusedIndex(0);
     }, []);
 
-    const handleNext = () => {
+    const handleNext = () :void => {
         if (focusedIndex !== null && focusedIndex < projectsList.length - 1) {
             // console.log('click', focusedIndex);
             // Calculate the width of the current project element
@@ -31,7 +29,7 @@ const Projects = (): JSX.Element => {
         }
     };
 
-    const handlePrevious = () => {
+    const handlePrevious = () :void => {
         if (focusedIndex !== null && focusedIndex > 0) {
             // console.log('click', focusedIndex);
             // Calculate the width of the previous project element
@@ -41,7 +39,7 @@ const Projects = (): JSX.Element => {
             // Update the scroll position
             carousel.current.scrollLeft = newFocusPosition;
             // Update the focused index
-            setFocusedIndex(focusedIndex - 1);
+            setFocusedIndex( focusedIndex - 1);
         }
     };
     return (
