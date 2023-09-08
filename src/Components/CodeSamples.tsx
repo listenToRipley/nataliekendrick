@@ -33,7 +33,7 @@ const CodeSamples = (): JSX.Element => {
           samples.map((el:Sample, index:number) => {
 
             return (
-              <div key={index} className="bg-black/80 text-gray-400 transition-colors p-4 justify-center mt-10 ">
+              <div key={index} className="bg-black/80 text-gray-400 transition-colors p-4 justify-center mt-10 break-words">
                 <p className="text-xl">{el.title}</p>
                 <p><span className='italic'>Description</span>: {el.description}</p>
                 <p><span className='italic'>Language:</span> {el.language}</p>
