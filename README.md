@@ -25,7 +25,7 @@ This application was deployed using [Netlify](https://docs.netlify.com/)
 
 ### TODO
 
-1. Updates [scrollbar](https://www.npmjs.com/package/tailwind-scrollbar) on projects
+1. Hide Scrollbar
 2. Add interfaces to modules
 3. Create references to allow for quick navigation in specific sections.
 4. Color blind friendly button

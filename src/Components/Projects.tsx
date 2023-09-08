@@ -12,14 +12,14 @@ const Projects = (): JSX.Element => {
     const [focusedIndex, setFocusedIndex] = useState<number | null>(null);
 
     useEffect(() => {
-        console.log('on load');
+        // console.log('on load');
         setCarouselWidth(carousel.current.offsetWidth);
         setFocusedIndex(0);
     }, []);
 
     const handleNext = () => {
         if (focusedIndex !== null && focusedIndex < projectsList.length - 1) {
-            console.log('click', focusedIndex);
+            // console.log('click', focusedIndex);
             // Calculate the width of the current project element
             const currentElementWidth = projectRefs[focusedIndex].current?.offsetWidth || 0;
             // Calculate the new focus position based on the width of the current element
@@ -33,7 +33,7 @@ const Projects = (): JSX.Element => {
 
     const handlePrevious = () => {
         if (focusedIndex !== null && focusedIndex > 0) {
-            console.log('click', focusedIndex);
+            // console.log('click', focusedIndex);
             // Calculate the width of the previous project element
             const previousElementWidth = projectRefs[focusedIndex - 1].current?.offsetWidth || 0;
             // Calculate the new focus position by subtracting the width of the previous element
