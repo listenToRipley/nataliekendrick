@@ -40,7 +40,7 @@ const CodeSamples = (): JSX.Element => {
                 <br />
                 <div className="block break-words">
                   <pre className="font-sans">
-                    <samp className="language-js">
+                    <samp className="language-js break-normal">
                       {`${codePath(el.code)}`}
                     </samp>
                   </pre>
