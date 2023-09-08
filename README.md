@@ -30,6 +30,5 @@ This application was deployed using [Netlify](https://docs.netlify.com/)
 3. Create references to allow for quick navigation in specific sections.
 4. Color blind friendly button
 5. Mobile nav.
-6. Fix word break on code samples
-7. Fix font import
-8. Work on adding user interface to add [Wordle](https://github.com/listenToRipley/wordle) to projects
+6. Fix font import
+7. Work on adding user interface to add [Wordle](https://github.com/listenToRipley/wordle) to projects
