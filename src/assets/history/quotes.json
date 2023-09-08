@@ -76,5 +76,11 @@
       "title": "Designing Your Life"
     },
     "bio":"https://designingyour.life/"
+  },
+  {
+    "id": 12,
+    "quote": "You work towards a goal, but not a failure. It's steps to success.",
+    "author": "Giannis Antetokounmpo",
+    "bio":"https://www.youtube.com/watch?v=9mXGSjnUvSM"
   }
 ]
