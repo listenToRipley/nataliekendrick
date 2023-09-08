@@ -18,21 +18,32 @@ const Projects = (): JSX.Element => {
     }, []);
 
     const handleNext = () => {
-        if (focusedIndex != null && focusedIndex < projectsList.length - 1) {
-            console.log('click',focusedIndex);
+        if (focusedIndex !== null && focusedIndex < projectsList.length - 1) {
+            console.log('click', focusedIndex);
+            // Calculate the width of the current project element
+            const currentElementWidth = projectRefs[focusedIndex].current?.offsetWidth || 0;
+            // Calculate the new focus position based on the width of the current element
+            const newFocusPosition = carousel.current.scrollLeft + currentElementWidth;
+            // Update the scroll position
+            carousel.current.scrollLeft = newFocusPosition;
+            // Update the focused index
             setFocusedIndex(focusedIndex + 1);
-            projectRefs[focusedIndex + 1].current?.offsetWidth;
         }
     };
 
     const handlePrevious = () => {
-        if (focusedIndex != null && focusedIndex < projectsList.length - 1) {
-            console.log('click',focusedIndex);
-            setFocusedIndex(focusedIndex + 1);
-            projectRefs[focusedIndex - 1].current?.focus();
+        if (focusedIndex !== null && focusedIndex > 0) {
+            console.log('click', focusedIndex);
+            // Calculate the width of the previous project element
+            const previousElementWidth = projectRefs[focusedIndex - 1].current?.offsetWidth || 0;
+            // Calculate the new focus position by subtracting the width of the previous element
+            const newFocusPosition = carousel.current.scrollLeft - previousElementWidth;
+            // Update the scroll position
+            carousel.current.scrollLeft = newFocusPosition;
+            // Update the focused index
+            setFocusedIndex(focusedIndex - 1);
         }
-    }
-
+    };
     return (
         <div className="bg-fixed h-screen min-h-screen object-cover p-4 scroll-smooth overflow-auto ">
             <div className="text-5xl">Projects</div>
@@ -43,7 +54,7 @@ const Projects = (): JSX.Element => {
             <div className="flex">
                 <div id="previous"
                      className="text-5xl flex justify-center items-center cursor-pointer p-2 relative -top-8">
-                    <button onClick={handlePrevious}>{"<"}</button>
+                    <button onClick={handlePrevious} className="">{"<"}</button>
                 </div>
 
                 <div id="carousel" ref={carousel}
