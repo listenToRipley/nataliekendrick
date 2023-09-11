@@ -37,12 +37,12 @@
         "year": 2020,
         "month": "October"
         },
-      "description": "TARO is a UT Austin Project started in 2019. Natalie was able to be a contributing member of this project and bring the final project to life.", 
+      "description": "This was the key stone project for my coding boot camp. Please feel free to review the code, but do to an issue with host, this site is not currently available. I am working to resolve it.", 
       "skills": ["XML", "React", "Python", "Javascript", "Django", "CSS"],
       "color": "#48637f",
       "image": "pantryPals.png",
       "altText": "pantry pals homepage",
-      "site": "https://txarchives.org/home",
+      "site": "",
       "code": "https://github.com/utlibraries?q=&type=all&language=&sort="
     },
     {
