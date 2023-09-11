@@ -2,22 +2,6 @@ import React, {useEffect, useRef, useState} from 'react';
 import projects from "../assets/history/projects.json";
 import {Project} from "../../Modules/projects";
 
-interface Project {
-    id: number;
-    projectName: string;
-    completed: {
-        year: number;
-        month: string;
-     },
-    description: string; 
-    skills: string[];
-    color: string;
-    image: string;
-    altText: string;
-    site: string;
-    code: string;
-}
-
 const ProjectList = (): JSX.Element => {
     const projectsList: Project[] = projects.projects;
     const carousel: any | null = useRef(null);
@@ -75,6 +59,7 @@ const ProjectList = (): JSX.Element => {
             );
         } else { 
             //otherwise, just the image and redirect to the 404 page.
+        return (
                 <a href={"https://i.giphy.com/media/jOpLbiGmHR9S0/giphy.webp"}>
                     <span
                     className="tooltip shadow-lg p-1 mt-12 ml-2 duration-300 bg-sky-500 rounded-lg text-sky-900 ease-in-out">
@@ -85,6 +70,7 @@ const ProjectList = (): JSX.Element => {
                         alt={project.altText}/>
                     </span>
                 </a>
+        )
         }
 };
 
