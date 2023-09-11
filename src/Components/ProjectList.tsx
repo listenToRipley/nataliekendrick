@@ -1,10 +1,12 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useRef, useState } from 'react';
 import projects from "../assets/history/projects.json";
+import { useNavigate } from 'react-router-dom';
 import {Project} from "../../Modules/projects";
 
 const ProjectList = (): JSX.Element => {
     const projectsList: Project[] = projects.projects;
     const carousel: any | null = useRef(null);
+    const navigate = useNavigate();
     // Initialize an array of refs for the projects
     const projectRefs: React.RefObject<HTMLDivElement>[] = projectsList.map(() => React.createRef());
     const [focusedIndex, setFocusedIndex] = useState<number | null>(null);
@@ -41,6 +43,7 @@ const ProjectList = (): JSX.Element => {
             setFocusedIndex( focusedIndex - 1);
         }
     };
+
     return (
         <div>
             <div className="text-5xl">Projects</div>
@@ -50,12 +53,12 @@ const ProjectList = (): JSX.Element => {
             </div>
             <div className="flex">
                 <div id="previous"
-                     className={`text-5xl flex justify-center items-center cursor-pointer relative -top-8 ${focusedIndex === 0 ? 'hidden' : ''}`}>
+                    className={`text-5xl flex justify-center items-center cursor-pointer relative -top-8 ${focusedIndex === 0 ? 'hidden' : ''}`}>
                     <button onClick={handlePrevious} className="h-full">{"<"}</button>
                 </div>
 
                 <div id="carousel" ref={carousel}
-                     className="mt-4 flex w-full flex-1 gap-4 overflow-x-auto">
+                    className="mt-4 flex w-full flex-1 gap-4 overflow-x-auto">
                     <div className="flex">
                         {projectsList.map((proj: Project, index: number): JSX.Element => {
                             const imgPath = require(`../assets/images/projectImgs/${proj.image}`)
@@ -77,7 +80,11 @@ const ProjectList = (): JSX.Element => {
                                             {proj.projectName}</a>
                                     </div>
                                     <div className="text-xl has-tooltip">
-                                        <a href={proj.site}>
+                                        <button 
+                                        onClick={(event)=> {
+                                            proj.site === '' ? navigate('/404') : window.location.href = proj.site;
+                                        }}
+                                        >
                                             <span
                                                 className="tooltip shadow-lg p-1 mt-12 ml-2 duration-300 bg-sky-500 rounded-lg text-sky-900 ease-in-out">
                                                 See {proj.projectName}'s site
@@ -86,7 +93,7 @@ const ProjectList = (): JSX.Element => {
                                                 className="aspect-auto w-full md:content-around shadow-md shadow-black/50 rounded-md  hover:shadow-teal-200 transition duration-150 ease-in-out"
                                                 src={imgPath}
                                                 alt={proj.altText}/>
-                                        </a>
+                                        </button>
                                     </div>
                                     <div className="p-8">
                                         <p>Details:</p>
