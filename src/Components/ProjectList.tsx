@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState, MouseEvent} from 'react';
+import React, {useEffect, useRef, useState } from 'react';
 import projects from "../assets/history/projects.json";
 import { useNavigate } from 'react-router-dom';
 import {Project} from "../../Modules/projects";
@@ -6,7 +6,7 @@ import {Project} from "../../Modules/projects";
 const ProjectList = (): JSX.Element => {
     const projectsList: Project[] = projects.projects;
     const carousel: any | null = useRef(null);
-   const navigate = useNavigate();
+    const navigate = useNavigate();
     // Initialize an array of refs for the projects
     const projectRefs: React.RefObject<HTMLDivElement>[] = projectsList.map(() => React.createRef());
     const [focusedIndex, setFocusedIndex] = useState<number | null>(null);
@@ -82,7 +82,7 @@ const ProjectList = (): JSX.Element => {
                                     <div className="text-xl has-tooltip">
                                         <button 
                                         onClick={(event)=> {
-                                            proj.site == '' ? navigate('/404') : window.location.href = proj.site;
+                                            proj.site === '' ? navigate('/404') : window.location.href = proj.site;
                                         }}
                                         >
                                             <span
