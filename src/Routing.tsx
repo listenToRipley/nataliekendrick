@@ -8,8 +8,6 @@ import RoutingError from "./Components/404";
 
 const Router = (): JSX.Element => {
 
-  //TODO: Need to add redirect for failed paths.
-
   return ( 
     <Routes >
       <Route path="/" element={<Home/>}/>
