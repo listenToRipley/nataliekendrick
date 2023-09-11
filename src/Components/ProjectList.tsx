@@ -2,6 +2,22 @@ import React, {useEffect, useRef, useState} from 'react';
 import projects from "../assets/history/projects.json";
 import {Project} from "../../Modules/projects";
 
+interface Project {
+    id: number;
+    projectName: string;
+    completed: {
+        year: number;
+        month: string;
+     },
+    description: string; 
+    skills: string[];
+    color: string;
+    image: string;
+    altText: string;
+    site: string;
+    code: string;
+}
+
 const ProjectList = (): JSX.Element => {
     const projectsList: Project[] = projects.projects;
     const carousel: any | null = useRef(null);
@@ -41,6 +57,38 @@ const ProjectList = (): JSX.Element => {
             setFocusedIndex( focusedIndex - 1);
         }
     };
+
+    const siteInfo = (project: Project, img: string): JSX.Element  => {
+        //if you are passed a url, create link with the image
+        if (project.site !== '') {
+            return ( 
+                <a href={project.site}>
+                    <span
+                    className="tooltip shadow-lg p-1 mt-12 ml-2 duration-300 bg-sky-500 rounded-lg text-sky-900 ease-in-out">
+                        See {project.projectName}
+                    <img
+                        className="aspect-auto w-full md:content-around shadow-md shadow-black/50 rounded-md  hover:shadow-teal-200 transition duration-150 ease-in-out"
+                        src={img}
+                        alt={project.altText}/>
+                    </span>
+                </a>
+            );
+        } else { 
+            //otherwise, just the image and redirect to the 404 page.
+                <a href={"https://i.giphy.com/media/jOpLbiGmHR9S0/giphy.webp"}>
+                    <span
+                    className="tooltip shadow-lg p-1 mt-12 ml-2 duration-300 bg-sky-500 rounded-lg text-sky-900 ease-in-out">
+                        See {project.projectName}
+                    <img
+                        className="aspect-auto w-full md:content-around shadow-md shadow-black/50 rounded-md  hover:shadow-teal-200 transition duration-150 ease-in-out"
+                        src={img}
+                        alt={project.altText}/>
+                    </span>
+                </a>
+        }
+};
+
+
     return (
         <div>
             <div className="text-5xl">Projects</div>
@@ -50,12 +98,12 @@ const ProjectList = (): JSX.Element => {
             </div>
             <div className="flex">
                 <div id="previous"
-                     className={`text-5xl flex justify-center items-center cursor-pointer relative -top-8 ${focusedIndex === 0 ? 'hidden' : ''}`}>
+                    className={`text-5xl flex justify-center items-center cursor-pointer relative -top-8 ${focusedIndex === 0 ? 'hidden' : ''}`}>
                     <button onClick={handlePrevious} className="h-full">{"<"}</button>
                 </div>
 
                 <div id="carousel" ref={carousel}
-                     className="mt-4 flex w-full flex-1 gap-4 overflow-x-auto">
+                    className="mt-4 flex w-full flex-1 gap-4 overflow-x-auto">
                     <div className="flex">
                         {projectsList.map((proj: Project, index: number): JSX.Element => {
                             const imgPath = require(`../assets/images/projectImgs/${proj.image}`)
@@ -77,16 +125,7 @@ const ProjectList = (): JSX.Element => {
                                             {proj.projectName}</a>
                                     </div>
                                     <div className="text-xl has-tooltip">
-                                        <a href={proj.site}>
-                                            <span
-                                                className="tooltip shadow-lg p-1 mt-12 ml-2 duration-300 bg-sky-500 rounded-lg text-sky-900 ease-in-out">
-                                                See {proj.projectName}'s site
-                                            </span>
-                                            <img
-                                                className="aspect-auto w-full md:content-around shadow-md shadow-black/50 rounded-md  hover:shadow-teal-200 transition duration-150 ease-in-out"
-                                                src={imgPath}
-                                                alt={proj.altText}/>
-                                        </a>
+                                    {siteInfo(proj, imgPath)}
                                     </div>
                                     <div className="p-8">
                                         <p>Details:</p>
