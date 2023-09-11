@@ -1,14 +1,21 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const RoutingError = () : JSX.Element => {
+    const navigate = useNavigate();
+
     return (
         <div className="h-screen flex flex-col items-center justify-start mt-5">
             <div className="flex justify-between w-full px-5">
                 <button 
-                className="relative text-5xl p-4 pt-5 text-white">
+                className="relative text-5xl p-4 pt-5 text-white"
+                onClick={()=> navigate(-1)}
+                >
                     Back</button>
                 <button 
-                className="relative text-5xl p-4 pt-5 text-white">
+                className="relative text-5xl p-4 pt-5 text-white"
+                onClick={()=> navigate('/')}
+                >
                     Home</button>
             </div>
             <div className="text-center">
