@@ -4,6 +4,8 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Project from "./Components/Project";
+import RoutingError from "./Components/404";
+import { Redirect } from "react-router-dom";
 
 const Router = (): JSX.Element => {
 
@@ -15,6 +17,8 @@ const Router = (): JSX.Element => {
       <Route path="/about" element={<About/>}/>
       <Route path="/resume" element={<Resume/>}/>
       <Route path="/projects" element={<Project/>}/>
+      <Route path="/404" element={<RoutingError/>}/>
+      <Redirect to="/404"/>
     </Routes>
   )
 }; 
