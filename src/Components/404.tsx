@@ -8,15 +8,17 @@ const RoutingError = () : JSX.Element => {
         <div className="h-screen flex flex-col items-center justify-start mt-5">
             <div className="flex justify-between w-full px-5">
                 <button 
-                className="relative text-5xl p-4 pt-5 text-white"
+                className="relative text-5xl p-4 pt-5 text-white "
                 onClick={()=> navigate(-1)}
                 >
-                    Back</button>
+                    <p className="hover:shadow-teal-200 transition duration-150 ease-in-out">Back</p>
+                </button>
                 <button 
                 className="relative text-5xl p-4 pt-5 text-white"
                 onClick={()=> navigate('/')}
                 >
-                    Home</button>
+                    <p className="hover:shadow-teal-200 transition duration-150 ease-in-out">Home</p>
+                </button>
             </div>
             <div className="text-center">
                 <p className="text-5xl">Sorry</p>
