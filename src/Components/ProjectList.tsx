@@ -1,10 +1,12 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useRef, useState, MouseEvent} from 'react';
 import projects from "../assets/history/projects.json";
+import { useNavigate } from 'react-router-dom';
 import {Project} from "../../Modules/projects";
 
 const ProjectList = (): JSX.Element => {
     const projectsList: Project[] = projects.projects;
     const carousel: any | null = useRef(null);
+   const navigate = useNavigate();
     // Initialize an array of refs for the projects
     const projectRefs: React.RefObject<HTMLDivElement>[] = projectsList.map(() => React.createRef());
     const [focusedIndex, setFocusedIndex] = useState<number | null>(null);
@@ -42,39 +44,6 @@ const ProjectList = (): JSX.Element => {
         }
     };
 
-    const siteInfo = (project: Project, img: string): JSX.Element  => {
-        //if you are passed a url, create link with the image
-        if (project.site !== '') {
-            return ( 
-                <a href={project.site}>
-                    <span
-                    className="tooltip shadow-lg p-1 mt-12 ml-2 duration-300 bg-sky-500 rounded-lg text-sky-900 ease-in-out">
-                        See {project.projectName}
-                    <img
-                        className="aspect-auto w-full md:content-around shadow-md shadow-black/50 rounded-md  hover:shadow-teal-200 transition duration-150 ease-in-out"
-                        src={img}
-                        alt={project.altText}/>
-                    </span>
-                </a>
-            );
-        } else { 
-            //otherwise, just the image and redirect to the 404 page.
-        return (
-                <a href={"https://i.giphy.com/media/jOpLbiGmHR9S0/giphy.webp"}>
-                    <span
-                    className="tooltip shadow-lg p-1 mt-12 ml-2 duration-300 bg-sky-500 rounded-lg text-sky-900 ease-in-out">
-                        See {project.projectName}
-                    <img
-                        className="aspect-auto w-full md:content-around shadow-md shadow-black/50 rounded-md  hover:shadow-teal-200 transition duration-150 ease-in-out"
-                        src={img}
-                        alt={project.altText}/>
-                    </span>
-                </a>
-        )
-        }
-};
-
-
     return (
         <div>
             <div className="text-5xl">Projects</div>
@@ -111,7 +80,20 @@ const ProjectList = (): JSX.Element => {
                                             {proj.projectName}</a>
                                     </div>
                                     <div className="text-xl has-tooltip">
-                                    {siteInfo(proj, imgPath)}
+                                        <button 
+                                        onClick={(event)=> {
+                                            proj.site == '' ? navigate('/404') : window.location.href = proj.site;
+                                        }}
+                                        >
+                                            <span
+                                                className="tooltip shadow-lg p-1 mt-12 ml-2 duration-300 bg-sky-500 rounded-lg text-sky-900 ease-in-out">
+                                                See {proj.projectName}'s site
+                                            </span>
+                                            <img
+                                                className="aspect-auto w-full md:content-around shadow-md shadow-black/50 rounded-md  hover:shadow-teal-200 transition duration-150 ease-in-out"
+                                                src={imgPath}
+                                                alt={proj.altText}/>
+                                        </button>
                                     </div>
                                     <div className="p-8">
                                         <p>Details:</p>
