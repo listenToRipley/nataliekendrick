@@ -6,5 +6,5 @@ export interface Quote {
     type: string;
     title: string;
   },
-  bio: string; 
+  bio?: string; 
 };
