@@ -82,5 +82,14 @@
     "quote": "You work towards a goal, but not a failure. It's steps to success.",
     "author": "Giannis Antetokounmpo",
     "bio":"https://www.youtube.com/watch?v=9mXGSjnUvSM"
+  },
+  {
+    "id": 13,
+    "quote": "I care. I care a lot. It’s kind of my thing.",
+    "author": "Leslie Knope",
+    "source": {
+      "type": "TV Show",
+      "title": "Parks and Recreation - Season 2 | Episode 8 | `Ron and Tammy`"
+    }
   }
 ]

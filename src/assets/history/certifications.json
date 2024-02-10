@@ -1,14 +1,24 @@
 {
     "certifications": [
         {
-            "type": "AWS and React: Creating Full-Stack Apps",
-            "from": "LinkedIn Learning",
-            "link": "https://www.linkedin.com/learning/certificates/3ed16ba57d082b586dbfbba83825108bef01992f3a5630bd76005160ea8ccbd5?trk=backfilled_certificate"
+            "type":"Agile Scrum Certification",
+            "from": "O'Reillly Media | by Packt Publishing",
+            "link": "https://www.credly.com/badges/17ffc844-8421-4ff3-b1bb-4f29e1631a23/linked_in?t=s8nc8z"
+        },
+        {
+            "type":"API Styles Fundamentals",
+            "from": "O'Reillly Media",
+            "link": "https://www.credly.com/badges/9d8f8338-18df-4a6a-888d-914574967d60/linked_in_profile"
         },
         {
             "type": "Agile Foundations",
             "from": "LinkedIn Learning",
             "link": "https://www.linkedin.com/learning/certificates/96d858cba6ebfd42a6e7c4fb9a27973c3b880410664715b1365f8d22af82ee1c?trk=backfilled_certificate"
+        },
+        {
+            "type": "AWS and React: Creating Full-Stack Apps",
+            "from": "LinkedIn Learning",
+            "link": "https://www.linkedin.com/learning/certificates/3ed16ba57d082b586dbfbba83825108bef01992f3a5630bd76005160ea8ccbd5?trk=backfilled_certificate"
         },
         {
             "type": "C++ Foundations",
@@ -29,6 +39,11 @@
             "type": "Drupal 9 Essential Training",
             "from": "LinkedIn Learning",
             "link": "https://www.linkedin.com/learning/certificates/d86c7255a0eaef6725441f0261b3b29b823e23c96cfa8b472f842a30f67021f2?trk=backfilled_certificate"
+        },
+        {
+            "type": "Getting Started with Elixir",
+            "from": "O'Reillly Media",
+            "link": "https://www.credly.com/badges/48f8d74e-69dc-4c14-8211-99aae91724bf/linked_in_profile"
         },
         {
             "type": "How to Be Both Assertive and Likable",
@@ -64,6 +79,11 @@
             "type": "Learning npm the Node Package Manager",
             "from": "LinkedIn Learning",
             "link": "https://www.linkedin.com/learning/certificates/a31e0dd367a1955a1237807687a17bf6e9405bf93a045c72952ec9dc6c757f32?trk=backfilled_certificate"
+        },
+        {
+            "type": "Learning PHP in 90 Minutes",
+            "from": "O'Reillly Media | by Packt Publishing",
+            "link": "https://www.credly.com/badges/f21a3f42-a9ea-4001-9925-6ae92c3bf4a8/linked_in_profile"
         },
         {
             "type": "Learning React.js",
