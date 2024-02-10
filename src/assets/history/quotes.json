@@ -91,5 +91,14 @@
       "type": "TV Show",
       "title": "Parks and Recreation - Season 2 | Episode 8 | `Ron and Tammy`"
     }
+  },
+  {
+    "id": 14,
+    "quote": "Certainty kills curiosity and change.",
+    "author": "Jerry Saltz",
+    "source": {
+      "type": "Book",
+      "title": "How to Be an Artist"
+    }
   }
 ]
