@@ -13,7 +13,7 @@ const About = (): JSX.Element => {
 
   useEffect(() => {
     const findQuote = () => {
-      const quotesLen = Object.keys(quotes).length
+      const quotesLen = Object.keys(quotes).length - 1
       let quoteId: number = Math.floor(Math.random() * quotesLen);
       return setQuoteId(quoteId); 
     };
