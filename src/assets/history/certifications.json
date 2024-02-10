@@ -6,14 +6,14 @@
             "link": "https://www.credly.com/badges/17ffc844-8421-4ff3-b1bb-4f29e1631a23/linked_in?t=s8nc8z"
         },
         {
-            "type":"API Styles Fundamentals",
-            "from": "O'Reillly Media",
-            "link": "https://www.credly.com/badges/9d8f8338-18df-4a6a-888d-914574967d60/linked_in_profile"
-        },
-        {
             "type": "Agile Foundations",
             "from": "LinkedIn Learning",
             "link": "https://www.linkedin.com/learning/certificates/96d858cba6ebfd42a6e7c4fb9a27973c3b880410664715b1365f8d22af82ee1c?trk=backfilled_certificate"
+        },
+        {
+            "type":"API Styles Fundamentals",
+            "from": "O'Reillly Media",
+            "link": "https://www.credly.com/badges/9d8f8338-18df-4a6a-888d-914574967d60/linked_in_profile"
         },
         {
             "type": "AWS and React: Creating Full-Stack Apps",
