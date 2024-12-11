@@ -23,7 +23,7 @@
         ],
         "achievements": [
           "Refactored and optimized legacy code for improved scalability and reduced maintenance overhead.",
-          "Developed a standardized process for handling end-user work requests, improving ticket resolution times by 25%.",
+          "Developed a standardized process for handling end-user work requests, improving ticket resolution times.",
           "Led initiatives to enhance CI/CD practices, resulting in a reduction in deployment-related issues."
         ]
       },
@@ -70,11 +70,11 @@
           "Developed and maintained a web application and database solution for managing procurement card transactions, processing over $3 million monthly.",
           "Enhanced security by implementing stronger authentication methods and applying encryption techniques for sensitive transaction data.",
           "Coordinated with internal departments to optimize procurement workflows, ensuring efficient usage of 1400+ cards across multiple departments.",
-          "Conducted in-depth data analysis to generate insights and improve operational procedures, reducing manual reconciliation time by 40%.",
+          "Conducted in-depth data analysis to generate insights and improve operational procedures, reducing manual reconciliation time",
           "Developed custom reports for stakeholders to monitor card usage, ensuring compliance with purchasing policies."
         ],
         "achievements": [
-          "Designed a fully automated reporting system for procurement card transactions, reducing manual effort by 50%.",
+          "Designed a fully automated reporting system for procurement card transactions, reducing manual effort",
           "Overhauled the Procurement Card Program, improving operational efficiency and policy adherence for over 1500 users.",
           "Led a cross-functional team to revise and enhance procurement policies, significantly reducing security risks and increasing operational transparency."
         ]
@@ -95,11 +95,11 @@
         "responsibilities": [
           "Managed office operations for a team of 30+ employees, including streamlining internal communication and document management systems.",
           "Designed and implemented a digital filing system to organize and secure confidential materials, ensuring compliance with legal data standards.",
-          "Automated inventory management processes to streamline ordering and tracking systems, reducing manual inventory discrepancies by 35%.",
+          "Automated inventory management processes to streamline ordering and tracking systems, reducing manual inventory discrepancies.",
           "Trained and supervised a team of three junior employees, providing technical support and guidance on office procedures."
         ],
         "achievements": [
-          "Digitized and automated the firm's file management system, improving document retrieval efficiency by 50%.",
+          "Digitized and automated the firm's file management system, improving document retrieval efficiency.",
           "Developed and implemented an automated inventory tracking system, resulting in improved stock control and reduced waste.",
           "Introduced a comprehensive training program, improving staff knowledge retention and reducing operational errors."
         ]
