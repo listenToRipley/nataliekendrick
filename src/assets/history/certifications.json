@@ -1,8 +1,13 @@
 {
     "certifications": [
         {
+            "type":"Accessible and Inclusive Design Patterns",
+            "from":"IxDF - Interaction Design Foundation",
+            "link":"https://www.interaction-design.org/members/natalie-kendrick/certificate/masterclass/mcc_0aa18bfb56b7466abd2b217af779a349"
+        },
+        {
             "type":"Agile Scrum Certification",
-            "from": "O'Reillly Media | by Packt Publishing",
+            "from": "O'Reilly Media | by Packt Publishing",
             "link": "https://www.credly.com/badges/17ffc844-8421-4ff3-b1bb-4f29e1631a23/linked_in?t=s8nc8z"
         },
         {
@@ -12,7 +17,7 @@
         },
         {
             "type":"API Styles Fundamentals",
-            "from": "O'Reillly Media",
+            "from": "O'Reilly Media",
             "link": "https://www.credly.com/badges/9d8f8338-18df-4a6a-888d-914574967d60/linked_in_profile"
         },
         {
@@ -26,9 +31,24 @@
             "link": "https://academy.zenva.com/certificate/f570d2f45a84"
         },
         {
+            "type":"Licenses & certifications Communication in the 21st Century Workplace",
+            "from":"University of California, Irvine",
+            "link":"https://www.coursera.org/account/accomplishments/verify/DRQQ8TYFA15E"
+        },
+        {
             "type": "The Complete Beginner's JavaScript Course",
             "from": "Zenva",
             "link": "https://academy.zenva.com/certificate/9ca52ae0"
+        },
+        {
+            "type":"Coursera: Software Engineering Essentials",
+            "from":"IBM",
+            "link":"https://www.credly.com/badges/02c3ad2e-d508-4b70-b047-73179c1056dc/print"
+        },
+        {
+            "type":"Design Thinking: THe Ultimate Guide",
+            "from":"IxDF - Interaction Design Foundation",
+            "link":"https://www.interaction-design.org/members/natalie-kendrick/certificate/course/a31811d7-b8ca-46bb-b663-161be2347d2e"
         },
         {
             "type": "Drupal 8 Essential Training",
@@ -42,7 +62,7 @@
         },
         {
             "type": "Getting Started with Elixir",
-            "from": "O'Reillly Media",
+            "from": "O'Reilly Media",
             "link": "https://www.credly.com/badges/48f8d74e-69dc-4c14-8211-99aae91724bf/linked_in_profile"
         },
         {
@@ -82,7 +102,7 @@
         },
         {
             "type": "Learning PHP in 90 Minutes",
-            "from": "O'Reillly Media | by Packt Publishing",
+            "from": "O'Reilly Media | by Packt Publishing",
             "link": "https://www.credly.com/badges/f21a3f42-a9ea-4001-9925-6ae92c3bf4a8/linked_in_profile"
         },
         {
@@ -121,6 +141,11 @@
             "link": "https://www.linkedin.com/learning/certificates/f601a964cca2c4f0f0e008517db302136d73a4d4c69ac6dfcf32ba694be10de3"
         },
         {
+            "type": "Pros & Cons of Zero Trust",
+            "from": "O'Reilly Media | by Packt Publishing",
+            "link": "https://www.credly.com/badges/796ed210-e393-4f82-9080-7b6c4fd270b7/linked_in_profile"
+        },
+        {
             "type": "Programming Foundations: Databases",
             "from": "LinkedIn Learning",
             "link": "https://www.linkedin.com/learning/certificates/e4650f75147695611e49e8d0de785bfea90bfc50e5d8b7ca9d6b11e62286ccd9?trk=backfilled_certificate"
@@ -134,6 +159,11 @@
             "type": "Python for Students",
             "from": "LinkedIn Learning",
             "link": "https://www.linkedin.com/learning/certificates/0943fb8964b7fd25f36f3b9119181f04f8c638fe09215973da486f74c64a9675?trk=backfilled_certificate"
+        },
+        {
+            "type":"Radical Participatory Design: Insights From NASA’s Service Design Lead",
+            "from":"IxDF - Interaction Design Foundation",
+            "link":"https://www.interaction-design.org/members/natalie-kendrick/certificate/masterclass/mcc_5bb256ebdf5f45379f4b429c038b9e25"
         },
         {
             "type": "React.js Essential Training",
