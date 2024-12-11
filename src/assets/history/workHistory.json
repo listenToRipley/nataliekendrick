@@ -283,6 +283,19 @@
       }
     ],
     "volunteer": [
+        {
+        "company": {
+          "name": "Microsoft TEALS",
+          "site": "https://www.microsoft.com/en-us/teals", 
+          "location": "Rochester, NY",
+          "description": "Technology Education and Learning Support (TEALS) is a Microsoft Philanthropies program that builds sustainable computer science (CS) programs in high schools. We focus on serving students excluded from learning CS because of race, gender, or geography. TEALS helps teachers learn to teach CS by pairing them with industry volunteers and proven curricula."
+        },
+        "title": "TEALS",
+        "tenure": {
+          "start": 2024,
+          "end": "Current" 
+        }
+      },
       {
         "company": {
           "name": "CASA of Travis County",
