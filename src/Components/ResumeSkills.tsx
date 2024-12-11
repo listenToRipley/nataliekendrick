@@ -13,20 +13,20 @@ return (
   <div className="bg-white/20 transition-colors p-4 mt-10 flex">
     <h3 className="text-2xl mr-4 underline">Skills</h3>
     <div>
-      {Object.entries(sortedSkills).map(([category, skillsList]): JSX.Element => (
+      {Object.entries(sortedSkills).map(([category, skillsList]): JSX.Element => {
+        return(
         <div>
           <div className="text-xl italic">{category.replace(/_/g, " ")}</div>
           <ul>
             {skillsList.map((skill: string, id: number) => {
               return(
-                <li>
-                  {skill}
-                </li>
+                <li>{skill}</li>
               )
             })}
           </ul>
         </div>
-      ))}
+        )
+      })}
     </div>
   </div>
 
