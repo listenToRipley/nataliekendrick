@@ -9,7 +9,6 @@ const ResumeSkills = (): JSX.Element => {
   }, {} as Record<string, string[]>);
 
 return (
-
   <div className="bg-white/20 transition-colors p-4 mt-10">
     <h3 className="text-xl sm:text-2xl underline mb-4">Skills</h3>
     <div>

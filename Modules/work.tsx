@@ -39,6 +39,6 @@ export interface Volunteer {
     title: string,
     tenure: {
       start: number,
-      end:  number
+      end:  number | string
     }
 };

@@ -1,365 +1,353 @@
 [
   {
     "professional": [
-    {
-      "company": {
-        "name": "University of Rochester Laboratory For Laser Energetics (LLE)",
-        "site": "https://www.lle.rochester.edu/", 
-        "type": "Educational Institution",
-        "location": "Rochester, NY"
+      {
+        "company": {
+          "name": "University of Rochester Laboratory For Laser Energetics (LLE)",
+          "site": "https://www.lle.rochester.edu/", 
+          "type": "Educational Institution",
+          "location": "Rochester, NY"
         },
-      "title": "Front End Web Developer II",
-      "tenure": {
-        "start":"August 2022",
-        "end":"Present"
+        "title": "Front End Web Developer II",
+        "tenure": {
+          "start": "August 2022",
+          "end": "Present"
+        },
+        "divider": "", 
+        "responsibilities": [ 
+          "Refactored and debugged legacy systems using Perl, PHP, JavaScript, jQuery, and C++ to reduce technical debt and improve maintainability.",
+          "Managed technical debt and addressed system errors by investigating and resolving help desk tickets, coordinating with internal teams for efficient resolution.",
+          "Implemented Continuous Integration/Continuous Deployment (CI/CD) improvements, optimizing deployment pipelines and establishing testing protocols to streamline release processes.",
+          "Normalized Oracle and phpMyAdmin database content, ensuring data integrity, and implementing security best practices for system protection.",
+          "Created and maintained comprehensive technical documentation for applications and systems, reducing knowledge silos and improving operational efficiency."
+        ],
+        "achievements": [
+          "Refactored and optimized legacy code for improved scalability and reduced maintenance overhead.",
+          "Developed a standardized process for handling end-user work requests, improving ticket resolution times.",
+          "Led initiatives to enhance CI/CD practices, resulting in a reduction in deployment-related issues."
+        ]
       },
-      "divider": "", 
-      "responsibilities": [ 
-        "Management of technical debt", 
-        "Addressing work requests & bugs",
-        "Validate and update database systems/ content on an Oracle system.",
-        "Management and maintenance documentation","Update legacy code to modern standards"
-      ],
-      "achievements": [
-        "Created Standardized Business Practices",
-        "Updated Swagger calls to be more consistent",
-        "Normalized Database content"
-      ]
-    },
-    {
-      "company": {
-        "name": "University of Texas Libraries",
-        "site": "https://www.lib.utexas.edu/", 
-        "type": "Educational Institution",
-        "location":"Austin, Texas"
+      {
+        "company": {
+          "name": "University of Texas Libraries",
+          "site": "https://www.lib.utexas.edu/", 
+          "type": "Educational Institution",
+          "location": "Austin, Texas"
         },
-      "title": "Software Developer",
-      "tenure": {
-        "start":"June 2021",
-        "end": "August 2022"
-      },
-      "divider": "", 
-      "responsibilities": [
-        "Write, test & debug programming for UTL systems.", 
-        "Provide operational & customer support for UTL services.", 
-        "Monitoring systems, providing customer service, issue investigation, and documentation.", 
-        "Planning & monitoring of project tasks, communicating project status to stakeholders to ensure deadlines are met.", 
-        "Contribute to application quality through participation in validation, testing, and documentation of product releases."
-      ],
-      "achievements": [
-        "Helped launch TARO (https://txarchives.org/home)",
-        "Created container content on Docker",
-        "Created a search function with the use of SOLR",
-        "Processed XML docs averaging around 1000 lines (up to 5000)",
-        "Conversation of XML to JSON format for React display"
-
-      ]
-    },
-    {
-      "company": {
-        "name": "University of Texas at Austin + Purchasing Office",
-        "site": "https://procard.financials.utexas.edu/", 
-        "type": "Educational Institution",
-        "location": "Austin, Texas"
-        },
-      "title": "Procurement Card Administrator",
-      "tenure": {
-        "start": "May 2015",
-        "end": "June 2021"
-      },
-      "divider": "", 
-      "responsibilities": [
-        "Manage card usage & policy for approx. 1400+ cards & users.",
-        "Facilitate & resolve issues between multi-parties.",
-        "Create & maintain consistent, secure & effective processes for users",
-        "Construct & analyze reports to calibrate operations by verifying usage is in alignment with purchasing policy & users' expectations."
-      ],
-      "achievements":[
-        "Overhauled the Procurement Card Program", 
-        "Headed committee to rewrite and update policies and guidelines",
-        "Provided training to all cardholder",
-        "Updated communication tools for users", 
-        "Analyzed and closed security gaps",
-        "Changed Auditing process"
-      ]
-    }, 
-    {
-      "company": {
-        "name": "Pirkey Barber, PLLC",
-        "site": "https://www.pirkeybarber.com/", 
-        "type": "Intellectual Property Law Firm",
-        "location": "Austin, Texas"
-        },
-      "title": "Facilities Coordinator + Chief Problem Solver",
-      "tenure": {
-        "start":"Jun 2012",
-        "end":"May 2015"
+        "title": "Software Developer",
+        "tenure": {
+          "start": "June 2021",
+          "end": "August 2022"
         },
         "divider": "", 
         "responsibilities": [
-          "Maintained a professional office of 30+ employees.",
-          "Manage digital & physical documentation in multiple locations.",
-          "General office duties: reception work, receiving goods, placing orders, facilitating events, mail processing, and hardware maintenance.",
-          "Training & supervision of 3 employees."
+          "Diagnosed and resolved system errors through log analysis and error debugging tools such as Drone CI/CD, Rancher, and GitLab.",
+          "Planned and executed major technology migrations (e.g., Drupal upgrade, XML to React conversion) to improve security and reduce technical debt.",
+          "Collaborated with cross-functional teams to define project goals, identify risks, and ensure timely completion of project deliverables.",
+          "Managed and maintained technical documentation for library systems, including database schemas, API specifications, and user guides, utilizing SharePoint, OneDrive, and Box.",
+          "Developed and deployed SOLR-based search functionality to improve data retrieval performance."
         ],
-        "achievements":[
-          "Updated Inventory and filing systems",
-          "Provide more detailed and refined tracking of files",
-          "Automated electronic filing",
-          "Provided structure for digitalize files",  
-          "Streamlines inventory ordering and stocking"
-        ]
-    },
-    {
-      "company": {
-        "name": "Iron Mountain, Austin, TX",
-        "site": "https://www.ironmountain.com/", 
-        "type": "Records Management",
-        "location": "Austin, Texas"
-        },
-      "title": "DMS Specialist + Warehouse Assistant",
-      "tenure": {
-        "start":"Feb 2011",
-        "end":"Jun 2012"
-      },
-      "divider": "", 
-      "responsibilities": [
-        "Receiving & preparation of documentation.",
-        "Digital Imaging of confidential information.",
-        "Quality Control.",
-        "Data Entry."
-      ]
-    }
-  ],
-  "partTime": [
-    {
-      "company": {
-        "name": "Natalie’s House, Pet and Baby Sitting",
-        "site": "", 
-        "type": "Personal Services / Caretaker ",
-        "location": "Tucson, Arizona / Austin, Texas"
-        },
-      "title": "Executive President and Diaper Changer",
-      "tenure": {
-        "start":1998,
-        "end":2013
-      },
-      "responsibilities": [
-        "Household care",
-        "Pet sitting",
-        "Childcare"
-      ]
-    },
-    {
-      "company": {
-        "name": "Target",
-        "site": "https://www.target.com/", 
-        "type": "Retail",
-        "location": "Austin, Texas"
-        },
-      "title": "Softlines Sales Associate",
-      "tenure": {
-        "start":2010,
-        "end":2010
-      },
-      "responsibilities": [
-        "Customer Service",
-        "Visual Merchandising",
-        "Stocking",
-        "Point of Sale"
-      ]
-    }, 
-    {
-      "company": {
-        "name": "Silver Sea Jewelry",
-        "site": "https://silverseajewelry.com/", 
-        "type": "Retail",
-        "location": "Tucson, Arizona"
-        },
-      "title": "Sales Associate",
-      "tenure": {
-        "start":2004,
-        "end":2010
-      },
-      "responsibilities": [
-        "Customer Service",
-        "Visual Merchandising",
-        "Stocking",
-        "Point of Sale",
-        "Inventory"
-      ]
-    },
-    {
-      "company": {
-        "name": "Blockbuster Video",
-        "site": "https://bendblockbuster.com/", 
-        "type": "Retail",
-        "location": "Tucson, Arizona"
-      },
-      "title": "Customer Services Representative",
-      "tenure": {
-        "start":2009,
-        "end":2010
-      },
-      "responsibilities": [
-        "Customer Service",
-        "Visual Merchandising",
-        "Stocking",
-        "Point of Sale",
-        "Inventory"
-      ]
-    },
-    {
-      "company": {
-        "name": "Hameroff/Lavinsky Law Firm",
-        "site": "https://hamerlaw.com/", 
-        "type": "Legal Firm",
-        "location": "Tucson, Arizona"
-        },
-      "title": "File Clerk",
-      "tenure": {
-        "start":2007,
-        "end":2009
-      },
-      "responsibilities": [
-        "Data Entry",
-        "Mail Processing",
-        "Preparation of legal documents",
-        "File Management",
-        "Reception Duties"
-      ]
-    },
-    {
-      "company": {
-        "name": "Hawkins and EZ Messenger",
-        "site": "https://www.ezmessenger.com/", 
-        "type": "Legal Courier and Processing",
-        "location": "Tucson, Arizona"
-        },
-      "title": "Data Entry Clerk",
-      "tenure": {
-        "start":2007,
-        "end":2007
-      },
-      "responsibilities": [
-        "Data Entry",
-        "Reception Duties",
-        "Mail Processing",
-        "Official Court Document Courier"
-      ]
-    },
-    {
-      "company": {
-        "name": "C.A.R.E",
-        "site": "",
-        "type": "Child Care Facility",
-        "location": "Tucson, Arizona"
-      },
-      "title": "Care Giver",
-      "tenure": {
-        "start": 2007,
-        "end": 2007
-      },
-      "responsibilities": [
-      "Child Care",
-      "Activity Planning",
-      "Small Repairs",
-      "Inventory"
-      ]
-    }, 
-    {
-      "company": {
-        "name":"Borderlands Trade Co.",
-        "site": "",
-        "type":"Import Sales",
-        "location":"Tucson, Arizona"
-      },
-      "title": "Sales Associate",
-      "tenure": {
-        "start": 2006,
-        "end": 2006
-      },
-      "responsibilities": [
-        "Customer Service",
-        "Visual Merchandising",
-        "Stocking",
-        "Point of Sale"
+        "achievements": [
+          "Successfully launched TARO, a comprehensive archive management system, significantly improving public access to archival data.",
+          "Engineered a custom solution to convert XML documents to JSON format for enhanced React application integration.",
+          "Created containerized environments for application deployment using Docker, ensuring consistent application performance across different environments."
         ]
       },
-    {
-      "company": {
-        "name": "20 Century Park Place",
-        "site": "https://www.cinemark.com/theatres/az-tucson/century-park-place-20-and-xd",
-        "type": "Movie Theatre",
-        "location": "Tucson, Arizona"
+      {
+        "company": {
+          "name": "University of Texas at Austin + Purchasing Office",
+          "site": "https://procard.financials.utexas.edu/", 
+          "type": "Educational Institution",
+          "location": "Austin, Texas"
+        },
+        "title": "Procurement Card Administrator",
+        "tenure": {
+          "start": "May 2015",
+          "end": "June 2021"
+        },
+        "divider": "", 
+        "responsibilities": [
+          "Developed and maintained a web application and database solution for managing procurement card transactions, processing over $3 million monthly.",
+          "Enhanced security by implementing stronger authentication methods and applying encryption techniques for sensitive transaction data.",
+          "Coordinated with internal departments to optimize procurement workflows, ensuring efficient usage of 1400+ cards across multiple departments.",
+          "Conducted in-depth data analysis to generate insights and improve operational procedures, reducing manual reconciliation time",
+          "Developed custom reports for stakeholders to monitor card usage, ensuring compliance with purchasing policies."
+        ],
+        "achievements": [
+          "Designed a fully automated reporting system for procurement card transactions, reducing manual effort",
+          "Overhauled the Procurement Card Program, improving operational efficiency and policy adherence for over 1500 users.",
+          "Led a cross-functional team to revise and enhance procurement policies, significantly reducing security risks and increasing operational transparency."
+        ]
+      }, 
+      {
+        "company": {
+          "name": "Pirkey Barber, PLLC",
+          "site": "https://www.pirkeybarber.com/", 
+          "type": "Intellectual Property Law Firm",
+          "location": "Austin, Texas"
+        },
+        "title": "Facilities Coordinator + Chief Problem Solver",
+        "tenure": {
+          "start": "Jun 2012",
+          "end": "May 2015"
+        },
+        "divider": "", 
+        "responsibilities": [
+          "Managed office operations for a team of 30+ employees, including streamlining internal communication and document management systems.",
+          "Designed and implemented a digital filing system to organize and secure confidential materials, ensuring compliance with legal data standards.",
+          "Automated inventory management processes to streamline ordering and tracking systems, reducing manual inventory discrepancies.",
+          "Trained and supervised a team of three junior employees, providing technical support and guidance on office procedures."
+        ],
+        "achievements": [
+          "Digitized and automated the firm's file management system, improving document retrieval efficiency.",
+          "Developed and implemented an automated inventory tracking system, resulting in improved stock control and reduced waste.",
+          "Introduced a comprehensive training program, improving staff knowledge retention and reducing operational errors."
+        ]
       },
-      "title": "Usher/Cleaning Crew",
-      "tenure": {
-        "start": 2005, 
-        "end": 2005
-      },
-      "responsibilities": [
-        "Customer Service",
-        "Cleaning",
-        "Stocking",
-        "Concessions"
-      ]
-  }
-  ],
-  "volunteer": [
-    {
-      "company": {
-        "name": "CASA of Travis County",
-        "site": "https://www.casatravis.org/", 
-        "location": "Austin, Texas",
-        "description": "CASA - Child Appointed Special Advocate help children currently in the care of The State to insure they are not just a number in the system, but are known and their needs and wants are fully met as individuals."
-      },
-      "title": "CASA Volunteer",
-      "tenure": {
-        "start": 2017,
-        "end": 2022
+      {
+        "company": {
+          "name": "Iron Mountain, Austin, TX",
+          "site": "https://www.ironmountain.com/", 
+          "type": "Records Management",
+          "location": "Austin, Texas"
+        },
+        "title": "DMS Specialist + Warehouse Assistant",
+        "tenure": {
+          "start": "Feb 2011",
+          "end": "Jun 2012"
+        },
+        "divider": "", 
+        "responsibilities": [
+          "Handled receiving and preparation of documentation for secure storage and processing.",
+          "Digitized confidential documentation using industry-standard digital imaging technology, ensuring compliance with privacy and security policies.",
+          "Conducted quality control checks on scanned documents to ensure accurate data capture.",
+          "Performed data entry to catalog physical records into the company's digital database, ensuring accuracy and accessibility."
+        ]
       }
-    },  
-    {
-    "company": {
-      "name": "Girl Scouts of America",
-      "site": "https://www.girlscouts-gateway.org/en/for-volunteers/why-volunteer.html", 
-      "location": "Austin, Texas",
-      "description": "A group for girls to empowered and change the world, one bandage at a time."
-    },
-    "title": "Jamboree Assistant",
-    "tenure": {
-      "start": 2013,
-      "end": 2015
-    }
-  },
-  {
-    "company": {
-      "name": "Austin Pets Alive!",
-      "site": "https://www.austinpetsalive.org/", 
-      "location": "Austin, Texas",
-      "description": "Dedicated to making Austin Texas a no kill city and finding happy homes for all pets."
-    },
-    "title": "Transportation Volunteer",
-    "tenure": {
-      "start": 2010,
-      "end": 2013
-    }
-  },
-  {
-    "company": {
-      "name": "We Are Blood",
-      "site": "https://weareblood.org/", 
-      "location": "Texas",
-      "description": "Blood and Tissue Bank of Texas"
-    },
-    "title": "Donor",
-    "tenure": {
-      "start": 2010,
-      "end": 2022
-    }
+    ],
+    "partTime": [
+      {
+        "company": {
+          "name": "Natalie’s House, Pet and Baby Sitting",
+          "site": "", 
+          "type": "Personal Services / Caretaker ",
+          "location": "Tucson, Arizona / Austin, Texas"
+        },
+        "title": "Executive President and Diaper Changer",
+        "tenure": {
+          "start": 1998,
+          "end": 2013
+        },
+        "responsibilities": [
+          "Managed household operations, ensuring smooth day-to-day activities for children and pets.",
+          "Monitored inventory and scheduled household tasks, ensuring timely completion of chores and childcare."
+        ]
+      },
+      {
+        "company": {
+          "name": "Target",
+          "site": "https://www.target.com/", 
+          "type": "Retail",
+          "location": "Austin, Texas"
+        },
+        "title": "Softlines Sales Associate",
+        "tenure": {
+          "start": 2010,
+          "end": 2010
+        },
+        "responsibilities": [
+          "Provided customer service and guided customers through purchase decisions.",
+          "Maintained product presentation and visual merchandising according to store standards.",
+          "Managed inventory and stocked shelves to ensure product availability."
+        ]
+      },
+      {
+        "company": {
+          "name": "Silver Sea Jewelry",
+          "site": "https://silverseajewelry.com/", 
+          "type": "Retail",
+          "location": "Tucson, Arizona"
+        },
+        "title": "Sales Associate",
+        "tenure": {
+          "start": 2004,
+          "end": 2010
+        },
+        "responsibilities": [
+          "Assisted customers with product selection and ensured customer satisfaction.",
+          "Monitored inventory and performed stock replenishment as needed.",
+          "Processed sales transactions and provided POS support."
+        ]
+      },
+      {
+        "company": {
+          "name": "Blockbuster Video",
+          "site": "https://bendblockbuster.com/", 
+          "type": "Retail",
+          "location": "Tucson, Arizona"
+        },
+        "title": "Customer Services Representative",
+        "tenure": {
+          "start": 2009,
+          "end": 2010
+        },
+        "responsibilities": [
+          "Provided high-quality customer service and support to video rental customers.",
+          "Managed store inventory, ensuring that popular titles were available for rent."
+        ]
+      },
+      {
+        "company": {
+          "name": "Hameroff/Lavinsky Law Firm",
+          "site": "https://hamerlaw.com/", 
+          "type": "Legal Firm",
+          "location": "Tucson, Arizona"
+        },
+        "title": "File Clerk",
+        "tenure": {
+          "start": 2007,
+          "end": 2009
+        },
+        "responsibilities": [
+          "Managed data entry, filing, and legal document preparation for attorneys.",
+          "Organized and maintained physical and digital legal records for efficient retrieval."
+        ]
+      },
+      {
+        "company": {
+          "name": "Hawkins and EZ Messenger",
+          "site": "https://www.ezmessenger.com/", 
+          "type": "Legal Courier and Processing",
+          "location": "Tucson, Arizona"
+        },
+        "title": "Data Entry Clerk",
+        "tenure": {
+          "start": 2007,
+          "end": 2007
+        },
+        "responsibilities": [
+          "Entered and processed legal data into systems.",
+          "Handled reception duties and official court document deliveries."
+        ]
+      },
+      {
+        "company": {
+          "name": "C.A.R.E",
+          "site": "",
+          "type": "Child Care Facility",
+          "location": "Tucson, Arizona"
+        },
+        "title": "Care Giver",
+        "tenure": {
+          "start": 2007,
+          "end": 2007
+        },
+        "responsibilities": [
+          "Provided childcare services, including activity planning and care coordination.",
+          "Performed basic facility maintenance tasks and organized inventory."
+        ]
+      },
+      {
+        "company": {
+          "name": "Borderlands Trade Co.",
+          "site": "",
+          "type": "Import Sales",
+          "location": "Tucson, Arizona"
+        },
+        "title": "Sales Associate",
+        "tenure": {
+          "start": 2006,
+          "end": 2006
+        },
+        "responsibilities": [
+          "Delivered exceptional customer service and assisted in sales transactions.",
+          "Managed inventory and ensured accurate stock levels in store."
+        ]
+      },
+      {
+        "company": {
+          "name": "20 Century Park Place",
+          "site": "https://www.cinemark.com/theatres/az-tucson/century-park-place-20-and-xd",
+          "type": "Movie Theatre",
+          "location": "Tucson, Arizona"
+        },
+        "title": "Usher/Cleaning Crew",
+        "tenure": {
+          "start": 2005, 
+          "end": 2005
+        },
+        "responsibilities": [
+          "Provided customer service and maintained a clean and safe environment for theatre patrons.",
+          "Managed inventory of concessions and handled cleaning duties."
+        ]
+      }
+    ],
+    "volunteer": [
+        {
+        "company": {
+          "name": "Microsoft TEALS",
+          "site": "https://www.microsoft.com/en-us/teals", 
+          "location": "Rochester, NY",
+          "description": "Technology Education and Learning Support (TEALS) is a Microsoft Philanthropies program that builds sustainable computer science (CS) programs in high schools. We focus on serving students excluded from learning CS because of race, gender, or geography. TEALS helps teachers learn to teach CS by pairing them with industry volunteers and proven curricula."
+        },
+        "title": "TEALS",
+        "tenure": {
+          "start": 2024,
+          "end": "Current" 
+        }
+      },
+      {
+        "company": {
+          "name": "CASA of Travis County",
+          "site": "https://www.casatravis.org/", 
+          "location": "Austin, Texas",
+          "description": "CASA - Child Appointed Special Advocate help children currently in the care of The State to ensure they are not just a number in the system but are known and their needs and wants are fully met as individuals."
+        },
+        "title": "CASA Volunteer",
+        "tenure": {
+          "start": 2017,
+          "end": 2022
+        }
+      },
+      {
+        "company": {
+          "name": "Girl Scouts of America",
+          "site": "https://www.girlscouts-gateway.org/en/for-volunteers/why-volunteer.html", 
+          "location": "Austin, Texas",
+          "description": "A group for girls to empower and change the world, one bandage at a time."
+        },
+        "title": "Jamboree Assistant",
+        "tenure": {
+          "start": 2013,
+          "end": 2015
+        }
+      },
+      {
+        "company": {
+          "name": "Austin Pets Alive!",
+          "site": "https://www.austinpetsalive.org/", 
+          "location": "Austin, Texas",
+          "description": "Dedicated to making Austin, Texas a no-kill city and finding happy homes for all pets."
+        },
+        "title": "Transportation Volunteer",
+        "tenure": {
+          "start": 2010,
+          "end": 2013
+        }
+      },
+      {
+        "company": {
+          "name": "We Are Blood",
+          "site": "https://weareblood.org/", 
+          "location": "Texas",
+          "description": "Blood and Tissue Bank of Texas"
+        },
+        "title": "Donor",
+        "tenure": {
+          "start": 2010,
+          "end": 2022
+        }
+      }
+    ]
   }
-  ]
-}
-
 ]
