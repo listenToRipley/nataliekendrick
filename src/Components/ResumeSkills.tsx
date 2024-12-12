@@ -9,21 +9,18 @@ const ResumeSkills = (): JSX.Element => {
   }, {} as Record<string, string[]>);
 
 return (
-
-  <div className="bg-white/20 transition-colors p-4 mt-10 flex flex-col space-y-6">
-    <h3 className="text-2xl underline">Skills</h3>
+  <div className="bg-white/20 transition-colors p-4 mt-10">
+    <h3 className="text-xl sm:text-2xl underline mb-4">Skills</h3>
     <div>
       {Object.entries(sortSkills).map(([category, skillsList]): JSX.Element => {
         return(
-        <div key={category}>
-          <div className="text-xl font-bold capitalize break-words">
-            {category.replace(/_/g, " ")}
-          </div>
-          <ul className="p-2 list-disc list-inside grid grid-cols-1 md:grid-cols-2 gap-2">
+        <div className="flex flex-col lg:flex-row lg:items-start lg:gap-4 mb-6">
+          <div className="text-lg sm:text-xl italic lg:w-1/4">{category.replace(/_/g, " ")}</div>
+          <ul className="grid grid-cols-1 gap-2 lg:w-3/4">
             {skillsList.map((skill: string, id: number): JSX.Element => {
-              return(
-                <li className="text-sm">{skill}</li>
-              )
+              return (
+                <li className="px-2">{skill}</li>
+              );
             })}
           </ul>
         </div>
